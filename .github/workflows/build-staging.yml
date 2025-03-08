@@ -1,11 +1,14 @@
 name: Build and Deploy Staging App
 
 on:
-  pull_request:
-    types:
-      - closed
+  # pull_request:
+  #   types:
+  #     - closed
+  #   branches:
+  #     - staging
+  push:
     branches:
-      - staging
+      - main
 
 jobs:
   build:
