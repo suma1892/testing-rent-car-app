@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "828469590380",
+    "project_id": "get-and-ride-e3ea8",
+    "storage_bucket": "get-and-ride-e3ea8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828469590380:android:5ce18d6052d409b3125b49",
+        "android_client_info": {
+          "package_name": "com.getrideapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKvpULhanSoCcrv6zDnsjMqz5n-SrH01o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828469590380:android:5ce18d6052d409b3125b49",
+        "android_client_info": {
+          "package_name": "com.getrideapp.staging"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKvpULhanSoCcrv6zDnsjMqz5n-SrH01o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828469590380:android:5ce18d6052d409b3125b49",
+        "android_client_info": {
+          "package_name": "com.getrideapp.development"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKvpULhanSoCcrv6zDnsjMqz5n-SrH01o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

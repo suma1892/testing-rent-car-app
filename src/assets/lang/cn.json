@@ -1,0 +1,1898 @@
+{
+  "Account": {
+    "header": "我的个人资料",
+    "menu_1": "我的",
+    "menu_2": "更改密码",
+    "menu_3": "通知",
+    "menu_4": "客服中心",
+    "menu_5": "个人信息",
+    "menu_6": "会员奖励计划",
+    "menu_7": "推荐码",
+    "foto_sim": "驾驶证照片",
+    "foto_ktp": "身份证照片",
+    "password": "密码",
+    "insert_password_to_update": "请输入密码以进行更改",
+    "your_password": "您的密码",
+    "logout": "退出",
+    "id_card_photo": "身份证照片",
+    "license_photo": "驾驶证照片",
+    "select_country_code": "选择国家代码",
+    "search_country_code": "Cari Kode Negara",
+    "referral_code": "推荐码",
+    "my_point": "我的积分",
+    "registered_email": "邮件已注册",
+    "confirmation": "确认",
+    "confirm_desc": "请输入已发送到您邮件的代码",
+    "invalid_otp": "您输入的数字代码不正确！",
+    "invite_friend": "邀请您的朋友！",
+    "invite_friend_desc": "通过社交媒体、短信或您的联系人列表分享您的代码，并从您朋友的每一笔首次交易中获得积分。",
+    "share": "或分享与其他人",
+    "error_update": "个人资料更改失败！",
+    "badge": "徽章"
+  },
+  "getrideDescription": {
+    "title": "什么是Get and Ride?",
+    "description": "Get and Ride 是一款在线应用程序，提供巴厘岛地区的租车和含司机服务或自驾租车。我们提供多种类型的汽车，价格实惠。请立即将您的商务旅行、假期或私人活动交给我们处理。"
+  },
+  "loyalty": {
+    "how_to": "积分系统如何使用",
+    "no_loyalty": "忠诚度不可用",
+    "list_how_to": {
+      "first": "你可以通过将推荐码分享给你的朋友来积累积分，且你的朋友必须先成功完成交易",
+      "second": "您在成功交易时将获得积分",
+      "third": "获得的积分数量取决于您的忠诚等级徽章",
+      "fourth": "积分可以用于租车，并根据您的积分数量获得相应的折扣"
+    },
+    "transaction_list_title": "交易记录",
+    "no_transaction_title": "尚未进行交易",
+    "no_transaction_desc": "请先进行交易",
+    "with_driver": "不包含司机",
+    "without_driver": "含司机",
+    "airport_transfer": "接送机",
+    "one_way": "单程",
+    "make_trx_until_to_get": "进行{{total}}印尼盾的交易以达到{{tier}}等级"
+  },
+  "Home": {
+    "tabBarLabel": "首页",
+    "warning_form": "所有列表必须填写",
+    "select_title_lang": "选择语言",
+    "daily": {
+      "title": "整天",
+      "location": "取还车地点",
+      "overtime": "加班",
+      "placeholder_location": "取还车地点",
+      "your_location": "取还车地点",
+      "available_location": "位置可用",
+      "other_location": "其他位置",
+      "search_history": "之前的搜索",
+      "without_driver": "含司机",
+      "warning_hours": "时间无效",
+      "with_driver": "不包含司机",
+      "select_date": "选择日期",
+      "rent_start_date": "取车日期",
+      "rent_end_date": "还车日期",
+      "date_info": "租车时间24小时",
+      "date_info_12": "租车时间12小时 / 天",
+      "time_info": "小时制格式",
+      "rent_start_time": "取车时间",
+      "pickup_time": "接送时间",
+      "rent_end_time": "还车时间",
+      "rental_duration": "租车时间",
+      "duration": "时长",
+      "select_rental_duration": "选择租赁时长",
+      "btn_search": "查询车",
+      "error_location": "请输入您的位置",
+      "error_rent_date": "请先输入日期",
+      "error_rent_time": "选择您的时间",
+      "day": "天",
+      "days": "天",
+      "continue_to_whatsapp": "继续到Whatsapp",
+      "car_rental": "租车",
+      "motorcycle_rental": "租摩托车",
+      "bike_rental": "租自行车",
+      "startTime": "接送时间",
+      "headerStartDate": "所选的时间与租车地点的时间一致",
+      "footerStartDate": "选择租车时间将与归还时间相同",
+      "format_time_24_hours": "租车时间24小时 {{value}}",
+      "end_time_24_hours": "24小时制格式 {{value}}",
+      "format_time_12_hours": "12小时制格式 {{value}}",
+      "overtime_confirmation_title": "您的租车搜索是否正确？",
+      "overtime_confirmation_description": {
+        "first": "您的租车将产生额外费用，因为有加班费，请查看条款和条件以获得更多信息。您是否要继续搜索车辆？",
+        "second": "",
+        "third": ""
+      },
+      "pickup_location_placeholder": "选择接送地点",
+      "airport_placeholder": "选择机场"
+    },
+    "getrideDescription": {
+      "title": "为你提供最佳服务",
+      "description": "体验与 Get and Ride 租车一起探索巴厘岛的乐趣",
+      "new_car_unit": "全新豪华车",
+      "new_car_unit_desc": "使用我们的全新豪华车，安全舒适地探索巴厘岛",
+      "influencer_favorites": "网红的最爱",
+      "influencer_favorites_desc": "受到网红的信赖。我们的汽车是他们探索巴厘岛的首选",
+      "many_attractive_promos": "专属优惠",
+      "many_attractive_promos_desc": "在巴厘岛的冒险中，尽享您梦想中的汽车独家优惠"
+    },
+    "testimoni": {
+      "influencer_title": "网红评价",
+      "customer_title": "客户评价",
+      "customer_desc": "与 Get and Ride 一起的愉快体验",
+      "comment_1": "在巴厘岛期间，我租用了 Get&Ride 的汽车。我乘坐的是 2024 年最新款的 Alphard。服务非常好，这辆车也是全新的，司机也非常友好。我觉得很舒服，非常不错。如果你们想租车，可以选择 Get&Ride",
+      "comment_2": "在巴厘岛用 @getride.id 的车出行超级舒适！！刚找到一个有婴儿安全座椅的租车服务，真是太舒服了",
+      "comment_3": "在巴厘岛用车旅行非常愉快。无论我们去哪里，总是选择 Get&Ride。因为使用的是 Zenix Hybrid，他们提供电视娱乐，特别是对孩子们来说，所以不会感到无聊",
+      "comment_4": "在巴厘岛租用 Hiace Premio车型，配有司机，不麻烦。这辆车宽敞，可以容纳 11 人，非常适合与家人一起度假。车内全空调，价格也很实惠",
+      "comment_5": "昨天我和 @getride.id 租车，真的很不错，得到了公里数仅为 1000 公里的新 Zenix，所以可以体验一下这辆车。感觉他们的车都是新的。要是去巴厘岛想租车，可以找他们！",
+      "comment_6": "在巴厘岛和 @getride.id 租车。得到了公里数仅为 1000 公里的 Zenix Hybrid，真的是太舒服了。这辆车真的很划算，太棒了！车子都是新的。如果去巴厘岛，一定要在这里租车！",
+      "comment_7": "我们在 @getride.id 租了混合动力的 Innova Zenix。轮流开车也很舒服，没有问题。因为有天窗，自拍效果超好。没想到开起来如此舒适，感觉更节省，强烈推荐！",
+      "comment_8": "在 @getride.id 租用Zenyx hybrid 后，感觉超级豪华。后备箱非常宽敞，还有两个后座显示屏。真的很想拥有一辆！谢谢 Get&Ride！",
+      "comment_9": "我们昨天在巴厘岛使用Zenix hybrid，省油又轻松。我们在 @getride.id 租的车非常齐全，超级干净舒适。非常感谢！服务特别好，送到机场。下次一定再来这里租车",
+      "comment_10": "这辆车真的很舒服，这是混合动力的 Zenix hybrid，超级省油，感谢 @getride.id！",
+      "comment_11": "真的是可以装下所有东西，哈哈！这次故意订了更大的车，Veloz。无论在巴厘岛租车的事情，我们都交给你。服务一如既往的好！@getride.id",
+      "comment_12": "我们在巴厘岛租的车，一周的时间，最新的 Veloz，当然很干净，这辆车真棒，因为可以在车内充电！车子很大，可以装很多东西 @getride.id",
+      "comment_13": "在巴厘岛的朋友们一定要在这里租车，我租的是全新的混合动力 Zenix hybrid！车子超级干净、香气扑鼻、空间宽敞，真的很新，因为还贴着塑料膜。而且司机也非常友好和热情。@getride.id",
+      "comment_14": "在 Get&Ride 租车，车子超级酷，混合动力 Zenix hybrid 不仅非常省油，而且外观未来感十足，感觉更奢华，但价格却很实惠。此外，服务也很可靠，非常适合想要去巴厘岛度假的家庭，还可以选择配司机。在巴厘岛去哪儿都更加方便！",
+      "comment_15": "车子、司机，总之来自 Get&Ride 的一切都非常棒！如果你去巴厘岛不知道在哪里租车，我觉得在 Get&Ride 租车是最好的选择。",
+      "comment_16": "这辆车真的很好，Veloz 非常轻便，真棒！而且车子非常干净、保养得很好，外观也不错，还有电子支付功能，去哪儿都很方便。强烈推荐给正在寻找租车的你，直接在 Get&Ride 租车吧！",
+      "comment_17": "使用 Get&Ride，价格友好，适合钱包。因此，选择 Get&Ride 的原因除了价格便宜、实惠、快速外，最重要的是非常细致。每一项都经过全面和专业的检查。而且，车子都是新的。",
+      "comment_18": "他们价格实惠，接送准时，而且在伍拉莱机场提供免费接送服务。您可以轻松地在他们的官网 getandride.com 或 Get&Ride app（可在 Google Play 和 App Store 下载）预订车辆。此外，新用户还能享受 25,000 印尼盾的折扣！",
+      "comment_19": "服务周到，司机友好，价格合理，车型丰富（可以自驾并提供代驾服务）,准时且车辆整洁！",
+      "comment_20": "开着Get&Ride的Zenix Hybrid在巴厘岛兜风太棒了！车子宽敞舒适，前排座椅后面还有两个显示器。以后每次来巴厘岛，我肯定都会租这款车。",
+      "comment_21": "我租了一辆 Get&Ride 的 Zenix 混合动力车在巴厘岛自驾，车子很新！如果你计划和朋友或家人一起去旅行，我强烈推荐你从 Get&Ride 租这辆车。它非常省油，后备箱空间很大，甚至还有 Apple CarPlay。这是一次很棒的体验！",
+      "comment_22": "在 Get&Ride 租车，设施非常棒，车子舒适又干净！服务也特别友好！打算去巴厘岛度假的朋友们，快来 Get&Ride 租车吧！"
+    },
+    "destinationFavTitle": "巴厘岛热门目的地",
+    "destinationFavList": [
+      {
+        "name": "巴厘岛卡朗阿塞姆的水宫 Tirta Gangga",
+        "description": "Tirta Gangga 的名字来源于‘Tirta’，意为水，以及‘Gangga’，这是印度一条河的名字。流动的水被认为是圣水，可以清除负能量。你们还可以喂锦鲤和游泳。别忘了带换洗衣服哦！",
+        "image": "tirtaGangga"
+      },
+      {
+        "name": "金塔玛尼的乌伦达努寺",
+        "description": "乌伦达努寺是一个非常标志性的景点，因其位于巴图尔湖上方，背靠巴图尔山，展现出美丽的全景。这里的空气清新凉爽，非常适合想要放松心情的人。",
+        "image": "pagoda"
+      },
+      {
+        "name": "乌干沙梅拉斯蒂海滩",
+        "description": "梅拉斯蒂海滩受到游客的喜爱，因为这里的海景优美且保持干净。海滩的波浪也不太大，非常适合想要玩水或游泳的人。",
+        "image": "melastiBeach"
+      },
+      {
+        "name": "乌布的坎托兰波瀑布",
+        "description": "瀑布通常位于森林或山脉附近，但独特的是，坎托兰波瀑布位于巴厘岛吉安雅的居民区附近。流动的水并不是直接流入河流，而是经过岩石，营造出一种自然清新的氛围，四周的水花飞溅让人感觉很凉爽。",
+        "image": "kantoLampo"
+      }
+    ],
+    "carFavTitle": "车类型",
+    "promoBundle": "优惠套餐",
+    "articleTitle": "文章",
+    "whyChooseUs": {
+      "title": "为什么在Get and Ride 租车",
+      "list_1": {
+        "subtitle": "节省时间",
+        "description": "在线租车，方便快捷，随时随地。可以轻松可靠地选择时间和车型，尽在 Get and Ride。"
+      },
+      "list_2": {
+        "subtitle": "具有竞争力的价格",
+        "description": "别担心！Get and Ride 的租车价格实惠，保证具有竞争力。"
+      },
+      "list_3": {
+        "subtitle": "最佳车辆",
+        "description": "Get and Ride 提供高质量且保持清洁的车辆。所有车辆都定期进行维护，以确保舒适性。"
+      },
+      "list_4": {
+        "subtitle": "最佳服务",
+        "description": "提供专业司机，遵守健康协议，并对车辆进行保护。Get and Ride 的所有车辆都提供保险保障。"
+      }
+    },
+    "withDriver": {
+      "description_1": "Jika anda memilih sewa mobil \"不包含司机\" maka anda akan dialihkan ke Whatsapp",
+      "description_2": "在选择时间和日期后，您将选择可用的车辆和司机。",
+      "description_3": "在选择车辆后，您将收到租车的发票。"
+    },
+    "airportTransfer": {
+      "title": "机场班车",
+      "pickup_date": "接送日期"
+    },
+    "tour": {
+      "title": "旅游"
+    }
+  },
+  "destinationFavTitle": "Destinasi Popular di Bali",
+  "destinationFavList": [
+    {
+      "name": "Taman Air Tirta Gangga, Karang Asem Bali",
+      "description": "Nama Tirta Gangga sendiri berasal dari kata Tirta yang artinya air, dan Gangga yang artinya nama sungai di India. Air yang mengalir diyakini sebagai air suci dan dapat membersihkan energi buruk. Kalian juga bisa sambil kasih makan ikan koi dan berenang. Jangan lupa bawa pakaian ganti ya!",
+      "image": "tirtaGangga"
+    },
+    {
+      "name": "Pura Ulun Danu Batur, Kintamani",
+      "description": "Pura Ulun Danu Batur, merupakan salah satu spot paling ikonik yang menyuguhkan panorama cantik karena berada diatas Danau Batur dengan latar Gunung Batur. Suhu udaranya juga sejuk dan segar, cocok untuk kamu yang mau menenangkan pikiran.",
+      "image": "pagoda"
+    },
+    {
+      "name": "Pantai Melasti Ungasan",
+      "description": "Pantai Melasti banyak dikagumi oleh para wisatawan karena pemandangan lautnya yang indah dan terjaga kebersihannya. Ombak di pantai ini juga tidak terlalu besar dan aman untuk kalian yang ingin bermain air atau berenang",
+      "image": "melastiBeach"
+    },
+    {
+      "name": "Air Terjun Kanto Lampo, Ubud",
+      "description": "Biasanya air terjun ditemukan di sekitar hutan atau gunung, uniknya, Kanto Lampo terletak di dekat pemukiman area Gianyar, Bali. Air terjun yang mengalir tidak langsung ke sungai, tapi melewati bebatuan yang menciptakan suasana asri dan sejuk karena cipratan air di sekitarnya.",
+      "image": "kantoLampo"
+    }
+  ],
+  "carFavTitle": "车类型",
+  "carFavList": [
+    {
+      "title": "丰田Veloz",
+      "description": "这款丰田 Veloz 确实吸引了很多人！外观更酷更现代，容量也可以容纳最多 7 位乘客！绝对让你和家人的旅程更加舒适。",
+      "image": "https://overseas.sgp1.digitaloceanspaces.com/cars/v3.webp"
+    },
+    {
+      "title": "铃木Ertiga GX",
+      "description": "铃木 Ertiga GX 也是你环游巴厘岛的好选择。除了能够容纳更多乘客，安全配置也相当不错。你的假期一定会更加安全和轻松！",
+      "image": "https://overseas.sgp1.digitaloceanspaces.com/cars/g2.jpeg"
+    },
+    {
+      "title": "丰田 Hiace Premio",
+      "description": "如果你想要一个轻松舒适且能够容纳很多人的假期，可以直接选择丰田 Hiace Premio。它的车厢设计宽敞，可以减轻你在环城旅行中的疲劳感。",
+      "image": "https://overseas.sgp1.digitaloceanspaces.com/cars/h4.jpg"
+    }
+  ],
+  "articleTitle": "文章",
+  "whyChooseUs": {
+    "title1": "通过 Get&Ride 获得最佳的租车体验",
+    "description1": "我们保证舒适、灵活性和质量，并提供具有竞争力的价格",
+    "title2": "Get&Ride 租车的配置",
+    "description2": "Get&Ride 的一些汽车特点",
+    "badgeName1": "轻松下单",
+    "badgeName2": "保养良好的车辆",
+    "badgeName3": "有竞争力的价格",
+    "badgeName4": "快速服务",
+    "badgeName5": "汽车发动机",
+    "badgeName6": "变速器",
+    "badgeName7": "空调",
+    "badgeName8": "混合动力",
+    "list_1": {
+      "subtitle": "节省时间",
+      "description": "租车在线，方便快捷，随时随地。可以在 Get and Ride 轻松可靠地选择时间和车型。"
+    },
+    "list_2": {
+      "subtitle": "具有竞争力的价格",
+      "description": "别担心！Get and Ride 的租车价格实惠，保证具有竞争力。"
+    },
+    "list_3": {
+      "subtitle": "最佳车辆",
+      "description": "Get and Ride 提供高质量且保持清洁的车辆。所有车辆都定期进行维护，以确保舒适性。"
+    },
+    "list_4": {
+      "subtitle": "最佳服务",
+      "description": "提供专业司机、遵循健康协议以及车辆保护。Get and Ride 的所有车辆都提供保险保障。"
+    }
+  },
+  "withDriver": {
+    "description_1": "Jika anda memilih sewa mobil \"不包含司机\" maka anda akan dialihkan ke Whatsapp",
+    "description_2": "Setelah anda memilih waktu dan tanggal, anda akan memilih mobil yang tersedia beserta driver",
+    "description_3": "Setelah anda memilih mobil, anda akan menerima invoice untuk sewa mobil anda"
+  },
+  "airportTransfer": {
+    "title": "Antar-jemput Bandara"
+  },
+  "dailyRules": {
+    "rules1": "租车时，配有司机的租赁时长为 12 小时，如果租赁时间超过 12:00，最多使用至 23:59，适用于国内游客/印尼公民。",
+    "rules2": "如果租赁者没有使用满 12 小时，剩余的时间不能累积到第二天。",
+    "rules3": "在 Zona 0 区域，免费提供接送服务和市内用车；对于 Zona 1 和 2（市外区域），将收取额外费用。",
+    "sebelum_penjemputan": {
+      "title": "接送之前",
+      "list_length": "5",
+      "list_1": "租赁者必须向租车提供方提供与租赁表格一致的身份证（KTP）",
+      "list_2": "租赁者必须支付相当于租金 25% 的押金。",
+      "list_3": "租车提供方不承担机场停车费、VIP 停车票及其他费用。",
+      "list_4": "押金将在租赁结束时退还，最长不超过 1x24 小时。",
+      "list_5": "押金的返还将通过银行转账进行。"
+    },
+    "sebelum_pengambilan": {
+      "title": "取车之前",
+      "list_length": "4",
+      "list_1": "租赁者必须向租车提供方提供有效的身份证（KTP）和驾驶执照（SIM）。",
+      "list_2": "司机必须在租赁开始之前向提供方支付相当于租金 50% 的押金，最低为 300,000 印尼盾，最高为 1,000,000 印尼盾。示例：\n1. 如果总租金为 550,000 印尼盾，则应支付的押金为 300,000 印尼盾。\n2. 如果总租金为 2,500,000 印尼盾，则应支付的押金为 1,000,000 印尼盾。",
+      "list_3": "押金将在租赁结束时退还，最长不超过 1x24 小时。",
+      "list_4": "押金的返还将通过银行转账进行。"
+    },
+    "saat_pengambilan": {
+      "title": "取车时",
+      "list_1": "租车提供方不承担机场停车费、VIP 停车票及其他费用。",
+      "list_2": "租赁者必须在租赁开始之前检查车辆，并拍摄整体视频和照片。",
+      "list_3": "租赁者（印尼公民）必须出示有效的身份证（KTP）和驾驶执照（SIM），并且与预订时登记的数据一致。",
+      "list_4": "租赁者必须满 17 岁。",
+      "list_5": "所有提供的文件必须为原件，不能以他人名义，并且与在 Get & Ride 预订时登记的数据一致。",
+      "list_6": "租赁者必须确保所租车辆得到妥善使用，并在归还时保持与原状相同的状态。"
+    },
+    "penggunaan": {
+      "title": "租车时的租赁政策",
+      "list_1": "禁止携带散发强烈气味的物品或食物，如榴莲/菠萝蜜等。如果不遵守租赁规定，租赁者将被罚款 500,000 印尼盾。",
+      "list_2": "禁止在车内吸烟",
+      "list_3": "车辆不得转让给未经 Get & Ride 数据验证的第三方。如果出现以下情况，Get & Ride 有权单方面取消订单。",
+      "list_4": "租赁者不得携带超过所租车辆规定容量的乘客或行李。",
+      "list_5": "租赁者应对因其疏忽造成的汽车钥匙、配件、车辆工具、音响设备、工具箱、座椅、划痕、污渍以及其他费用的丢失或损坏负责。",
+      "list_6": "租赁者应对在租赁期间因违法行为而产生的所有停车罚款、交通罚款及其他费用负责。"
+    },
+    "penggunaan_with_driver": {
+      "title": "租车时的租赁政策",
+      "list_1": "Dilarang membawa benda atau makanan yang menimbulkan bau menyengat seperti durian/nangka, dll. Penyewa akan dikenakan denda sebesar Rp 500.000 apabila tidak menaati aturan sewa.",
+      "list_2": "Dilarang merokok di dalam mobil",
+      "list_3": "如果租赁者携带超过所租车辆规定容量的乘客或行李，将会被罚款。",
+      "list_4": "配有司机的租车时长为每天 12 小时，如果租赁开始于东部印尼时间(WITA) 时间 10:00 之后，则最多使用至 22:00，适用于国内/国际游客。",
+      "list_5": "如果租赁者没有使用满 12 小时，剩余时间不能累积到第二天或兑换现金。",
+      "list_6": "在 Zona 0 区域，接送服务和市内用车免费；对于 Zona 1 和 Zona 2（市外区域），将收取额外费用。"
+    },
+    "pengembalian": {
+      "title": "租赁结束后的政策",
+      "list_1": "租赁者必须在归还车辆时保持燃油量与接收时相同（即加满油）。",
+      "list_2": "租车提供方将在租赁结束时检查车辆。如果发现因租赁者疏忽造成的划痕，将按每处收取 300,000 印尼盾的罚款。",
+      "list_3": "如果在租赁期间出现电子罚单，租车提供方将在退还押金时扣除相应的罚款金额。",
+      "list_4": "Get & Ride 对因事故造成的事故、损失和治疗不承担责任。",
+      "list_5": "如果车辆损坏或租赁者在租赁期间违反法律，提供方有权不退还押金。",
+      "list_6": "提供方对租赁者归还车辆后遗留在车内的物品不承担责任。"
+    },
+    "overtime": {
+      "title": "超时费",
+      "list_1": "租赁超过 24 小时将收取加班费用。",
+      "list_2": "租赁者将按租金的 10% 每小时收取罚款，最多不超过 3 小时。",
+      "list_3": "超过 3 小时的加班将按一天的租金收取费用。"
+    },
+    "overtime_with_driver": {
+      "title": "超时费",
+      "list_1": "租赁超过 12 小时将收取加班费用。",
+      "list_2": "租赁者将按租金的 20% 每小时收取罚款，最多不超过 3 小时。",
+      "list_3": "超过 3 小时的加班将按一天的租金收取费用。"
+    },
+    "asuransi": {
+      "title": "保险",
+      "list_1": "如果发生事故，租赁者必须向提供方提交保险公司所需的所有文件，包括但不限于他们的身份证/护照和驾照。",
+      "list_2": "租赁者必须承担每次事故（每个面板）350,000 印尼盾的自担风险费用。",
+      "list_3": "如果车辆丢失，租赁者必须承担 500,000 印尼盾的损失风险费用（总损失风险）。",
+      "list_4": "双方的争议将通过协商解决。如果在 30 天内未达成共识，问题将提交至雅加达北区法院解决。"
+    },
+    "refund": {
+      "title": "取消和退款政策",
+      "list_1": "淡季退款（50%）：Get&Ride 同意在淡季期间，如果取消租赁，将退还已支付的押金（DP）或租赁费用的 50%。",
+      "list_2": "旺季不退款：在旺季（七月-八月、十二月-一月、学校假期和特殊节日/庆典）期间，如果客户取消预订，Get & Ride 将无法处理已支付款项的退款。",
+      "list_3": "在接送时间之前突然提出的取消请求将不予退款。",
+      "list_4": "退款将在退款申请获批准后最多 1x24 小时内处理。"
+    },
+    "reschedule": {
+      "title": "更改日程",
+      "list_1": "更改日程必须在租赁时间前至少 24 小时进行，联系 Get and Ride 的 WhatsApp 服务，电话号码为 081262511511。",
+      "list_2": "如果租赁日期包括在旺季日期或假期内，则无法进行日程更改。"
+    },
+    "delay": {
+      "title": "航班延误政策",
+      "list_1": "Get and Ride 提供宽限条件，前提是租赁者在登机前通知延误信息。",
+      "list_2": "未通知的延误将会被收取超时费用，费用为租车价格的每小时 10%，按天计算。",
+      "list_3": "我们的营业时间为：07:00-21:00 东部印尼时间(WITA)。对于航班延误，最多可宽限至 21:00。",
+      "list_4": "在营业时间之外的接送/归还将收取固定罚款 100,000 印尼盾。"
+    },
+    "akomodasi_sopir": {
+      "title": "司机费",
+      "list_1": "如果车辆和司机的使用时间超过当地时间 23:59，无论是在市区还是郊区，将收取每晚 150,000 印尼卢比的额外费用（包括司机的住宿费用）。"
+    }
+  },
+  "airportTransferRules": {
+    "before_and_terms_title": "条款与条件",
+    "before_and_terms": {
+      "list1": "价格已包含机场停车费、汽油和高速公路费用。",
+      "list2": "对于国内航班的机场接送，车辆将在接送时间后最多等待 60 分钟；对于国际航班，最多等待 90 分钟。",
+      "list3": "前往机场的路线，车辆将在接送时间后最多等待 30 分钟。",
+      "list4": "对于提供有效航班号的乘客，Get&Ride 将额外提供最多 60 分钟的等待宽限时间，以应对航班延误。",
+      "list5": "如果乘客超过规定的最大时间，将收取租金价格的 10% 作为每小时的加班费用。",
+      "list6": "如果您的航班延误，请在登机前立即联系 Get&Ride 的管理员，电话是 +62 812-6251-1511，以确认更多信息。"
+    }
+  },
+  "global": {
+    "button": {
+      "back": "返回",
+      "login": "登录",
+      "signup": "注册账号",
+      "findACar": "查询车",
+      "pick": "选择",
+      "next": "继续",
+      "nextPayment": "继续支付",
+      "orderNow": "现在订",
+      "payNow": "现在付款",
+      "choosePayment": "选择支付方式",
+      "titlePaymentPicker": "选择详细支付",
+      "verification": "验证",
+      "save": "保存",
+      "fullPayment": "全额支付",
+      "downPayment": "支付{{value}}%定金",
+      "fullPaymentDesc": "全额直接支付，包括租车总价格、押金、配送费用和返回费用.",
+      "downPaymentDesc": "支付{{value}}%的定金，包括租金 {{scope}}",
+      "cancel": "取消",
+      "cancelOrder": "取消订单",
+      "extendOrder": "续租",
+      "yes": "是",
+      "yesNext": "确定，继续",
+      "orderDetail": "订单详情",
+      "done": "完成",
+      "send_otp": "发送验证",
+      "download_update": "下载更新",
+      "send_email": "发邮件",
+      "form_deposito": "押金表格",
+      "confirm": "确认",
+      "change": "更改",
+      "edit": "更改",
+      "form_account_bank": "银行账户表格",
+      "view_account_bank": "查看银行账户",
+      "edit_account_bank": "更改银行账号",
+      "delete_account": "删除账户",
+      "yes_understand": "是，我了解",
+      "okay_understand": "好吧，我明白了",
+      "back_to_homepage": "回到首页",
+      "confirm_order": "确认订单",
+      "help": "帮助"
+    },
+    "alert": {
+      "payment_confirm": " 您是否确认继续支付？",
+      "rental_zone_exit": "您确认不继续填写这份表格？",
+      "success": "成功",
+      "duplicate_phone": "电话号码已使用",
+      "email_not_registered": "邮件未注册",
+      "failed": "失败",
+      "password": "更改密码失败",
+      "license": "您未上传身份证或驾驶执照",
+      "error": "错误",
+      "warning": "警告",
+      "time_difference": "时间差不能为负",
+      "option_overtime": "租赁时间不能超过12小时，请选择超时选项",
+      "success_change_profile_picture": "成功更改头像",
+      "success_use_referral_code": "成功使用推荐码",
+      "success_change_profile_data": "成功更改个人资料",
+      "success_change_data": "成功更改数据",
+      "error_occurred": "发生错误",
+      "invalid_email_format": "错误！邮件不正确",
+      "success_copy_text": "成功复制",
+      "success_change_password": "成功更改密码",
+      "success_change_notification": "成功更改通知设置",
+      "success_change_password_login_again": "成功更改密码，请重新登录",
+      "success_upload_proof_payment": "成功上传付款凭证",
+      "cancellation_failed": "请填写所有表格",
+      "password_and_confirmation_password_do_not_match": "新密码和确认密码不匹配",
+      "old_password_is_not_match": "旧密码不正确",
+      "password_length": "密码必须至少8个字符，且包含数字和字母",
+      "please_login_to_continue": "请先登录以继续！",
+      "payment_can_not_be_made": "无法进行支付",
+      "enter_password": "请输入密码",
+      "error_redirect_to_whatsapp": "无法将您引导到WhatsApp应用程序。请确保您的设备已安装该应用",
+      "error_image_upload": "文件大小太大！",
+      "warning_rent_start_date": " 请选择租赁开始日期！",
+      "warning_sender_name": "请输入发件人姓名",
+      "warning_bank": "请输入您的银行",
+      "warning_proof_payment": "请先上传付款凭证",
+      "warning_file_size": "对不起，文件大小不能超过1MB！",
+      "warning_need_upload_proof": "请先上传付款凭证",
+      "error_download_e_ticket": "下载发票失败。请稍后再试或联系客户支持寻求帮助",
+      "success_download_e_ticket": "成功保存至",
+      "copy_referral_code": "成功复制推荐码",
+      "login_failed": "您输入的电子邮件或密码错误！",
+      "code_incorrect": "您输入的数字代码不正确！",
+      "password_incorrect": "您输入的密码不正确！",
+      "cant_change_password": "更改密码失败！",
+      "authozation_failed": "授权失败"
+    },
+    "data_not_found": "未找到数据",
+    "not_yet_available": "尚不可用",
+    "car_not_yet_available": "您寻找的车辆暂时不可用",
+    "select_options": "选择选项",
+    "camera": "相机",
+    "gallery": "图库",
+    "credit_debit_card_no": "信用卡/借记卡号码",
+    "cardholder_name": "持卡人姓名",
+    "validity_period": "有效期",
+    "bank_name": "银行",
+    "choose_your_bank": "选择您的银行",
+    "upload_your_image_here": "点击这里浏览",
+    "browse": "游览",
+    "search": "搜索",
+    "loading": "加载中",
+    "penalties_warning_title": "罚款通知！",
+    "penalties_warning_description": "您的订单超出了营业时间，将收取额外费用"
+  },
+  "user_information": {
+    "account_name": "银行账户姓名"
+  },
+  "detail_order": {
+    "title": "订单详情 行李数量",
+    "overtime": "超时费",
+    "voucher": "优惠卷",
+    "area": "区域",
+    "baggage_title_info": "行李数量",
+    "baggage_desc_info": "携带超过车辆规定容量的行李，将会收取额外费用，金额为150,000印尼盾。",
+    "baggage_placeholder": "请输入行李的数量",
+    "message_tooltip_delivery": "接送费用适用",
+    "checkbox_text": "与上车地点相同",
+    "message_tooltip_phone": "* 这个电话号码将用于在订单审核过程中遇到问题时与您联系。请确保您提供的电话号码有效且可联系。如果电话号码与 WhatsApp 关联，我们将通过 WhatsApp 联系您。",
+    "warning_form": "所有列表必须填写",
+    "error_point_usage": " 输入点无效",
+    "min_phone": "电话号码必须至少由8位数字组成",
+    "max_phone": "电话号码必须最多由15位数字组成.",
+    "voucher_placeholder": "输入优惠券代码",
+    "confirm_popup_desc": "在继续到支付页面后，您将无法更改订单详情。",
+    "my_voucher": "优惠卷",
+    "message_error": "请求数据验证时发生错误",
+    "overtime_confirmation_header": "您的订单信息是否正确？",
+    "overtime_confirmation_desc1": "订单将因加班费用而收取额外费用，请检查",
+    "overtime_confirmation_desc2": "条款与条件",
+    "overtime_confirmation_desc3": "  是否要继续订单以获取更多信息？",
+    "checkbox_deposito": "我同意支付押金",
+    "header_deposito": "押金批准",
+    "return_to_the_same_place": "请在同一地点归还",
+    "search_by_address": "根据地址搜索",
+    "desc_deposito": "为了继续预订，您需要支付总租金的{{value}}%作为押金，最低为300,000印尼盾，最高为1,000,000印尼盾。押金将在租赁结束后的24小时内退还",
+    "formDetail": {
+      "title": "订单详细信息表",
+      "fullName": "姓名",
+      "phone": "手机号码",
+      "sameAsPhone": "与手机号码相同",
+      "delivery_tooltip": "将收取接送费用",
+      "free": "免费",
+      "add_location_details": "添加位置详情",
+      "see_details": "查看详情",
+      "select_special_request": "选择特殊请求",
+      "additional": "额外",
+      "select_additional": "选择额外选项",
+      "detail_location_placeholder": "请写下您的位置详细信息",
+      "detail_location_pickup_title": "接送地点详细信息",
+      "detail_return_location_title": "下车地点详情",
+      "detail_return_location_title_placeholder": "下车地点详情",
+      "detail_location_delivery_title": "上车地点详细信息",
+      "detail_location_delivery_title_placeholder": "请输入上车详情，如：JL.Sudirman No.10",
+      "flight_no_placeholder": "航班号，如：E-12345",
+      "flight_no_title": "航班号",
+      "desc_WITA": "落地 {{value}}",
+      "landing_time": "到达时间",
+      "location_details": "详细地区",
+      "delivery_fee_is_charged": "将收取接送费用"
+    },
+    "withDriver": {
+      "rentalZone": "租赁区域",
+      "addRentalZone": "添加租赁区域"
+    },
+    "rentalZone": {
+      "title": "租赁区域",
+      "rentalArea": "您的租赁区域",
+      "rentalAreaDesc": "您将选择租赁区域，并输入接送地点和租赁日期的时间",
+      "area_title": "区域 {{value}}",
+      "empty_zone": "区域不可用",
+      "empty_location": " 位置不可用",
+      "myRentalZone": "您的租赁区域",
+      "addMyRentalZone": "额外租赁区域",
+      "additionalRentalZone": "额外租赁区域",
+      "myRentalZonePlaceholder": "选择租赁区域",
+      "additionalFee": "额外费用列表",
+      "titleCheckbox": "如果您过夜，将会有额外的司机住宿费用（可选）",
+      "descZoneOption": "租赁使用包括区域0 + 区域1",
+      "descTotalPrice": "租赁区域总价金额",
+      "additional_fee_zone_desc": "租{{zone}}赁区域包括根据车辆类型调整的附加费用，价格如下：",
+      "withinCity": "区域0（市区）",
+      "zone1": "区域1（市外）",
+      "zone2": "区域2（市外）",
+      "standardCar": "标准车型",
+      "rental_zone_0_description": "在区域0的租赁使用是免费的",
+      "rental_zone_1_description": "租赁使用包括区域0和区域1",
+      "rental_zone_2_description": "租赁使用包括区域0、区域1和区域2",
+      "zone": "Zona {{value}}",
+      "day": "{{value}}一天",
+      "pickup": "接送",
+      "dropoff": "送达",
+      "pickup_zone": "接送区域",
+      "dropoff_zone": "送达区域",
+      "rental_area": "租赁区域",
+      "choose_pickup_zone": "选择接送区域",
+      "choose_dropoff_zone": "选择送达区域",
+      "choose_rental_area": "选择租赁区域",
+      "driver_accomodation": "司机住宿（可选）",
+      "driverAccomodationDesc": "您将被收取司机住宿的额外费用（住宿），如果租赁时间超过一天，额外费用为每天150,000印尼盾",
+      "agreeState": "我同意增加费用",
+      "select_overtime": "选择加时费"
+    },
+    "tripDetail": {
+      "title": "行程详细信息",
+      "pickAtGarage": "取车和还车到租赁地点",
+      "deliveryLocationTaking": "选择取车地点",
+      "deliveryLocation": "下车点",
+      "pickupLocation": "上车点",
+      "pickupLocationPlaceholder": "上车点",
+      "deliveryLocationTakingPlaceholder": "选择取车地点",
+      "deliveryLocationPlaceholder": "下车点",
+      "returnLocation": "下车地点",
+      "returnLocationPlaceHolder": "选择还车地点",
+      "location_details": "详细的地址",
+      "totalPassenger": "乘客数量",
+      "totalPassengerPlaceholder": "选择乘客数量",
+      "n_people": "{{n}} 人",
+      "infoDesc": "最多乘客人数为6人，超过人数将收取额外费用150,000印尼盾/人",
+      "infoTitle": "乘客数量规定"
+    },
+    "specialReq": {
+      "title": "特殊请求表（可选）",
+      "placeholder": "请写下您旅行所需的特别需求，例如婴儿座椅、轮椅等。",
+      "selected": "已选择"
+    },
+    "summary": {
+      "title": "详细付款信息",
+      "search_zone": "搜索",
+      "total": "订单总额",
+      "overtime": "超时费",
+      "passanger": "乘客",
+      "deliveryLocation": "下车点",
+      "deliveryLocationPlaceholder": "请输入送达地址",
+      "pickLocation": "还车地区",
+      "pickLocationPlaceholder": "选择取车地点",
+      "returnLocation": "下车地点",
+      "returnLocationPlaceHolder": "选择还车地点",
+      "startDate": "取车日期",
+      "startTime": "取车时间",
+      "outside_price": "超出营业时间的额外费用",
+      "voucher_discount": "优惠券折扣",
+      "endDate": "还车日期",
+      "endTime": "还车时间",
+      "rentalFee": "租车费",
+      "price": "费用",
+      "day": "天",
+      "otherFee": "其他费用",
+      "serviceFee": "服务费",
+      "insuranceFee": "保险费",
+      "additionalPassengerFee": "乘客额外费用",
+      "one_day_charge": "额外租赁费用",
+      "deposit_etoll": "通行卡押金",
+      "totalPayment": "总付款金额",
+      "paymentDP": "支付{{value}}%定金",
+      "delivery_fee": "配送费",
+      "return_cost": "返回费",
+      "timezone": "时区",
+      "flight_number": "航班号"
+    },
+    "extendOrder": {
+      "numberOfDays": "天数",
+      "numberOfDaysPlaceholder": "请输入天数",
+      "rentalHours": "租赁时间",
+      "returnTime": "还车时间"
+    },
+    "return_deposit": {
+      "title": "押金返还表格",
+      "return_detail": "还车详情",
+      "name": "姓名",
+      "name_placeholder": "请输入您的姓名",
+      "bank_name": "银行",
+      "bank_name_placeholder": "请选银行",
+      "account_number": "银行账号",
+      "account_number_placeholder": "请输入您的账号",
+      "error_name": "姓名必须填写",
+      "error_bank_name": "必须选择银行",
+      "error_account_number": "账号必须填写",
+      "search_bank_name": "搜索银行",
+      "deposit_refund_in_process": "押金正在处理返还中",
+      "deposit_refund_done_process": "押金将在3个工作日内返还",
+      "deposit_status": "押金状态",
+      "in_process": "正在处理",
+      "processed": "已处理"
+    },
+    "cancel_request_in_process": "退款申请正在办理中",
+    "refunds_will_be_made_in_7_days": "退款时间为 1x24 小时",
+    "refund_is_in_process": "退款正在处理中",
+    "refund_process_alert_description": "您的预订编号为 {{orderNo}} 的租车退款申请正在处理中。这一过程通常需要 3-7 个工作日，直至资金返还。感谢您的理解，我们期待今后再次为您服务。",
+    "refund_success": "成功退款",
+    "refund_success_description": "感谢您对我们等待退款过程的理解，我们期待今后再次为您服务。我们致以最诚挚的问候 Get & Ride",
+    "refund_rejected": "退款申请被拒",
+    "refund_rejected_description": "您好 {{customerName}} ，我们想通知您，您的交易编号为 {{orderNo}} 的退款申请已被拒绝。以下是拒绝的原因。",
+    "created": "创建",
+    "processed": "加工",
+    "transfered": "转移",
+    "refund_notification": "退款通知",
+    "reapply_for_refund": "重新申请退款",
+    "reapply_for_refund_description": "您确定要继续退款吗？",
+    "successfuly_reaply_for_refund": "成功申请退款",
+    "rejected": "拒绝",
+    "refund_request": "提交退款",
+    "nominal": "名义",
+    "order_no": "订单号",
+    "order_cancellation": "订单取消",
+    "reason_cancellation": "取消原因",
+    "write_reason_cancellation": "请写下取消的原因",
+    "refund_status": "退款状态",
+    "proof_of_transfer": "转让证明",
+    "name": "姓名",
+    "account_number": "银行账号",
+    "enter_account_number": "请输入您的账号",
+    "write_description": "请填写说明",
+    "seats": "座",
+    "suitcase": "箱",
+    "transmission": "变速器 {{value}}",
+    "order_overtime_total_price": "超时租赁总费用",
+    "outside_operational_hour_charge": "非营业时间附加费用",
+    "booking_price": "租赁价格",
+    "one_day_order_charge": "一天租赁的附加费用",
+    "overtime_price": "Biaya Overtime",
+    "deposit": "押金",
+    "exceed_maximum_passenger_price": "超出最多乘客费用",
+    "order_zone_total_price": "租赁区域总价格",
+    "rental_delivery_fee": "Biaya Pengantaran",
+    "rental_return_fee": "Biaya Pengembalian",
+    "add_item": {
+      "title": "选择特殊请求",
+      "total": "总共",
+      "choose_color": "选择颜色",
+      "price": "费用",
+      "stock": "库存",
+      "color": "颜色",
+      "empty_msg": "特殊请求不可用",
+      "detail": "详情"
+    }
+  },
+  "payment_method": {
+    "header": "选择支付方式",
+    "virtual_account": "虚拟账户",
+    "transfer_manual": "手动转账",
+    "qris_payment": "Qris扫码支付",
+    "ewallet_payment": "电子钱包支付",
+    "card_payment": "信用卡支付",
+    "offline": "离线"
+  },
+  "settings": {
+    "tabBarLabel": "我的个人资料",
+    "profile": "我的",
+    "aboutUs": "关于我们",
+    "push_notif": "推送通知",
+    "country_code": "国家代码",
+    "sms": "短信",
+    "email": "Email地址",
+    "fullname_placeholder": "请输入您的姓名",
+    "myVoucher": "优惠卷",
+    "loyalty": "会员奖励计划",
+    "changePassword": "更改密码",
+    "notification": "通知",
+    "fullName": "姓名",
+    "fullNamePlaceholder": "请输入您的姓名",
+    "oldPassword": "旧密码",
+    "oldPasswordPlaceholder": "请输入旧密码",
+    "newPassword": "新密码",
+    "newPasswordPlaceholder": "请输入新密码",
+    "confirmPassword": "确认新密码",
+    "confirmPasswordPlaceholder": "确认新密码",
+    "activity": "活动",
+    "activityDesc": "来自我们的促销通知，享受我们提供的各种折扣",
+    "reminder": "提醒",
+    "reminderDesc": "关于你租赁的通知",
+    "error_name": "请输入您的姓名",
+    "error_phone": "请输入手机号码",
+    "error_email": "请输入您的邮件",
+    "error_ktp": "身份证必须填写",
+    "error_photo_license": "驾驶证必须填写",
+    "delete_account": "删除账户",
+    "delete_account_desc": "删除账户意味着您将失去对与账户相关的所有数据的访问权限。一旦您确认删除，账户及所有数据将被永久删除，无法恢复"
+  },
+  "delete_account": {
+    "title": "确认删除账户",
+    "password_not_match": "密码不正确",
+    "description_1": "您将删除您的账户。此操作无法撤销，所有与您的账户相关的数据将被永久删除",
+    "important_notes": "重要说明：",
+    "note_1": "在您删除账户后，您将无法恢复与该账户相关的任何数据或信息.",
+    "note_2": "请确保在继续删除过程之前，已备份所有重要数据.",
+    "description_2": "请通过勾选下面的框来确认您理解这些后果：",
+    "confirm_statement": "我理解删除此账户是永久性的，无法撤销",
+    "verification": "验证",
+    "verification_desc": "我们已将 代码发送到您的电子邮件。请输入该代码以确认您要删除账户",
+    "success_title": "您的账户已成功删除",
+    "success_desc": "账户已成功删除，无法恢复",
+    "failed_title": "账户无法删除",
+    "failed_desc": "您的账户目前无法删除，因为有正在进行的交易。请先完成所有交易，然后再尝试删除您的账户."
+  },
+  "myBooking": {
+    "tabBarLabel": "预订",
+    "noOrder": "还没有订单",
+    "check_order": "检查支付状态",
+    "err_duplicate_order": "我们发现另一位客户对您选择的同一商品下了重复订单。请更改您的首选汽车",
+    "err_duplicate_order_title": "重复订单通知！",
+    "refund_status": "退款情况",
+    "reupload": "重新上传",
+    "overtime": "超时费",
+    "open_proof": "查看支付凭证",
+    "download-e-ticket": "下载电子票",
+    "add_item": {
+      "title": "特殊请求",
+      "goods": "商品名称",
+      "total_price": "总价格",
+      "rent_amount": "租赁数量",
+      "color_variant": "颜色变体"
+    },
+    "back_to_order": "前往订单页面",
+    "credit_card": "信用卡/借记卡",
+    "success_payment": "支付成功",
+    "noRental": "还没有租赁记录",
+    "paymentMethod": "支付方式",
+    "baggage": "行李数量",
+    "delivery_date": "送时间",
+    "day": "第几天",
+    "cancel_order_desc": "您确定要取消订单吗？",
+    "pickup": "上车地点",
+    "dropoff": "下车地点",
+    "zone": "租赁区域",
+    "deliver_to_airport": "接送机",
+    "delivery_time": "接送时间",
+    "paymentMethodNotSelected": "尚未选择支付方式",
+    "totalPrice": "总价格",
+    "paymentStatus": "付款状态",
+    "rentStatus": "租赁状态",
+    "downloadEticket": "下载电子票",
+    "pickupLocation": "还车地区",
+    "ZoneArea": "您的租赁区域",
+    "deliveryLocation": "下车点",
+    "returnLocation": "下车地点",
+    "car": "车",
+    "startTime": "开始时间",
+    "useButton": "使用",
+    "input_point_placeholder": "输入您想要使用的积分",
+    "endTime": "结束时间",
+    "orderDetail": "订单详情",
+    "point_desc": "您可以用于支付的积分",
+    "titlePaymentPicker": "还车详情",
+    "startDate": "取车日期",
+    "endDate": "还车日期",
+    "startTime2": "开始时间",
+    "endTime2": "结束时间",
+    "totalPassenger": "乘客数量",
+    "are_you_sure_want_to_continue": "您确定要继续吗",
+    "this_payment": "这笔付款",
+    "cancel_this_order": "取消此订单",
+    "rental_date": "租赁日期",
+    "rental_and_return_hours": "Jam Sewa & Pengembalian",
+    "your_order": "您的订单数据",
+    "your_order_data": "您的订单数据",
+    "order_date": "订单日期",
+    "date_completed": "结束日期",
+    "order_notification": "订单通知",
+    "refund_dana": "退款",
+    "your_location": "位置信息",
+    "deposit_status": "押金状态",
+    "pickup_location": "上车点",
+    "delivery_location": "下车点",
+    "no_overtime": "没有超时",
+    "cancellation_detail": "取消详情",
+    "recalculation_process": "重新计算过程"
+  },
+  "history_point": {
+    "title": "积分历史",
+    "my_point": "我的积分",
+    "share_referral": "分享推荐码",
+    "use_point": "使用积分",
+    "use_point_desc": "成功使用积分进行租车交易",
+    "do_transaction": "进行交易",
+    "do_transaction_desc": "成功获得租车交易的积分",
+    "invite_referral": "推荐码邀请",
+    "invite_referral_desc": "成功获得积分，因为邀请了其他人"
+  },
+  "myInbox": {
+    "tabBarLabel": "收件箱",
+    "read_more": "阅读更多..."
+  },
+  "virtual_account": {
+    "payment_Instruction": "付款说明",
+    "open_app": "继续进入应用程序",
+    "copy": "复制",
+    "virtual_account": "银行虚拟账户",
+    "status": "状态",
+    "cimb niaga_length": 3,
+    "cimb niaga": [
+      {
+        "title": "通过取款机转账",
+        "step_length": 7,
+        "steps": [
+          "插入您的 CIMB 银行卡并输入密码",
+          "选择支付选项.",
+          "选择虚拟账户，然后继续.",
+          "输入虚拟账号{{value}}，点击确认",
+          "选择借记账户",
+          "在确认页面上，确保交易数据正确，然后选择‘确认’。",
+          "交易完成."
+        ]
+      },
+      {
+        "title": "通过手机银行转账",
+        "step_length": 6,
+        "steps": [
+          "登录到 OCTO Mobile 应用程序.",
+          "选择转账选项.",
+          "选择‘转账到其他CIMB账户’",
+          "输入虚拟账户号码 {{value}}",
+          "输入与账单相符的付款金额，然后点击继续",
+          "选择确认.",
+          "请输入您的密码.",
+          "交易成功."
+        ]
+      },
+      {
+        "title": "通过 CIMB Clicks 转账",
+        "step_length": 8,
+        "steps": [
+          "登录 CIMB Clicks.",
+          "选择‘支付账单’选项.",
+          "选择资金来源账户和付款类型.",
+          "选择虚拟账户.",
+          " 输入虚拟账户号码并点击确认 {{value}}.",
+          "在确认页面，确保交易数据正确，然后选择‘确定’",
+          "请输入您的密码.",
+          "交易成功."
+        ]
+      }
+    ],
+    "bca_length": 3,
+    "bca": [
+      {
+        "title": "通过取款机转账",
+        "step_length": 8,
+        "steps": [
+          "插入卡并输入BCA密码",
+          "选择‘现金提取/其他交易’选项",
+          " 选择‘其他交易’选项",
+          "选择‘转账’选项",
+          "选择‘转账到 BCA 虚拟账户’选项",
+          "输入 BCA 虚拟账户号码并点击确认 {{value}}",
+          "检查交易详情并选择‘是’",
+          "交易完成"
+        ]
+      },
+      {
+        "title": "通过手机银行转账",
+        "step_length": 6,
+        "steps": [
+          "打开 BCA mobile，选择‘m-Transfer’选项",
+          "选择‘BCA 虚拟账户’选项",
+          "输入 BCA 虚拟账户号码，然后点击‘发送’ {{value}}",
+          "输入 m-BCA 密码",
+          "交易成功"
+        ]
+      },
+      {
+        "title": "通过 Klik BCA 转账",
+        "step_length": 5,
+        "steps": [
+          "登录 KlikBCA，选择‘转账资金’选项",
+          "选择‘转账到 BCA 虚拟账户’选项",
+          "输入 BCA 虚拟账户号码并点击‘继续’ {{value}}",
+          "输入 KeyBCA Appli 1 的响应，然后点击‘发送’",
+          "交易成功"
+        ]
+      }
+    ],
+    "mandiri_length": 2,
+    "mandiri": [
+      {
+        "title": "通过取款机转账",
+        "step_length": 6,
+        "steps": [
+          "请输入您的密码",
+          "在主菜单中，选择‘支付/购买’",
+          "选择‘其他’，直到找到‘多重支付’选项",
+          "输入公司代码：‘70012’（不带引号），账号名称 Midtrans。然后选择‘确认’",
+          "输入您的付款代码，然后选择‘确认’",
+          "再次检查您的交易，然后完成支付过程"
+        ]
+      },
+      {
+        "title": "通过手机银行转账",
+        "step_length": 7,
+        "steps": [
+          "登录 Mandiri Livin 或 Mandiri Internet Banking.",
+          "在主菜单中，选择‘支付’",
+          "选择‘创建新付款’",
+          "然后，选择‘多重支付’选项.",
+          "输入公司代码：‘70012’（不带引号），账号名称 Midtrans。然后选择‘确认’",
+          "输入您的付款代码，然后选择‘确认’",
+          "再次检查您的交易，然后完成支付过程."
+        ]
+      }
+    ],
+    "permata_length": 2,
+    "permata": [
+      {
+        "title": "通过取款机转账",
+        "step_length": 7,
+        "steps": [
+          "请输入您的密码.",
+          "选择‘其他交易’选项",
+          "选择‘付款’选项.",
+          "选择‘其他付款’选项",
+          "选择‘虚拟账户’选项",
+          " 输入虚拟账户号码 {{value}}",
+          "选择将被扣款的资金来源账户，然后点击‘是’以确认交易."
+        ]
+      },
+      {
+        "title": "通过手机银行转账",
+        "step_length": 9,
+        "steps": [
+          "打开 Permata Mobile Internet 应用程序.",
+          "输入用户 ID 和密码.",
+          "选择账单支付.",
+          "选择虚拟账户.",
+          "输入确认页面上显示的 16 位虚拟账户号码，即 {{value}}.",
+          "输入与账单相符的付款金额.",
+          "出现付款确认.",
+          "输入交易验证/令牌.",
+          "交易完成"
+        ]
+      }
+    ],
+    "bni_length": 2,
+    "bni": [
+      {
+        "title": "通过取款机转账",
+        "step_length": 8,
+        "steps": [
+          "请插入卡并输入您的BNI银行密码.",
+          "在主菜单中，选择‘其他选项’.",
+          "选择‘转账’.",
+          "然后，选择‘储蓄账户’.",
+          "选择‘BNI账户’.",
+          "输入虚拟账户号码 {{value}}",
+          "输入与账单相符的付款金额.",
+          "再次检查您的交易，然后选择‘是’."
+        ]
+      },
+      {
+        "title": "通过手机银行转账",
+        "step_length": 8,
+        "steps": [
+          "登录 BNI 手机银行应用程序.",
+          "输入用户 ID 和密码.",
+          "选择‘转账’选项",
+          "然后，选择‘BNI 账户间转账’.",
+          "选择‘输入新账户’.",
+          "输入虚拟账户号码 {{value}}",
+          "再次检查您的交易，然后选择‘是’.",
+          "输入密码以确认付款."
+        ]
+      }
+    ],
+    "bri_length": 2,
+    "bri": [
+      {
+        "title": "通过取款机转账",
+        "step_length": 8,
+        "steps": [
+          "请插入卡并输入您的BRI银行密码.",
+          "在主菜单中，选择‘其他选项",
+          "选择‘付款’选项",
+          "选择‘其他’选项",
+          "选择‘BRIVA’选项",
+          "输入 BRIVA（虚拟账户）号码‘{{value}}’，然后点击‘确认’",
+          "在确认页面，确保交易数据正确，然后选择‘是’",
+          "交易完成"
+        ]
+      },
+      {
+        "title": "通过手机银行转账",
+        "step_length": 8,
+        "steps": [
+          "登录 BRI 手机银行应用程序",
+          "选择‘BRI 手机银行’",
+          "选择‘信息’选项",
+          "选择‘BRIVA’选项",
+          "输入 BRIVA 号码 {{value}}，然后点击‘确认’",
+          "输入与账单相符的付款金额",
+          "输入你的密码",
+          "交易成功"
+        ]
+      }
+    ]
+  },
+  "card_payment": {
+    "tabBarLabel": "使用信用卡支付",
+    "insert_card_info": "输入卡信息",
+    "your_data_will_be_protected": "您的数据将受到保护",
+    "payment_Instruction": "付款说明",
+    "card_payment_length": 3,
+    "steps": [
+      "在提供的表单中输入持卡人姓名、卡号、有效期和 CVV 代码，确保输入的号码有效且没有错误。",
+      "然后通过点击‘继续支付’按钮验证您的借记卡。验证通过后，您可以继续进行支付。",
+      "在支付成功并经过验证后，您的订单状态将为成功，您的交易将安全且舒适。"
+    ]
+  },
+  "instant_payment": {
+    "payment_instruction": "付款说明",
+    "gopay_length": 2,
+    "gopay": [
+      {
+        "title": "通过二维码支付的指令",
+        "step_length": 7,
+        "steps": [
+          "点击使用 GoPay 付款",
+          "选择‘继续支付’，然后二维码将会显示",
+          "或者打开您手机上安装的支持 QRIS 的应用程序，例如 Gojek",
+          "Klik点击支付并扫描二维码",
+          "检查付款详情，然后点击支付",
+          "输入 GoPay 密码",
+          "交易完成"
+        ]
+      },
+      {
+        "title": "Gojek 应用程序支付指令",
+        "step_length": 7,
+        "steps": [
+          "确保您在手机上拥有 Gojek 账户",
+          "选择使用 GoPay 付款",
+          "点击‘继续支付’，然后选择‘继续’",
+          "点击‘继续到 Gojek 应用’，您将被引导到 Gojek 应用程序",
+          "检查付款详情，然后点击支付",
+          "输入 GoPay 密码",
+          "交易完成"
+        ]
+      }
+    ],
+    "qris_length": 1,
+    "qris": [
+      {
+        "title": "支付方式",
+        "step_length": 4,
+        "steps": [
+          "打开支持该支付方式的 QRIS 应用程序.",
+          "下载或扫描您屏幕上的 QRIS.",
+          "在应用程序中确认付款.",
+          "交易完成"
+        ]
+      }
+    ]
+  },
+  "manual_transfer": {
+    "payment_instruction": "付款说明",
+    "bca_length": 2,
+    "bca": [
+      {
+        "title": "通过取款机转账",
+        "step_length": 11,
+        "steps": [
+          "插入信用卡并输入密码",
+          "选择取款 / 其他交易",
+          "选择其他交易",
+          "选择转账",
+          "输入银行账号8650710089 PT.KREATIF TRANSPORTASI GEMILANG 并点击正确",
+          "输入通过 BCA取款机需要转账的金额",
+          "如果所有过程都完成且正确，请选择‘是’（不要忘记截屏转账证明）",
+          "转账成功后，请在网站/应用程序上打开付款确认",
+          "输入汇款人的姓名并上传转账凭证",
+          "点击确认转账",
+          "付款将被审核"
+        ]
+      },
+      {
+        "title": "通过手机银行转账",
+        "step_length": 11,
+        "steps": [
+          "打开手机银行应用程序，选择 m-transfer",
+          "点击转账列表",
+          "请选择：账户间转账（适用于 BCA 用户）或跨行转账（适用于非 BCA 用户）",
+          "输入银行账号8650710089 PT.KREATIF TRANSPORTASI GEMILANG 并点击正确",
+          "输入通过 BCA取款机需要转账的金额",
+          "输入密码",
+          "如果所有流程都已完成且正确，请选择‘是’（别忘了截屏转账凭证）",
+          "转账成功后，在网站/应用程序中打开付款确认",
+          "输入汇款人的姓名并上传转账凭证",
+          "点击确认转账",
+          "付款将被审核"
+        ]
+      }
+    ],
+    "mandiri_length": 2,
+    "mandiri": [
+      {
+        "title": "通过取款机转账",
+        "step_length": 11,
+        "steps": [
+          "请插入卡并输入您的密码",
+          "选择‘现金提取/其他交易’选项",
+          "选择‘其他交易’选项",
+          "选择‘转账’选项",
+          "输入 MANDIRI Get and Ride 账户号码 5205979988，账户名为 PT ITC，然后点击‘确认’",
+          "输入通过 MANDIRI ATM 转账的金额",
+          "如果所有流程都已完成且正确，请选择‘是’（别忘了截屏转账凭证）",
+          "转账成功后，在网站/应用程序中打开付款确认",
+          "输入汇款人姓名并上传转账凭证",
+          "点击确认转账",
+          "付款将被检查"
+        ]
+      },
+      {
+        "title": "通过手机银行转账",
+        "step_length": 11,
+        "steps": [
+          "打开手机银行应用程序，选择‘转账’选项",
+          "Klik menu Daftar Transfer",
+          "选择‘账户间转账’（适用于 MANDIRI 用户）或‘跨行转账’（适用于其他用户）",
+          "输入 MANDIRI Get and Ride 账户号码 5205979988，账户名为 PT Indo Teknologi Cemerlang，然后点击‘确认’",
+          "输入通过 MANDIRI ATM 转账的金额",
+          "输入您的密码",
+          "如果所有流程都已完成且正确，请选择‘是’（别忘了截屏转账凭证）",
+          "转账成功后，在网站/应用程序中打开付款确认",
+          "输入汇款人姓名并上传转账凭证",
+          "点击确认转账",
+          "付款将被审核"
+        ]
+      }
+    ],
+    "uob_length": 2,
+    "uob": [
+      {
+        "title": "通过取款机转账",
+        "step_length": 9,
+        "steps": [
+          "请插入卡并输入您的密码",
+          "选择‘转账’选项.",
+          "输入 UOB Get and Ride 账户号码 3273089878，账户名为 Kreatif Transportasi PT.",
+          "输入需要转账的金额",
+          "如果所有流程都已完成且正确，请选择‘是’（别忘了截屏转账凭证）.",
+          "转账成功后，在网站/应用程序中打开付款确认.",
+          "输入汇款人姓名并上传转账凭证.",
+          "点击确认转账.",
+          "付款将被审核."
+        ]
+      },
+      {
+        "title": "通过手机银行转账",
+        "step_length": 10,
+        "steps": [
+          "打开手机银行应用程序，选择‘转账’选项",
+          "从现有的账户中选择，或查找你的目标银行",
+          "输入 UOB Get and Ride 账户号码 3273089878，账户名为 Kreatif Transportasi PT",
+          "输入需要转账的金额",
+          "输入密码",
+          "如果所有流程都已完成且正确，请选择‘是’（别忘了截屏转账凭证）",
+          "转账成功后，在网站/应用程序中打开付款确认",
+          "输入汇款人姓名并上传转账凭证",
+          "点击确认转账",
+          "付款将被审核"
+        ]
+      }
+    ]
+  },
+  "bank_transfer": {
+    "bank_transfer": "银行转账",
+    "payment_method": "支付方式",
+    "make_payment": "进行支付",
+    "mandiri_transfer": "Mandiri 转账",
+    "total_price": "总价格",
+    "service_fee": "服务费",
+    "bca_transfer": "BCA 转账",
+    "bank_x_transfer": "Transfer {{x}}",
+    "total_payment": "总付款",
+    "transfer_via": "通过转账",
+    "upload_proof_payment": "上传付款凭证",
+    "finish_before": "在……之前完成",
+    "account_bank": "银行账户",
+    "account_bank_description": "银行账户号码是退还押金所必需的。押金是租车时的要求。押金将在大约1个工作日内（工作时间）退还。我们保证您的个人信息保密",
+    "account_bank_form": {
+      "error_account_name_empty": "账户名称不能为空！",
+      "error_account_bank_empty": "银行名称不能为空！",
+      "error_account_number_empty": "账户号码不能为空！",
+      "error_password_empty": "密码不能为空！"
+    },
+    "account_name": "银行账户姓名"
+  },
+  "auth": {
+    "try_now": "现在尝试",
+    "sign_up": "注册账号",
+    "sign_in": "登录",
+    "enter_email_to_login": "请输入Email地址",
+    "or_login_using": "或者使用登录",
+    "do_not_have_an_account": "没有账号",
+    "have_an_account": "已有账号？点击登录",
+    "sign_up_now": "立即注册",
+    "enter_email": "请输入Email地址",
+    "enter_your_password": "请输入密码",
+    "confirm_your_password": "确认密码",
+    "password_confirmation": "确认密码",
+    "error": "{{value}} 不能为空"
+  },
+  "register": {
+    "have_not_received_otp": "还没有收到验证码(OTP)？",
+    "resend": "重新发送",
+    "phone_number": "手机号码",
+    "send_otp_code_to": "将验证码OTP 代码发送到",
+    "create_password": "创建密码",
+    "create_account": "请填写以下的表格",
+    "same_as_phone_number": "与手机号码相同",
+    "verification": "验证",
+    "choose_verification_method": "选择您的验证方法以确保安全并继续支付您的订单",
+    "enter_phone_number": "请输入手机号码",
+    "enter_whatsapp_number": "输入WhatsApp 号码",
+    "error_confirmation_password": "确认密码不一致",
+    "error_validate_password": "密码至少为 8 个字符，并且至少包含一个数字和一个字母",
+    "wrong-otp-code": "您输入的数字代码不正确！",
+    "success_register": "成功注册！",
+    "cannot_empty": "不能为空",
+    "length_phone": "最少长为 10 个字符"
+  },
+  "codepush": {
+    "updates_available": "可用更新"
+  },
+  "forgot_password": {
+    "forgot_password": "忘记密码",
+    "enter_email_to_reset_password": "输入您的邮件以重置密码",
+    "enter_email": "请输入您的Email地址",
+    "enter_your_email": "请输入您的Email地址",
+    "enter_old_password": "输入旧密码",
+    "enter_new_password": "输入新密码",
+    "enter_confirm_password": "输入新密码确认"
+  },
+  "reset_password": {
+    "reset_password": "重置密码",
+    "reset_your_password": "重置您的密码",
+    "enter_your_password": "请输入您的密码",
+    "error_password": "密码不能为空",
+    "error_password_confirmation": "确认密码不能为空"
+  },
+  "referral_code": {
+    "referral_code": "推荐码（可选）",
+    "enter_referral_code": "输入推荐码",
+    "referral_message": "想要获得额外积分吗？现在通过这个推荐链接 {{url}} 在 Get&Ride 预订汽车。您将获得第一笔交易的 0.5% 奖励积分！立即下载 Get&Ride 应用程序！在 App Store 和 Play Store 提供",
+    "share": "通过其他媒体",
+    "confirmation_title": "您确定要使用该代码吗？",
+    "confirmation_description": "每个 Get&Ride 用户只能输入一次推荐代码",
+    "referral_is_already_in_use": "推荐码已被使用",
+    "referral_is_already_in_use_desc": "您打开的推荐链接已被使用",
+    "referral_code_received_successfully": "推荐码已成功接收",
+    "referral_code_received_successfully_desc": "推荐码已成功接收，请使用该代码以获取折扣",
+    "incorrect_referral_code": "推荐码不正确",
+    "incorrect_referral_code_desc": "您打开的推荐链接不正确或未找到",
+    "referral_is_not_found": "未找到推荐码",
+    "referral_invalid": "推荐无效",
+    "own_referral_code_error": "您不能使用自己的推荐码.",
+    "referral_is_already_exist": "推荐码已应用",
+    "referral_is_already_exist_desc": "您已使用其他用户的推荐码."
+  },
+  "upload_bank_transfer": {
+    "sender_name": "汇款人的姓名",
+    "proof_of_payment_image": "付款凭证.jpg",
+    "upload_photo": "上传照片"
+  },
+  "help_center": {
+    "header": "客服中心",
+    "menu_length": 3,
+    "menu": [
+      {
+        "title": "咨询"
+      },
+      {
+        "title": "隐私政策"
+      },
+      {
+        "title": "条款与条件"
+      }
+    ]
+  },
+  "list_car": {
+    "header": "车型",
+    "change_search": " 更改搜索",
+    "rent_price": "租车费",
+    "filter": "筛选",
+    "lowest_price": "价格最低",
+    "highest_price": "价格最高",
+    "day": "天",
+    "car_type": "汽车品牌",
+    "modal_min_order_title": "最低租赁",
+    "modal_min_order_desc": "此车仅可租赁至少 {{value}} 天或更长时间。该车不提供少于 {{value}} 天的租赁选项",
+    "seat": "座",
+    "bag": "箱",
+    "available": "可用",
+    "booked": "已预订",
+    "search_car": "查询车",
+    "reset": "重置",
+    "search_filter": "搜索过滤器",
+    "sort_by": "按以下顺序排列",
+    "seat_capacity": "座位容量",
+    "filter_by": "按以下条件过滤",
+    "price_range_perday": "每日价格范围",
+    "price": "费用",
+    "car_brand": "汽车品牌",
+    "all_in_description": "列出的价格已包括车辆、司机的每日餐费、燃油费用，以及整个租赁区域的 0 区域"
+  },
+  "carDetail": {
+    "carDetail": "详情",
+    "carPrice": "租车费",
+    "no_overtime": "没有超时",
+    "seat": "座",
+    "seats": "座",
+    "all_in": "全包",
+    "durian": "禁止携带锐利物品",
+    "durian_detail": "禁止携带散发刺鼻气味的物品或食物，如榴莲等。如果租客不遵守此租赁规定，将被罚款500,000印尼盾",
+    "perDay": "/ 天",
+    "hour": "小时",
+    "hours": "小时",
+    "seatCapacity": "座位数量",
+    "bagDetail": "行李箱详情",
+    "bag": "箱",
+    "transmision": "变速器",
+    "driver": "司机",
+    "warning_price": "*费用可能随时变动，恕不另行通知",
+    "all_in_desc": "标示的价格已包含车辆、司机每日餐费和油费。",
+    "zone_title": "租赁区域",
+    "zone_0": "区域0（市区）",
+    "zone_0_desc": "Kuta Selatan, Kuta, Seminyak, Canggu, Mengwi, Sanur, Tanah Lot, Tanjong Benoa, Jimbaran, Uluwatu, Tabanan, Nusa Dua, Bali Safari, Gianyar, Ubud, Tegalalang.",
+    "zone_1": "区域1（市外）",
+    "zone_1_desc": "Kintamani, Bedugul",
+    "zone_2": "区域2（市外）",
+    "zone_2_desc": "Gilimanuk, Negara, Belimbingsari, Singaraja, Lovina, Lempuyang, Tulamben, Amed, Kubu, Tianjar, Gretek, Tejakula, Auman, Angsri, Buleleng, Candi Dase, Sideman, Padang bai, Karangasam",
+    "all_in_title": "Detail Paket All-in (Dalam Kota)",
+    "all_in_desc2": "Paket All-in sudah termasuk:\n- Penggunaan biaya bensin per-hari sewa, biaya makan dan jasa sopir.\n- Gratis antar jemput untuk penggunaan dalam kota (zona 0). Untuk penggunaan luar kota (zona 1 dan 2) akan dikenakan biaya tambahan",
+    "all_in_tile2": "Paket All-in belum termasuk:",
+    "all_in_desc3": "- Biaya tol, parkir, dan tiket wisata\n- Biaya pemakaian bensin jika melebihi yang disediakan saat penjemputan\n- Penjemputan, drop-off dan pemakaian diluar zona 0 (luar kota) , Zona 1 & 2",
+    "with_driver": "不包含司机",
+    "with_driver_include_title": "Sudah Termasuk",
+    "with_driver_include_desc": [
+      "Penggunaan mobil per hari 12 jam atau hingga 23:59 jika mulai sewa diatas pukul 12:00",
+      "Gratis antar jemput di dalam kota (Zona 0)",
+      "Biaya Jasa Sopir",
+      "Bensin"
+    ],
+    "with_driver_non_include_title": "Tidak Termasuk",
+    "with_driver_non_include_desc": [
+      "Penggunaan Luar Kota (Zona 1 & Zona 2)",
+      "Biaya Parkir",
+      "Biaya Tol",
+      "Penginapan Sopir",
+      "加班 (Jika Ada)"
+    ],
+    "car_conditions": "车辆条款",
+    "smoking": "禁止吸烟",
+    "pet": "Peliharaan Diperbolehkan",
+    "disability": "Dukungan Disabilitas",
+    "priceTerm": "Ketentuan Harga",
+    "priceInclude": "价格已包括",
+    "include": "Termasuk",
+    "important": "重要",
+    "rentalRules": "Syarat & Ketentuan Rental",
+    "rentalTerm": "Syarat Rental",
+    "learnMore": "查看详情",
+    "TitleTc": "租车条款和条件",
+    "rentalRequirement": "Syarat Rental",
+    "policy": "Kebijakan Rental",
+    "requirement": "Syarat Rental",
+    "otherInfo": "其他信息",
+    "carInsurance": "Asuransi Mobil",
+    "rentalGas": "Kembalikan bahan bakar seperti semula",
+    "rentalTime": "Penggunaan hingga 24 jam per hari rental",
+    "agreeState": "我同意适用的条款",
+    "rental_rules": "租赁设置",
+    "requirements": {
+      "list_1": "有效的身份证和 A 类驾驶执照（印尼公民）",
+      "list_2": "租赁费用的 50% 押金",
+      "list_3": "通行卡押金"
+    },
+    "policies": {
+      "list_1": "汽车租赁时长为每天 24 小时",
+      "list_2": "超时费用为租赁价格的每小时 10%",
+      "list_3": "Belum termasuk BBM, Tiket parkir, Tiket VIP parkir, Tol dan Sopir"
+    },
+    "pickup_info": "接送信息",
+    "pickup_method": "接送方式",
+    "pickup_info_details": {
+      "list_1": "付款收到后，请向司机出示付款凭证/代金券",
+      "list_2": "您到达机场后，工作人员将在到达区等待您",
+      "list_3": "请向司机出示您的代金券以确认订单."
+    },
+    "sure_and_timely_pickup": "确保准时接送",
+    "car_insurance": "汽车保险",
+    "random_car": "随机车辆",
+    "operational_hours": "营业时间\n周一至周日"
+  },
+  "priceTerm": {
+    "handSanitizer": "洗手液",
+    "mineralWater": "矿泉水",
+    "mask": "口罩",
+    "tissue": "纸巾",
+    "driver": "司机",
+    "parking": "驾驶员",
+    "snacks": "零食",
+    "additional_needs": "额外需求",
+    "fuel": "燃油",
+    "toll": "高速公路"
+  },
+  "priceInclude": {
+    "fuel": "燃油",
+    "toll": "高速公路",
+    "parking": "停车"
+  },
+  "notification": {
+    "not_found_title": "尚无通知",
+    "not_found_description": "目前尚无通知"
+  },
+  "voucher": {
+    "title": "我的优惠卷",
+    "empty_unclaimed_voucher": "目前没有可索取的代金券",
+    "empty_claimed_voucher": "我们注意到您尚未索取您的代金券！不要错过为您提供的特惠。立即索取并享受其带来的好处！",
+    "not_found_description": "目前没有代金券",
+    "btn_claim": "使用优惠卷",
+    "not_found_title": "代金券尚不可用",
+    "btn_use_voucher": "使用",
+    "alert_voucher": "代金券无法使用",
+    "msg_error": "索取代金券失败",
+    "msg_success": "成功索取代金券",
+    "btn_claimed": "已被索取",
+    "btn_unclaimed": "尚未被索取",
+    "created_by": "由 Get & Ride 创建",
+    "desc": "描述",
+    "benefit": "使用代金券的好处",
+    "date_limit": "代金券有效日期",
+    "term": "联系我们",
+    "how_to_use": "代金券使用方法",
+    "limit": "使用限制",
+    "error_eligible": "代金券不符合条件",
+    "error_day_not_meet": "租赁的最低天数未达到",
+    "error_date_range": "不在有效日期范围内",
+    "error_not_meet_condition": "未符合条件",
+    "error_quota": "配额已满",
+    "error_type": "订单类型未满足",
+    "error_combine": "代金券无效，因为代金券与促销活动无法叠加使用",
+    "attached_voucher": "代金券已附上，快来预订吧！"
+  },
+  "faq": [
+    {
+      "title": "为什么选择在Get & Ride租车？",
+      "content": "通过在 Get & Ride 租车，您无需再费心。所有服务都简单、快速，而且值得信赖。您可以节省时间和费用。此外，还可以根据需求选择适合您在巴厘岛城市游玩的汽车，并享受最佳价格。"
+    },
+    {
+      "title": "如何在Get & Ride租车？",
+      "content": "您可以通过 Get & Ride 的网站或应用程序进行汽车租赁。请按照以下步骤操作：\n\n● 登录或注册以进行预订。\n\n● 选择自驾租车或带司机服务。\n\n● 填写所需的取车地点、时间和租赁时长。\n\n● 选择车型，确保阅读并同意租车条款和政策条件。\n\n● 选择车辆归还的细节。您可以直接到租车地点取车，或选择送车到您指定的位置。\n\n● 确保填写并上传个人资料，如身份证和驾驶证照片。\n\n● 再次检查您的订单。\n\n● 完成支付。"
+    },
+    {
+      "title": "我必须有驾驶证才能在Get & Ride 租车吗？",
+      "content": "在 Get & Ride 租车，自驾租车的租客必须拥有并出示有效的身份证（KTP）和 A 类驾驶证（SIM A）以供国内游客使用；非国内游客则需要出示国际驾驶证或护照。请确保所有文件为原件，不得为他人名下，并且仍然有效。"
+    },
+    {
+      "title": "在Get & Ride 租车是否有年龄限制？",
+      "content": "租车人必须年龄满 17 岁以上，并且必须出示有效的身份证（KTP）/ A 类驾驶证（SIM A）或国际驾驶证/护照。"
+    },
+    {
+      "title": "取车或还车时是否需要支付额外费用吗？",
+      "content": "对于自驾租车，如果取车或还车地点在租车公司车库或库塔（Kuta）和乐吉安（Legian）地区，则不收取额外费用（免费）。其他地区将收取从 50,000 印尼盾到 100,000 印尼盾不等的额外费用，具体取决于距离。\n\n对于全包（含司机）在零区（市区）内的接送和车辆使用不收取额外费用（免费）。对于使用一、二区（市外）区域的服务，将收取额外费用，从 75,000 印尼盾起，具体费用取决于距离。"
+    },
+    {
+      "title": "如何更改/取消租车预订？",
+      "content": "如需申请更改/取消租车预订，请通过 WhatsApp 联系我们，电话号码是 +6281262511511。请确保您通过我们之前的通知已了解退款和更改政策。如果您想了解租车预订更改的状态，也可以通过 WhatsApp 联系我们以获取更多详细信息。"
+    },
+    {
+      "title": "在Get & Ride 租车是否已包含司机费用？",
+      "content": "对于带司机的租车服务，费用已包含司机服务费和司机餐费。"
+    },
+    {
+      "title": "我可以在Get & Ride 租车时能指定取车的时间吗？",
+      "content": "您可以根据您的时间安排选择取车时间。最早的取车时间为早上 7 点，不能选择早于这个时间的取车时间。"
+    },
+    {
+      "title": "为什么在某些地区找不到租车服务？",
+      "content": "如果在预订租车时找不到您想要的地，可能是因为该地点尚未在 Get & Ride 的服务范围内，或者在预订时该地点的车辆暂时不可用或已被其他客户预订。"
+    },
+    {
+      "title": "司机是否了解巴厘岛的道路和旅游景点？",
+      "content": "无需担心，Get & Ride 拥有经验丰富且专业的司机。"
+    },
+    {
+      "title": "租车后是否会收到发票？",
+      "content": "我们会为每个已支付定金的租车订单生成发票，并通过Email地址或 WhatsApp 以 PDF 格式发送。"
+    },
+    {
+      "title": "提供哪些车型的租赁？",
+      "content": "我们提供多种车型，包括 Toyota Hiace、Ertiga、Veloz、Innova Reborn、All New Avanza 等等。您可以在我们的网站 Get & Ride 上查看更详细的信息，或通过 WhatsApp 联系我们+6281262511511。"
+    },
+    {
+      "title": "在预订后，我可以更改租赁的车型吗？",
+      "content": "如果您已经完成了预订并想更改车型，则需要先取消当前预订，然后重新进行所需车型的预订。要了解更多详细信息，您可以通过 +6281262511511 联系我们的客服。"
+    },
+    {
+      "title": "租车区域的意思是什么？",
+      "content": "租车区域是租车服务可以覆盖的距离范围。在预订时，您可以在区域覆盖部分查看可用的租车区域选项。请确保检查所选套餐包含哪些区域，并确认是否会产生额外费用，因为如果在不包含在套餐内的区域使用车辆，将会产生额外费用。"
+    },
+    {
+      "title": "如果我无法联系到我的司机怎么办？",
+      "content": "如果您无法联系到司机，可以通过 +6281262511511 联系我们的客服。"
+    }
+  ],
+  "tab_help_center": [
+    {
+      "id": "faq",
+      "title": "常见问题解答"
+    },
+    {
+      "id": "privacy-policy",
+      "title": "隐私政策"
+    },
+    {
+      "id": "s&k",
+      "title": "联系我们"
+    },
+    {
+      "id": "call-center",
+      "title": "联系我们"
+    }
+  ],
+  "privacy_policy": [
+    {
+      "title": "隐私规则",
+      "sub": [
+        {
+          "title": "Get & Ride 的隐私政策规定或解释了我们为您‘用户’提供的所有服务。为了维护您的信任，我们将始终保护您的个人数据的机密性，因为我们非常重视您的隐私。",
+          "description": [
+            "在本隐私规则中，我们包含了有关我们如何收集、使用、披露、处理和保护您的信息和个人数据‘个人数据’的说明。",
+            "当您在 Get & Ride 网站上进行预订或创建个人账户时，我们将记录和存储您的信息和个人数据。原则上，我们会保存您提供的每一条数据，并用于提供产品和服务，例如用于代币化、会计、账单、审计、信用验证或支付、安全、行政和法律需求、积分或类似奖励、测试、系统维护和开发、客户关系、促销，以及未来提供服务时的帮助。",
+            "我们也可能将您的数据披露给 Get & Ride 所属的公司集团。由于本隐私规则及网站其他条款的重要性，请仔细阅读本隐私规则中的所有条款以及我们网站上的其他条款，以保护您的个人数据安全。"
+          ]
+        },
+        {
+          "title": "当您使用我们提供的网站或在线服务时，我们将根据以下条款收集您的所有信息和个人数据：",
+          "description": [
+            "我们会要求您准确、清楚、完整地填写个人数据，包括姓名、Email地址、电话号码、完整地址、身份证（KTP）、驾驶证、护照、订单详细信息（如车型、租赁时长、预订日期、取车和还车地点）以及其他能够识别用户的信息。还包括我们需要的其他数据，以便通过网站和我们提供的其他在线服务进行交易，使您能够使用所需的服务。我们不对因您提供的信息或数据不准确、不清楚、不完整、准确或误导而可能发生的任何损失负责。",
+            "我们将收集有关您使用的计算机或任何媒体的信息，包括网络地址、操作系统、使用的浏览器、链接、页面、地理位置和访问时间以及与您计算机使用相关的其他数据‘网络详细信息’。",
+            "我们可以使用您的个人数据和收集的其他信息，用于社交媒体营销，包括使用直接和公开的图形技术，以及用于传统的数字营销目的，例如自动向您发送新闻通讯或推送通知，包括但不限于通过电子邮件、WhatsApp，以及社交媒体（如 YouTube、Instagram、Facebook、Twitter、TikTok 等），以通知您有关新产品、特别优惠、促销活动、宣传活动或我们认为您可能感兴趣的其他信息。",
+            "在使用我们的服务时，您提供的信息可能会被我们用于与第三方合作方共享，前提是为了交易和使用我们的服务的目的。",
+            "我们收到的所有信息可以用于保护我们自己免受与使用服务相关的任何索赔和适用法律的要求，包括您在我们网站上违反 Get & Ride 服务条款和产品使用指南的任何情况，包括但不限于根据法院命令在法律程序中需要时。",
+            "您对您的信息和个人数据的保密性负有全部责任，包括对您拥有的密码、账户和令牌的所有访问和使用负有责任，无论是经过您的授权还是未经您的授权。任何未经授权的使用或未经过您同意的使用都由您自行承担责任，我们不对因您的疏忽而导致的任何损失承担责任。",
+            "您必须立即通知我们关于未经您授权的密码或账户使用，或任何形式的安全漏洞或威胁的情况。",
+            "您有权更改或删除您提供并已存储在我们系统中的地址数据，方法是通过联系客户服务。"
+          ]
+        },
+        {
+          "title": "接受本网站使用条款即表示您已获得有限、可撤销、不可转让和非独占的许可，以访问和使用本网站，并在您的浏览器上显示，以便进行我们产品的交易。在使用本网站时，您将获得唯一的密码和账户，以便访问本网站的特定部分。",
+          "sub_title": "每次您使用这密码或账户时，我们将视为您已获得授权来按照本使用条款的条件访问和使用本网站，我们不负有调查该访问的授权或来源的义务。因此，您同意始终遵守本网站使用中的禁止条款，具体如下：",
+          "description": [
+            "您禁止进行以下行为，也不得协助他人进行这些行为：复制、分发、展示、销售、出租、传输、创作衍生作品、翻译、修改、反向工程、拆解、解码或利用本网站或其部分内容。",
+            "除非我们明确书面允许，否则您禁止出售和转让您的账户、个人资料或与服务相关的项目。",
+            "除非我们明确书面许可，否则您禁止将网站上提供的任何信息用于商业目的或其他业务用途，或利用网站进行相关活动。",
+            "您禁止在向我们提供数据和信息时，伪装成他人或其他组织。",
+            "您禁止发送广告、促销材料、垃圾邮件，以及通过上传病毒、蠕虫或其他恶意代码来破坏服务的操作。",
+            "隐私规则的更改。",
+            {
+              "title": "您禁止进行以下行为，也不得协助他人进行这些行为，将本网站与包含以下内容的网站关联、描绘、链接或与之建立关联：",
+              "description": [
+                "侵犯知识产权和其他所有权的内容。",
+                "包含色情或猥亵内容、赌博、侮辱、诽谤和/或名誉损害、敲诈和/或威胁、欺诈、伪造的内容。",
+                "引发或鼓励仇恨、敌对、威胁、煽动、骚扰，或激化个人、任何方或特定群体之间紧张关系的内容，无论是基于种族、宗教、民族、性别或性取向、国籍、族裔、国籍、身体残疾还是信仰。",
+                "根据现行法律法规，其他被禁止的内容。",
+                "根据我们的判断，如果您的行为作为客户被认为违反法律和适用条款或构成对使用条款的违反，或对我们的利益造成危险，那么任何此类违规行为将导致立即撤销在本条款下授予的访问权限，且无需事先通知您。我们有权拒绝提供服务、停止账户或取消您的订单，包括但不限于根据合法的法令向有关部门披露您在数据库中的身份。您必须对我们遭受的所有损失负责，包括但不限于第三方的索赔及可能出现的其他费用。网站上提供的内容仅供信息参考。通过接受这些条款，您同时免除我们对因使用本网站或其包含的服务而产生的任何索赔、异议、损害或损失的责任。"
+              ]
+            },
+            "隐私政策的变更。我们保留随时对本隐私政策的全部或部分条款进行修改、增加或减少的权利，无需事先通知，所有更改将通过 getandride.com 网站进行通知。我们建议您定期检查该政策。通过访问和使用我们的服务，我们将视为您已理解并同意当时网站上列出的所有隐私政策。",
+            "如果您在印度尼西亚以外的地区访问本网站，则本网站的使用和我们提供的服务将受到印度尼西亚法律的管辖和解释，但不影响适用的法律冲突原则。"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "访问、修正与删除数据",
+      "sub_title1": "您有权访问、修正、修改或删除您已提供并存储在我们系统中的个人数据，方法是联系客户服务或通过我们应用程序中的功能。",
+      "sub_title2": "我们有权根据适用法律拒绝您对访问、修正或删除部分或全部个人数据的请求。这包括当您的个人数据涉及其他个人的参考信息，或当我们认为访问、修正或删除请求需要不成比例的技术努力或可能导致操作风险时。"
+    },
+    {
+      "title": "同意",
+      "sub_title1": "通过阅读有关访问和使用我们网站及服务的所有条款和政策，您被视为已知晓、理解、同意并承诺遵守这些隐私规则及我们可能随时进行的更改。如果您不同意这些隐私规则，无论是全部还是部分，则不得访问本网站或使用我们提供的服务。",
+      "sub_title2": "如果您有任何问题或需要有关您的订单的更多信息，您可以通过以下方式联系客户服：+6281262511511或发送电子邮件至 admin@getandride.com。"
+    }
+  ],
+  "s&k": [
+    {
+      "title": "通用",
+      "length": 4,
+      "description": [
+        "在您使用和访问 Get and Ride 网站及其应用程序时，您已同意您已经阅读、理解、接受并受以下 Get and Ride 使用条款和条件的约束。如果您不同意遵守这些条款和条件，则不允许您访问本网站和使用我们的服务。请确保您至少年满十八（18）岁才能使用本网站。",
+        "Get and Ride 的使用条款和条件包括以下内容：\n(i) 适用于网站上所有访问和服务的通用条款和条件。\n(ii) 针对特定产品和服务使用的具体条款和条件。",
+        "Get and Ride 的使用条款和条件可能会随时进行变更、修改、添加、删除或更正“更改”，以适应网站的发展和相关法律法规的要求。我们建议您定期访问我们的网站，以了解这些变更。",
+        "在应用程序中使用某些服务时，您需要在移动设备上启用地理定位功能。启用地理定位是使用与方向、路线、位置相关的服务的必要条件，这些服务利用应用程序中的地图，包括向我们提供您的当前位置“当前定位”。我们有自己的政策来接受、延迟或拒绝您对服务的请求。"
+      ]
+    },
+    {
+      "title": "使用",
+      "length": 5,
+      "description": [
+        "本网站上提供的产品和服务仅供您个人使用且不得用于商业目的，并且必须始终遵守 Get and Ride 的适用使用条款和条件。",
+        "我们会收集和处理您的个人信息，如姓名、地址、电子邮件、电话号码，当您在应用程序中注册时。您必须提供准确和完整的信息，并定期更新信息，同时同意向我们提供我们合理要求的任何身份证明，以便我们能够继续为您提供完整和优质的服务。",
+        "网站和应用程序中的产品、技术和过程均由我们拥有。除非在 Get and Ride 的适用条款和条件中允许和授权的使用情况外，您不能拥有或接收我们提供的任何内容，我们也不向您授予有关本网站或应用程序的任何其他权利，包括其中的所有数据、信息和内容。",
+        "您同意不以任何方式下载、展示或传输内容，也不公开提供任何与 Get and Ride 的使用条款和条件不一致的内容。",
+        "未经 Get and Ride 事先书面许可，您不得创建链接、截图或进行数据抓取。这些行为将被视为侵犯 Get and Ride 的知识产权。"
+      ]
+    },
+    {
+      "title": "服务",
+      "length": 6,
+      "description": [
+        "Get and Ride 提供并运营一个集成的在线预订系统和设施“服务”，您可以通过该服务租赁所需的交通工具，并进行在线安全的预订、购买和支付，使用各种可用的支付系统和设施。",
+        "我们的服务通常可以在线提供，每天二十四小时、每周七天；但在网站进行修复、升级或维护时，服务可能会暂停。",
+        "未经我们事先书面许可，您不得转售我们的产品、使用、复制、监视、展示、下载或以任何商业活动或目的复制应用程序或我们网站上的内容、信息、软件或服务。",
+        "您可以使用应用程序、网站和提供的服务来进行合法的预订/购买。您不得为了投机、虚假或非法目的进行预订/购买。如果我们发现或合理怀疑您的预订/购买不合法，我们保留取消您的预订/购买的权利。",
+        "您还保证向我们提供的数据和信息，无论是与预订/订购还是在 Get and Ride 注册相关，都是准确、最新和完整的。有关您提供的数据和信息的使用条款，请参阅《数据使用政策》。",
+        "在确认函中包含的所有信息仅适用于确认函上列明的姓名。您对因您的疏忽或故意行为而导致的所有信息泄露，以及因此给您或第三方造成的损失，负有全部责任。"
+      ]
+    },
+    {
+      "title": "预订",
+      "length": 3,
+      "description": [
+        "产品的预订/购买在您完成付款并且 Get and Ride 向您发出并发送预订/购买确认信后被视为成功或完成。如果发生争议或问题，则 Get and Ride 上的数据将成为主要依据，并被视为有效.",
+        "完成预订/购买后，您同意接收我们将在您进行预订/购买后不久发送的电子邮件，该邮件将为您提供有关您所订购产品的信息.",
+        "一些产品需要根据适用的条款和条件提前进行预订。您有责任完全遵守这些规定."
+      ]
+    },
+    {
+      "title": "费用",
+      "length": 4,
+      "description": [
+        "Get and Ride 始终努力提供您可以预订的最佳价格，因此在进行预订之前，您需要自行检查并理解适用于特定价格的条款和条件。您还需检查并理解适用于特定产品或价格的取消和退款条款。",
+        "所列价格已包括税费、附加费、费用及其他相关费用，这些费用将会在我们的网站上详细说明。",
+        "我们可能会不时提供更低的价格或促销活动。请注意，这些优惠可能需要不同的条款和条件，例如与预订政策和退款政策相关的要求。",
+        "Get and Ride 保留随时更改产品价格的权利，恕不另行通知。然而，已经购买的产品和已收到确认函的产品价格将不会改变。"
+      ]
+    },
+    {
+      "title": "支付",
+      "length": 6,
+      "description": [
+        "完成购买价格的支付是进行购买的条件。我们接受以下支付方式：信用卡（VISA、MasterCard 和 BCA 卡）、虚拟账户、银行账户间转账以及通过其他支付方式（具体见网站上的说明）",
+        "为了保护和加密您的信用卡信息，我们使用了安全套接层（SSL）技术。如果发生信用卡欺诈或任何第三方滥用支付系统的情况，请立即向我们以及您的信用卡发行公司/银行报告，以便根据相关程序和规则获得进一步处理。",
+        "您必须仔细遵循我们提供的支付指示。以下是您可能出现的支付错误：",
+        "(i) 填写我们指定的银行账户号码或虚拟账户号码，以用于您每次的订单；或",
+        "(ii) 错误支付订单金额，导致您的资金转入与我们提供的支付指示不符的银行账户或虚拟账户，或从您的银行账户中扣除的金额与我们提供的支付指示不符，从而导致您的订单未得到确认。您在此知晓并同意，对于因您自身未按照我们提供的支付指示进行支付而造成的错误或疏忽，我们不承担退款义务。因此，这种损失完全由您承担。此外，上述支付错误不能被视为对您的订单的有效支付，因此，您必须按照我们提供的支付指示进行付款，以确保您的订单得到确认。",
+        "对于每个我们可以确认的订单，我们会通过电子邮件向您发送确认函，其中包含您所购买的产品和订单的详细信息以及付款确认。您有责任打印并保存我们发送的确认函上的信息。该确认函是非常重要的文件，您在使用或领取您购买的产品时必须携带确认函的打印件。如果您无法证明您已经合法完成了订单和付款，我们有权拒绝提供产品或服务，并且您将免除 Get and Ride 任何形式的责任和损失。"
+      ]
+    },
+    {
+      "title": "修改与取消",
+      "length": 6,
+      "description": [
+        "通过在 Get and Ride 进行订单，您被视为已理解、接受并同意取消政策和条款。这些取消政策和条款已在我们发送给您的每份确认函中列明。请注意，某些费用或优惠可能不符合取消或更改的条件。您有责任事先检查并理解这些取消政策和条款。",
+        "如果您想查看、修改或取消订单，请通过电子邮件或电话与我们的客服团队联系。请注意，根据取消政策和条款，您可能会被收取额外费用。",
+        "订单变更和取消的程序规定在确认函中，以及其他我们可能会不时更新的媒介中。",
+        "对于您进行的每个订单取消，我们将根据以下条款进行退款：",
+        " • 退款将按照适用的取消政策和条款，以相应的金额和时间进行处理。\n • 退还给您的金额不会超过您支付给我们的金额，将根据适用的政策进行调整。 \n • 对于使用 BCA Card 的 Klikpay BCA 进行的支付交易，退款将通过转账到您在订单中登记的租车账户进行处理。",
+        "您同意，我们仅能处理符合适用的取消政策、Get and Ride 使用条款、e-Refund 条款以及我们网站上其他相关条款的取消申请。因此，对于因您提交的取消申请或未能遵守适用的取消条款、Get and Ride 使用条款、e-Refund 条款以及我们网站上其他条款而造成的损失，您将免除我们的一切责任。"
+      ]
+    },
+    {
+      "title": "安全性",
+      "length": 3,
+      "description": [
+        "当您访问您的数据并在我们的网站上进行订单时，我们使用安全套接层（SSL）技术来加密您通过本网站发送的信息。",
+        "我们将尽最大努力确保信息的安全，但无法保证加密技术的有效性。我们对因未经授权访问您提供的信息而发生的问题不承担责任。您需要确保用于访问 Get and Ride 的设备完全在您的控制之下。因此，您将免除我们因您使用设备访问 Get and Ride 时的疏忽而可能产生的所有损失。",
+        "请确保定期更改您的密码，因为您的账户完全由您负责。"
+      ]
+    },
+    {
+      "title": "数据隐私政策",
+      "length": 3,
+      "description": [
+        "我们认为您的隐私对我们非常重要。",
+        "当您在 Get and Ride 进行预订时，我们会记录并保存您的个人信息和数据。我们保存这些信息和数据以便向您提供产品和服务。我们将定期保存您提供的所有数据，用于会计、审计、信用卡验证、安全、积分或其他形式的促销、发展，以及帮助我们在未来为您提供服务。",
+        "我们有权向集团公司及其附属公司（公司集团）、合作伙伴、政府机关以及任何司法管辖区内的相关机构提供您的信息和个人数据。"
+      ]
+    }
+  ],
+  "contact-us": {
+    "title": {
+      "name": "姓名",
+      "email": "Email地址",
+      "topic": "话题",
+      "critic": "批评与建议"
+    },
+    "placeholder": {
+      "name": "请输入您的姓名",
+      "email": "请输入您的邮件",
+      "topic": "请输入您的主题",
+      "critic": ""
+    },
+    "error": {
+      "name": " 姓名不能为空",
+      "email": "邮件不能为空",
+      "topic": "主题不能为空",
+      "critic": "反馈和建议不能为空",
+      "required": "不能为空"
+    },
+    "toast": {
+      "message_success": "成功发送帮助信息",
+      "message_error": "发送帮助信息失败",
+      "title_success": "成功",
+      "title_error": "失败"
+    },
+    "btn": {
+      "send": "发送"
+    }
+  },
+  "company_profile": {
+    "company_profile": "公司简介",
+    "about_company": "关于公司",
+    "about_company_description": "Get & Ride 是一个在线交通服务，用户可以通过网站和应用程序（App Store 和 Playstore）访问，提供巴厘岛的专业租车服务。我们为游客和商务人士提供最佳交通解决方案，拥有高品质且价格合理的汽车选择。为了提高用户的舒适度，我们还计划将服务扩展到除巴厘岛之外的其他大城市。请将您的假期旅行、商务出行或个人活动交给我们来处理。",
+    "vision": "愿景",
+    "and": "与",
+    "mission": "使命",
+    "vision_description": "成为巴厘岛领先的租车公司，提供最佳服务，便捷的访问，以及为游客提供经济实惠的交通解决方案.",
+    "mission_description": {
+      "first": "在其他大城市提供与巴厘岛相同水平的服务和质量的租车服务",
+      "second": "实施创新且用户友好的技术、预订和支付系统",
+      "third": "与业务伙伴和相关行业合作，以扩大覆盖面并满足客户需求"
+    },
+    "easy_access": "便捷访问",
+    "easy_access_description": "Get&Ride 提供通过网站和应用程序轻松预订的服务，您可以随时随地进行预订。轻松选择您想要的时间和车型，与我们一起信赖地完成您的选择.",
+    "high_quality": "高品质",
+    "high_quality_description": "Get&Ride 提供最佳品质和保持清洁的汽车。所有车辆定期维护，确保您的舒适体验",
+    "best_service": "最佳服务",
+    "best_service_description": "Menyediakan pengemudi profesional, penerapan protokol kesehatan, dan perlindungan kendaraan. Semua mobil dijamin dengan perlindungan asuransi.",
+    "our_services": "我们的 服务",
+    "car_rental_with_driver": "租车服务含司机",
+    "car_rental_with_driver_description": "Get&Ride 提供通过网站和应用程序轻松预订的服务，您可以随时随地进行预订。轻松选择您想要的时间和车型，与我们一起信赖地完成您的选择",
+    "self_drive": "自驾租车",
+    "self_drive_description": "Get&Ride 提供高品质且保持清洁的汽车。所有车辆定期进行维护，以确保您的舒适与安全.",
+    "car_rental_airport_transfer": "接送机",
+    "car_rental_airport_transfer_description": "通过 Get & Ride 享受从/到机场的便捷出行和最佳价格！使用 Get & Ride 的机场接送服务，从酒店往返机场变得更加轻松。",
+    "type_of": "类型",
+    "cars": "车",
+    "start_from": "起价",
+    "how_to": "如何",
+    "rent_a_car": "租车？",
+    "mobile_app": "移动应用程序",
+    "website": "网站",
+    "how_to_rent_a_car": "如何租车？",
+    "get_and_ride_is_already_on": "Get & Ride 已经在",
+    "mobile_apps": "移动应用程序",
+    "available_on": "可在以下地方获取："
+  },
+  "influencer_testimoni": [
+    "昨天我在 @getride.id 租了一辆车，体验非常好，租到了只开了1000公里的新 Zenix，能好好试驾这辆车。他们的车看起来都很新。来巴厘岛的朋友们，如果想租车，可以找他们！",
+    "在巴厘岛的时候我和 @getride.id 租了一辆车，得到了只开了1000公里的新款 Zenix Hybrid，体验非常棒！这辆车真的很值得，简直太赞了！车子还很新，来巴厘岛的话一定要在这里租车！",
+    "我们在 @getride.id 租了一辆混合动力的 Innova Zenix，开起来非常舒适，换驾驶员也没问题。因为有天窗，自拍效果超级好！没想到开起来这么顺，感觉更省油，强烈推荐！",
+    "在 @getride.id 租了 Zenix Hybrid，真是超级豪华！后备箱非常宽敞，还有两个后座显示器。真让人想要拥有一辆！谢谢 Get&Ride！",
+    "我们昨天在巴厘岛用 Zenix Hybrid，开起来更省油，感觉轻松自在。我们是在 @getride.id 租的，车子非常齐全，超级干净舒适。非常感谢！服务特别好，还送到机场。下次一定还会在这里租车！"
+  ],
+  "profile": {
+    "data_received": "接受的数据",
+    "reupload": "重新上传",
+    "select_file": "选择文件",
+    "identity_alert": "上传个人身份证明照片是租车的要求，我们将保护您的隐私，并确保您的数据安全.",
+    "reupload_your_document": "重新上传您的文件",
+    "view_message": "查看信息",
+    "identity_verification": "身份验证",
+    "warning": "警告!",
+    "warning_description": "被删除的数据将会重新审核，并需要时间进行确认"
+  },
+  "one_way": {
+    "title": "单程",
+    "choose_your_route": "选择您的位置",
+    "search_route_destination": "搜索您的目的地",
+    "search_route_destination_placeholder": "选择目的地",
+    "select_region": "选择地区",
+    "available_region": "可用位置",
+    "select_travel_destination": "选择旅行目的地",
+    "detail_pickup": "接送地点详情",
+    "dropoff_placeholder": "选择下车地点",
+    "detail_dropoff": "下车地点详情",
+    "current_location": "当前位置",
+    "no_trip": "暂无行程",
+    "unknwon_location": "未知位置",
+    "no_trip_description": "选择您的目的地，体验与 Get & Ride 的旅程",
+    "pickup_placeholder": "接送详情",
+    "pickup_location": "接送地点",
+    "dropoff_location": "下车地点",
+    "pickup_placeholder_description": "接送详情（例如：靠近大门）",
+    "dropoff_placeholder_description": "下车详情",
+    "cost_detail": "费用详情",
+    "cost_travel": "旅行费用",
+    "service_fee": "应用服务费",
+    "total_payment": "总费用",
+    "active_location": "启用您的位置",
+    "active_location_description": "我们需要访问您的位置以提供最佳服务。请在您的设备上启用位置。",
+    "btn_active_location": "启用位置",
+    "select_package": "选择套餐",
+    "schedule_order": "预定订单",
+    "schedule_order_desc": "提前计划您的旅行，无需等待，因为已预定",
+    "accept_tnc": "继续此订单即表示您同意条款和条件",
+    "schedule": "预定",
+    "cancel": "取消"
+  }
+}

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name_prod">Get&amp;Ride: Car Rental</string>
+    <string name="default_notification_channel_id" translatable="false">default-channel-id</string>
+</resources>

@@ -1,0 +1,2177 @@
+{
+  "Account": {
+    "header": "Profil Saya",
+    "menu_1": "Profil",
+    "menu_2": "Ubah Password",
+    "menu_3": "Notifikasi",
+    "menu_4": "Pusat Bantuan",
+    "menu_5": "Informasi User",
+    "menu_6": "Loyalty Program",
+    "menu_7": "Kode Referal",
+    "password": "Kata Sandi",
+    "foto_sim": "foto-sim.jpg",
+    "foto_ktp": "foto-ktp.jpg",
+    "insert_password_to_update": "Masukkan Kata Sandi untuk melakukan perubahan",
+    "your_password": "Kata sandi anda",
+    "logout": "Keluar",
+    "id_card_photo": "Foto KTP",
+    "license_photo": "Foto SIM",
+    "select_country_code": "Pilih Kode Negara",
+    "search_country_code": "Cari Kode Negara",
+    "referral_code": "Kode Referral",
+    "my_point": "Poin Saya",
+    "registered_email": "Email sudah terdaftar",
+    "confirmation": "Konfirmasi",
+    "confirm_desc": "Masukkan kode yang telah dikirimkan ke email Anda",
+    "invalid_otp": "Kode angka yang anda masukkan tidak sesuai!",
+    "invite_friend": "Ajak Teman mu!",
+    "invite_friend_desc": "Bagikan kode anda melalui media sosial, pesan, atau daftar kontakmu dan dapatkan point dari setiap transaksi pertama temanmu.",
+    "share": "Atau Bagikan dengan yang lain",
+    "error_update": "Data profil gagal diubah!",
+    "badge": "Lencana"
+  },
+  "getrideDescription": {
+    "title": "Apa itu Get and Ride?",
+    "description": "Get and Ride adalah aplikasi online yang menyediakan layanan rental dan sewa mobil dengan sopir atau lepas kunci khusus untuk wilayah Bali. Kami menyediakan berbagai tipe mobil dengan harga terjangkau. Segera serahkan perjalanan bisnis, liburan, maupun private event kepada kami."
+  },
+  "loyalty": {
+    "how_to": "Bagaimana Sistem Point Digunakan",
+    "no_loyalty": "Loyalty tidak tersedia",
+    "list_how_to": {
+      "first": "Kamu bisa mengumpulkan point dengan cara membagikan kode referral kepada teman mu dan teman mu harus berhasil melakukan transaksi telebih dahulu",
+      "second": "Anda akan mendapatkan poin saat berhasil transaksi",
+      "third": "Jumlah Point yang didapat tergantung dari tingkat loyalitas lencana mu",
+      "fourth": "Point dapat digunakan untuk melakukan rental mobil dan akan mendapat potongan harga sesuai jumlah point mu"
+    },
+    "transaction_list_title": "Daftar Transaksi",
+    "no_transaction_title": "Belum Melakukan Transaksi",
+    "no_transaction_desc": "Silahkan lakukan transaksi terlebih dahulu",
+    "with_driver": "Dengan Sopir",
+    "without_driver": "Tanpa Sopir",
+    "airport_transfer": "Antar-Jemput Bandara",
+    "one_way": "One Way",
+    "make_trx_until_to_get": "Transaksi {{total}} untuk mencapai {{tier}}"
+  },
+  "Home": {
+    "tabBarLabel": "Beranda",
+    "warning_form": "semua form harus diisi",
+    "select_title_lang": "Pilih Bahasa",
+    "daily": {
+      "title": "Harian",
+      "location": "Pilih Lokasi Anda",
+      "overtime": "Masuk Overtime",
+      "placeholder_location": "Pilih Lokasi Anda",
+      "your_location": "Lokasi Anda",
+      "available_location": "Lokasi Tersedia",
+      "other_location": "Lokasi Lainnya",
+      "search_history": "History Pencarian",
+      "without_driver": "Tanpa Sopir",
+      "warning_hours": "Jam tidak valid",
+      "with_driver": "Dengan Sopir",
+      "select_date": "Pilih Tanggal",
+      "rent_start_date": "Tanggal Mulai Sewa",
+      "rent_end_date": "Tanggal Selesai Sewa",
+      "date_info": "Waktu sewa 24 Jam",
+      "date_info_12": "Waktu sewa 12 Jam / Hari",
+      "time_info": "Format waktu 24 Jam",
+      "rent_start_time": "Waktu Mulai Sewa",
+      "pickup_time": "Jam Jemput",
+      "rent_end_time": "Waktu Selesai Sewa",
+      "rental_duration": "Durasi Sewa",
+      "duration": "Durasi",
+      "select_rental_duration": "Pilih Durasi Sewa",
+      "btn_search": "Cari Mobil",
+      "error_location": "Masukkan lokasi anda",
+      "error_rent_date": "Masukkan Tanggal terlebih dahulu",
+      "error_rent_time": "Pilih Jam Anda",
+      "day": "Hari",
+      "days": "Hari",
+      "continue_to_whatsapp": "Lanjutkan ke Whatsapp",
+      "car_rental": "Sewa Mobil",
+      "motorcycle_rental": "Sewa Motor",
+      "bike_rental": "Sewa Sepeda",
+      "startTime": "Jam Jemput",
+      "headerStartDate": "Waktu yang dipilih sesuai dengan waktu tempat sewa Mobil",
+      "footerStartDate": "Waktu pilih jam sewa akan sama dengan jam Pengembalian",
+      "format_time_24_hours": "Waktu Sewa 24 Jam {{value}}",
+      "end_time_24_hours": "Format Waktu 24 jam {{value}}",
+      "format_time_12_hours": "Format Waktu 12 Jam {{value}}",
+      "overtime_confirmation_title": "Apakah Data Pencarian Mobil Anda benar?",
+      "overtime_confirmation_description": {
+        "first": "Sewa Anda akan dikenakan biaya tambahan karena memiliki biaya overtime, cek Syarat dan Ketentuan untuk selengkapnya, Apakah Anda akan melanjutkan Pencarian Mobil?",
+        "second": "",
+        "third": ""
+      },
+      "pickup_location_placeholder": "Pilih Lokasi Penjemputan",
+      "airport_placeholder": "Pilih Bandara"
+    },
+    "getrideDescription": {
+      "title": "Pelayanan Terbaik Untukmu",
+      "description": "Rasakan Serunya Jelajahi Bali dengan Rental Mobil di Get&Ride",
+      "new_car_unit": "Mobil Baru Eksklusif",
+      "new_car_unit_desc": "Jelajahi Bali dengan aman dan nyaman menggunakan mobil baru eksklusif kami",
+      "influencer_favorites": "Favorit Para Influencer",
+      "influencer_favorites_desc": "Dipercaya oleh para influencer. Mobil kami adalah pilihan utama mereka untuk menjelajahi Bali",
+      "many_attractive_promos": "Penawaran Eksklusif",
+      "many_attractive_promos_desc": "Nikmati penawaran eksklusif untuk mobil impian Anda selama petualangan di Bali"
+    },
+    "testimoni": {
+      "influencer_title": "Testimoni Influencer",
+      "customer_title": "Testimoni Pelanggan",
+      "customer_desc": "Pengalaman Menyenangkan Bersama Get&Ride",
+      "comment_1": "Selama di Bali, aku pakai mobil dari Get&Ride rental. Aku naik Alphard yang terbaru 2024. Pelayanannya bagus banget dan ini mobilnya baru terus drivernya juga baik banget. Enak banget menurutku nyaman banget dan habis itu enak, jadi kalau kalian mau rental bisa rental di Get&Ride",
+      "comment_2": "Supeerr nyaman pollll jalan-jalan dibali pake mobil dari @getride.id !! Baru nemu penyewaan mobil yang ada baby car seatnya jadi ruhie nyaman banget",
+      "comment_3": "Sangat menikmati perjalanan di Bali dengan mobil. Di mana pun kami pergi di Bali selalu menggunakan Get&Ride. Karena menggunakan Zenix Hybrid, mereka memiliki hiburan TV, jadi tidak merasa bosan terutama untuk anak-anak.",
+      "comment_4": "Sewa mobil Hiace Premio di Bali lengkap dengan supir, gak bikin ribet. Mobilnya luas bisa masuk 11 orang, cocok banget buat yang mau liburan bareng keluarga. Mobilnya full AC dan harga terjangkau",
+      "comment_5": "Kemarin sewa mobil sama @getride.id enak banget dapet Zenix yang baru 1000 km jadi bisa cobain mobilnya juga. Kayaknya mereka mobilnya baru-baru semua. Bagi yang ke Bali mau cobain sewa mobil, bisa ke mereka!,",
+      "comment_6": "Sewa mobil sama @getride.id pas ke Bali. Dapet mobil Zenix Hybrid yang baru 1000 km ternyata enak banget. Mobilnya worth it banget sih, gila!\nMobilnya masih baru-baru. Kalo ke Bali wajib sewa disini sih",
+      "comment_7": "Kita sewa mobil innova zenix yang hybrid di @getride.id. Gantian nyetir pun enak dan ga masalah. Karena ada sunroof jadi kalo selfie super bagus.\nGa nyangka enak banget bawanya dan berasa lebih hemat dan super rekomen!",
+      "comment_8": "Setelah sewa zenyx hybrid di @getride.id. Super mewah. Bagasinya luas banget dan ada 2 monitor belakang. Jadi berasa pengen punya beneran ini. Thank you Get&Ride!",
+      "comment_9": "Kita kemaren di Bali pake mobil Zenix Hybrid jauh lebih irit dan lebih nyantai. Kita sewanya di @getride.id mobilnya lengkap banget, super bersih dan nyaman.\nThank you banget! Super nice service dianterin sampe bandara. Lain kali sewa mobil disini lagi sih.",
+      "comment_10": "Bener-bener enak banget mobilnya dan ini yang Zenix Hybrid jadi super duper hemat banget @getride.id",
+      "comment_11": "The real muat semua haha! Kali ini sengaja pesen yang gedean mobilnya, Veloz. Pokoknya urusan sewa mobil di Bali kita serahkan sama kamu. Best service as always! @getride.id",
+      "comment_12": "Mobil yang kita sewa selama a week di Bali, Veloz paling baru, bersih tentunya and mobilnya keren kali wak karena bisa cas di dalam! Mobilnya gede, dan bisa muat barang banyak @getride.id",
+      "comment_13": "Kalian yang lagi di Bali wajib rent disini, aku sewa zenix hybrid baru ya guys! Mobilnya super bersih, wangi, spacious dah bener\" baru karena masih pada diplastikkin. Terus driver nya juga super ramah dan friendly. @getride.id",
+      "comment_14": "Sewa mobil di Get&Ride mobilnya super keren banget, sangat irit dan futuristik untuk mobil Zenix Hybrid, berasa lebih mewah tapi harganya terjangkau. Selain itu terpercaya juga, cocok untuk keluarga yang mau liburan ke Bali, selain itu bisa sewa pakai supir. Pergi kemana aja di Bali jadi lebih gampang!",
+      "comment_15": "Mobilnya, supirnya, pokoknya semua dari Get&Ride best banget pokoknya! Buat lo kalau ke Bali bingung cari rental mobil dimana, menurut gue ini best total sewa di Get&Ride.",
+      "comment_16": "Mobilnya enak banget, enteng banget nih Veloz, mantaplah dan ini mobilnya bersih, terawat banget, bagus dan ada flazznya jadi kemana-mana jadi gampang. Pokoknya rekomendasiin banget buat kamu yang cari mobil langsung aja sewa di Get&Ride.",
+      "comment_17": "Dengan Get&Ride, tarif bersahabat di dompet. Sehingga alasan mengapa memilih Get&Ride selain harganya yang murah, terjangkau, cepat dan yang terpenting teliti sekali. Segala sesuatu di check list dengan lengkap dan profesional. Dan pastinya mobilnya baru.",
+      "comment_18": "Udah paling bener kalo keliling bali sewa mobil di @getride.id. Harganya oke, penjemputan tepat waktu, gratis pengantaran dan penjemputan di Bandara Ngurah Rai, pemesanan bisa dilakukan di website getandride.com atau aplikasi Get&Ride dan ada potongan 25.000 khusus pengguna baru serta tersedia di Google Play dan App Store.",
+      "comment_19": "Servicenya oke banget, drivernya ramah, harganya murce dengan berbagai pilihan mobil (bisa lepas kunci dan dengan driver) Selain itu tepat waktu dan mobilnya bersih.",
+      "comment_20": "Jalan-jalan pake Zenix Hybrid dari Get&Ride. Mobilnya luas, nyaman dan ada 2 monitor di belakang jog. Bakal jadi mobil pilihan gue kalau lagi di Bali.",
+      "comment_21": "Di Bali naik Zenix Hybrid dari Get&Ride, unitnya masih baru. Kalau mau jalan-jalan bareng teman atau keluarga, bisa sewa mobil Zenix Hybrid ini di Get&Ride, soalnya irit banget dan bagasinya juga lega. Selain itu juga ada Apple Car Play nya. Rekomen banget!",
+      "comment_22": "Sewa mobil di Get&Ride, fasilitasnya okee banget, nyaman dan bersih mobilnyaa! Pelayanannnya juga ramah banget! Buat kalian yang mau liburan ke Bali buruan nih nyewa mobil di Get&Ride!"
+    },
+    "destinationFavTitle": "Destinasi Popular di Bali",
+    "destinationFavList": [
+      {
+        "name": "Taman Air Tirta Gangga, Karang Asem Bali",
+        "description": "Nama Tirta Gangga sendiri berasal dari kata Tirta yang artinya air, dan Gangga yang artinya nama sungai di India. Air yang mengalir diyakini sebagai air suci dan dapat membersihkan energi buruk. Kalian juga bisa sambil kasih makan ikan koi dan berenang. Jangan lupa bawa pakaian ganti ya!",
+        "image": "tirtaGangga"
+      },
+      {
+        "name": "Pura Ulun Danu Batur, Kintamani",
+        "description": "Pura Ulun Danu Batur, merupakan salah satu spot paling ikonik yang menyuguhkan panorama cantik karena berada diatas Danau Batur dengan latar Gunung Batur. Suhu udaranya juga sejuk dan segar, cocok untuk kamu yang mau menenangkan pikiran.",
+        "image": "pagoda"
+      },
+      {
+        "name": "Pantai Melasti Ungasan",
+        "description": "Pantai Melasti banyak dikagumi oleh para wisatawan karena pemandangan lautnya yang indah dan terjaga kebersihannya. Ombak di pantai ini juga tidak terlalu besar dan aman untuk kalian yang ingin bermain air atau berenang",
+        "image": "melastiBeach"
+      },
+      {
+        "name": "Air Terjun Kanto Lampo, Ubud",
+        "description": "Biasanya air terjun ditemukan di sekitar hutan atau gunung, uniknya, Kanto Lampo terletak di dekat pemukiman area Gianyar, Bali. Air terjun yang mengalir tidak langsung ke sungai, tapi melewati bebatuan yang menciptakan suasana asri dan sejuk karena cipratan air di sekitarnya.",
+        "image": "kantoLampo"
+      }
+    ],
+    "carFavTitle": "Jenis Mobil",
+    "promoBundle": "Paket Promo",
+    "articleTitle": "Artikel",
+    "whyChooseUs": {
+      "title": "Mengapa Sewa Mobil di Get and Ride",
+      "list_1": {
+        "subtitle": "Hemat Waktu",
+        "description": "Sewa mobil online anti ribet, dimana saja dan kapan saja. Pilih jadwal serta jenis mobil dengan mudah dan terpercaya di Get and Ride."
+      },
+      "list_2": {
+        "subtitle": "Harga Kompetitif",
+        "description": "Jangan khawatir! Harga sewa di Get and Ride terjangkau dan dijamin kompetitif."
+      },
+      "list_3": {
+        "subtitle": "Mobil Terbaik",
+        "description": "Get and Ride menyediakan mobil dengan kualitas terbaik dan terjaga kebersihannya. Semua mobil di service secara berkala demi kenyamanan."
+      },
+      "list_4": {
+        "subtitle": "Layanan Terbaik",
+        "description": "Menyediakan Driver professional, penerapan protokol kesehatan, dan proteksi kendaraan. Semua mobil di Get and Ride sudah terjamin dengan jaminan asuransi."
+      }
+    },
+    "withDriver": {
+      "description_1": "Jika anda memilih sewa mobil \"Dengan Sopir\" maka anda akan dialihkan ke Whatsapp",
+      "description_2": "Setelah anda memilih waktu dan tanggal, anda akan memilih mobil yang tersedia beserta driver",
+      "description_3": "Setelah anda memilih mobil, anda akan menerima invoice untuk sewa mobil anda"
+    },
+    "airportTransfer": {
+      "title": "Antar-jemput Bandara",
+      "pickup_date": "Tanggal Jemput"
+    },
+    "tour": {
+      "title": "Wisata"
+    }
+  },
+  "destinationFavTitle": "Destinasi Popular di Bali",
+  "destinationFavList": [
+    {
+      "name": "Taman Air Tirta Gangga, Karang Asem Bali",
+      "description": "Nama Tirta Gangga sendiri berasal dari kata Tirta yang artinya air, dan Gangga yang artinya nama sungai di India. Air yang mengalir diyakini sebagai air suci dan dapat membersihkan energi buruk. Kalian juga bisa sambil kasih makan ikan koi dan berenang. Jangan lupa bawa pakaian ganti ya!",
+      "image": "tirtaGangga"
+    },
+    {
+      "name": "Pura Ulun Danu Batur, Kintamani",
+      "description": "Pura Ulun Danu Batur, merupakan salah satu spot paling ikonik yang menyuguhkan panorama cantik karena berada diatas Danau Batur dengan latar Gunung Batur. Suhu udaranya juga sejuk dan segar, cocok untuk kamu yang mau menenangkan pikiran.",
+      "image": "pagoda"
+    },
+    {
+      "name": "Pantai Melasti Ungasan",
+      "description": "Pantai Melasti banyak dikagumi oleh para wisatawan karena pemandangan lautnya yang indah dan terjaga kebersihannya. Ombak di pantai ini juga tidak terlalu besar dan aman untuk kalian yang ingin bermain air atau berenang",
+      "image": "melastiBeach"
+    },
+    {
+      "name": "Air Terjun Kanto Lampo, Ubud",
+      "description": "Biasanya air terjun ditemukan di sekitar hutan atau gunung, uniknya, Kanto Lampo terletak di dekat pemukiman area Gianyar, Bali. Air terjun yang mengalir tidak langsung ke sungai, tapi melewati bebatuan yang menciptakan suasana asri dan sejuk karena cipratan air di sekitarnya.",
+      "image": "kantoLampo"
+    }
+  ],
+  "carFavTitle": "Jenis Mobil",
+  "carFavList": [
+    {
+      "title": "Toyota Veloz",
+      "description": "Tipe Toyota Veloz ini emang udah banyak yang incar nih! Terlihat lebih keren dan modern, kapasitasnya juga bisa muat sampai 7 penumpang! Pokoknya bikin perjalanan kamu dan keluarga semakin nyaman.",
+      "image": "https://overseas.sgp1.digitaloceanspaces.com/cars/v3.webp"
+    },
+    {
+      "title": "Suzuki Ertiga Gx",
+      "description": "Suzuki Ertiga Gx juga bisa jadi pilihanmu untuk keliling Pulau Bali. Selain kapasitas penumpang yang banyak, fitur keamanannya juga cukup oke. Liburanmu udah dijamin lebih aman & tenang ya!",
+      "image": "https://overseas.sgp1.digitaloceanspaces.com/cars/g2.jpeg"
+    },
+    {
+      "title": "Toyota Hiace Premio",
+      "description": "Kalau kamu mau liburan santai, nyaman, dan muat banyak, bisa langsung pilih Toyota Hiace Premio. Desain kabinnya luas, bakal kurangin rasa pegal dan capek selama perjalanan keliling kota.",
+      "image": "https://overseas.sgp1.digitaloceanspaces.com/cars/h4.jpg"
+    }
+  ],
+  "articleTitle": "Artikel",
+  "whyChooseUs": {
+    "title1": "Get&Ride Menawarkan Pengalaman Sewa Mobil Terbaik",
+    "description1": "Kami menjamin kenyamanan, fleksibilitas, dan kualitas dengan harga terjangkau.",
+    "title2": "Kelengkapan Sewa Mobil di Get&Ride",
+    "description2": "Beberapa fitur mobil dari Get&Ride",
+    "badgeName1": "Pesanan\nMudah",
+    "badgeName2": "Mobil\nTerawat",
+    "badgeName3": "Harga\nBersaing",
+    "badgeName4": "Layanan\nCepat",
+    "badgeName5": "Mesin",
+    "badgeName6": "Transmisi",
+    "badgeName7": "Pendingin",
+    "badgeName8": "Hybrid",
+    "list_1": {
+      "subtitle": "Hemat Waktu",
+      "description": "Sewa mobil online anti ribet, dimana saja dan kapan saja. Pilih jadwal serta jenis mobil dengan mudah dan terpercaya di Get and Ride."
+    },
+    "list_2": {
+      "subtitle": "Harga Kompetitif",
+      "description": "Jangan khawatir! Harga sewa di Get and Ride terjangkau dan dijamin kompetitif."
+    },
+    "list_3": {
+      "subtitle": "Mobil Terbaik",
+      "description": "Get and Ride menyediakan mobil dengan kualitas terbaik dan terjaga kebersihannya. Semua mobil di service secara berkala demi kenyamanan."
+    },
+    "list_4": {
+      "subtitle": "Layanan Terbaik",
+      "description": "Menyediakan Driver professional, penerapan protokol kesehatan, dan proteksi kendaraan. Semua mobil di Get and Ride sudah terjamin dengan jaminan asuransi."
+    }
+  },
+  "withDriver": {
+    "description_1": "Jika anda memilih sewa mobil \"Dengan Sopir\" maka anda akan dialihkan ke Whatsapp",
+    "description_2": "Setelah anda memilih waktu dan tanggal, anda akan memilih mobil yang tersedia beserta driver",
+    "description_3": "Setelah anda memilih mobil, anda akan menerima invoice untuk sewa mobil anda"
+  },
+  "airportTransfer": {
+    "title": "Antar-jemput Bandara"
+  },
+  "dailyRules": {
+    "rules1": "Durasi rental mobil dengan sopir berlaku selama 12 jam dengan maksimum penggunaan hingga 23:59 jika rental mulai lebih dari pukul 12.00 untuk wisatawan domestik/WNI.",
+    "rules2": "Jika penyewa tidak menghabiskan durasi rental hingga 12 jam penuh, sisa waktu tidak dapat diakumulasi ke hari selanjutnya.",
+    "rules3": "Gratis penjemputan, pengantaran dan penggunaan mobil di dalam kota untuk area Zona 0. Biaya tambahan dikenakan untuk area Zona 1 & 2 (luar kota)",
+    "sebelum_penjemputan": {
+      "title": "Sebelum Penjemputan",
+      "list_length": "5",
+      "list_1": "Penyewa harus membagikan kepada penyedia rental KTP yang sesuai dengan form booking penyewa.",
+      "list_2": "Penyewa harus membayar deposit sebesar 25% dari biaya sewa.",
+      "list_3": "Penyedia rental tidak menanggung biaya parkir bandara, tiket parkir VIP, dan lainnya.",
+      "list_4": "Deposit akan dikembalikan saat selesai sewa, paling lambat 1x24 jam",
+      "list_5": "Pengembalian deposit akan dilakukan melalui Bank Transfer"
+    },
+    "sebelum_pengambilan": {
+      "title": "Sebelum Pengambilan",
+      "list_length": "4",
+      "list_1": "Penyewa harus membagikan kepada penyedia rental KTP dan SIM yang masih berlaku.",
+      "list_2": "Pengemudi harus membayar deposit sebesar 50% dari total biaya sewa dengan minimum Rp300.000 dan maksimal Rp1.000.000 kepada penyedia sebelum rental dimulai. contoh:\n1. Jika total biaya sewa sebesar Rp 550.000, maka jumlah deposit yang harus dibayar yaitu Rp 300.000\n2. Jika total biaya sewa sebesar Rp 2.500.000, maka jumlah deposit yang harus dibayar yaitu Rp1.000.000",
+      "list_3": "Deposit akan dikembalikan saat selesai sewa, paling lambat 1x24jam.",
+      "list_4": "Pengembalian deposit akan dilakukan melalui Bank Transfer."
+    },
+    "saat_pengambilan": {
+      "title": "Saat Pengambilan",
+      "list_1": "Penyedia rental tidak menanggung biaya parkir bandara, tiket parkir VIP, dan lainnya.",
+      "list_2": "Penyewa wajib cek unit, mengambil video dan foto unit secara keseluruhan sebelum sewa dimulai.",
+      "list_3": "Penyewa (WNI) wajib menunjukkan KTP dan SIM yang masih berlaku dan sesuai dengan data yang terdaftar saat pemesanan.",
+      "list_4": "Penyewa wajib berusia di atas 17 tahun.",
+      "list_5": "Seluruh dokumen yang diberikan harus asli, tidak mengatasnamakan orang lain, dan sesuai dengan data yang terdaftar saat pemesanan di Get & Ride.",
+      "list_6": "Penyewa harus memastikan kendaraan yang disewa digunakan dengan baik dan dikembalikan dalam kondisi yang sama seperti semula."
+    },
+    "penggunaan": {
+      "title": "Kebijakan Rental Saat Sewa Mobil",
+      "list_1": "Dilarang membawa benda atau makanan yang menimbulkan bau menyengat seperti durian/nangka, dll. Penyewa akan dikenakan denda sebesar Rp 500.000 apabila tidak menaati aturan sewa.",
+      "list_2": "Dilarang merokok di dalam mobil",
+      "list_3": "Kendaraan tidak diperbolehkan untuk dipindah tangankan ke pihak lain yang tidak terverifikasi oleh data Get & Ride. Pihak Get &Ride berhak membatalkan pesanan secara sepihak apabila terjadi indikasi berikut.",
+      "list_4": "Penyewa tidak diperbolehkan membawa penumpang atau koper melebihi kapasitas ketentuan mobil yang disewa.",
+      "list_5": "Penyewa bertanggung jawab untuk biaya penggantian atau perbaikan jika terjadinya kehilangan atau kerusakan terhadap, kunci mobil, aksesoris, alat mobil, head unit, tools set, kursi mobil, aksesoris, alat mobil, goresan, noda, dan biaya lain yang timbul akibat kelalaian penyewa.",
+      "list_6": "Penyewa bertanggung jawab atas semua denda parkir, lalu lintas, dan lainnya yang terjadi akibat pelanggaran hukum selama rental."
+    },
+    "penggunaan_with_driver": {
+      "title": "Kebijakan Rental Saat Sewa Mobil",
+      "list_1": "Dilarang membawa benda atau makanan yang menimbulkan bau menyengat seperti durian/nangka, dll. Penyewa akan dikenakan denda sebesar Rp 500.000 apabila tidak menaati aturan sewa.",
+      "list_2": "Dilarang merokok di dalam mobil",
+      "list_3": "Penyewa akan dikenakan denda, apabila membawa penumpang atau koper melebihi kapasitas yang ditentukan mobil yang disewa.",
+      "list_4": "Durasi rental mobil dengan sopir berlaku selama 12 jam per hari dengan maksimum penggunaan hingga 22.00 WITA, apabila rental mulai lebih dari pukul 10.00 WITA untuk wisatawan domestik/internasional.",
+      "list_5": "Jika penyewa tidak menghabiskan durasi rental hingga 12 jam penuh, sisa waktu tidak dapat diakumulasi ke hari selanjutnya atau diuangkan.",
+      "list_6": "Gratis penjemputan, pengantaran dan penggunaan mobil di dalam kota untuk area Zona 0. Biaya tambahan dikenakan untuk area Zona 1&2 (luar kota)"
+    },
+    "pengembalian": {
+      "title": "Kebijakkan Rental Setelah Selesai Sewa",
+      "list_1": "Penyewa harus mengembalikan mobil dengan volume BBM yang sama saat mobil diterima (bar to bar).",
+      "list_2": "Penyedia rental akan memeriksa keseluruhan mobil saat sewa selesai. Jika ditemukan baret/lecet yang diakibatkan oleh kelalaian penyewa, maka akan dikenakan denda sebesar Rp.300.000/titik.",
+      "list_3": "Jika ada tilang elektronik pada saat masa sewa, penyedia rental akan mengembalikan deposit dengan memotong senilai denda tilang elektronik tersebut.",
+      "list_4": "Get & Ride tidak bertanggung jawab jika terjadi kecelakaan, kerugian, dan pengobatan yang disebabkan oleh kecelakaan tersebut.",
+      "list_5": "Penyedia berhak untuk tidak mengembalikan deposit, jika mobil rusak atau jika penyewa melanggar hukum selama periode rental.",
+      "list_6": "Penyedia tidak bertanggung jawab atas barang yang tertinggal di mobil setelah penyewa mengembalikan mobil kepada penyedia rental."
+    },
+    "overtime": {
+      "title": "Overtime",
+      "list_1": "Penggunaan lebih dari 24 jam per hari rental akan dikenakan biaya overtime.",
+      "list_2": "Penyewa akan dikenakan denda sebesar 10% per jam dari harga sewa dengan batas maksimal 3 (tiga) jam.",
+      "list_3": "Overtime yang melebihi 3 jam, akan dikenakan biaya satu hari rental."
+    },
+    "overtime_with_driver": {
+      "title": "Overtime",
+      "list_1": "Penggunaan lebih dari 12 jam per hari rental akan dikenakan biaya overtime.",
+      "list_2": "Penyewa akan dikenakan denda sebesar 20% per jam dari harga sewa dengan batas maksimal 3 (tiga) jam.",
+      "list_3": "Overtime yang melebihi 3 jam, akan dikenakan biaya satu hari rental."
+    },
+    "asuransi": {
+      "title": "Asuransi",
+      "list_1": "Jika terjadi kecelakaan, penyewa diwajibkan untuk menyerahkan kepada penyedia semua dokumen yang dibutuhkan oleh perusahan asuransi, termasuk namun tidak terbatas pada KTP/paspor dan SIM A mereka.",
+      "list_2": "Penyewa wajib menanggung beban biaya Risiko Sendiri sebesar Rp350.000 untuk setiap kejadian kecelakan (per panel).",
+      "list_3": "Penyewa wajib menanggung Biaya Risiko Kehilangan (Total Lost Risk) sebesar Rp500.000 jika mobil hilang.",
+      "list_4": "Perselisihan antara pihak akan diselesaikan melalui musyawarah mufakat. Jika dalam waktu 30 hari para pihak belum mencapai mufakat, masalah akan diselesaikan di Pengadilan Negeri Jakarta Utara."
+    },
+    "refund": {
+      "title": "Kebijakan Pembatalan & Pengembalian",
+      "list_1": "Low Season Refund (50%): Pihak Get&Ride bersedia mengembalikkan sebagian dari uang muka (DP) atau biaya sewa yang telah dibayarkan, yaitu sebesar 50% apabila pembatalan dilakukan di periode low season.",
+      "list_2": "High Season No Cancel No Refund: Pihak Get & Ride tidak dapat memproses pengembalian dana yang sudah dibayar oleh tamu apabila pembatalan dilakukan di periode High Season (Juli-Agustus, Desember-Januari, Liburan Sekolah dan Perayaan Khusus/Festival.",
+      "list_3": "Pembatalan yang diajukan secara mendadak sebelum waktu penjemputan tidak dapat pengembalian dana.",
+      "list_4": "Pengembalian dana diproses maksimal 1x24 jam setelah proses refund disetujui."
+    },
+    "reschedule": {
+      "title": "Perubahan Jadwal",
+      "list_1": "Perubahan jadwal harus dilakukan paling lambat 24 jam sebelum waktu sewa, dengan menghubungi layanan Whatsapp Get and Ride di nomor 081262511511",
+      "list_2": "Perubahan jadwal tidak dapat dilakukan jika hari sewa termasuk dalam high season date/hari libur"
+    },
+    "delay": {
+      "title": "Kebijakkan Pesawat Delay",
+      "list_1": "Get and Ride memberikan toleransi dengan syarat, penyewa memberitahukan info delay sebelum naik pesawat/boarding.",
+      "list_2": "Delay tanpa pemberitahuan, penyewa akan dikenakan denda overtime sebesar 10% per jam, dari harga sewa mobil, per hari.",
+      "list_3": "Jam operasional kami: 07:00-21:00 WITA. Toleransi untuk delay pesawat sampai jam 21:00.",
+      "list_4": "Pengantaran/pengembalian diluar jam operasional dikenakan denda tetap sebesar Rp 100.000."
+    },
+    "akomodasi_sopir": {
+      "title": "Akomodasi Sopir",
+      "list_1": "Dikenakan biaya tambahan sebesar IDR 150.000/malam (sudah termasuk penginapan sopir) apabila penggunaan kendaraan dan sopir melewati pukul 23.59 waktu setempat, baik dalam kota maupun luar kota."
+    }
+  },
+  "airportTransferRules": {
+    "before_and_terms_title": "Syarat dan Ketentuan",
+    "before_and_terms": {
+      "list1": "Harga sudah termasuk tiket parkir bandara, bensin, dan tol",
+      "list2": "Untuk rute dari bandara (penerbangan domestik), mobil akan menunggu hingga maks 60 menit dari waktu penjemputan dan maks 90 menit untuk (penerbangan internasional).",
+      "list3": "Untuk rute menuju bandara, mobil akan menunggu maks 30 menit dari waktu penjemputan.",
+      "list4": "Bagi penumpang yang menyertakan nomor penerbangannya yang valid, Get&Ride memberikan toleransi tambahan waktu maks hingga 60 menit tunggu jika penerbangan mengalami keterlambatan (delay).",
+      "list5": "Biaya overtime akan dikenakan sebesar 10% per-jam dari harga sewa apabila penumpang melebihi batas waktu maksimal yang ditentukan.",
+      "list6": "Jika pesawat Anda mengalami keterlambatan, mohon segera hubungi Admin Get&Ride di no WA +62 812-6251-1511 sebelum naik ke pesawat untuk konfirmasi lebih lanjut seperti semula."
+    }
+  },
+  "global": {
+    "button": {
+      "back": "Kembali",
+      "login": "Masuk",
+      "payment": "Pembayaran",
+      "signup": "Daftar",
+      "findACar": "Cari Mobil",
+      "pick": "Pilih",
+      "next": "Lanjutkan",
+      "nextPayment": "Lanjutkan Pembayaran",
+      "orderNow": "Pesan Sekarang",
+      "payNow": "Bayar Sekarang",
+      "choosePayment": "Pilih Pembayaran",
+      "titlePaymentPicker": "Pilih Detail Pembayaran",
+      "verification": "Verifikasi",
+      "save": "Simpan",
+      "fullPayment": "Pembayaran Lunas",
+      "downPayment": "Pembayaran DP {{ value }}",
+      "fullPaymentDesc": "Pembayaran langsung secara keseluruhan termasuk total Harga Mobil, Deposit, Biaya Pengantaran dan Biaya Pengembalian.",
+      "downPaymentDesc": "Pembayaran down payment {{ value }} yang mencakup {{ scope }}.",
+      "cancel": "Batal",
+      "cancelOrder": "Batalkan Pesanan",
+      "extendOrder": "Perpanjang Sewa",
+      "yes": "Iya",
+      "yesNext": "Iya, Lanjutkan",
+      "orderDetail": "Detail Pesanan",
+      "done": "Selesai",
+      "send_otp": "Kirim OTP",
+      "download_update": "Unduh Pembaruan",
+      "send_email": "Kirim Email",
+      "form_deposito": "Formulir Deposit",
+      "confirm": "Konfirmasi",
+      "change": "Ubah",
+      "edit": "Ubah",
+      "form_account_bank": "Formulir Rekening Bank",
+      "view_account_bank": "Lihat Rekening Bank",
+      "edit_account_bank": "Ubah Rekening Bank",
+      "delete_account": "Hapus Akun",
+      "yes_understand": "Iya, Saya Mengerti",
+      "okay_understand": "Oke, Saya Mengerti",
+      "back_to_homepage": "Kembali ke Beranda",
+      "confirm_order": "Konfirmasi Pesanan",
+      "help": "Bantuan"
+    },
+    "alert": {
+      "no_network": "Tidak ada koneksi",
+      "back_online": "Kembali online",
+      "payment_confirm": "Apakah anda yakin melanjutkan Pembayaran ini?",
+      "rental_zone_exit": "Apakah anda yakin tidak ingin melanjutkan pengisian form ini?",
+      "success": "Berhasil",
+      "please_select_district": "Silahkan pilih Lokasi",
+      "duplicate_phone": "Nomor Handphone sudah digunakan",
+      "email_not_registered": "Email tidak terdaftar",
+      "failed": "Gagal",
+      "password": "Gagal merubah password!",
+      "license": "Anda belum melakukan upload ktp atau sim",
+      "error": "Kesalahan",
+      "warning": "Peringatan",
+      "time_difference": "Selisih jam tidak bisa minus",
+      "option_overtime": "Batas waktu sewa tidak bisa melebihi 12 jam, silahkan pilih Overtime",
+      "success_change_profile_picture": "Berhasil mengubah foto profil",
+      "success_use_referral_code": "Berhasil menggunakan kode referral",
+      "success_change_profile_data": "Berhasil mengubah data profil",
+      "success_change_data": "Berhasil mengubah data",
+      "error_occurred": "Terjadi kesalahan",
+      "invalid_email_format": "Erorr! Format Email Tidak Sesuai",
+      "success_copy_text": "Berhasil menyalin teks",
+      "success_change_password": "Berhasil mengubah kata sandi",
+      "success_change_notification": "Berhasil mengubah notifikasi",
+      "success_change_password_login_again": "Berhasil mengubah kata sandi, silakan login kembali",
+      "success_upload_proof_payment": "Berhasil mengunggah bukti pembayaran",
+      "cancellation_failed": "Harap Mengisi Semua Form",
+      "password_and_confirmation_password_do_not_match": "Kata sandi baru dan konfirmasi kata sandi baru tidak sesuai",
+      "old_password_is_not_match": "Kata sandi lama tidak sesuai",
+      "password_length": "Kata sandi minimal 8 karakter dan terdiri dari angka dan juga huruf",
+      "please_login_to_continue": "Silahkan login terlebih dahulu untuk melanjutkan!",
+      "payment_can_not_be_made": "Pembayaran tidak dapat dilakukan",
+      "enter_password": "Masukkan Password",
+      "error_redirect_to_whatsapp": "Tidak dapat mengarahkan anda ke aplikasi WhatsApp. Pastikan perangkat anda telah menginstall aplikasi tersebut.",
+      "error_image_upload": "Ukuran File Terlalu Besar!",
+      "warning_rent_start_date": "Silahkan pilih tanggal mulai sewa!",
+      "warning_sender_name": "Masukkan nama pengirim",
+      "warning_bank": "Masukkan bank anda",
+      "warning_proof_payment": "Silahkan upload bukti pembayaran terlebih dahulu",
+      "warning_file_size": "Maaf, ukuran file tidak boleh lebih dari 1MB!",
+      "warning_need_upload_proof": "Silahkan upload bukti pembayaran terlebih dahulu",
+      "error_download_e_ticket": "Gagal mengunduh faktur. Coba lagi nanti atau hubungi dukungan pelanggan untuk mendapatkan bantuan.",
+      "success_download_e_ticket": "E-Ticket Berhasil di simpan di ",
+      "copy_referral_code": "Berhasil menyalin kode referral",
+      "login_failed": "Email atau kata sandi yang anda masukkan salah!",
+      "code_incorrect": "Kode angka yang Anda masukkan tidak sesuai!",
+      "password_incorrect": "Kata sandi yang Anda masukkan tidak sesuai!",
+      "cant_change_password": "Gagal merubah password!",
+      "authozation_failed": "Otorisasi gagal"
+    },
+    "data_not_found": "Data Tidak Ditemukan",
+    "not_yet_available": "Belum Tersedia",
+    "car_not_yet_available": "Mobil yang anda cari belum tersedia",
+    "select_options": "Pilih Opsi",
+    "camera": "Kamera",
+    "gallery": "Galeri",
+    "credit_debit_card_no": "No. Kartu Kredit / Debit",
+    "cardholder_name": "Nama Pemegang Kartu",
+    "validity_period": "Masa Berlaku",
+    "bank_name": "Nama Bank",
+    "choose_your_bank": "Pilih Bank Anda",
+    "upload_your_image_here": "Unggah gambar Anda di sini, atau",
+    "browse": "telusuri",
+    "search": "Cari",
+    "loading": "Memuat",
+    "penalties_warning_title": "Pemberitahuan Tarif Penalti!",
+    "penalties_warning_description": "Pesanan Anda di luar jam operasional dan akan dikenakan biaya tambahan",
+    "penalties_midnight_warning_title": "Pemberitahuan Biaya Tambahan Tengah Malam!",
+    "penalties_midnight_warning_desc": "Pemesanan Anda dijadwalkan antara (23:00 - 07:00) yang berada di luar jam operasional reguler kami dan dapat dikenakan biaya tambahan tengah malam."
+  },
+  "user_information": {
+    "account_name": "Nama Rekening"
+  },
+  "detail_order": {
+    "title": "Detail Pesanan",
+    "baggage_title_info": "Jumlah Koper",
+    "voucher": "Voucher",
+    "overtime": "Overtime",
+    "pickup_location_map_placeholder": "Misalnya: T1 (Terminal 1)",
+    "dropoff_location_map_placeholder": "Misalnya: Hotel Mercure di Stevens Road",
+    "detail_trip": "Rincian Perjalanan",
+    "detail_payment": "Rincian Pembayaran",
+    "area": "Area",
+    "validasi_outside_loc": "Titik berada diluar Lokasi yang dipilih",
+    "passenger_suitcase": {
+      "adult": "Dewasa",
+      "suitcase": "Koper",
+      "large_suitcase": "Koper Besar",
+      "child": "Anak (Di bawah 17 tahun)",
+      "passenger_suitcase_desc": "{{adult}} Dewasa, {{child}} Anak, {{suitcase}} Koper"
+    },
+    "tnc_airport_transfer": {
+      "title": "Syarat dan Ketentuan",
+      "booking_payment": {
+        "title": "Pemesanan & Pembayaran",
+        "booking_title": "Pemesanan: ",
+        "booking_desc": "Pemesanan transfer bandara harus dilakukan setidaknya 2 hari sebelum jadwal penerbangan.",
+
+        "payment_title": "Pembayaran: ",
+        "payment_desc": [
+          "Pembayaran dapat dilakukan dalam mata uang Rupiah (IDR) melalui transfer bank ke rekening BCA atau UOB.",
+          "Harga sudah termasuk: Sopir, ERP/Tol, Parkir, dan Bahan Bakar.",
+          "Harga berlaku untuk semua wilayah di Singapura.",
+          "E-tiket: Penumpang harus memberikan E-tiket untuk penerbangan."
+        ]
+      },
+      "pricing": {
+        "title": "Harga & Biaya Tambahan",
+        "pricing_title1": "Hari Libur Nasional: ",
+        "pricing_desc1": "Biaya tambahan sebesar $10 berlaku pada hari libur nasional, termasuk acara seperti Grand Prix F1 dan Airshow",
+
+        "pricing_title2": "Biaya Tambahan Tengah Malam: ",
+        "pricing_desc2": "Biaya tambahan tengah malam sebesar $15 berlaku untuk penjemputan antara (23:00- 07:00).",
+
+        "pricing_title3": "Pemberhentian Tambahan: ",
+        "pricing_desc3": "Biaya tambahan sebesar $15 berlaku untuk pemberhentian tambahan atau lokasi penurunan/penjemputan dalam jarak 5 km dari rute awal selama transfer."
+      },
+      "pickup": {
+        "title": "Waktu Penjemputan & Waktu Tunggu",
+        "pickup_title1": "Penjemputan Bandara: ",
+        "pickup_desc1": "Pengemudi akan menunggu di area kedatangan bandara selama maksimal 15 menit.",
+
+        "pickup_title2": "Keterlambatan Kedatangan: ",
+        "pickup_desc2": "Setiap keterlambatan lebih dari 15 menit akan dikenakan biaya tambahan sebesar $15 untuk setiap 15 menit.",
+
+        "pickup_title3": "Keterlambatan Penerbangan: ",
+        "pickup_desc3": "Penumpang harus menginformasikan kepada layanan pelanggan dan pengemudi kami melalui Whatsapp (+62 822 1151 1511) tentang keterlambatan penerbangan sebelum naik pesawat"
+      },
+      "cancellation": {
+        "title": "Pembatalan & Pengembalian Dana",
+        "cancellation_title1": "Pembatalan: ",
+        "cancellation_desc1": "Pembatalan dapat dikenakan biaya pembatalan sebesar 50%.",
+
+        "cancellation_title2": "Pembatalan di menit-menit terakhir, ",
+        "cancellation_desc2": "atau pembatalan yang dilakukan pada hari pengambilan, tidak dapat dikembalikan.",
+
+        "cancellation_title3": "Proses Pengembalian Dana: ",
+        "cancellation_desc3": "Pengembalian dana akan diproses melalui transfer bank dari rekening PT Cuan Muda Transportasi BCA dalam waktu maksimal 24 jam"
+      }
+    },
+    "baggage_desc_info": "Membawa koper lebih dari jumlah kapasitas kendaraan yang di tentukan akan dikenakan biaya tambahan diluar platform sebesar Rp150.000",
+    "baggage_placeholder": "Masukkan jumlah koper",
+    "message_tooltip_delivery": "Dikenai Biaya Pengantaran",
+    "checkbox_text": "Sama dengan lokasi pengantaran",
+    "message_tooltip_phone": "Nomor telepon ini akan digunakan untuk menghubungi Anda jika mengalami kendala dalam proses review order. Pastikan nomor telepon yang Anda berikan valid dan dapat dihubungi. Jika nomor telepon terhubung dengan WhatsApp, kami akan menghubungi Anda melalui WhatsApp.",
+    "warning_form": "semua form harus diisi",
+    "error_point_usage": "Input point tidak valid",
+    "min_phone": "Nomor Telepon harus terdiri dari minimal 8 digit.",
+    "max_phone": "Nomor Telepon harus terdiri dari maksimal 15 digit.",
+    "voucher_placeholder": "Masukkan Kode Voucher",
+    "my_voucher": "Voucher Saya",
+    "overtime_confirmation_header": "Cek terakhir!",
+    "confirm_popup_desc": "Harap konfirmasikan detail pemesanan Anda sebelum melanjutkan ke pembayaran, karena perubahan tidak dapat dilakukan setelahnya. Lanjutkan?",
+    "message_error": "Terjadi kesalahan saat memvalidasi data permintaan.",
+    "overtime_confirmation_desc1": "Order akan dikenakan biaya tambahan karna memiliki biaya overtime, cek ",
+    "overtime_confirmation_desc2": "Syarat dan Ketentuan",
+    "overtime_confirmation_desc3": " untuk selengkapnya, Apakah anda akan melanjutkan order?",
+    "checkbox_deposito": "Saya menyetujui pembayaran deposit",
+    "header_deposito": "Persetujuan Deposit",
+    "return_to_the_same_place": "Kembalikan ditempat yang sama",
+    "search_by_address": "Cari berdasarkan Alamat",
+    "suitcase_notice_header": "Pemberitahuan Penting",
+    "suitcase_notice_desc": "Pastikan jumlah penumpang dan barang bawaan sesuai dengan Syarat & Ketentuan kami. Jika melebihi kapasitas kendaraan, pemesanan Anda akan ditolak, dan Anda perlu memesan kendaraan tambahan untuk menampung penumpang atau barang bawaan tambahan.",
+    "desc_deposito": "Untuk melanjutkan pemesanan, Anda diharapkan untuk membayar deposit {{value}}% dari total biaya rental, dengan Min. Rp300.000 dan Maks Rp1.000.000. Deposit akan dikembalikkan dalam 24 jam setelah sewa selesai.",
+    "formDetail": {
+      "title": "Form Detail Pemesanan",
+      "fullName": "Nama Lengkap",
+      "phone": "No. Handphone",
+      "meet_greet_name": "Papan Meet & Greet",
+      "meet_greet_name_placeholder": "Contoh: Alex Dari SG, dll.",
+      "sameAsPhone": "Sama dengan No. Handphone",
+      "delivery_tooltip": "Dikenai Biaya Pengantaran",
+      "free": "Gratis",
+      "add_location_details": "Tambah Detail Lokasi",
+      "see_details": "Lihat Detail",
+      "select_special_request": "Pilih Permintaan Khusus",
+      "additional": "Tambahan",
+      "select_additional": "Pilih Tambahan",
+      "detail_location_placeholder": "Tulis detail lokasi anda",
+      "detail_location_pickup_title": "Detail Lokasi Penjemputan",
+      "detail_return_location_title": "Detail Lokasi Pengembalian",
+      "detail_return_location_title_placeholder": "Tulis detail lokasi pengembalian, Contoh: jl, Sudirman no.10",
+      "detail_location_delivery_title_placeholder": "Tulis detail lokasi pengantaran, Contoh: jl, Sudirman no.10",
+      "detail_location_delivery_title": "Detail Lokasi Pengantaran",
+      "flight_no_placeholder": "No Penerbangan, Contoh : E-12345",
+      "flight_no_title": "No. Penerbangan",
+      "desc_WITA": "Jam Landing Dalam {{value}}",
+      "landing_time": "Jam Landing",
+      "location_details": "Detail Lokasi",
+      "delivery_fee_is_charged": "Dikenai biaya pengantaran"
+    },
+    "withDriver": {
+      "rentalZone": "Zona Penyewaan",
+      "addRentalZone": "Tambah Zona Penyewaan"
+    },
+    "rentalZone": {
+      "title": "Zona Penyewaan",
+      "rentalArea": "Area Penyewaan",
+      "rentalAreaDesc": "Anda akan memilih zona area penyewaan anda dan memasukkan dimana tempat lokasi jemput dan pengantaran sesuai waktu hari penyewaan.",
+      "area_title": "Area {{value}}",
+      "empty_zone": "Zona tidak tersedia",
+      "empty_location": "Lokasi tidak tersedia",
+      "myRentalZone": "Area Penyewaan anda",
+      "addMyRentalZone": "Area penyewaan tambahan",
+      "additionalRentalZone": "Area Penyewaan Tambahan",
+      "myRentalZonePlaceholder": "Pilih Area Penyewaan",
+      "additionalFee": "Daftar biaya tambahan",
+      "titleCheckbox": "Jika anda menginap akan ada tambahan\nbiaya akomodasi untuk Supir (Opsional)",
+      "descZoneOption": "Pengunaan sewa termasuk Zona 0 + Zona 1",
+      "descTotalPrice": "Jumlah Total Harga Area Penyewaan",
+      "additional_fee_zone_desc": "Area {{ zone }} penyewaan meliputi harga tambahan mobil menyesuaikan harga jenis mobil, dengan harga sebagai berikut :",
+      "withinCity": "Zona 0 (Dalam Kota)",
+      "zone1": "Zona 1 (Luar Kota)",
+      "zone2": "Zona 2 (Luar Kota)",
+      "standardCar": "Mobil Standard",
+      "rental_zone_0_description": "Pengguanaan sewa gratis untuk Area Zona 0",
+      "rental_zone_1_description": "Pengunaan sewa termasuk Zona 0 + Zona 1",
+      "rental_zone_2_description": "Pengunaan sewa termasuk Zona 0 + Zona 1 + Zona 2",
+      "zone": "Zona {{value}}",
+      "day": "Hari-{{value}}",
+      "pickup": "Penjemputan",
+      "dropoff": "Pengantaran",
+      "pickup_zone": "Zona Penjemputan",
+      "dropoff_zone": "Zona Pengantaran",
+      "rental_area": "Zona Penyewaan",
+      "choose_pickup_zone": "Pilih Zona Penjemputan",
+      "choose_dropoff_zone": "Pilih Zona Pengantaran",
+      "choose_rental_area": "Pilih Zona Penyewaan",
+      "driver_accomodation": "Akomodasi Driver (Opsional)",
+      "driverAccomodationDesc": "Anda akan dikenakan biaya tambahan untuk akomodasi driver (Penginapan) untuk sewa lebih dari sehari, Untuk biaya tambahan yang dikenakan sebesar IDR 150.000 / Hari",
+      "agreeState": "Saya menyetujui untuk penambahan biaya",
+      "select_overtime": "Pilih Overtime"
+    },
+    "car_detail": {
+      "seat": "{{seats}} kursi",
+      "suitcases": "Koper",
+      "passengers": "Penumpang"
+    },
+    "tripDetail": {
+      "title": "Detail Perjalanan",
+      "pickAtGarage": "Mengambil dan Mengembalikan Ke Tempat Sewa",
+      "deliveryLocationTaking": "Pilih Lokasi pengambilan",
+      "deliveryLocation": "Lokasi pengantaran",
+      "pickupLocation": "Lokasi penjemputan",
+      "pickupLocationPlaceholder": "Tulis Lokasi penjemputan",
+      "deliveryLocationTakingPlaceholder": "Pilih Lokasi pengambilan",
+      "deliveryLocationPlaceholder": "Pilih Lokasi pengantaran",
+      "returnLocation": "Lokasi Pengembalian",
+      "returnLocationPlaceHolder": "Pilih Lokasi Pengembalian",
+      "location_details": "Detail Lokasi",
+      "totalPassenger": "Jumlah Penumpang",
+      "totalPassengerPlaceholder": "Pilih Jumlah Penumpang",
+      "n_people": "{{n}} Orang",
+      "infoDesc": "Jumlah maksimal penumpang adalah 6 orang, jika lebih dari itu akan dikenakan tambahan biaya sebesar IDR 150.000/orang",
+      "infoTitle": "Ketentuan Jumlah Penumpang"
+    },
+    "specialReq": {
+      "title": "Form Permintaan Khusus (Optional)",
+      "placeholder": "Tulis yang kamu butuhkan untuk kebutuhan perjalanan mu, contoh Kursi Bayi, Kursi Roda, etc.",
+      "selected": "Dipilih"
+    },
+    "summary": {
+      "title": "Detail Pembayaran",
+      "search_zone": "Cari",
+      "passanger": "Penumpang",
+      "overtime": "OT",
+      "contact_detail": "Detail Kontak",
+      "total": "Total",
+      "detail_cost": "Biaya Detail",
+      "deliveryLocation": "Lokasi Pengantaran",
+      "deliveryLocationPlaceholder": "Tulis Alamat Pengantaran",
+      "pickLocation": "Lokasi Pengambilan",
+      "pickLocationPlaceholder": "Pilih Lokasi Pengambilan",
+      "returnLocation": "Lokasi Pengembalian",
+      "returnLocationPlaceHolder": "Pilih Lokasi Pengembalian",
+      "startDate": "Tanggal Mulai",
+      "startTime": "Jam Mulai",
+      "outside_price": "Biaya Tambahan Tengah Malam (23.00-07.00)",
+      "voucher_discount": "Potongan Voucher",
+      "endDate": "Tanggal Selesai",
+      "endTime": "Jam Selesai",
+      "rentalFee": "Biaya Sewa",
+      "price": "Harga",
+      "day": "hari",
+      "otherFee": "Biaya Lainnya",
+      "serviceFee": "Biaya Layanan",
+      "insuranceFee": "Biaya Asuransi",
+      "additionalPassengerFee": "Biaya Tambahan Penumpang",
+      "one_day_charge": "Biaya Tambahan Sewa",
+      "deposit_etoll": "Deposit E-Toll",
+      "totalPayment": "Total Pembayaran",
+      "paymentDP": "Pembayaran DP {{ value }}%",
+      "delivery_fee": "Biaya Pengantaran",
+      "platform_fee": "Biaya Platform",
+      "return_cost": "Biaya Pengembalian",
+      "timezone": "Zona Waktu",
+      "flight_number": "No Pesawat",
+      "t&c1": "Saya menerima dan setuju dengan",
+      "t&c2": "Syarat dan Ketentuan",
+      "t&c3": "yang berlaku"
+    },
+    "extendOrder": {
+      "numberOfDays": "Jumlah Hari",
+      "numberOfDaysPlaceholder": "Masukkan Jumlah Hari",
+      "rentalHours": "Jam Sewa",
+      "returnTime": "Jam Pengembalian"
+    },
+    "return_deposit": {
+      "title": "Form Pengembalian Deposit",
+      "return_detail": "Detail Pengembalian",
+      "name": "Nama",
+      "name_placeholder": "Masukkan Nama Anda",
+      "bank_name": "Nama Bank",
+      "bank_name_placeholder": "Pilih Nama Bank",
+      "account_number": "Nomor Rekening",
+      "account_number_placeholder": "Masukkan Nomor Rekening",
+      "error_name": "Nama harus diisi",
+      "error_bank_name": "Bank harus dipilih",
+      "error_account_number": "Nomor rekening harus diisi",
+      "search_bank_name": "Cari nama bank",
+      "deposit_refund_in_process": "Pengembalian Deposit Sedang Diproses",
+      "deposit_refund_done_process": "Pengembalian deposit akan dilakukan 3 Hari Kerja",
+      "deposit_status": "Status Deposit",
+      "in_process": "Sedang Diproses",
+      "processed": "Telah Diproses"
+    },
+
+    "cancel_request_in_process": "Permintaan pembatalan sedang diproses",
+
+    "cancel_will_be_made_in_7_days": "Pengembalian dana akan dilakukan dalam waktu 7 hari kerja",
+
+    "refund_request_in_process": "Permintaan Pengembalian Dana Sedang Diproses",
+
+    "refunds_will_be_made_in_7_days": "Pengembalian dana akan dilakukan dalam waktu 1x24 jam",
+
+    "cancel_order_notification_description": "Pengembalian dana akan diproses ke nomor rekening yang terdaftar. Proses ini memerlukan beberapa hari kerja, jika dana belum diterima setelah periode tersebut, silakan menghubungi pusat bantuan kami untuk bantuan lebih lanjut.",
+    "refund_is_in_process": "Pengembalian Dana Sedang Diproses",
+    "refund_process_alert_description": "Permohonan pengembalian dana Anda untuk penyewaan mobil dengan nomor pemesanan {{orderNo}} sedang kami proses. Proses ini biasanya memerlukan waktu 3-7 hari kerja hingga dana dikembalikan. Terima kasih atas pengertian Anda, dan kami berharap dapat melayani Anda kembali di masa mendatang.",
+    "refund_success": "Pengembalian Dana Berhasil",
+    "refund_success_description": "Terima kasih atas pengertian Anda telah menunggu proses pengembalian dana dari kami dan kami berharap dapat melayani Anda kembali di masa mendatang. Salam Hangat dari kami Get & Ride",
+    "refund_rejected": "Pengajuan Pengembalian Dana ditolak",
+    "refund_rejected_description": "Halo {{customerName}}, Kami ingin memberitahukan bahwa permintaan pengembalian dana Anda dengan nomor transaksi {{orderNo}} telah ditolak. Berikut adalah alasan penolakannya.",
+    "created": "Dibuat",
+    "processed": "Sedang Diproses",
+    "transfered": "Ditransfer",
+    "rejected": "Ditolak",
+    "refund_notification": "Pemberitahuan Pengembalian Dana",
+    "reapply_for_refund": "Ajukan Ulang Pengembalian Dana",
+    "reapply_for_refund_description": "Apakah Anda yakin ingin melanjutkan pengembalian dana?",
+    "successfuly_reaply_for_refund": "Berhasil mengajukan pengembalian dana",
+    "order_no": "No. Order",
+    "refund_request": "Pengajuan Pengembalian Dana",
+
+    "nominal": "Nominal",
+    "order_cancellation": "Pembatalan Pesanan",
+    "reason_cancellation": "Alasan pembatalan",
+    "write_reason_cancellation": "Tulis alasan pembatalan",
+    "refund_status": "Status Pengembalian Dana",
+    "proof_of_transfer": "Bukti Transfer",
+    "name": "Nama",
+    "account_number": "Nomor Rekening",
+    "enter_account_number": "Masukkan Nomor Rekening",
+    "write_description": "Tulis Keterangan",
+    "seats": "Tempat duduk",
+    "suitcase": "Koper",
+    "transmission": "Transmisi {{value}}",
+    "order_overtime_total_price": "Total Harga Overtime Sewa",
+    "outside_operational_hour_charge": "Biaya Tambahan Tengah Malam (23.00-07.00)",
+    "booking_price": "Harga Sewa",
+    "one_day_order_charge": "Biaya Tambahan Satu Hari Sewa",
+    "overtime_price": "Biaya Overtime",
+    "deposit": "Deposit",
+    "exceed_maximum_passenger_price": "Biaya Penumpang Maksimum Berlebih",
+    "order_zone_total_price": "Total Harga Zona Sewa",
+    "rental_delivery_fee": "Biaya Pengantaran",
+    "rental_return_fee": "Biaya Pengembalian",
+    "add_item": {
+      "title": "Pilih Permintaan Khusus",
+      "total": "Jumlah",
+      "choose_color": "Pilih Warna",
+      "price": "Harga",
+      "stock": "Stok",
+      "color": "Warna",
+      "detail": "Detail",
+      "empty_msg": "Permintaan khusus tidak tersedia."
+    }
+  },
+  "payment_method": {
+    "header": "Pilih Metode Pembayaran",
+    "transfer_manual": "Manual Transfer",
+    "virtual_account": "Virtual Account",
+    "qris_payment": "Pembayaran QRIS",
+    "ewallet_payment": "Pembayaran E-Wallet",
+    "card_payment": "Pembayaran Kartu",
+    "offline": "Offline",
+    "disable_dp_info": "Kami tidak mendukung pembayaran di muka (DP). Silakan pilih pembayaran penuh untuk melanjutkan."
+  },
+  "settings": {
+    "tabBarLabel": "Profil Saya",
+    "profile": "Profil",
+    "push_notif": "Push Notifikasi",
+    "country_code": "Kode Negara",
+    "sms": "SMS",
+    "email": "Email",
+    "aboutUs": "Tentang Kami",
+    "fullname_placeholder": "Masukkan Nama Lengkap Anda",
+    "myVoucher": "Voucher Saya",
+    "loyalty": "Program Loyalti",
+    "changePassword": "Ubah Password",
+    "notification": "Notifikasi",
+    "fullName": "Nama Lengkap",
+    "fullNamePlaceholder": "Masukkan nama Anda",
+    "oldPassword": "Password Lama",
+    "oldPasswordPlaceholder": "Masukkan password lama",
+    "newPassword": "Password Baru",
+    "newPasswordPlaceholder": "Masukkan Password Baru",
+    "confirmPassword": "Konfirmasi Password Baru",
+    "confirmPasswordPlaceholder": "Konfirmasi Password Baru",
+    "activity": "Aktivitas",
+    "activityDesc": "Notifikasi untuk promo dari kami, nikmati berbagai macam diskon dari kami",
+    "reminder": "Pengingat",
+    "reminderDesc": "Notifikasi untuk penyewaan kamu",
+    "error_name": "Masukkan Nama Anda",
+    "error_phone": "Masukkan No. Handphone",
+    "error_email": "Masukkan No. Email",
+    "error_ktp": "Ktp harus diisi",
+    "error_photo_license": "SIM harus diisi",
+    "delete_account": "Hapus Akun",
+    "delete_account_desc": "Menghapus akun berarti Anda akan kehilangan akses ke semua data yang terkait dengan akun Anda. Sekali Anda mengonfirmasi penghapusan, akun dan semua data Anda akan dihapus secara permanen, dan tidak ada cara untuk memulihkan data tersebut"
+  },
+  "delete_account": {
+    "title": "Konfirmasi Penghapusan Akun",
+    "password_not_match": "password tidak sesuai",
+    "description_1": "Anda akan menghapus akun Anda. Tindakan ini tidak dapat dibatalkan, dan semua data yang terkait dengan akun Anda akan dihapus secara permanen.",
+    "important_notes": "Catatan Penting:",
+    "note_1": "Setelah akun Anda dihapus, Anda tidak akan dapat memulihkan data atau informasi apapun yang terkait dengan akun tersebut.",
+    "note_2": "Pastikan Anda sudah mencadangkan semua data penting sebelum melanjutkan proses penghapusan.",
+    "description_2": "Harap konfirmasi bahwa Anda memahami konsekuensi ini dengan mencentang kotak di bawah:",
+    "confirm_statement": "Saya mengerti bahwa penghapusan akun ini permanen dan tidak dapat dibatalkan.",
+    "verification": "Verifikasi",
+    "verification_desc": "Kami telah mengirimkan kode OTP  ke email Anda. Silakan masukkan kode tersebut untuk mengonfirmasi penghapusan akun Anda",
+    "success_title": "Akun Anda berhasil di hapus",
+    "success_desc": "Akun berhasil di hapus dan tidak bisa di kembalikan",
+    "failed_title": "Akun Tidak Dapat Dihapus",
+    "failed_desc": "Akun Anda tidak dapat dihapus saat ini karena ada transaksi yang sedang berlangsung. Harap selesaikan semua transaksi terlebih dahulu sebelum mencoba menghapus akun Anda."
+  },
+  "myBooking": {
+    "tabBarLabel": "Pemesanan",
+    "noOrder": "Belum ada pesanan",
+    "overtime": "Overtime",
+    "driver_info_chat": "Fitur obrolan akan tersedia sesuai jadwal pengiriman, coba akses lagi segera.",
+    "driver_info_belonging": "Jika Anda lupa membawa barang bawaan, silakan hubungi Pusat Bantuan kami.",
+    "package": "Paket",
+    "cancel_order_term": "Untuk membatalkan pesanan, harap baca",
+    "cancel_order_term_bold": "Syarat dan Ketentuan",
+    "cancel_reason": {
+      "waiting_too_long": "Menunggu terlalu lama",
+      "cannot_be_contacted": "Tidak dapat menghubungi pengemudi",
+      "change_destination": "Ingin mengubah tujuan",
+      "change_rental_type": "Ubah jenis sewa",
+      "other": "Lainnya",
+      "other_placeholder": "Ketik alasan lainnya"
+    },
+    "cancel_term": {
+      "title": "Kebijakan Pembatalan",
+      "desc": "Pembatalan adalah proses penghentian reservasi sebelum periode sewa dimulai, pengembalian dana adalah pengembalian dana berdasarkan ketentuan yang berlaku setelah pembatalan dilakukan.",
+
+      "cancel_desc_title1": "Pembatalan: ",
+      "cancel_desc_desc1": "Pembatalan akan dikenakan biaya pembatalan sebesar 50%, yang membantu menutupi biaya operasional dan administrasi. Sisa 50% akan dikembalikan jika pembatalan dilakukan di muka.",
+
+      "cancel_desc_title2": "Pembatalan di menit-menit terakhir: ",
+      "cancel_desc_desc2": "Pembatalan yang dilakukan pada hari yang sama dengan jadwal pengambilan tidak dapat dikembalikan. Pembatalan ini dianggap sebagai pembatalan di menit-menit terakhir, dan tidak akan ada pengembalian dana.",
+
+      "cancel_desc_title3": "Pemberitahuan di Muka: ",
+      "cancel_desc_desc3": "Kami sarankan untuk memberi tahu kami sedini mungkin jika Anda perlu membatalkan, idealnya sebelum hari layanan Anda, untuk hindari biaya pembatalan."
+    },
+    "refund_rejected": {
+      "refund_notif": "Pemberitahuan Pengembalian Dana",
+      "refund_req_rejected": "Permintaan Pengembalian Dana Ditolak",
+      "desc1": "Halo {{name}},\nKami ingin memberitahukan bahwa permintaan pengembalian dana Anda dengan nomor transaksi {{order_key}} telah ditolak. Berikut adalah alasan penolakannya:",
+      "desc2": "Kami sarankan Anda menghubungi tim layanan pelanggan kami jika Anda memerlukan bantuan lebih lanjut atau ingin mengajukan pengembalian dana lagi. Tim kami siap membantu Anda melalui:\n• Layanan Pelanggan via Chat\n• Telepon : +6282211511511\nTerima kasih telah menggunakan layanan kami. Kami berharap dapat terus melayani Anda dengan lebih baik di masa mendatang.",
+      "best_regard": "Salam Hangat"
+    },
+    "refund_process": {
+      "refund_process": "Proses Pengembalian Dana",
+      "info_process_title": "Pengembalian Dana Sedang Diproses",
+      "info_process_desc": "Saat ini kami sedang memproses permintaan pengembalian dana Anda untuk sewa mobil dengan nomor pemesanan {{order_key}}. Proses ini biasanya memakan waktu 3–7 hari kerja agar dana dikembalikan. Terima kasih atas pengertian Anda, dan kami berharap dapat melayani Anda lagi di masa mendatang.",
+
+      "info_rejected_title": "Permintaan pengembalian dana telah ditolak.",
+      "info_rejected_desc": "Halo Ferry, Kami ingin memberitahukan bahwa permintaan pengembalian dana Anda dengan nomor transaksi {{order_key}} telah ditolak. Berikut adalah alasan penolakannya",
+
+      "info_success_title": "Pengembalian Dana Berhasil",
+      "info_success_desc": "Terima kasih atas pengertian Anda dalam menunggu proses pengembalian dana kami dan kami berharap dapat melayani Anda lagi di masa mendatang. Salam Hangat dari kami, Get & Ride",
+
+      "req_sub": "Permintaan Pengajuan Pengembalian Dana",
+      "name": "Nama",
+      "status": "Status",
+      "account_bank": "Bank Rekening",
+      "amount": "Jumlah",
+      "bank_name": "Nama Bank",
+      "proof_of_payment": "Bukti Pembayaran",
+      "refund_status": "Status Pengembalian Dana",
+      "Created": "Dibuat",
+      "Processed": "Diproses",
+      "Transfered": "Ditransfer",
+      "Ditolak": "Ditolak",
+      "fill_data": "Isi Data",
+      "full_name": "Nama Lengkap",
+      "full_name_placeholder": "Masukan Nama Lengkap",
+      "view": "Lihat",
+
+      "account_bank_placeholder": "Masukkan Rekening Bank",
+
+      "save": "Simpan",
+
+      "title": "Proses Pengembalian Dana:",
+      "refund_process_title1": "Kelayakan Pengembalian Dana: ",
+      "refund_process_desc1": "Pengembalian dana hanya tersedia untuk pembatalan yang memenuhi kriteria pengembalian dana (tidak termasuk pembatalan menit terakhir).",
+
+      "refund_process_title2": "Transfer Bank: ",
+      "refund_process_desc2": "Pengembalian dana yang memenuhi syarat akan dikeluarkan melalui transfer bank dari rekening PT Cuan Muda Transportasi BCA ke rekening bank yang telah Anda berikan.",
+
+      "refund_process_title3": "Waktu Pemrosesan: ",
+      "refund_process_desc3": "Pengembalian dana akan diselesaikan dalam waktu maksimal 24 jam setelah permintaan pembatalan Anda disetujui.",
+
+      "refund_process_title4": "Rincian Bank: ",
+      "refund_process_desc4": "Pastikan informasi rekening bank Anda akurat dan terkini untuk menghindari keterlambatan dalam pemrosesan."
+    },
+
+    "my_order": "Pesanan Saya",
+    "need_help": "Butuh Bantuan",
+    "find_driver": "Mencari Driver",
+    "find_driver_desc": "Pesanan Anda akan segera diproses oleh pengemudi. Mohon tunggu dengan sabar",
+    "flight_number": "No Pesawat",
+    "pessenger_desc": "{{adult}} Dewasa, {{child}} Anak, {{suitcase}} Koper",
+    "refund_status": "Status Pengembalian Dana",
+    "driver_search": "MENCARI DRIVER",
+    "order_hour": "Jam Pesan",
+    "check_order": "Cek Status Pembayaran",
+    "reupload": "Unggah Ulang",
+    "err_duplicate_order": "Kami telah menemukan pesanan duplikat yang dilakukan oleh pelanggan lain untuk item yang sama. Silakan ubah pilihan mobil anda.",
+    "download-e-ticket": "Download E-Ticket",
+    "err_duplicate_order_title": "Pemberitahuan Pesanan Duplikat!",
+    "open_proof": "Lihat Bukti Bayar",
+    "add_item": {
+      "title": "Permintaan Khusus",
+      "goods": "Nama barang",
+      "total_price": "Total harga",
+      "rent_amount": "Jumlah Sewa",
+      "color_variant": "Variasi Warna"
+    },
+    "back_to_order": "Ke Halaman Pesanan",
+    "credit_card": "Kartu Kredit/Debit",
+    "success_payment": "Pembayaran Berhasil",
+    "noRental": "Belum ada riwayat penyewaan",
+    "paymentMethod": "Metode Pembayaran",
+    "pickup_date": "Tanggal Penjemputan",
+    "pickup_time": "Waktu Penjemputan",
+    "pessengers_suitcase": "Penumpang dan Koper",
+    "message_success_payment": "Selamat, pembayaran telah berhasil",
+    "message_failed_payment": "Anda membatalkan pembayaran. Transaksi tidak berhasil.",
+    "baggage": "Jumlah Koper",
+    "delivery_date": "Tanggal Antar",
+    "day": "Hari ke",
+    "cancel_order_desc": "Apakah anda yakin membatalkan pesanan anda?",
+    "pickup": "Lokasi Pick-up",
+    "dropoff": "Lokasi Drop-off",
+    "zone": "Zona Sewa",
+    "deliver_to_airport": "Antar ke Bandara",
+    "delivery_time": "Jam Antar",
+    "paymentMethodNotSelected": "Belum memilih metode pembayaran",
+    "totalPrice": "Total Harga",
+    "paymentStatus": "Status Pembayaran",
+    "rentStatus": "Status Sewa",
+    "downloadEticket": "Download E-Tickets",
+    "pickupLocation": "Lokasi Pengambilan",
+    "ZoneArea": "Area Penyewaan",
+    "deliveryLocation": "Lokasi Pengantaran",
+    "returnLocation": "Lokasi Pengembalian",
+    "car": "Mobil",
+    "startTime": "Jam Mulai Sewa",
+    "useButton": "Gunakan",
+    "input_point_placeholder": "Masukkan Point yang ingin digunakan",
+    "endTime": "Jam Selesai Sewa",
+    "orderDetail": "Detail Pesanan",
+    "point_desc": "Point anda bisa digunakan untuk pembayaran",
+    "titlePaymentPicker": "Detail Pengembalian",
+    "startDate": "Tanggal Mulai Sewa",
+    "endDate": "Tanggal Selesai Sewa",
+    "startTime2": "Jam Mulai Sewa",
+    "endTime2": "Jam Selesai",
+    "totalPassenger": "Jumlah Penumpang",
+    "are_you_sure_want_to_continue": "Apakah anda yakin melanjutkan",
+    "this_payment": "pembayaran ini",
+    "cancel_this_order": "membatalkan pesanan ini",
+    "rental_date": "Tanggal Sewa",
+    "travel_detail": "Rincian Perjalanan",
+    "rental_and_return_hours": "Jam Sewa & Pengembalian",
+    "your_order": "Pesanan Anda",
+    "your_order_data": "Data Pesanan Anda",
+    "booking_departure": "Konfirmasi Pemesanan Keberangkatan",
+    "order_date": "Tanggal Pesanan",
+    "booking_date": "Tanggal Pemesanan",
+    "date_completed": "Tanggal Selesai",
+    "order_notification": "Pemberitahuan Pesanan",
+    "refund_dana": "Kembalikan Dana",
+    "your_location": "Data Lokasi",
+    "deposit_status": "Status Deposit",
+    "pickup_location": "Lokasi Penjemputan",
+    "delivery_location": "Lokasi Pengantaran",
+    "no_overtime": "Tidak ada overtime",
+    "cancellation_detail": "Detail Pembatalan",
+    "recalculation_process": "Proses Rekalkulasi"
+  },
+  "history_point": {
+    "title": "Riwayat Point",
+    "my_point": "Poin Saya",
+    "share_referral": "Bagikan Kode Referral",
+    "use_point": "Menggunakan Point",
+    "use_point_desc": "Berhasil menggunakan point untuk transaksi sewa mobil",
+    "do_transaction": "Melakukan Transaksi",
+    "do_transaction_desc": "Berhasil menerima point untuk transaksi sewa mobil",
+    "invite_referral": "Undangan Kode Referral",
+    "invite_referral_desc": "Berhasil menerima point karena mengundang orang lain"
+  },
+  "myInbox": {
+    "tabBarLabel": "Kotak Masuk",
+    "header": "Pusat Bantuan",
+    "active": "Aktif",
+    "end": "Sudahi",
+    "read_more": "Baca Selengkapnya...",
+    "notification": "Notifikasi",
+    "call_center": "Pusat Bantuan",
+    "order_help": "Bantuan Pesanan",
+    "your_chat": "Chat Kamu",
+    "end_chat": "Akhiri Percakapan",
+    "btn_continue_chat": "Lanjut Percakapan",
+    "btn_end_chat": "Sudahi Percakapan",
+    "help_order": "Bantuan Pesanan",
+    "type_message": "Ketik Pesan",
+    "end_chat_desc": "Percakapan ini tidak bisa dilanjutkan kembali begitu di sudahi, jika masih ada kendala kunjungi halaman Pusat Bantuan.",
+    "chat_close": "Laporan ini sudah ditutup.\n Jika ada kendala, kamu bisa ",
+    "open_chat": "Mulai Percakapan",
+    "archive_chat": "Pesan sudah berakhir, kamu masih bisa baca percakapan ini buat pengarsipan",
+    "no_message": "Belum Ada Pesan",
+    "alert_no_connection": "Koneksi Terputus.\n Silakan refresh untuk mendapatkan pesan terbaru."
+  },
+  "virtual_account": {
+    "payment_Instruction": "Panduan Pembayaran",
+    "open_app": "Lanjutkan ke Aplikasi",
+    "cimb niaga_length": 3,
+    "status": "Status",
+    "copy": "Salin",
+    "virtual_account": "Virtual Account",
+    "cimb niaga": [
+      {
+        "title": "Transfer Melalui ATM",
+        "step_length": 7,
+        "steps": [
+          "Masukkan Kartu ATM dan PIN CIMB Anda.",
+          "Pilih menu Pembayaran.",
+          "Pilih Virtual Account dan Lanjut.",
+          "Masukkan nomor Virtual Account {{value}} dan klik Benar.",
+          "Pilih rekening debit.",
+          "Di halaman konfirmasi, pastikan data transaksi sudah benar kemudian pilih \"OK\".",
+          "Transaksi Selesai."
+        ]
+      },
+      {
+        "title": "Transfer Melalui Mobile Banking",
+        "step_length": 6,
+        "steps": [
+          "Masuk ke aplikasi OCTO Mobile.",
+          "Pilih menu Transfer.",
+          "Pilih \"Transfer ke Rekening CIMB Lainnya\".",
+          "Masukkan nomor Virtual Account {{value}}",
+          "Masukkan jumlah pembayaran sesuai tagihan dan klik Lanjut",
+          "Pilih Konfirmasi.",
+          "Masukkan PIN anda.",
+          "Transaksi berhasil."
+        ]
+      },
+      {
+        "title": "Transfer Melalui CIMB Clicks",
+        "step_length": 8,
+        "steps": [
+          "Login ke CIMB clicks.",
+          "Pilih menu Bayar Tagihan.",
+          "Pilih Rekening Sumber dan Jenis Pembayaran.",
+          "Pilih Virtual Account.",
+          "Masukkan nomor Virtual Account {{value}} dan klik benar.",
+          "Di halaman konfirmasi, pastikan data transaksi sudah benar kemudian pilih \"OK\".",
+          "Masukkan PIN anda.",
+          "Transaksi berhasil."
+        ]
+      }
+    ],
+    "bca_length": 3,
+    "bca": [
+      {
+        "title": "Transfer Melalui ATM",
+        "step_length": 8,
+        "steps": [
+          "Masukkan Kartu ATM dan PIN ATM BCA",
+          "Pilih menu Penarikan Tunai/Transaksi Lainnya",
+          "Pilih menu Transaksi Lainnya",
+          "Pilih menu Transfer",
+          "Pilih menu Ke Rek BCA Virtual Account",
+          "Masukkan nomor BCA Virtual Account, yaitu {{value}} dan klik Benar",
+          "Cek detail transaksi dan pilih Ya",
+          "Transaksi selesai"
+        ]
+      },
+      {
+        "title": "Transfer Melalui Mobile Banking",
+        "step_length": 6,
+        "steps": [
+          "Buka BCA mobile, pilih menu m-Transfer",
+          "Pilih menu BCA Virtual Account",
+          "Masukkan nomor BCA Virtual Account {{value}} dan klik Send",
+          "Cek nominal yang muncul",
+          "Masukkan PIN m-BCA",
+          "Transaksi Berhasil"
+        ]
+      },
+      {
+        "title": "Transfer Melalui Klik BCA",
+        "step_length": 5,
+        "steps": [
+          "Login ke KlikBCA dan pilih menu Transfer Dana",
+          "Pilih menu Transfer ke BCA Virtual Account",
+          "Masukkan nomor BCA Virtual Account, {{value}} dan klik Lanjutkan",
+          "Masukkan respon KeyBCA Appli 1 dan klik Kirim",
+          "Transaksi Berhasil"
+        ]
+      }
+    ],
+    "mandiri_length": 2,
+    "mandiri": [
+      {
+        "title": "Transfer Melalui ATM",
+        "step_length": 6,
+        "steps": [
+          "Masukkan PIN ATM Anda.",
+          "Pada menu utama, pilih “Bayar / Beli”.",
+          "Pilih “Lainnya” sampai menemukan menu “Multipayment”.",
+          "Masukkan kode perusahaan dengan nomor: “70012” (tanpa kutip) a / n Midtrans. Setelah itu pilih “Benar”.",
+          "Masukkan kode bayar Anda , setelah itu pilih “Benar”.",
+          "Cek kembali transaksi Anda setelah itu selesaikan proses pembayarannya "
+        ]
+      },
+      {
+        "title": "Transfer Melalui Mobile Banking",
+        "step_length": 7,
+        "steps": [
+          "Lakukan login ke Mandiri Livin‘ atau Mandiri Internet Banking.",
+          "Pada menu utama, pilih “Bayar”.",
+          "Pilih “Buat Pembayaran Baru”.",
+          "Setelah itu, pilih menu “Multipayment”.",
+          "Masukkan kode perusahaan dengan nomor: “70012” (tanpa kutip) a / n Midtrans. Setelah itu pilih “Benar”.",
+          "Masukkan kode bayar Anda , setelah itu pilih “Benar”.",
+          "Cek kembali transaksi Anda setelah itu selesaikan proses pembayarannya."
+        ]
+      }
+    ],
+    "permata_length": 2,
+    "permata": [
+      {
+        "title": "Transfer Melalui ATM",
+        "step_length": 7,
+        "steps": [
+          "Masukkan PIN.",
+          "Pilih menu “Transaksi Lainnya”.",
+          "Pilih menu “Pembayaran”.",
+          "Pilih menu “Pembayaran Lainnya”.",
+          "Pilih menu “Virtual Account”.",
+          "Masukkan nomor Virtual Account: “{{value}}” (tanpa kutip). Setelah itu, tekan “Benar”.",
+          "Pilih rekening yang menjadi sumber dana yang akan didebet, lalu tekan “Ya” untuk konfirmasi transaksi."
+        ]
+      },
+      {
+        "title": "Transfer Melalui Mobile Banking",
+        "step_length": 9,
+        "steps": [
+          "Buka aplikasi Permata Mobile Internet.",
+          "Masukkan User ID & Password.",
+          "Pilih Pembayaran Tagihan.",
+          "Pilih Virtual Account.",
+          "Masukkan 16 digit nomor Virtual Account yang tertera pada halaman konfirmasi yaitu {{value}}.",
+          "Masukkan nominal pembayaran sesuai dengan yang ditagihkan.",
+          "Muncul Konfirmasi pembayaran.",
+          "Masukkan otentikasi transaksi/token.",
+          "Transaksi selesai"
+        ]
+      }
+    ],
+    "bni_length": 2,
+    "bni": [
+      {
+        "title": "Transfer Melalui ATM",
+        "step_length": 8,
+        "steps": [
+          "Masukkan Kartu ATM dan PIN BNI Anda.",
+          "Pada menu utama, pilih “Menu Lainnya”.",
+          "Pilih “Transfer”.",
+          "Setelah itu, pilih “Rekening Tabungan”.",
+          "Pilih “Rekening BNI”.",
+          "Masukkan nomor Virtual Account  {{value}}",
+          "Masukkan jumlah pembayaran sesuai tagihan.",
+          "Cek kembali transaksi Anda, setelah itu pilih “Ya”."
+        ]
+      },
+      {
+        "title": "Transfer Melalui Mobile Banking",
+        "step_length": 8,
+        "steps": [
+          "Masuk ke aplikasi Mobile Banking BNI.",
+          "Masukkan User ID dan Password.",
+          "Pilih menu “Transfer”.",
+          "Setelah itu, pilih “Antar Rekening BNI”.",
+          "Pilih “Input Rekening Baru”.",
+          "Masukkan nomor Virtual Account {{value}}",
+          "Cek kembali transaksi Anda, setelah itu pilih “Ya”.",
+          "Masukkan password untuk konfirmasi pembayaran."
+        ]
+      }
+    ],
+    "bri_length": 2,
+    "bri": [
+      {
+        "title": "Transfer Melalui ATM",
+        "step_length": 8,
+        "steps": [
+          "Masukkan Kartu ATM dan PIN BRI Anda.",
+          "Pada menu utama, pilih menu “Transaksi Lain”",
+          "Pilih menu “Pembayaran”",
+          "Pilih menu “Lainnya”",
+          "Pilih menu “BRIVA”",
+          "Masukkan nomor BRIVA (Virtual Account)  “{{value}}” dan klik Benar",
+          "Di halaman konfirmasi, pastikan data transaksi sudah benar kemudian pilih “Ya“",
+          "Transaksi selesai"
+        ]
+      },
+      {
+        "title": "Transfer Melalui Mobile Banking",
+        "step_length": 8,
+        "steps": [
+          "Masuk ke aplikasi BRI Mobile Banking",
+          "Pilih “Mobile Banking BRI”",
+          "Pilih menu “Info“",
+          "Pilih menu “BRIVA”",
+          "Masukkan nomor BRIVA {{value}} dan klik benar",
+          "Masukkan jumlah pembayaran sesuai tagihan",
+          "Masukkan PIN kamu",
+          "Transaksi berhasil"
+        ]
+      }
+    ]
+  },
+  "card_payment": {
+    "tabBarLabel": "Pembayaran dengan Kartu",
+    "insert_card_info": "Masukkan Info Kartu",
+    "your_data_will_be_protected": "Data anda akan terlindungi",
+    "payment_Instruction": "Panduan Pembayaran",
+    "card_payment_length": 3,
+    "steps": [
+      "Masukkan Nama Pemegang Kartu, No. kartu, Masa berlaku dan juga kode CVV Anda di form yang telah disediakan, pastikan nomor yang diinput valid dan tidak salah dalam penulisan.",
+      "Lalu verifikasi Debit Card anda dengan menekan tombol “Lanjutkan Pembayaran”. Setelah Debit Card terverifikasi maka Anda bisa melanjutkan pembayaran.",
+      "Setelah pembayaran berhasil dan terverifikasi maka status pesanan Anda akan sukses serta transaksi anda akan nyaman dan aman."
+    ]
+  },
+  "instant_payment": {
+    "payment_instruction": "Panduan Pembayaran",
+    "gopay_length": 2,
+    "gopay": [
+      {
+        "title": "Instruksi pembayaran via QR Code",
+        "step_length": 7,
+        "steps": [
+          "Klik bayar menggunakan GoPay.",
+          "Pilih Lanjutkan Pembayaran. Lalu QR code akan tampil.",
+          "Atau buka Aplikasi yang bisa menggunakan QRIS, yang terpasang di ponsel anda, seperti Gojek",
+          "Klik Bayar dan Scan QR code.",
+          "Cek Detail pembayaran lalu klik Bayar",
+          "Masukkan PIN Gopay",
+          "Transaksi selesai"
+        ]
+      },
+      {
+        "title": "Instruksi pembayaran Aplikasi Gojek",
+        "step_length": 7,
+        "steps": [
+          "Pastikan Anda memiliki akun Gojek pada ponsel Anda",
+          "Pilih pembayaran menggunakan GoPay",
+          "Klik Lanjutkan Pembayaran, lalu pilih Lanjutkan",
+          "Klik Lanjut ke Aplikasi Gojek, Anda akan diarahkan ke aplikasi Gojek",
+          "Cek Detail pembayaran lalu klik Bayar",
+          "Masukkan PIN Gopay",
+          "Transaksi selesai"
+        ]
+      }
+    ],
+    "qris_length": 1,
+    "qris": [
+      {
+        "title": "Cara Pembayaran",
+        "step_length": 4,
+        "steps": [
+          "Buka aplikasi pembayaran QRIS yang mendukung pembayaran tersebut.",
+          "Download atau scan QRIS di layar Anda.",
+          "Konfirmasikan pembayaran di aplikasi.",
+          "Transaksi selesai"
+        ]
+      }
+    ]
+  },
+  "manual_transfer": {
+    "payment_instruction": "Panduan Pembayaran",
+    "bca_length": 2,
+    "bca": [
+      {
+        "title": "Transfer melalui ATM",
+        "step_length": 11,
+        "steps": [
+          "Masukkan Kartu ATM dan PIN ATM",
+          "Pilih menu Penarikan Tunai/Transaksi Lainnya",
+          "Pilih menu Transaksi Lainnya",
+          "Pilih menu Transfer",
+          "Masukkan no rekening BCA Get and Ride, yaitu {{no_rek}}/BCA a/n. {{bank_name}} dan klik Benar.",
+          "Masukkan jumlah uang yang harus di transfer melalui ATM BCA",
+          "Jika semua proses telah selesai dan benar, pilih “Ya” (Jangan lupa screenshot bukti transfer)",
+          "Setelah Transfer berhasil, buka Konfirmasi Pembayaran di website / aplikasi",
+          "Masukkan Nama pengirim dan upload Bukti Transfer",
+          "Klik Konfirmasi Transfer",
+          "Pembayaran akan diperiksa"
+        ]
+      },
+      {
+        "title": "Transfer melalui Mobile Banking",
+        "step_length": 11,
+        "steps": [
+          "Buka Aplikasi Mobile Banking, pilih menu m-Transfer",
+          "Klik menu Daftar Transfer",
+          "Pilih menu Antar Rekening (untuk pengguna BCA) dan Antar Bank (untuk pengguna selain BCA)",
+          "Masukkan no rekening BCA Get and Ride, yaitu {{no_rek}}/BCA an. {{bank_name}} dan klik Benar",
+          "Masukkan jumlah uang yang harus di transfer melalui ATM BCA",
+          "Masukkan PIN",
+          "Jika semua proses telah selesai dan benar, pilih “Ya” (Jangan lupa screenshot bukti transfer)",
+          "Setelah Transfer berhasil, buka Konfirmasi Pembayaran di website / aplikasi",
+          "Masukkan Nama pengirim dan upload Bukti Transfer",
+          "Klik Konfirmasi Transfer",
+          "Pembayaran akan diperiksa"
+        ]
+      }
+    ],
+    "mandiri_length": 2,
+    "mandiri": [
+      {
+        "title": "Transfer melalui ATM",
+        "step_length": 11,
+        "steps": [
+          "Masukkan Kartu ATM dan PIN ATM",
+          "Pilih menu Penarikan Tunai/Transaksi Lainnya",
+          "Pilih menu Transaksi Lainnya",
+          "Pilih menu Transfer",
+          "Masukkan no rekening MANDIRI Get and Ride, yaitu 5205979988 a/n. PT ITC dan klik Benar",
+          "Masukkan jumlah uang yang harus di transfer melalui ATM MANDIRI",
+          "Jika semua proses telah selesai dan benar, pilih “Ya” (Jangan lupa screenshot bukti transfer)",
+          "Setelah Transfer berhasil, buka Konfirmasi Pembayaran di website / aplikasi",
+          "Masukkan Nama pengirim dan upload Bukti Transfer",
+          "Klik Konfirmasi Transfer",
+          "Pembayaran akan diperiksa"
+        ]
+      },
+      {
+        "title": "Transfer melalui Mobile Banking",
+        "step_length": 11,
+        "steps": [
+          "Buka Aplikasi Mobile Banking, pilih menu m-Transfer",
+          "Klik menu Daftar Transfer",
+          "Pilih menu Antar Rekening (untuk pengguna MANDIRI) dan Antar Bank (untuk pengguna selain MANDIRI)",
+          "Masukkan no rekening MANDIRI Get and Ride, yaitu 5205979988 a/n. PT Indo Teknologi Cemerlang dan klik Benar",
+          "Masukkan jumlah uang yang harus di transfer melalui ATM MANDIRI",
+          "Masukkan PIN",
+          "Jika semua proses telah selesai dan benar, pilih “Ya” (Jangan lupa screenshot bukti transfer)",
+          "Setelah Transfer berhasil, buka Konfirmasi Pembayaran di website / aplikasi",
+          "Masukkan Nama pengirim dan upload Bukti Transfer",
+          "Klik Konfirmasi Transfer",
+          "Pembayaran akan diperiksa"
+        ]
+      }
+    ],
+    "uob_length": 2,
+    "uob": [
+      {
+        "title": "Transfer melalui ATM",
+        "step_length": 9,
+        "steps": [
+          "Masukkan Kartu ATM dan PIN ATM.",
+          "Pilih menu Transfer.",
+          "Masukkan no rekening UOB Get and Ride, yaitu 3273089878 a/n. Kreatif Transportasi PT.",
+          "Masukkan jumlah uang yang harus di transfer",
+          "Jika semua proses telah selesai dan benar, pilih “Ya” (Jangan lupa screenshot bukti transfer).",
+          "Setelah Transfer berhasil, buka Konfirmasi Pembayaran di website / aplikasi.",
+          "Masukkan Nama pengirim dan upload Bukti Transfer.",
+          "Klik Konfirmasi Transfer.",
+          "Pembayaran akan diperiksa."
+        ]
+      },
+      {
+        "title": "Transfer melalui Mobile Banking",
+        "step_length": 10,
+        "steps": [
+          "Buka Aplikasi Mobile Banking, pilih menu Transfer.",
+          "pilih dari nomor rekening yang ada, atau cari bank tujuanmu.",
+          "Masukkan no rekening UOB Get and Ride, yaitu 3273089878 a/n. Kreatif Transportasi PT.",
+          "Masukkan jumlah uang yang harus di transfer.",
+          "Masukkan PIN.",
+          "Jika semua proses telah selesai dan benar, pilih “Ya” (Jangan lupa screenshot bukti transfer).",
+          "Setelah Transfer berhasil, buka Konfirmasi Pembayaran di website / aplikasi.",
+          "Masukkan Nama pengirim dan upload Bukti Transfer.",
+          "Klik Konfirmasi Transfer.",
+          "Pembayaran akan diperiksa."
+        ]
+      }
+    ]
+  },
+  "bank_transfer": {
+    "bank_transfer": "Transfer Bank",
+    "payment_method": "Cara Pembayaran",
+    "make_payment": "Lakukan Pembayaran",
+    "mandiri_transfer": "Transfer Mandiri",
+    "total_price": "Total Harga",
+    "service_fee": "Biaya Layanan",
+    "bca_transfer": "Transfer BCA",
+    "bank_x_transfer": "Transfer {{x}}",
+    "total_payment": "Total Pembayaran",
+    "transfer_via": "Transfer melalui",
+    "upload_proof_payment": "Upload Bukti Pembayaran",
+    "finish_before": "Selesaikan Sebelum",
+    "account_bank": "Rekening Bank",
+    "account_bank_description": "Info akun Bank diperlukan untuk pengembalian deposit, Deposit merupakan syarat yang dibutuhkan ketika anda menyewa mobil, Deposit akan dikembalikan kurang lebih 1x24 jam (jam kerja). Kami menjamin kerahasiaan detail pribadi anda.",
+    "account_bank_form": {
+      "error_account_name_empty": "Nama rekening tidak boleh kosong!",
+      "error_account_bank_empty": "Nama bank tidak boleh kosong!",
+      "error_account_number_empty": "Nomor rekeing tidak boleh kosong!",
+      "error_password_empty": "Password tidak boleh kosong!"
+    },
+    "account_name": "Nama Rekening"
+  },
+  "auth": {
+    "try_now": "Coba Sekarang",
+    "sign_up": "Daftar",
+    "sign_in": "Masuk",
+    "enter_email_to_login": "Masukkan Email untuk login ke Get and Ride",
+    "or_login_using": "Atau login menggunakan",
+    "do_not_have_an_account": "Belum punya akun",
+    "have_an_account": "Sudah punya akun",
+    "sign_up_now": "Daftar Sekarang",
+    "enter_email": "Masukkan Email",
+    "enter_your_password": "Masukkan Kata Sandi Anda",
+    "confirm_your_password": "Konfirmasi Kata Sandi Anda",
+    "password_confirmation": "Konfirmasi Kata Sandi",
+    "error": "{{value}} tidak boleh kosong"
+  },
+  "register": {
+    "have_not_received_otp": "Belum menerima OTP?",
+    "resend": "Kirim Ulang",
+    "phone_number": "No. Handphone",
+    "send_otp_code_to": "Kirim Kode OTP ke",
+    "create_password": "Buat Kata Sandi",
+    "create_account": "Isi form untuk daftar ke getandride.com",
+    "same_as_phone_number": "Sama dengan No. Handphone",
+    "verification": "Verifikasi",
+    "choose_verification_method": "Pilih metode verifikasi anda untuk kemanan dan melanjutkan pembayaran pemesanan anda",
+    "enter_phone_number": "Masukkan No. Handphone anda",
+    "enter_whatsapp_number": "Masukkan No. Whatsapp",
+    "error_confirmation_password": "Konfirmasi Password tidak sama",
+    "error_validate_password": "kata sandi minimal 8 karakter, dan memiliki setidaknya satu angka dan huruf",
+    "wrong-otp-code": "Kode angka yang anda masukkan tidak sesuai!",
+    "success_register": "Berhasil Melakukan Pendaftaran",
+    "cannot_empty": "tidak boleh kosong",
+    "length_phone": "panjang min 10 karakter"
+  },
+  "codepush": {
+    "updates_available": "Update Tersedia"
+  },
+  "forgot_password": {
+    "forgot_password": "Lupa Kata Sandi",
+    "enter_email_to_reset_password": "Masukkan email anda untuk mengatur ulang kata sandi",
+    "enter_email": "Masukkan Email",
+    "enter_your_email": "Masukkan Email Anda",
+    "enter_old_password": "Masukkan password lama",
+    "enter_new_password": "Masukkan password baru",
+    "enter_confirm_password": "Masukkan konfirmasi password baru"
+  },
+  "reset_password": {
+    "reset_password": "Atur Ulang Kata Sandi",
+    "reset_your_password": "Atur Ulang Kata Sandi Anda",
+    "enter_your_password": "Masukkan Kata Sandi Anda",
+    "error_password": "Kata sandi tidak boleh kosong",
+    "error_password_confirmation": "Konfirmasi kata sandi tidak boleh kosong"
+  },
+  "referral_code": {
+    "referral_code": "Kode Referral (Opsional)",
+    "enter_referral_code": "Masukan Kode Referral",
+    "referral_message": "Mau dapat poin ekstra? Pesan mobil di Get&Ride sekarang juga lewat link referral ini {{url}}. Kamu akan dapat bonus poin sebesar 0,5% dari transaksi pertama kamu! Download Aplikasi Get&Ride Sekarang! Tersedia di App Store & Play Store",
+    "share": "Lewat Media Lain",
+    "confirmation_title": "Apakah anda yakin\nakan menggunakan Kode?",
+    "confirmation_description": "Anda hanya bisa memasukan satu kali\nuntuk kode refferal untuk setiap user\nGet&Ride",
+    "referral_is_already_in_use": "Referral sudah digunakan",
+    "referral_is_already_in_use_desc": "Tautan referral yang anda buka sudah digunakan",
+    "referral_code_received_successfully": "Kode referral berhasil diterima",
+    "referral_code_received_successfully_desc": "Kode referral berhasil diterima, silahkan gunakan kode tersebut untuk mendapat potongan harga",
+    "incorrect_referral_code": "Kode referral salah",
+    "incorrect_referral_code_desc": "Tautan referral yang anda buka salah atau tautan tersebut tidak temukan",
+    "referral_is_not_found": "Kode referral tidak ditemukan",
+    "referral_invalid": "Referral tidak valid",
+    "own_referral_code_error": "Anda tidak bisa menggunakan kode referral anda sendiri.",
+    "referral_is_already_exist": "Referral sudah diterapkan",
+    "referral_is_already_exist_desc": "Anda telah menggunakan kode referral dari pengguna lain."
+  },
+  "upload_bank_transfer": {
+    "sender_name": "Nama Pengirim",
+    "proof_of_payment_image": "Bukti Pembayaran.jpg",
+    "upload_photo": "Unggah Foto"
+  },
+  "help_center": {
+    "header": "Pusat Bantuan",
+    "menu_length": 3,
+    "menu": [
+      {
+        "title": "FAQ"
+      },
+      {
+        "title": "Kebijakan Privasi"
+      },
+      {
+        "title": "Syarat dan Ketentuan"
+      }
+    ]
+  },
+  "list_car": {
+    "header": "Pilih Tipe Mobil",
+    "change_search": "Ubah Pencarian",
+    "rent_price": "Mulai Dari",
+    "day": "Hari",
+    "filter": "Filter",
+    "lowest_price": "Harga Terendah",
+    "highest_price": "Harga Tertinggi",
+    "car_type": "Merek Mobil",
+    "modal_min_order_title": "Minimal Rental",
+    "modal_min_order_desc": "Mobil ini hanya bisa dirental untuk minimal {{value}} hari atau lebih. Mobil ini tidak tersedia opsi penyewaan untuk periode kurang dari {{value}} hari",
+    "seat": "Kursi",
+    "bag": "Koper",
+    "available": "Tersedia",
+    "booked": "Sedang Disewa",
+    "search_car": "Cari Mobil",
+    "reset": "Atur Ulang",
+    "search_filter": "Filter Pencarian",
+    "sort_by": "Urutkan Berdasarkan",
+    "seat_capacity": "Kapasitas Kursi",
+    "filter_by": "Filter Berdasarkan",
+    "price_range_perday": "Rentang Harga Perhari",
+    "price": "Harga",
+    "car_brand": "Merek Mobil",
+    "all_in_description": "Harga yang tercantum sudah termasuk mobil, biaya makan sopir per-hari, bensin, dan seluruh area sewa zona 0"
+  },
+  "carDetail": {
+    "carDetail": "Detail Mobil",
+    "carPrice": "Harga Sewa Mobil",
+    "no_overtime": "Tidak Overtime",
+    "seat": "Kursi",
+    "all_in": "All-In",
+    "seats": "Kursi",
+    "durian": "Dilarang Membawa Benda Berbau Tajam",
+    "durian_detail": "Dilarang Membawa Benda Berbau Tajam. Penyewa akan dikenakan denda sebesar Rp. 500.000 jika tidak menaati aturan sewa.",
+    "perDay": "/ Hari",
+    "hour": "Jam",
+    "hours": "Jam",
+    "seatCapacity": "Jumlah Kursi",
+    "bagDetail": "Detail Koper",
+    "bag": "Koper",
+    "transmision": "Transmisi",
+    "driver": "Driver",
+    "warning_price": "*Harga bisa berubah sewaktu-waktu tanpa pemberitahuan",
+    "all_in_desc": "Harga yang tercantum sudah termasuk mobil, biaya makan supir per-hari dan bensin",
+    "zone_title": "Zona Penyewaan",
+    "zone_0": "Zona 0 (Dalam Kota)",
+    "zone_0_desc": "Kuta Selatan, Kuta, Seminyak, Canggu, Mengwi, Sanur, Tanah Lot, Tanjong Benoa, Jimbaran, Uluwatu, Tabanan, Nusa Dua, Bali Safari, Gianyar, Ubud, Tegalalang.",
+    "zone_1": "Zona 1 (Luar Kota)",
+    "zone_1_desc": "Kintamani, Bedugul",
+    "zone_2": "Zona 2 (Luar Kota)",
+    "zone_2_desc": "Gilimanuk, Negara, Belimbingsari, Singaraja, Lovina, Lempuyang, Tulamben, Amed, Kubu, Tianjar, Gretek, Tejakula, Auman, Angsri, Buleleng, Candi Dase, Sideman, Padang bai, Karangasam",
+    "all_in_title": "Detail Paket All-in (Dalam Kota)",
+    "all_in_desc2": "Paket All-in sudah termasuk:\n- Penggunaan biaya bensin per-hari sewa, biaya makan dan jasa sopir.\n- Gratis antar jemput untuk penggunaan dalam kota (zona 0). Untuk penggunaan luar kota (zona 1 dan 2) akan dikenakan biaya tambahan",
+    "all_in_tile2": "Paket All-in belum termasuk:",
+    "all_in_desc3": "- Biaya tol, parkir, dan tiket wisata\n- Biaya pemakaian bensin jika melebihi yang disediakan saat penjemputan\n- Penjemputan, drop-off dan pemakaian diluar zona 0 (luar kota) , Zona 1 & 2",
+    "with_driver": "Dengan Sopir",
+    "with_driver_include_title": "Sudah Termasuk",
+    "with_driver_include_desc": [
+      "Penggunaan mobil per hari 12 jam atau hingga 23:59 jika mulai sewa diatas pukul 12:00",
+      "Gratis antar jemput di dalam kota (Zona 0)",
+      "Biaya Jasa Sopir",
+      "Bensin"
+    ],
+    "with_driver_non_include_title": "Tidak Termasuk",
+    "with_driver_non_include_desc": [
+      "Penggunaan Luar Kota (Zona 1 & Zona 2)",
+      "Biaya Parkir",
+      "Biaya Tol",
+      "Penginapan Sopir",
+      "Overtime (Jika Ada)"
+    ],
+    "car_conditions": "Ketentuan Mobil",
+    "smoking": "Dilarang Merokok",
+    "pet": "Peliharaan Diperbolehkan",
+    "disability": "Dukungan Disabilitas",
+    "priceTerm": "Ketentuan Harga",
+    "priceInclude": "Harga Termasuk",
+    "include": "Termasuk",
+    "important": "Penting",
+    "rentalRules": "Syarat & Ketentuan Rental",
+    "rentalTerm": "Syarat Rental",
+    "learnMore": "Lihat Detail",
+    "TitleTc": "Syarat & Ketentuan Rental Mobil",
+    "rentalRequirement": "Syarat Rental",
+    "policy": "Kebijakan Rental",
+    "requirement": "Syarat Rental",
+    "otherInfo": "Info Lainnya",
+    "carInsurance": "Asuransi Mobil",
+    "rentalGas": "Kembalikan bahan bakar seperti semula",
+    "rentalTime": "Penggunaan hingga 24 jam per hari rental",
+    "agreeState": "Saya menyetujui ketentuan yang berlaku",
+    "rental_rules": "Peraturan Penyewaan",
+    "requirements": {
+      "list_1": "KTP & SIM A (WNI) Aktif",
+      "list_2": "Deposit 50% dari biaya sewa",
+      "list_3": "Deposit Etoll"
+    },
+    "policies": {
+      "list_1": "Durasi penyewaan mobil 24 jam per hari",
+      "list_2": "Biaya overtime 10% per jam dari harga sewa",
+      "list_3": "Belum termasuk BBM, Tiket parkir, Tiket VIP parkir, Tol dan Sopir"
+    },
+    "pickup_info": "Info Penjemputan",
+    "pickup_method": "Cara Penjemputan",
+    "pickup_info_details": {
+      "list_1": "Setelah pembayaran diterima nanti tunjukan bukti pembayaran/voucher ke Driver",
+      "list_2": "Setibanya di Bandar Udara, staf akan menunggu Anda di area kedatangan",
+      "list_3": "Tunjukkan voucher Anda kepada pengemudi untuk konfirmasi pesanan."
+    },
+    "sure_and_timely_pickup": "Penjemputan Pasti dan Tepat Waktu",
+    "car_insurance": "Asuransi Mobil",
+    "random_car": "Mobil Acak",
+    "operational_hours": "Jam Operasional\nSenin - Minggu"
+  },
+  "priceTerm": {
+    "handSanitizer": "Hand Sanitizer",
+    "mineralWater": "Air Mineral",
+    "mask": "Masker",
+    "tissue": "Tisu",
+    "driver": "Driver",
+    "parking": "Pengemudi",
+    "snacks": "Snacks",
+    "additional_needs": "Kebutuhan Tambahan",
+    "fuel": "BBM",
+    "toll": "Tol"
+  },
+  "priceInclude": {
+    "fuel": "BBM",
+    "toll": "Tol",
+    "parking": "Parkir"
+  },
+  "notification": {
+    "not_found_title": "Belum ada notifikasi",
+    "not_found_description": "Belum ada notifikasi saat ini"
+  },
+  "voucher": {
+    "title": "Voucher Saya",
+    "empty_unclaimed_voucher": "Tidak ada voucher yang dapat diklaim saat ini",
+    "empty_claimed_voucher": "Kami melihat bahwa Anda belum mengklaim voucher Anda! Jangan lewatkan penawaran spesial untuk Anda. Klaim sekarang dan nikmati keuntungannya!",
+    "not_found_description": "Belum ada voucher saat ini",
+    "btn_claim": "Klaim Voucher",
+    "not_found_title": "Voucher Belum Tersedia",
+    "btn_use_voucher": "Gunakan",
+    "alert_voucher": "Voucher tidak dapat digunakan",
+    "msg_error": "Gagal Klaim Voucher",
+    "msg_success": "Berhasil Klaim Voucher",
+    "btn_claimed": "Sudah diklaim",
+    "btn_unclaimed": "Belum diklaim",
+    "created_by": "Dibuat oleh Get & Ride",
+    "desc": "Deskripsi",
+    "benefit": "Keuntungan Penggunaan Voucher",
+    "date_limit": "Tanggal Berlaku Voucher",
+    "term": "Syarat dan Ketentuan",
+    "how_to_use": "Cara Penggunaan Voucher",
+    "limit": "Batas Penggunaan",
+    "error_eligible": "voucher tidak memenuhi syarat",
+    "error_day_not_meet": "hari sewa minimum tidak terpenuhi",
+    "error_date_range": "tidak dalam rentang tanggal yang valid",
+    "error_not_meet_condition": "tidak memenuhi syarat",
+    "error_quota": "kuota sudah penuh",
+    "error_type": "jenis pesanan tidak terpenuhi",
+    "error_combine": "Voucher tidak berlaku karena voucher dan promo tidak bisa digabungkan.",
+    "attached_voucher": "Voucher sudah terlampir, yuk pesan"
+  },
+  "faq": [
+    {
+      "title": "Mengapa harus rental dan sewa mobil di Get and Ride?",
+      "content": "Dengan rental dan sewa mobil di Get and Ride, kamu nggak perlu repot lagi. Semua serba mudah, cepat, dan pastinya terpercaya. Kamu bisa menghemat waktu dan biaya. Selain itu juga bisa memilih mobil untuk liburan keliling kota Bali sesuai dengan kebutuhan dengan harga terbaik."
+    },
+    {
+      "title": "Bagimana cara rental dan sewa mobil di Get and Ride?",
+      "content": "Kamu dapat melakukan rental dan sewa mobil melaui website maupun aplikasi Get and Ride. Berikut langkah yang bisa kamu ikuti:\n\n● Masuk atau Daftar untuk bisa melakukan reservasi di aplikasi.\n\n● Pilih sewa mobil lepas kunci atau dengan sopir.\n\n● Isi lokasi, waktu, dan durasi sewa yang diinginkan.\n\n● Pilih jenis mobil.Pastikan kamu membaca dan setuju dengan Rental Terms & Conditions serta Policy Conditions.\n\n● Pilih detail pengambilan mobil.Kamu bisa mengambil langsung ke tempat rental atau memilih untuk diantarkan ke tempatmu.\n\n● Pastikan kamu sudah mengisi dan mengupload data diri seperti seperti foto KTP dan SIM.\n\n● Periksa kembali pesananmu\n\n● Lakukan pembayaran"
+    },
+    {
+      "title": "Apakah saya harus memiliki SIM untuk menyewa mobil di Get and Ride?",
+      "content": "Untuk rental dan sewa mobil di Get and Ride, penyewa lepas kunci wajib untuk memiliki dan menunjukkan KTP/SIM A untuk wisatawan domestik dan SIM Internasional/Paspor untuk wisatawan non domestik. Pastikan juga seluruh dokumen asli, tidak mengatasnamakan orang lain, dan masih aktif."
+    },
+    {
+      "title": "Apakah ada batasan usia untuk menyewa mobil di Get and Ride?",
+      "content": "Penyewa wajib berusia diatas 17 tahun dan harus menunjukkan Identification Card (KTP)/SIM A atau SIM Internasional/Paspor yang masih aktif."
+    },
+    {
+      "title": "Apakah ada biaya tambahan yang harus dibayar saat mengambil atau mengembalikan mobil?",
+      "content": "Jika mengambil dan mengembalikan mobil sewa langsung di rental place, maka tidak dikenakan biaya apapun (gratis). Jika mobil sewa ingin dikirim dan dikembalikan di tempat penyewa (diluar rental place) maka akan dikenakan biaya tambahan tergantung jarak yang ditentukan."
+    },
+    {
+      "title": "Bagaimana cara mengubah / membatalkan booking mobil rental?",
+      "content": "Untuk pengajuan reschedule sewa mobil dapat menghubungi whatsapp kami di +62 81262511511. Pastikan kamu sudah memahami ketentuan refund dan reschedule yang sudah diinfokan. Jika kamu ingin mengetahui status reschedule tiket Sewa Mobil kamu, kamu dapat menghubungi Whatsapp kami untuk info yang lebih detail."
+    },
+    {
+      "title": "Apakah Sewa Mobil di Get and Ride sudah termasuk biaya sopir?",
+      "content": "Untuk sewa mobil dengan sopir biaya sudah All In termasuk jasa sopir dan makan sopir."
+    },
+    {
+      "title": "Apa saya bisa menentukan waktu penjemputan saat sewa mobil di Get and Ride?",
+      "content": "Anda dapat memilih waktu penjemputan sesuai dengan ketersediaan waktu Anda. Waktu penjemputan terawal yang dapat dipilih adalah pukul 7 pagi, tidak memungkinkan untuk memilih waktu penjemputan yang lebih awal dari itu"
+    },
+    {
+      "title": "Kenapa tidak bisa menemukan Sewa Mobil di beberapa lokasi tertentu?",
+      "content": "Bila kamu tidak menemukan lokasi yang diinginkan saat memesan Sewa Mobil, kemungkinan lokasi tersebut belum terdaftar dalam jangkauan layanan Get and Ride atau pada waktu pemesanan, mobil di lokasi tersebut sedang tidak tersedia atau sudah dipesan oleh pelanggan lain."
+    },
+    {
+      "title": "Apakah sopir mengetahui jalan dan area wisata yang ada di Bali?",
+      "content": "Tidak perlu khawatir. Get and Ride memiliki sopir yang sudah berpengalaman dan pastinya professional."
+    },
+    {
+      "title": "Apakah saat sudah sewa mobil akan mendapatkan invoice?",
+      "content": "Kami akan membuatkan invoice setiap pemesanan sewa mobil yang telah melakukan DP, dan akan mengirimkannya melalui email atau whatsapp dalam bentuk PDF."
+    },
+    {
+      "title": "Tipe mobil apa saja yang disewakan di Get and Ride?",
+      "content": "Kami memiliki berbagai tipe mobil seperti Toyota Hiace, Ertiga, Veloz, Innova Reborn, All New Avanza, dan masih banyak lagi. Kamu bisa cek lebih detail di website kami Get and Ride atau Whatsapp kami di +62 81262511511"
+    },
+    {
+      "title": "Apakah saya dapat mengubah jenis mobil yang saya sewa setelah booking?",
+      "content": "Jika kamu sudah melakukan booking dan ingin mengganti jenis mobil, maka kamu harus cancel terlebih dahulu setelah itu baru melakukan booking ulang untuk tipe mobil yang diinginkan. Untuk mengetahui lebih detail kamu bisa menghubungi Customer Service kami di kami di +62 81262511511."
+    },
+    {
+      "title": "Apa yang dimaksud area sewa?",
+      "content": "Area Sewa adalah jarak tempuh yang dapat dicakup oleh Sewa Mobil. Pada saat memesan, tersedia beberapa pilihan Area Sewa yang dapat dicek pada bagian Cakupan Area. Pastikan untuk memeriksa area mana yang termasuk dalam paket yang dipilih dan tidak dikenakan biaya tambahan, karena biaya tambahan akan dikenakan apabila ingin menggunakan mobil di luar area yang tidak termasuk dalam paket."
+    },
+    {
+      "title": "Jika tidak bisa menghubungi sopir saya?",
+      "content": "Jika kamu tidak bisa menghubungi sopir, kamu bisa menghubungi customer service kami di +62 81262511511"
+    }
+  ],
+  "tab_help_center": [
+    {
+      "id": "faq",
+      "title": "FAQ"
+    },
+    {
+      "id": "privacy-policy",
+      "title": "Kebijakan Privasi"
+    },
+    {
+      "id": "s&k",
+      "title": "Syarat dan Ketentuan"
+    },
+    {
+      "id": "call-center",
+      "title": "Hubungi Kami"
+    }
+  ],
+  "privacy_policy": [
+    {
+      "title": "Aturan Privasi",
+      "sub": [
+        {
+          "title": "Kebijakan Privasi Get and Ride mengatur dan atau menjelaskan seluruh layanan yang sudah Kami sediakan untuk Anda ('Pengguna') gunakan. Untuk menjaga kepercayaan Anda kepada Kami, maka Kami senantiasa akan menjaga segala kerahasiaan yang terkandung dalam data pribadi Anda, karena Kami menganggap privasi Anda sangat penting bagi Kami.",
+          "description": [
+            "Dalam aturan privasi ini Kami sertakan penjelasan mengenai tata cara Kami mengumpulkan menggunakan, mengungkapkan, memproses dan melindungi informasi dan data pribadi Anda yang Kami identifikasi('Data Pribadi').",
+            "Pada saat Anda membuat pemesanan dan atau akun pribadi pada Situs Get and Ride, maka Kami akan mencatat dan menyimpan informasi dan data pribadi Anda.Dimana pada prinsipnya,setiap data yang Anda berikan dari waktu ke waktu akan Kami simpan dan Kami gunakan untuk kepentingan penyediaan produk dan layanan Kami kepada Anda, yaitu antara lain untuk keperluan tokenisasi, akuntansi, tagihan, audit, verifikasi kredit atau pembayaran, serta keperluan keamanan, administrasi dan hukum, bonus poin atau bentuk sejenisnya, pengujian, pemeliharaan dan pengembangan sistem, hubungan pelanggan, promosi dan membantu Kami di kemudian hari dalam memberikan pelayanan kepada Anda.",
+            "Kami juga dapat mengungkapkan data Anda kepada grup perusahaan dimana Get and Ride bergabung didalamnya.Oleh karena pentingnya aturan privasi ini dan ketentuan lainnya dalam penggunaan Situs Kami, maka untuk menjaga keamanan data pribadi Anda, maka mohon untuk dibaca secara seksama seluruh ketentuan dalam aturan privasi ini dan ketentuan lainnya dalam Situs Kami."
+          ]
+        },
+        {
+          "title": "Pada saat Anda mengakses Situs dan atau layanan online yang Kami sediakan, maka semua informasi dan data pribadi Anda akan Kami kumpulkan dengan ketentuan sebagai berikut :",
+          "description": [
+            "Kami akan meminta Anda untuk mengisi data-data pribadi Anda secara benar, jelas, lengkap, akurat dan tidak menyesatkan, seperti nama, alamat email, nomor telepon, alamat lengkap, Kartu Tanda Pengenal (KTP), SIM, Paspor, rincian pemesanan Anda (seperti tipe mobil, lama pemesanan, tanggal pemesanan, lokasi pengambilan dan penjemputan), dan informasi lainnya yang dapat mengidentifikasi Pengguna. Serta data-data lain yang Kami perlukan guna melakukan transaksi melalui Situs dan layanan online lainnya yang Kami sediakan agar Anda dapat memanfaatkan layanan yang Anda butuhkan. Kami tidak bertanggung jawab atas segala kerugian yang mungkin terjadi karena informasi dan atau data yang tidak benar, jelas, lengkap, akurat dan menyesatkan yang Anda berikan.",
+            "Kami akan mengumpulkan informasi mengenai komputer atau pun media apapun yang Anda gunakan, termasuk IP address, sistem operasi, browser yang digunakan, URL, halaman, lokasi geografis dan waktu akses serta data lainnya terkait dengan penggunaan komputer Anda ('Detail IP').",
+            "Kami dapat menggunakan data pribadi Anda dan informasi lainnya yang dikumpulkan dengan tujuan pemasaran Media Sosial menggunakan teknik grafik langsung dan terbuka dan untuk tujuan pemasaran digital konvensional, seperti mengirimkan Anda newsletter atau push notification secara otomatis, termasuk namun tidak terbatas melalui surat elektronik, WhatsApp, serta melalui media sosial (seperti YouTube, Instagram, Facebook, Twitter, Tiktok, dan lain-lain) untuk memberitahukan informasi produk baru, penawaran khusus, program promosi, campaign atau informasi lainnya yang menurut Kami akan menarik bagi Anda",
+            "Dalam menggunakan layanan Kami, informasi-informasi yang Anda berikan dapat Kami gunakan dan berikan kepada pihak ketiga yang bekerjasama dengan Kami, sejauh untuk kepentingan transaksi dan penggunaan layanan Kami",
+            "Segala informasi yang Kami terima dapat Kami gunakan untuk melindungi diri Kami terhadap segala tuntutan dan hukum yang berlaku terkait dengan penggunaan layanan dan pelanggaran yang Anda lakukan pada Situs Kami atas segala ketentuan sebagaimana diatur dalam persyaratan layanan Get and Ride dan pedoman penggunaan produk dan layanan Kami, termasuk dan tidak terbatas apabila dibutuhkan atas perintah Pengadilan dalam proses hukum.",
+            "Anda bertanggung jawab sepenuhnya atas kerahasiaan informasi dan data pribadi Anda, termasuk bertanggung jawab atas semua akses dan penggunaan website yang menggunakan kata sandi dan akun serta token yang Anda miliki yang digunakan oleh siapa saja, baik atas seijin maupun tidak seijin Anda. Setiap penggunaan yang tidak sah dan tanpa sepengetahuan atau izin Anda menjadi tanggung jawab Anda sendiri dan Kami tidak bertanggung-jawab atas segala kerugian yang ditimbulkan sebagai akibat dari kelalaian Anda.",
+            "Anda harus segera memberitahukan kepada Kami mengenai adanya penggunaan sandi atau akun tanpa izin Anda atau semua bentuk pelanggaran atau ancaman pelanggaran keamanan dalam website ini.",
+            "Anda berhak untuk merubah dan atau menghapus data alamat yang telah Anda berikan dan telah tersimpan dalam sistem Kami dengan cara menghubungi Customer Service kami."
+          ]
+        },
+        {
+          "title": "Dengan menerima Ketentuan Penggunaan Situs ini, maka Anda telah diberikan keleluasaan dan atau otoritas akses yang terbatas dan dapat dibatalkan, tidak dapat dipindah-tangankan dan lisensi non-eksklusif untuk mengakses dan menggunakan Situs dengan menampilkan pada tampilan browser Anda untuk tujuan transaksi jual beli produk-produk Kami.",
+          "sub_title": "Dalam penggunaan Situs, Anda akan diberi kata sandi dan akun yang unik untuk memungkinkan Anda mengakses bagian-bagian tertentu dari Situs ini. Setiap kali Anda menggunakan kata sandi atau akun tersebut, Anda akan dianggap memiliki otorisasi untuk mengakses dan menggunakan Situs ini dengan cara yang sesuai dengan syarat dan ketentuan Syarat Penggunaan ini dan Kami tidak memiliki kewajiban untuk menyelidiki otorisasi atau sumber dari akses tersebut atau penggunaan Situs. Dengan demikian, Anda setuju bahwa Anda senantiasa memperhatikan ketentuan larangan yang berlaku dalam penggunaan Situs ini, yaitu sebagai berikut :",
+          "description": [
+            "Anda dilarang untuk melakukan serta tidak akan membantu orang lain untuk mereproduksi, mendistribusikan, menampilkan, menjual, menyewakan, mengirimkan, membuat karya turunan dari, menerjemahkan, memodifikasi, merekayasa balik, membongkar, menguraikan atau mengeksploitasi Situs ini atau sebagian dari itu.",
+            "Anda dilarang untuk menjual dan memindah-tangankan akun Anda, profil, atau item yang terkait dengan Layanan kecuali secara tegas diizinkan secara tertulis oleh Kami.",
+            "Anda dilarang untuk menggunakan setiap informasi yang diberikan pada website atau membuat penggunaan website untuk kepentingan komersial dan atau bisnis lain, kecuali secara tegas diizinkan secara tertulis oleh Kami.",
+            "Anda dilarang untuk meniru atau menggambarkan diri Anda dengan orang lain atau badan usaha lain pada saat Anda memberikan data dan informasi Anda kepada Kami dalam penggunaan website dan layanan Kami.",
+            "Anda dilarang untuk mengirimkan iklan, materi promosi, email spam, serta merusak operasi layanan dengan cara mengupload virus, worm atau kode berbahaya lainnya.",
+            "Perubahan aturan privasi",
+            {
+              "title": "Anda dilarang untuk melakukan serta tidak akan membantu orang lain untuk mengasosiasikan, mencitrakan, mengaitkan, menghubungkan, mengafiliasikan dengan suatu Situs yang berisi konten-konten sebagai berikut :",
+              "description": [
+                "Konten yang melanggar hak kekayaan intelektual dan hak kepemilikan lainnya.",
+                "Konten yang mengandung unsur pornografi atau cabul atau kesusilaan, perjudian, penghinaan, fitnah dan atau pencemaran nama baik, pemerasan dan atau pengancaman, penipuan, pemalsuan.",
+                "Konten yang menimbulkan dan atau mendorong timbulnya atau memfasilitasi rasa kebencian, permusuhan, pengancaman, penghasutan, pelecehan dan mengobarkan suatu ketegangan antar perorangan, pihak manapun atau kelompok tertentu, baik berdasarkan suku, agama, ras dan antar golongan (SARA) ataupun gender atau orientasi seksual, asal negara, etnis, kebangsaan, keterbatasan fisik dan keyakinan.",
+                "Konten-konten terlarang lainnya berdasarkan peraturan perundang-undangan yang berlaku.",
+                "Atas dasar kebijaksanaan Kami dalam hal setiap perilaku Anda selaku pelanggan termasuk dan atau dianggap melanggar hukum dan ketentuan yang berlaku serta merupakan pelanggaran Persyaratan Penggunaan, atau berbahaya bagi kepentingan Kami, maka atas setiap pelanggaran yang terjadi tersebut mengakibatkan pencabutan secara serta merta izin akses yang diberikan dalam ketentuan ini tanpa pemberitahuan terlebih dahulu kepada Anda dan Kami berhak untuk menolak layanan, menghentikan akun, dan atau membatalkan pesanan yang Anda lakukan, termasuk dan tidak terbatas untuk mengungkapkan identitas dalam database Anda kepada pihak yang berwenang atas dasar suatu surat perintah yang sah. Anda harus bertanggung-jawab terhadap semua kerugian yang Kami alami, termasuk dan tidak terbatas terhadap klaim pihak ketiga, beserta biaya-biaya lainnya yang mungkin muncul sebagai akibat yang ditimbulkan dari perilaku Anda. Konten yang disediakan di website ini adalah semata-mata untuk tujuan informasi. Dengan Anda menyetujui ketentuan ini, maka sekaligus membebaskan Kami dari tanggung jawab atas setiap klaim, sanggahan, kerusakan, atau kerugian yang diakibatkan dari penggunaan website atau layanan yang terkandung di dalamnya"
+              ]
+            },
+            "Perubahan aturan privasi. Kami berhak untuk melakukan perubahan, penambahan dan atau pengurangan seluruh ataupun sebagian ketentuan dari aturan privasi ini dari waktu ke waktu tanpa pemberitahuan terlebih dahulu dan segala perubahan yang Kami lakukan akan Kami beritahukan melalui situs getandride.com Kami mengharapkan agar Anda dapat secara berkala memeriksa mengenai kebijakan ini. Dengan mengakses dan menggunakan layanan Kami, maka secara langsung Kami menganggap Anda sudah mengerti dan menyetujui segala kebijakan privasi yang tertera di halaman situs Kami saat itu juga.",
+            "Apabila Anda mengakses website ini di luar Indonesia, maka atas penggunaan website dan layanan yang Kami berikan akan tunduk dan diatur oleh dan atau ditafsirkan sesuai dengan hukum yang berlaku di Indonesia, tanpa mempengaruhi adanya prinsip-prinsip konflik hukum yang berlaku."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Akses, Koreksi dan Penghapusan Data",
+      "sub_title1": "Anda berhak untuk mengakses, memperbaiki, mengubah dan atau menghapus Data Pribadi yang telah Anda berikan dan telah tersimpan dalam sistem Kami dengan cara menghubungi Customer Service Kami dan/atau melalui fitur yang terdapat pada aplikasi Kami.",
+      "sub_title2": "Kami berhak menolak permintaan Anda untuk mengakses, memperbaiki atau menghapus sebagian atau semua Data Pribadi Anda sesuai dengan hukum yang berlaku. Hal ini termasuk dalam keadaan di mana Data Pribadi Anda memuat referensi ke individu lain atau di mana permintaan untuk mengakses, memperbaiki atau menghapus adalah untuk alasan yang Kami anggap dapat memerlukan upaya teknis yang tidak proposional atau dapat menimbulkan risiko operasional."
+    },
+    {
+      "title": "Persetujuan",
+      "sub_title1": "Dengan membaca seluruh ketentuan dan kebijakan ini perihal mengakses dan menggunakan situs dan layanan Kami, maka Anda dianggap menyatakan telah mengetahui, memahami, menyetujui, dan menyatakan tunduk pada Aturan Privasi ini beserta perubahan-perubahan yang mungkin Kami lakukan dari waktu ke waktu. Apabila Anda tidak dapat menyetujui aturan privasi ini, baik secara keseluruhan ataupun sebagian, maka Anda tidak diperbolehkan untuk mengakses Situs ini ataupun menggunakan Layanan yang Kami sediakan.",
+      "sub_title2": "Jika Anda memiliki pertanyaan atau membutuhkan informasi lebih lanjut mengenai pesanan Anda, Anda dapat menghubungi Customer Service Kami +62 81262511511 atau email kami di admin@getandride.com"
+    }
+  ],
+  "s&k": [
+    {
+      "title": "Umum",
+      "length": 4,
+      "description": [
+        "Saat Anda menggunakan dan mengakses situs Get and Ride dan aplikasinya, Anda telah menyetujui bahwa Anda telah membaca, memahami, tunduk, dan terikat terhadap Syarat dan Ketentuan penggunaan Get and Ride yang telah ditetapkan di bawah ini. Apabila Anda tidak setuju untuk tunduk dan terikat dengan ketentuan ini, maka Anda tidak diperbolehkan untuk mengakses situs dan menggunakan layanan Kami. Pastikan bahwa Anda harus setidaknya berusia delapan belas (18) tahun untuk menggunakan situs ini.",
+        "Syarat dan Ketentuan penggunaan Get and Ride terdiri atas:\n(i) Syarat dan ketentuan umum yang berlaku untuk setiap akses dan layanan yang tersedia pada situs.\n(ii) Syarat dan Ketentuan khusus yang mengatur lebih lanjut tentang ketentuan menggunakan produk dan Layanan tertentu.",
+        "Syarat dan Ketentuan penggunaan Get and Ride sewaktu-waktu dapat Kami ubah, modifikasi, tambah, hapus atau koreksi (‘perubahan’) setiap saat apabila diperlukan sesuai dengan pengembangan situs dan peraturan perundang-undangan. Anda dianjurkan untuk melakukan pengecekan dengan mengunjungi situs kami secara berkala untuk mengetahui adanya perubahan tersebut.",
+        "Penggunaan Layanan tertentu dalam Aplikasi mensyaratkan anda untuk mengaktifkan fitur geolocation dalam perangkat mobile anda. Pengaktifan geolocation ini diperlukan untuk penggunaan Layanan terkait arah, rute, lokasi dengan mempergunakan peta yang tersedia dalam Aplikasi, termasuk mendeteksi lokasi anda kepada Kami untuk menyediakan fitur Layanan di tempat pada saat itu (“Current Location”). Kami memiliki kebijakan sendiri dan menyeluruh untuk menerima atau menunda atau menolak permintaan anda atas Layanan."
+      ]
+    },
+    {
+      "title": "Penggunaan",
+      "length": 5,
+      "description": [
+        "Produk dan Layanan yang tersedia di Situs ini dapat digunakan oleh Anda untuk kepentingan pribadi dan secara non komersial yang setiap saat tunduk pada Syarat dan Ketentuan penggunaan yang berlaku di Get and Ride.",
+        "Kami mengumpulkan dan memproses informasi pribadi anda seperti nama, alamat, surat elektronik, nomor telepon anda ketika anda mendaftarkan diri pada Aplikasi. Anda wajib untuk memberikan informasi yang akurat dan lengkap serta memperbaharui informasi dan setuju untuk memberikan kepada Kami bukti identitas apapun yang secara wajar Kami mintakan agar Kami dapat tetap menyediakan Layanan secara utuh dan maksimal kepada anda.",
+        "Produk-produk, teknologi, dan proses yang terdapat atau terkandung dalam situs maupun aplikasi, dimiliki oleh Kami. Kecuali untuk penggunaan yang secara diijinkan dan diperbolehkan dalam syarat dan ketentuan yang berlaku di Get and Ride. Anda tidak memiliki dan menerima apapun dari Kami dan Kami tidak memberikan hak lain apapun kepada Anda atas situs atau aplikasi ini, berikut dengan segala data, informasi, dan konten di dalamnya.",
+        "Anda sudah menyetujui untuk tidak mengunduh, menayangkan atau mentransmisi dengan cara apapun, dan atau membuat konten apa pun tersedia untuk umum yang tidak konsisten dengan penggunaan yang diijinkan dalam Syarat dan Ketentuan penggunaan Get and Ride.",
+        "Anda tidak diperbolehkan untuk membuat link, screen capture, ataupun data crawling ke situs atau aplikasi tanpa persetujuan tertulis sebelumnya dari Get and Ride. Hal-hal tersebut dianggap sebagai pelanggaran hak milik intelektual Get and Ride."
+      ]
+    },
+    {
+      "title": "Layanan",
+      "length": 6,
+      "description": [
+        "Get and Ride menyediakan dan menyelenggarakan sistem dan fasilitas pemesanan online secara terpadu ('Layanan’), yang dapat melayani penyewaan transportasi mobil yang Anda inginkan, serta melakukan pemesanan dan pembelian dan sekaligus melakukan pembayaran secara online dan aman melalui berbagai sistem dan fasilitas pembayaran yang tersedia.",
+        "Layanan Kami secara umum dapat tersedia secara online selama dua puluh empat jam sehari dan tujuh hari dalam seminggu; kecuali dalam hal adanya perbaikan, peningkatan atau pemeliharaan pada Situs Kami.",
+        "Anda tidak diperbolehkan untuk menjual kembali Produk Kami, menggunakan, menyalin, mengawasi, menampilkan, men-download, atau mereproduksi konten atau informasi, piranti lunak, atau Layanan apa pun yang tersedia di aplikasi atau Situs Kami untuk kegiatan atau tujuan komersial apapun, tanpa persetujuan tertulis dari Kami sebelumnya",
+        "Anda dapat menggunakan aplikasi, situs dan Layanan yang tersedia untuk membuat pemesanan/pembelian yang sah. Anda tidak diperbolehkan untuk membuat pemesanan/pembelian untuk tujuan spekulasi, tidak benar atau melanggar hukum. Jika Kami menemukan atau sewajarnya menduga bahwa pemesanan/pembelian yang Anda buat ternyata tidak sah, maka Kami mencadangkan hak untuk membatalkan pemesanan/pembelian Anda.",
+        "Anda juga menjamin bahwa data dan informasi yang Anda berikan ke Kami, baik sehubungan dengan pemesanan/pemesanan ataupun pendaftaran pada Get and Ride, adalah data dan informasi yang akurat, terkini dan lengkap. Untuk ketentuan penggunaan data dan informasi yang Anda berikan, silakan untuk merujuk pada Kebijakan Penggunaan Data.",
+        "Segala informasi yang terdapat dalam Surat Konfirmasi hanya untuk nama yang tertera pada Surat Konfirmasi. Anda sepenuhnya bertanggung jawab terhadap setiap informasi yang tersebar karena kelalaian dan/atau kesengajaan Anda sehingga menimbulkan kerugian bagi Anda atau pihak ketiga yang lainnya."
+      ]
+    },
+    {
+      "title": "Pemesanan",
+      "length": 3,
+      "description": [
+        "Pemesanan/pembelian Produk dianggap berhasil atau selesai setelah Anda melakukan pelunasan pembayaran dan Get and Ride menerbitkan dan mengirim ke Anda, Surat Konfirmasi pemesanan/pembelian. Apabila terjadi perselisihan atau permasalahan, maka data yang terdapat pada Get and Ride akan menjadi acuan utama dan dianggap sah.",
+        "Dengan menyelesaikan pemesanan/pembelian, maka Anda setuju untuk menerima, email yang Kami akan kirim tidak lama setelah Anda melakukan pemesanan/pembelian, memberikan Anda informasi tentang produk yang Anda pesan.",
+        "Beberapa Produk memiliki kewajiban untuk melakukan reservasi terlebih dahulu sesuai dengan syarat dan ketentuan yang berlaku. Anda bertanggung jawab sepenuhnya untuk mengikuti pengaturan tersebut."
+      ]
+    },
+    {
+      "title": "Biaya",
+      "length": 4,
+      "description": [
+        "Get and Ride selalu berupaya untuk menyediakan layanan dengan harga terbaik yang dapat dipesan oleh Anda, jadi Anda harus memeriksa sendiri dan memahami syarat dan ketentuan khusus yang berlaku terhadap suatu harga sebelum Anda melakukan pemesanan. Anda juga perlu memeriksa dan memahami ketentuan mengenai pembatalan dan pengembalian dana yang secara khusus berlaku untuk Produk dan/atau Harga tertentu.",
+        "Harga yang tercantum sudah termasuk pajak, pungutan, biaya dan ongkos lainnya yang akan kami uraikan di Situs Kami.",
+        "Kami dapat menawarkan harga yang lebih rendah dan/atau promosi dari waktu ke waktu. Harap diketahui bahwa hal tersebut mungkin memerlukan ketentuan dan persyaratan yang berbeda, misalnya, sehubungan dengan kebijakan pemesanan dan pengembalian dana.",
+        "Get and Ride berhak mengubah harga suatu produk setiap saat tanpa pemberitahuan sebelumnya, namun tetapi Produk yang sudah Anda beli dan Produk yang sudah mendapatkan Surat Konfirmasi tidak akan berubah."
+      ]
+    },
+    {
+      "title": "Pembayaran",
+      "length": 6,
+      "description": [
+        "Pelunasan atas harga pembelian merupakan syarat untuk melakukan pembelian. Kami menerima pembayaran dengan sistem pembayaran menggunakan kartu kredit (VISA, Master Card dan BCA Card), Virtual Account, transfer antar rekening serta antar bank ke rekening bank Get and Ride, dan metode pembayaran lainnya sebagaimana tercantum di Situs.",
+        "Untuk melindungi dan mengenskripsi informasi kartu kredit Anda, Kami menggunakan fasilitas teknologi 'Secure Socket Layer (SSL)'. Dalam hal terjadi kasus penipuan kartu kredit atau penyalah-gunaan sistem pembayaran oleh pihak-pihak ketiga manapun, maka kejadian tersebut harus segera dilaporkan ke Kami dan perusahaan / bank penerbit kartu kredit Anda, untuk Anda memperoleh penanganan lebih lanjut sesuai dengan prosedur dan aturan yang berlaku.",
+        "Anda wajib memperhatikan secara teliti instruksi pembayaran yang Kami berikan. Kekeliruan pembayaran yang Anda lakukan sebagai berikut:",
+        "(i) pengisian nomor rekening Kami maupun nomor Virtual Account yang Kami tentukan untuk setiap pemesanan yang Anda lakukan; dan/atau",
+        "(ii) kesalahan melakukan nominal pembayaran atas pemesanan Anda, yang mengakibatkan berpindahnya dana Anda ke rekening atau Virtual Account yang tidak sesuai dengan instruksi pembayaran yang Kami berikan ataupun terdebetnya rekening bank Anda sejumlah nilai nominal yang tidak sesuai dengan instruksi pembayaran yang Kami berikan, sehingga mengakibatkan tidak terkonfirmasinya pesanan Anda, maka Anda dengan ini mengetahui dan menyetujui bahwa Kami tidak memiliki kewajiban untuk melakukan pengembalian dana kepada Anda sebagai akibat dari kekeliruan ataupun kelalaian yang Anda lakukan sendiri dengan tidak mengikuti instruksi pembayaran yang telah Kami berikan, sehingga dengan demikian kerugian tersebut menjadi resiko dan tanggung jawab Anda sepenuhnya. Selain itu, kekeliruan pembayaran sebagaimana disebutkan di atas tidak dapat dianggap sebagai pembayaran yang sah atas pesanan Anda, sehingga Anda harus melakukan pembayaran sesuai dengan instruksi pembayaran yang telah Kami berikan untuk mendapatkan konfirmasi terhadap pesanan yang Anda lakukan.",
+        "Atas setiap pemesanan yang dapat Kami konfirmasi, Kami akan mengirim Anda Surat Konfirmasi via email yang berisi uraian produk dan pemesanan yang Anda buat serta konfirmasi pembayaran. Anda bertanggung-jawab untuk mencetak dan menjaga informasi yang tertera pada Surat Konfirmasi yang Kami kirim. Surat konfirmasi ini merupakan dokumen yang sangat penting dan Anda wajib membawa cetakan dari Surat Konfirmasi ini pada saat Anda akan menggunakan atau mengambil Produk yang Anda beli. Kami untuk menolak memberikan Produk atau pelayanan, jika Anda tidak dapat membuktikan bahwa Anda telah secara sah melakukan pemesanan dan pelunasan, dan Anda membebaskan Get and Ride dari segala tanggung-jawab dan kerugian Anda dalam bentuk apapun."
+      ]
+    },
+    {
+      "title": "Perubahan dan Pembatalan",
+      "length": 6,
+      "description": [
+        "Dengan melakukan pemesanan di Get and Ride, Anda dianggap telah memahami, menerima dan menyetujui kebijakan dan ketentuan pembatalan. Telah Kami cantumkan kebijakan dan ketentuan pembatalan tersebut di setiap Surat Konfirmasi yang Kami kirim ke Anda. Harap dicatat bahwa tarif atau penawaran tertentu tidak memenuhi syarat untuk pembatalan atau pengubahan. Anda bertanggung-jawab untuk memeriksa dan memahami sendiri kebijakan dan ketentuan pembatalan tersebut sebelumnya.",
+        "Jika Anda ingin melihat ulang, melakukan perubahan, atau membatalkan pesanan Anda, harap menghubungi CS kami melalui Email atau Telpon. Harap dicatat bahwa Anda mungkin saja dikenakan biaya tambahan atas pembatalan sesuai dengan kebijakan dan ketentuan pembatalan.",
+        "Tata cara pengajuan perubahan dan pembatalan atas pesanan diatur dalam Surat Konfirmasi maupun media lainnya yang dapat Kami perbaharui dari waktu ke waktu.",
+        "Untuk setiap pembatalan pesanan yang Anda lakukan, kami akan melakukan pengembalian dana dengan ketentuan sebagai berikut:",
+        " • Pengembalian dana dilakukan dengan jumlah dan waktu sesuai dengan kebijakan dan ketentuan pembatalan yang diberlakukan.\n • Jumlah dana yang dikembalikan kepada Anda tidak lebih besar dari jumlah nominal yang Anda bayarkan kepada Kami, disesuaikan dengan kebijakan yang diberlakukan. \n • Untuk transaksi yang pembayarannya menggunakan Klikpay BCA dengan BCA Card, maka pengembalian dana dilakukan melalui transfer ke rekening pemesan atau salah satu penumpang atau tamu hotel atau penyewa mobil yang telah terdaftar pada pemesanan Anda.",
+        "Anda menyetujui bahwa Kami hanya dapat memproses pengajuan pembatalan yang sesuai dengan syarat dan ketentuan pembatalan yang diberlakukan, Syarat dan Ketentuan Penggunaan Get and Ride, Syarat dan Ketentuan e-Refund serta syarat dan ketentuan lainnya yang berlaku pada Situs Kami. Untuk itu, Anda membebaskan Kami dalam hal terdapat kerugian yang Anda derita akibat dari pengajuan pembatalan yang Anda lakukan maupun kelalaian Anda dalam memenuhi ketentuan syarat dan ketentuan pembatalan yang diberlakukan,, Syarat dan Ketentuan Penggunaan Get and Ride, Syarat dan Ketentuan e-Refund serta syarat dan ketentuan lainnya yang berlaku pada Situs Kami."
+      ]
+    },
+    {
+      "title": "Keamanan",
+      "length": 3,
+      "description": [
+        "Pada saat Anda mengakses informasi data Anda dan membuat pesanan di Situs Kami, Kami menggunakan akses Secure Server Layer (SSL) yang akan mengenkripsi informasi data yang Anda akan kirim melalui Situs ini.",
+        "Kami akan menggunakan upaya terbaik kami untuk memastikan keamanannya, Kami tidak bisa menjamin seberapa kuat efektifnya enkripsi ini. Kami tidak akan bertanggung jawab atas masalah yang terjadi akibat pengaksesan tanpa ijin dari informasi yang Anda sediakan dan Anda wajib memastikan bahwa perangkat atau device yang digunakan untuk mengakses Get and Ride sepenuhnya ada di bawah kendali Anda. Untuk itu Anda membebaskan Kami dari segala kerugian yang timbul dan mungkin timbul atas kelalaian Anda pada saat mengakses Get and Ride dengan perangkat atau device yang Anda gunakan.",
+        "Pastikan Anda selalu mengganti kerahasiaan password anda secara berkala karena akun Anda adalah tanggung jawab Anda sepenuhnya."
+      ]
+    },
+    {
+      "title": "Kebijakan Penggunaan Data",
+      "length": 3,
+      "description": [
+        "Kami menganggap bahwa Privasi Anda merupakan hal yang penting bagi kami.",
+        "Pada saat Anda membuat pemesanan di Get and Ride, kami akan mencatat serta menyimpan informasi dan data pribadi Anda. Kami menyimpan informasi dan data pribadi Anda untuk menyediakan produk dan Layanan kepada Anda. Kami akan menyimpan setiap data yang Anda berikan dari waktu ke waktu untuk Kami gunakan untuk keperluan akuntansi, audit, verifikasi kartu kredit, security, poin atau segala bentuk jenisnya, promosi, pengembangan serta membantu kami untuk memberikan pelayanan kepada Anda di kemudian hari.",
+        "Kami berhak untuk memberikan informasi dan data pribadi Anda kepada group perusahaan dan afiliasinya (grup perusahaan-perusahaan), rekan mitra, badan pemerintahan dan badan peradilan yang berwenang di yurisdiksi manapun."
+      ]
+    }
+  ],
+  "contact-us": {
+    "title": {
+      "name": "Nama",
+      "email": "Email",
+      "topic": "Topik",
+      "critic": "Kritik dan Saran"
+    },
+    "placeholder": {
+      "name": "Masukkan Nama anda",
+      "email": "Masukkan Email anda",
+      "topic": "Tulis Topik anda",
+      "critic": ""
+    },
+    "error": {
+      "name": "nama tidak boleh kosong",
+      "email": "email tidak boleh kosong",
+      "topic": "topik tidak boleh kosong",
+      "critic": "kritik dan saran tidak boleh kosong",
+      "required": "tidak boleh kosong"
+    },
+    "toast": {
+      "message_success": "Berhasil Mengirim Pesan Bantuan",
+      "message_error": "Gagal Mengirim Pesan Bantuan",
+      "title_success": "Sukses",
+      "title_error": "Gagal"
+    },
+    "btn": {
+      "send": "Kirim"
+    }
+  },
+  "company_profile": {
+    "company_profile": "Profil Perusahaan",
+    "about_company": "Tentang Perusahaan",
+    "about_company_description": "Get & Ride adalah transportasi online yang dapat diakses melalui website dan aplikasi (App Store & Playstore) yang menyediakan layanan sewa mobil berpengalaman di Bali. Kami juga menawarkan solusi transportasi terbaik untuk wisatawan dan bisnis dengan pilihan mobil berkualitas tinggi dengan harga terjangkau. Untuk meningkatkan kenyamanan pengguna kami, kami juga berencana untuk memperluas layanan kami ke kota-kota besar lainnya selain Bali. Percayakan perjalanan liburan, perjalanan bisnis, atau acara pribadi Anda kepada kami.",
+    "vision": "Visi",
+    "and": "dan",
+    "mission": "Misi",
+    "vision_description": "Untuk menjadi perusahaan penyewaan mobil terkemuka di Bali yang memberikan layanan terbaik, menawarkan akses yang mudah, dan solusi transportasi yang terjangkau bagi para pelancong.",
+    "mission_description": {
+      "first": "Menyediakan layanan penyewaan mobil di kota-kota besar lainnya dengan tingkat layanan dan kualitas yang sama seperti di Bali.",
+      "second": "Menerapkan sistem teknologi, pemesanan, dan pembayaran yang inovatif dan ramah pengguna.",
+      "third": "Berkolaborasi dengan mitra bisnis dan industri terkait untuk memperluas jangkauan dan memenuhi kebutuhan pelanggan."
+    },
+    "easy_access": "Akses Mudah",
+    "easy_access_description": "Get&Ride menyediakan akses pemesanan yang mudah melalui situs web dan aplikasi, sehingga Anda dapat memesan kapan saja dan di mana saja. Pilih jadwal dan jenis mobil yang Anda inginkan dengan mudah dan terpercaya bersama kami.",
+    "high_quality": "Kualitas Tinggi",
+    "high_quality_description": "Get&Ride menawarkan mobil dengan kualitas terbaik dan kebersihan yang terjaga. Semua mobil diservis secara teratur untuk kenyamanan Anda.",
+    "best_service": "Layanan Terbaik",
+    "best_service_description": "Menyediakan pengemudi profesional, penerapan protokol kesehatan, dan perlindungan kendaraan. Semua mobil dijamin dengan perlindungan asuransi.",
+    "our_services": "Layanan kami",
+    "car_rental_with_driver": "Sewa Mobil Dengan Sopir",
+    "car_rental_with_driver_description": "Get&Ride menyediakan akses pemesanan yang mudah melalui situs web dan aplikasi, sehingga Anda dapat memesan kapan saja dan di mana saja. Pilih jadwal dan jenis mobil yang Anda inginkan dengan mudah dan terpercaya bersama kami.",
+    "car_rental_airport_transfer": "Airport Transfer",
+    "car_rental_airport_transfer_description": "Nikmati kemudahan berpergian dari/menuju bandara dengan harga terbaik hanya di Get & Ride! Pulang atau pergi ke bandara dari hotel dan sebaliknya jadi lebih mudah dengan fitur Airport Transfer Get & Ride.",
+    "self_drive": "Berkendara Sendiri",
+    "self_drive_description": "Get&Ride menawarkan mobil dengan kualitas terbaik dan kebersihan yang terjaga. Semua mobil diservis secara teratur untuk kenyamanan Anda.",
+    "type_of": "Jenis",
+    "cars": "Mobil",
+    "start_from": "Mulai dari",
+    "how_to": "Bagaimana cara",
+    "rent_a_car": "Menyewa mobil?",
+    "mobile_app": "Aplikasi Mobile",
+    "website": "Website",
+    "how_to_rent_a_car": "Bagaimana cara menyewa mobil?",
+    "get_and_ride_is_already_on": "Get & Ride sudah ada di",
+    "mobile_apps": "Aplikasi Mobile",
+    "available_on": "Tersedia di :"
+  },
+  "influencer_testimoni": [
+    "Kemarin sewa mobil sama @getride.id enak banget dapet Zenix yang baru 1000 km jadi bisa cobain mobilnya juga. Kayaknya mereka mobilnya baru-baru semua. Bagi yang ke Bali mau cobain sewa mobil, bisa ke mereka!",
+    "Sewa mobil sama @getride.id pas ke Bali. Dapet mobil Zenix Hybrid yang baru 1000 km ternyata enak banget. Mobilnya worth it banget sih, gila! Mobilnya masih baru-baru. Kalo ke Bali wajib sewa disini sih",
+    "Kita sewa mobil innova zenix yang hybrid di @getride.id. Gantian nyetir pun enak dan ga masalah. Karena ada sunroof jadi kalo selfie super bagus. Ga nyangka enak banget bawanya dan berasa lebih hemat dan super rekomen!",
+    "Setelah sewa zenyx hybrid di @getride.id Super mewah. Bagasinya luas banget dan ada 2 monitor belakang. Jadi berasa pengen punya beneran ini. Thank you Get&Ride!",
+    "Kita kemaren di Bali pake mobil Zenix Hybrid jauh lebih irit dan lebih nyantai. Kita sewanya di @getride.id mobilnya lengkap banget, super bersih dan nyaman. Thank you banget! Super nice service dianterin sampe bandara. Lain kali sewa mobil disini lagi sih."
+  ],
+  "profile": {
+    "data_received": "Data diterima",
+    "reupload": "Unggah Ulang",
+    "select_file": "Pilih File",
+    "identity_alert": "Setiap kali Anda melakukan sewa, data KTP dan SIM akan diverifikasi sebagai syarat penyewaan mobil. Kami menjamin privasi data Anda sesuai kebijakan privasi kami.",
+    "reupload_your_document": "Upload Ulang Dokumen Anda",
+    "view_message": "Lihat Pesan",
+    "identity_verification": "Verifikasi Identitas",
+    "warning": "Peringatan!",
+    "warning_description": "Data yang dihapus akan direview kembali dan membutuhkan waktu untuk mengkonfirmasi."
+  },
+  "one_way": {
+    "title": "One Way",
+    "choose_your_route": "Pilih Lokasi Anda",
+    "search_route_destination": "Cari Destinasi Anda",
+    "search_route_destination_placeholder": "Pilih Destinasi Tujuan",
+    "select_region": "Pilih Daerah",
+    "available_region": "Lokasi Tersedia",
+    "select_travel_destination": "Pilih Tujuan Perjalanan",
+    "detail_pickup": "Detail Lokasi Penjemputan",
+    "dropoff_placeholder": "Pilih Lokasi Tujuan",
+    "detail_dropoff": "Detail Lokasi Tujuan",
+    "current_location": "Lokasi Saat Ini",
+    "no_trip": "Tidak ada trip",
+    "unknwon_location": "Lokasi Tidak Diketahui",
+    "no_trip_description": "Pilih destinasimu dan pengalaman perjalanan bersama get & ride",
+    "pickup_placeholder": "Detail penjemputan",
+    "pickup_location": "Lokasi Penjemputan",
+    "dropoff_location": "Lokasi Tujuan",
+    "pickup_placeholder_description": "Detail penjemputan (misal: dekat gerbang)",
+    "dropoff_placeholder_description": "Detail Lokasi Tujuan",
+    "cost_detail": "Detail Biaya",
+    "cost_travel": "Biaya Perjalanan",
+    "service_fee": "Biaya Jasa Aplikasi",
+    "total_payment": "Total Pembayaran",
+    "active_location": "Aktifkan Lokasi Anda",
+    "active_location_description": "Kami memerlukan akses ke lokasi Anda untuk layanan yang optimal. Silahkan nyalakan lokasi pada perangkat Anda",
+    "btn_active_location": "Aktifkan Lokasi",
+    "select_package": "Pilih Paket",
+    "schedule_order": "Jadwalkan Pesanan",
+    "schedule_order_desc": "Perencanaan perjalanan tanpa harus menunggu, karena sudah dijadwalkan",
+    "accept_tnc": "Dengan melanjutkan pesanan ini, maka kamu setuju dengan Syarat dan Ketentuan",
+    "schedule": "Jadwalkan",
+    "cancel": "Batalkan",
+    "search_driver": "Sedang mencari driver",
+    "search_driver_desc": "Pesanan kamu akan segera diambil supir, mohon sabar menunggu.",
+    "RUNNING": {
+      "title": "Sudah dapat supir",
+      "desc": "Supir akan berangkat ketika mendekati jadwal."
+    },
+    "ON_PICKUP_LOCATION": {
+      "title": "Pesananmu sudah di konfirmasi",
+      "desc": "Supir sedang menuju lokasi dengan"
+    },
+    "TRANSPORTING_PASSENGER": {
+      "title": "Sedang Dalam Perjalanan",
+      "desc": "Berangkat menuju lokasi tujuan"
+    },
+    "SCHEDULED": {
+      "title": "Pesanan Terjadwal",
+      "desc": "Jika kamu belum mendapat supir, pesanan akan dibatalkan otomatis dan uang dikembalikan."
+    },
+    "FINISH": {
+      "title": "Perjalanan Selesai",
+      "desc": "Terima kasih telah menggunakan layanan kami. Semoga perjalanan Anda menyenangkan!"
+    },
+    "CHECKOUT": {
+      "title": "Menunggu Konfirmasi",
+      "desc": "Pesanan Anda sedang diproses. Harap tunggu konfirmasi dari admin."
+    },
+    "OPEN": {
+      "title": "Belum Ada Driver",
+      "desc": "Kami masih mencari driver yang tersedia untuk Anda. Harap bersabar."
+    },
+    "BOOKED": {
+      "title": "Driver Ditemukan",
+      "desc": "Driver Anda telah ditentukan dan akan berangkat sesuai jadwal yang ditentukan."
+    },
+    "CANCELLED": {
+      "title": "Pesanan Dibatalkan",
+      "desc": "Pesanan anda sudah dibatalkan."
+    },
+    "FAILED": {
+      "title": "Transaksi Gagal",
+      "desc": "Pesanan Anda tidak berhasil. Silakan coba lagi."
+    },
+    "PENDING": {
+      "title": "Menunggu Pembayaran",
+      "desc": "Pesanan Anda sedang menunggu pembayaran.\nHarap segera melakukan pembayaran."
+    },
+    "SEARCHING_FOR_DRIVER": {
+      "title": "Mencari pengemudi",
+      "desc": "Pesanan Anda sedang diproses. Pengemudi akan segera ditugaskan. Mohon tunggu dengan sabar."
+    },
+    "PAID": {
+      "title": "Mencari pengemudi",
+      "desc": "Pesanan Anda sedang diproses. Pengemudi akan segera ditugaskan. Mohon tunggu dengan sabar."
+    },
+    "order_schedule": "Pesanan Terjadwal",
+    "order_schedule_desc": "Jika kamu belum mendapat supir, pesanan akan dibatalkan otomatis dan uang dikembalikan,",
+    "left_items": "Jika ada barangmu yang tertinggal kamu masih bisa menghubungi supir atau ke kami",
+    "location_data": "Data Lokasi",
+    "your_order_detail": "Detail Pesanan Anda",
+    "cancel_order": "Batalkan Pesanan",
+    "type_description": "Ketik alasan lainnya",
+    "cancel_reason": {
+      "long_wait": "Lama Menunggu",
+      "cannot_contacted": "Driver tidak dapat di hubungi",
+      "change_destination": "Ingin ganti tujuan",
+      "change_rent_type": "Mengganti tipe sewa",
+      "other": "Lainnya",
+      "cancel_message_empty": "Silahkan isi"
+    },
+    "success_cancel": "Berhasil membatalkan pesanan",
+    "failed_cancel": "Gagal membatalkan pesanan",
+    "hour_title": "Pilih Jam",
+    "hour_desc": "Waktu yang dipilih sesuai dengan zona waktu tempat sewa mobil"
+  }
+}

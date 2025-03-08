@@ -1,0 +1,64 @@
+diff --git a/node_modules/react-native-modern-datepicker/src/datePicker/components/Calendar.js b/node_modules/react-native-modern-datepicker/src/datePicker/components/Calendar.js
+index 868c302..ab3be44 100644
+--- a/node_modules/react-native-modern-datepicker/src/datePicker/components/Calendar.js
++++ b/node_modules/react-native-modern-datepicker/src/datePicker/components/Calendar.js
+@@ -1,7 +1,9 @@
+ import React, {useEffect} from 'react';
+ import {View, StyleSheet, Text, Animated} from 'react-native';
+ 
+-import {Header, Days} from '.';
++// import {Header, Days} from '.';
++import {Header} from './Header';
++import {Days} from './Days';
+ import {useCalendar} from '../DatePicker';
+ 
+ const Calendar = () => {
+diff --git a/node_modules/react-native-modern-datepicker/src/utils.js b/node_modules/react-native-modern-datepicker/src/utils.js
+index c9f0cce..59289a2 100644
+--- a/node_modules/react-native-modern-datepicker/src/utils.js
++++ b/node_modules/react-native-modern-datepicker/src/utils.js
+@@ -56,15 +56,42 @@ const gregorianConfigs = {
+   timeClose: 'Close',
+ };
+ 
++const mandarinConfigs = {
++dayNames : ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'],
++dayNamesShort : ['日', '一', '二', '三', '四', '五', '六'],
++  monthNames: [
++    '一月',
++    '二月',
++    '三月',
++    '四月',
++    '五月',
++    '六月',
++    '七月',
++    '八月',
++    '九月',
++    '十月',
++    '十一月',
++    '十二月',
++  ],
++  selectedFormat: 'YYYY/MM/DD',
++  dateFormat: 'YYYY/MM/DD',
++  monthYearFormat: 'YYYY MM',
++  timeFormat: 'HH:mm',
++  hour: '小时',
++  minute: '分钟',
++  timeSelect: '选择',
++  timeClose: '关闭'
++};
++
+ class utils {
+-  constructor({minimumDate, maximumDate, isGregorian, mode, reverse, configs}) {
++  constructor({minimumDate, maximumDate, isGregorian, mode, reverse, configs, isMandarin}) {
+     this.data = {
+       minimumDate,
+       maximumDate,
+       isGregorian,
+       reverse: reverse === 'unset' ? !isGregorian : reverse,
+     };
+-    this.config = isGregorian ? gregorianConfigs : jalaaliConfigs;
++    this.config = isMandarin ? mandarinConfigs : isGregorian ? gregorianConfigs : jalaaliConfigs;
+     this.config = {...this.config, ...configs};
+     if (mode === 'time' || mode === 'datepicker') {
+       this.config.selectedFormat = this.config.dateFormat + ' ' + this.config.timeFormat;

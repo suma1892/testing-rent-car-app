@@ -1,0 +1,2165 @@
+{
+  "Account": {
+    "header": "My Profile",
+    "menu_1": "Profile",
+    "menu_2": "Change Password",
+    "menu_3": "Notification",
+    "menu_4": "Help Center",
+    "menu_5": "User Information",
+    "menu_6": "Loyalty Program",
+    "menu_7": "Referral Code",
+    "password": "Password",
+    "foto_sim": "foto-sim.jpg",
+    "foto_ktp": "foto-ktp.jpg",
+    "insert_password_to_update": "Enter Password to make changes",
+    "your_password": "Kata sandi anda",
+    "logout": "Logout",
+    "id_card_photo": "E-KTP",
+    "license_photo": "Driver's License",
+    "select_country_code": "Select Country Code",
+    "search_country_code": "Search Country Code",
+    "referral_code": "Referral Code",
+    "my_point": "My Point",
+    "registered_email": "Email already registered",
+    "confirmation": "Confirmation",
+    "confirm_desc": "Enter the code that has been sent to your email",
+    "invalid_otp": "The code you entered is incorrect",
+    "invite_friend": "Invite your friends!",
+    "invite_friend_desc": "Share your code via social media, messages, or your contact list and earn points from every first transaction your friend makes.",
+    "error_update": "Profile data failed to change!",
+    "share": "Or Share with others",
+    "badge": "Badge"
+  },
+  "getrideDescription": {
+    "title": "What is Get and Ride?",
+    "description": "Get and Ride is an online application that provides car rental and rental services with a driver or off key specifically for the Bali area. We provide various types of cars at affordable prices. Immediately submit a business trip, vacation, or private event to us."
+  },
+  "Home": {
+    "tabBarLabel": "Home",
+    "warning_form": "all forms must be filled in",
+    "select_title_lang": "Choose Language",
+    "daily": {
+      "title": "Daily",
+      "overtime": "Counted as Overtime",
+      "location": "Choose Your Location",
+      "placeholder_location": "Choose Your Location",
+      "your_location": "Your Location",
+      "available_location": "Available Location",
+      "other_location": "Other Location",
+      "search_history": "Search History",
+      "delivery_date": "Delivery Date",
+      "without_driver": "Without Driver",
+      "warning_hours": "invalid Hours",
+      "with_driver": "With Driver",
+      "select_date": "Select Date",
+      "rent_start_date": "Pick-up Date",
+      "rent_end_date": "Rental End Date",
+      "date_info": "24 Hours Rent Time",
+      "date_info_12": "12 Hours/Day Rent Time",
+      "time_info": "24 Hours Rent Time",
+      "rent_start_time": "Rental Start Time",
+      "rent_end_time": "Rental End Time",
+      "pickup_time": "Pick-up Time",
+      "rental_duration": "Rental Duration",
+      "duration": "Duration",
+      "select_rental_duration": "Select Rental Duration",
+      "btn_search": "Find a Car",
+      "error_location": "Enter your location",
+      "error_rent_date": "Enter the Date first",
+      "error_rent_time": "Choose Your Clock",
+      "day": "Day",
+      "days": "Days",
+      "continue_to_whatsapp": "Continue to Whatsapp",
+      "car_rental": "Car Rental",
+      "motorcycle_rental": "Motorcycle Rental",
+      "bike_rental": "Bike Rental",
+      "startTime": "Pick-up Time",
+      "headerStartDate": "The time chosen is in accordance with the car rental time",
+      "footerStartDate": "When selecting rental hours will be the same as Return hours",
+      "format_time_24_hours": "24 Hours Rent Time {{value}}",
+      "end_time_24_hours": "24 Hours Rent Time {{value}}",
+      "format_time_12_hours": "12 Hours/Day Rent Time {{value}}",
+      "overtime_confirmation_title": "Are your booking details correct?",
+      "overtime_confirmation_description": {
+        "first": "Your rental will incur additional charges due to overtime fees, check the Terms and Conditions for more details, Will you continue the Car Search?",
+        "second": "",
+        "third": ""
+      },
+      "pickup_location_placeholder": "Choose Pick-up Location",
+      "airport_placeholder": "Choose an Airport"
+    },
+    "getrideDescription": {
+      "title": "Best Service for You",
+      "description": "Experience The Thrill of Exploring Bali with Get&Ride Car Rental",
+      "new_car_unit": "Brand New Cars",
+      "new_car_unit_desc": "Explore Bali safely and comfortably in our brand new, exclusive car",
+      "influencer_favorites": "Influencer Favorite",
+      "influencer_favorites_desc": "Trusted by influencers. Our cars are their go-to choice for exploring Bali",
+      "many_attractive_promos": "Exclusive Offers",
+      "many_attractive_promos_desc": "Enjoy exclusive deals on your dream car for your Bali adventure"
+    },
+    "testimoni": {
+      "influencer_title": "Influencer Testimonials",
+      "customer_title": "Customer Testimonials",
+      "customer_desc": "Get&Ride's Happy Clients",
+      "comment_1": "During my stay in Bali, I rented an Alphard 2024 from Get&Ride Car Rental. The service was exceptional, the car was brand new, and the driver was incredibly kind. I found the experience to be incredibly comfortable and enjoyable. If you're looking for a car rental, I highly recommend Get&Ride",
+      "comment_2": "Super comfortable using a car from @getride.id to explore Bali! I love that they provide baby car seats, making the trip so much more relaxing",
+      "comment_3": "We had a fantastic time in the car during our Bali trip. No matter where we went, we always relied on Get&Ride. The Zenix Hybrid was great, especially for the kids, as it had TV entertainment to keep them entertained.",
+      "comment_4": "We rented a Hiace Premio car in Bali with a driver. The all-inclusive package and easy booking process made it hassle-free. The car's spacious interior could comfortably fit 11 people, making it perfect for family vacations. The fully air-conditioned car was affordable, too",
+      "comment_5": "I borrowed a car from @getride.id yesterday; it was great to get a new Zenix with 1000 km so I could test it out. They appear to have brand-new cars. You can go to them if you are going to Bali and want to renting a car!",
+      "comment_6": "When visiting Bali, use @getride.id to rent a car. I bought a new Zenix Hybrid car with 1000 kilometers on it, and it turned out to be really great. It's crazy, the car is totally worth it! The cars are still relatively new. You have to rent here if you go to Bali.",
+      "comment_7": "We rented a hybrid Innova Zenix car from @getride.id. The driving adjustment is pleasant and causes no issues. Because there is a sunroof, selfies are fantastic. I didn't anticipate it to be so great, and it's more affordable and highly recommended!",
+      "comment_8": "Rent a super luxurious Zenyx hybrid at @getride.id. There are two back monitors and a large trunk. Seems like I want to have this car for my self. Thank you Get&Ride!",
+      "comment_9": "We drove a Zenix Hybrid car yesterday in Bali, which was significantly more cost-effective and comfortable. We rented it through @getride.id, and the car was incredibly well-equipped, clean, and comfortable.Thank you very much! Superb airport service. I'll rent a car from here again next time.",
+      "comment_10": "It's really a nice car, Zenix Hybrid so it's super duper economical @getride.id",
+      "comment_11": "This time I deliberately ordered a bigger car, a Veloz and it fits a lot! Basically, if you want to rent a car in Bali, we'll leave it up to @getride.id. Best service as always!",
+      "comment_12": "The car we rented for a week in Bali, the newest Veloz, is clean of course and the car is really cool because it can charge inside! The car is big, and can fit a lot of stuff @getride.id",
+      "comment_13": "For those of you who are in Bali must rent here, I'm renting a new Zenix hybrid, guys! The car is super clean, smells good, it's really spacious and it's new because all still in plastic. And the driver is also super friendly and welcoming. @getride.id",
+      "comment_14": "Renting a car at Get&Ride, the Zenix Hybrid car is super cool, very fuel efficient, and futuristic. It feels more luxurious but the price is affordable. Moreover, it's reliable too, suitable for families who want to vacation in Bali, and you can also rent it with a driver. Going anywhere in Bali becomes much easier!",
+      "comment_15": "The car, the driver, everything from Get&Ride is just the best! If you're going to Bali and unsure where to rent a car, in my opinion, Get&Ride is the best rental service overall.",
+      "comment_16": "The car is really comfortable, the Veloz drives so smoothly, it's awesome! The car is clean, well-maintained, in great condition, and it even has a Flazz card, so getting around is super easy. I highly recommend it for anyone looking to rent a car—just go straight to Get&Ride!",
+      "comment_17": "With Get&Ride, the rates are friendly. That's why I chose Get&Ride—not only is it affordable, but it's also quick, and most importantly, very thorough. Everything is checked thoroughly and professionally. And of course, the cars are new",
+      "comment_18": "It's definitely the best way to get around Bali by renting a car at @getride.id. They have great rates, on-time pickup service, and even offer free pickup and drop-off at Ngurah Rai Airport. Book your ride easily on their getandride.com website or through the Get&Ride app (available on Google Play and the App Store). Plus, new users get a 25,000 discount!",
+      "comment_19": "Excellent service, friendly drivers, and affordable prices with a wide selection of cars (available with or without a driver). Plus, they're always on time and the cars are spotless!",
+      "comment_20": "Cruising around in a Zenix Hybrid from Get&Ride was awesome! The car is spacious, comfortable, and has two monitors behind the front seats. This will definitely be my go-to car choice whenever I'm in Bali.",
+      "comment_21": "I rented a Zenix Hybrid from Get&Ride in Bali, and it was a brand new car! If you're planning a trip with friends or family, I highly recommend renting this car from Get&Ride. It's incredibly fuel-efficient, has a spacious trunk, and even comes with Apple CarPlay. It was a fantastic experience!",
+      "comment_22": "Rent a car from Get&Ride, the facilities are amazing, the cars are comfortable and clean! The service is also super friendly! For those of you planning a vacation to Bali, hurry up and rent a car at Get&Ride!"
+    },
+    "destinationFavTitle": "Popular Destination in Bali",
+    "destinationFavList": [
+      {
+        "name": "Tirta Gangga Water Palace in Bali",
+        "description": "The name Tirta Gangga itself comes from the word Tirta which means water, and Gangga which means the name of a river in India. The flowing water is also believed to be holy water and can wash away bad energy. You can also feed the Koi fishes around and swim here. Don't forget to pack a change of clothes!",
+        "image": "tirtaGangga"
+      },
+      {
+        "name": "Ulun Danu Batur Temple in Kintamani",
+        "description": "Ulun Danu Batur Temple is one of the most iconic spots that offers a beautiful panorama, since it is located above Lake Batur with Mount Batur as a background. The air temperature is also very cool and fresh, which is perfect for you who want to refresh or calm your mind.",
+        "image": "pagoda"
+      },
+      {
+        "name": "Melasti Beach Ungasan",
+        "description": "In a list of the best beaches on Bali, Melasti Beach cannot be missing! This beach is much admired by tourists for its beautiful sea views and cleanliness. The waves on this beach are not too big and safe for those of you who want to play in the water or swim.",
+        "image": "melastiBeach"
+      },
+      {
+        "name": "Kanto Lampo Waterfall, Ubud",
+        "description": "Waterfalls are usually found around forests or mountains, uniquely, Kanto Lampo is located near the residential area of Gianyar, Bali. The waterfall does not flow directly into the river, but passes through the rocks which creates a beautiful and cool atmosphere because of the splashing water around it.",
+        "image": "kantoLampo"
+      }
+    ],
+    "carFavTitle": "Type of Cars",
+    "promoBundle": "Promo Bundle",
+    "articleTitle": "Article",
+    "whyChooseUs": {
+      "title": "Why Rent a Car at Get and Ride",
+      "list_1": {
+        "subtitle": "Time-saving",
+        "description": "Hire a car online, anywhere and anytime. Choose your schedule and car type easily and reliably at Get and Ride."
+      },
+      "list_2": {
+        "subtitle": "Competitive Price",
+        "description": "Don't worry! Get and Ride's rental prices are affordable and guaranteed to be competitive."
+      },
+      "list_3": {
+        "subtitle": "Best Cars",
+        "description": "Get and Ride provides the best quality and cleanest cars. All cars are serviced regularly for convenience."
+      },
+      "list_4": {
+        "subtitle": "Best Services",
+        "description": "Providing professional drivers, implementation of health protocols, and vehicle protection. All cars at Get and Ride are covered by insurance."
+      }
+    },
+    "withDriver": {
+      "description_1": "If you select the car rental \"With Driver\" then you will be redirected to Whatsapp",
+      "description_2": "Once you have selected the time and date, you will select an available car and driver.",
+      "description_3": "Once you have selected a car, you will receive an invoice for your car rental."
+    },
+    "airportTransfer": {
+      "title": "Airport Transfer",
+      "pickup_date": "Pick-up Date"
+    },
+    "tour": {
+      "title": "Tour"
+    }
+  },
+  "loyalty": {
+    "how_to": "How the Point System is Used",
+    "no_loyalty": "Loyalty is not available",
+    "list_how_to": {
+      "first": "You can collect points by sharing the referral code with your friends and your friends must successfully complete the transaction first.",
+      "second": "You will get points when you make a successful transaction.",
+      "third": "The number of points earned depends on your badge loyalty level.",
+      "fourth": "Points can be used to rent a car and you will get a discount according to the number of points you have."
+    },
+    "transaction_list_title": "Transaction List",
+    "no_transaction_title": "Not Yet Transaction",
+    "no_transaction_desc": "Please make a transaction first",
+    "with_driver": "With Driver",
+    "without_driver": "Without Driver",
+    "airport_transfer": "Airport Transfer",
+    "one_way": "One Way",
+    "make_trx_until_to_get": "Make a transaction of {{total}} to achieve {{tier}}"
+  },
+  "destinationFavTitle": "Popular Destination in Bali",
+  "destinationFavList": [
+    {
+      "name": "Tirta Gangga Water Palace in Bali",
+      "description": "The name Tirta Gangga itself comes from the word Tirta which means water, and Gangga which means the name of a river in India. The flowing water is also believed to be holy water and can wash away bad energy. You can also feed the Koi fishes around and swim here. Don't forget to pack a change of clothes!",
+      "image": "tirtaGangga"
+    },
+    {
+      "name": "Ulun Danu Batur Temple in Kintamani",
+      "description": "Ulun Danu Batur Temple is one of the most iconic spots that offers a beautiful panorama, since it is located above Lake Batur with Mount Batur as a background. The air temperature is also very cool and fresh, which is perfect for you who want to refresh or calm your mind.",
+      "image": "pagoda"
+    },
+    {
+      "name": "Melasti Beach Ungasan",
+      "description": "In a list of the best beaches on Bali, Melasti Beach cannot be missing! This beach is much admired by tourists for its beautiful sea views and cleanliness. The waves on this beach are not too big and safe for those of you who want to play in the water or swim.",
+      "image": "melastiBeach"
+    },
+    {
+      "name": "Kanto Lampo Waterfall, Ubud",
+      "description": "Waterfalls are usually found around forests or mountains, uniquely, Kanto Lampo is located near the residential area of Gianyar, Bali. The waterfall does not flow directly into the river, but passes through the rocks which creates a beautiful and cool atmosphere because of the splashing water around it.",
+      "image": "kantoLampo"
+    }
+  ],
+  "carFavTitle": "Type of Cars",
+  "carFavList": [
+    {
+      "title": "Toyota Veloz",
+      "description": "This Toyota Veloz type has been in great demand before it was launched. The newest design looks cooler and more modern and the capacity can also reach up to 7 passengers! You and your family will definitely be comfortable during the holidays",
+      "image": "https://overseas.sgp1.digitaloceanspaces.com/cars/v3.webp"
+    },
+    {
+      "title": "Suzuki Ertiga Gx",
+      "description": "The Suzuki Ertiga Gx car type can also be an option for traveling around the island of Bali. Apart from the large passenger capacity, the security features are also pretty good. Your vacation is guaranteed to be safer & calmer!",
+      "image": "https://overseas.sgp1.digitaloceanspaces.com/cars/g2.jpeg"
+    },
+    {
+      "title": "Toyota Hiace Premio",
+      "description": "If you want a relaxing, comfortable, and large-capacity vacation, you can immediately choose the Toyota Hiace Premio. The cabin design is spacious, it will reduce the feeling of aches and fatigue during trips around the city. ",
+      "image": "https://overseas.sgp1.digitaloceanspaces.com/cars/h4.jpg"
+    }
+  ],
+  "articleTitle": "Article",
+  "whyChooseUs": {
+    "title1": "Get&Ride Offers The Ultimate Car Rental Experience",
+    "description1": "We guarantee comfort, flexibility, and quality at affordable prices.",
+    "title2": "Car Rental Equipment at Get&Ride",
+    "description2": "Some feature cars from Get&Ride",
+    "badgeName1": "Easy\nBooking",
+    "badgeName2": "Well-\nMaintained\nCars",
+    "badgeName3": "Competitive\nPrices",
+    "badgeName4": "Efficient\nService",
+    "badgeName5": "Machine",
+    "badgeName6": "Transmission",
+    "badgeName7": "Cooling",
+    "badgeName8": "Hybrid",
+    "list_1": {
+      "subtitle": "Time-saving",
+      "description": "Hire a car online, anywhere and anytime. Choose your schedule and car type easily and reliably at Get and Ride."
+    },
+    "list_2": {
+      "subtitle": "Competitive Price",
+      "description": "Don't worry! Get and Ride's rental prices are affordable and guaranteed to be competitive."
+    },
+    "list_3": {
+      "subtitle": "Best Cars",
+      "description": "Get and Ride provides the best quality and cleanest cars. All cars are serviced regularly for convenience."
+    },
+    "list_4": {
+      "subtitle": "Best Services",
+      "description": "Providing professional drivers, implementation of health protocols, and vehicle protection. All cars at Get and Ride are covered by insurance."
+    }
+  },
+  "withDriver": {
+    "description_1": "If you select the car rental \"With Driver\" then you will be redirected to Whatsapp",
+    "description_2": "Once you have selected the time and date, you will select an available car and driver.",
+    "description_3": "Once you have selected a car, you will receive an invoice for your car rental."
+  },
+  "airportTransfer": {
+    "title": "Airport Transfer"
+  },
+  "tour": {
+    "title": "Tour"
+  },
+  "list_car": {
+    "header": "Choose Car Type",
+    "change_search": "Change Search",
+    "rent_price": "Starting From",
+    "day": "Day",
+    "filter": "Filter",
+    "lowest_price": "Lowest Price",
+    "highest_price": "Highest Price",
+    "modal_min_order_title": "Minimum Rental",
+    "modal_min_order_desc": "This car can only be rented for a minimum of {{value}} days or more. This car is not available for rental options for periods of less than {{value}} days",
+    "car_type": "Car Type",
+    "seat": "Seat",
+    "bag": "Case",
+    "available": "Available",
+    "booked": "Booked",
+    "search_car": "Search Car",
+    "reset": "Reset",
+    "search_filter": "Search Filter",
+    "sort_by": "Sort By",
+    "seat_capacity": "Seat Capacity",
+    "filter_by": "Filter By",
+    "price_range_perday": "Price Range Per Day",
+    "price": "Price",
+    "car_brand": "Car Brand",
+    "all_in_description": "The price includes the car, driver's meals per day, gasoline, and the entire zone 0 rental area."
+  },
+  "carDetail": {
+    "carDetail": "Car Detail",
+    "all_in": "All-In",
+    "carPrice": "Rent Price",
+    "perDay": "/ Day",
+    "no_overtime": "No Overtime",
+    "hour": "Hour",
+    "hours": "Hours",
+    "durian": " It is Prohibited to Bring Items with Strong Odors",
+    "durian_detail": "Do not bring objects or food that gives off a strong odor such as durian etc. Tenants will be subject to a fine of Rp. 500,000 if you don't comply with the rental rules.",
+    "seatCapacity": "Seat Capacity",
+    "seat": "Seat",
+    "seats": "Seats",
+    "bagDetail": "Case Detail",
+    "bag": "Suitcase (L)",
+    "transmision": "Transmission",
+    "warning_price": "*The rental price is subject to change at any time without prior notice.",
+    "all_in_desc": "Prices listed include the car, driver's meal costs per day and petrol",
+    "zone_title": "Rental Zone",
+    "zone_0": "Zone 0 (City Center)",
+    "zone_0_desc": "South Kuta, Kuta, Seminyak, Canggu, Mengwi, Sanur, Tanah Lot, Tanjong Benoa, Jimbaran, Uluwatu, Tabanan, Nusa Dua, Bali Safari, Gianyar, Ubud, Tegalalang.",
+    "zone_1": "Zone 1 (Out of Town)",
+    "zone_1_desc": "Kintamani, Bedugul",
+    "zone_2": "Zone 2 (Out of Town)",
+    "zone_2_desc": "Gilimanuk, Negara, Belimbingsari, Singaraja, Lovina, Lempuyang, Tulamben, Amed, Kubu, Tianjar, Gretek, Tejakula, Auman, Angsri, Buleleng, Candi Dase, Sideman, Padang bai, Karangasam",
+    "all_in_title": "All-in Package Details (City Center)",
+    "all_in_desc2": "The All-in Package includes:\n- Use of gasoline fees per day for rent, meal costs and driver services.\n- Free shuttle for use within the city (zone 0). For use outside the city (zone 1 and 2) an additional fee will be charged.",
+    "all_in_tile2": "The All-in Package does not include:",
+    "all_in_desc3": "- Toll fees, parking, and tourist tickets \n- Gasoline usage fee if it exceeds what is provided at the time of pickup \n- Pick-up, drop-off and use outside zone 0 (outside the city), Zones 1 & 2",
+    "with_driver": "With Driver",
+    "with_driver_include_title": "Included",
+    "with_driver_include_desc": [
+      "Car use per day 12 hours or until 23:59 if you start renting after 12:00",
+      "Free city shuttle (Zone 0)",
+      "Driver Service Fee",
+      "Gasoline"
+    ],
+    "with_driver_non_include_title": "Not Included",
+    "with_driver_non_include_desc": [
+      "Use of Outside the City (Zone 1 & Zone 2)",
+      "Parking Fees",
+      "Toll Fees",
+      "Driver Accommodation",
+      "Overtime (If Available)"
+    ],
+    "driver": "Driver",
+    "car_conditions": "Car Conditions",
+    "smoking": "No Smoking",
+    "pet": "Pet Allowed",
+    "disability": "Disability Support",
+    "priceTerm": "Price Term",
+    "priceInclude": "Price Include",
+    "include": "Include",
+    "important": "Important",
+    "rentalRules": "Rental Terms & Conditions",
+    "rentalTerm": "Rental Term",
+    "learnMore": "See Details",
+    "TitleTc": "Car Rental Terms & Conditions",
+    "rentalRequirement": "Rental Requirements",
+    "policy": "Rental Policy",
+    "requirement": "Rental Condition",
+    "otherInfo": "Other Info",
+    "carInsurance": "Car Insurance",
+    "rentalGas": "Return the fuel as before",
+    "rentalTime": "Use up to 24 hours per rental day",
+    "agreeState": "I agree to the terms and conditions that applied",
+    "rental_rules": "Rental Rules",
+    "requirements": {
+      "list_1": "Valid ID card and driving license (KTP & SIM A for Indonesian citizens).",
+      "list_2": "Deposit 50% of the rental fee.",
+      "list_3": "Etoll deposit."
+    },
+    "policies": {
+      "list_1": "Car rental duration is 24 hours per day",
+      "list_2": "Overtime fee is 10% per hour of the rental price.",
+      "list_3": "Fuel, parking tickets, VIP parking tickets, tolls, and driver fees are not included"
+    },
+    "pickup_info": "Pickup Info",
+    "pickup_method": "Pickup Method",
+    "pickup_info_details": {
+      "list_1": "After payment is received, show the proof of payment/voucher to the driver",
+      "list_2": "Upon arrival at the airport, staff will be waiting for you at the arrival area",
+      "list_3": "Show your voucher to the driver to confirm the booking."
+    },
+    "sure_and_timely_pickup": "Sure and Timely Pickup",
+    "car_insurance": "Car Insurance",
+    "random_car": "Random Car",
+    "operational_hours": "Operational Hours\nMonday - Sunday"
+  },
+  "priceTerm": {
+    "handSanitizer": "Hand Sanitizer",
+    "mineralWater": "Mineral Water",
+    "mask": "Mask",
+    "tissue": "Tissue",
+    "driver": "Driver",
+    "parking": "Parking",
+    "snacks": "Snacks",
+    "additional_needs": "Additional Needs",
+    "fuel": "Fuel",
+    "toll": "Toll"
+  },
+  "priceInclude": {
+    "fuel": "Fuel",
+    "toll": "Toll",
+    "parking": "Parking"
+  },
+  "dailyRules": {
+    "rules1": "The duration of car rental with driver is valid for 12 hours with maximum usage until 23:59 if the rental starts later than 12.00 for domestic tourists/WNI.",
+    "rules2": "If the renter does not spend up to 12 hours in full, the remaining time cannot be accumulated to the next day.",
+    "rules3": "Free pick-up, delivery and use of a car within the city for the Zone 0 area. An additional fee will be charged for the Zone 1 & 2 area (outside the city)",
+    "sebelum_penjemputan": {
+      "title": "Before Pickup",
+      "list_length": "5",
+      "list_1": "The renter must share with the rental provider an ID card that matches the renter's booking form.",
+      "list_2": "The renter must pay a deposit of 25% of the rental fee.",
+      "list_3": "The rental provider does not cover airport parking fees, VIP parking tickets, and other similar expenses.",
+      "list_4": "The deposit will be returned at the end of the rental period, no later than 24 hours.",
+      "list_5": "Deposit refunds will be processed via bank transfer."
+    },
+    "sebelum_pengambilan": {
+      "title": "Before Rental",
+      "list_length": "4",
+      "list_1": "Renters must share with the rental provider a valid photo of their driving license (SIM A) as well as their ID card (KTP)",
+      "list_2": "Renters must pay a deposit of 50% of the total rental cost with a minimum of IDR 300,000 and a maximum of IDR 1,000,000 to the provider before the rental starts.Example:\n1. If the total rental fee is IDR 550,000, then the deposit amount that must be paid is IDR 300,000\n2. If the total rental fee is IDR 2,500,000, then the deposit amount that must be paid is IDR 1,000,000",
+      "list_3": "The deposit will be refunded when the rental is completed, no later than 1 x 24 hours.",
+      "list_4": "Deposit refunds will be processed via Bank Transfer."
+    },
+    "saat_pengambilan": {
+      "title": "During Pick-Up",
+      "list_1": "Rental providers do not cover airport parking fees, VIP parking tickets, etc.",
+      "list_2": "Renters are required to check the unit, take videos and photos of the unit as a whole before renting begins.",
+      "list_3": "Renters (WNI) are required to show a valid KTP and SIM that match the data registered when ordering.",
+      "list_4": "Renters must be over 17 years old.",
+      "list_5": "All documents provided must be original, not in the name of another person, and in accordance with the data registered when ordering at Get & Ride.",
+      "list_6": "The renter must ensure that the rented vehicle is used properly and returned in the same condition as before."
+    },
+    "penggunaan": {
+      "title": "Rental Policies Usage",
+      "list_1": "It is prohibited to bring objects or food that cause a strong smell such as durian/jackfruit, etc. Renters will be fined IDR 500,000 if they do not comply with the rental rules.",
+      "list_2": "No smoking in the vehicle",
+      "list_3": "Vehicles are not allowed to be transferred to other parties who are not verified by Get & Ride data. Rental provider has the right to cancel orders unilaterally if the following indications occur.",
+      "list_4": "Renters are not allowed to carry passengers or suitcases that exceed the capacity of the car rented.",
+      "list_5": "Renters are responsible for replacement or repair costs if there is loss or damage to car keys, accessories, car tools, head units, tools sets, car seats, accessories, scratches, stains, and other costs arising from the renters.",
+      "list_6": "Renters are responsible for all parking, traffic, and other fines that occur due to violations of the law during the rental."
+    },
+    "penggunaan_with_driver": {
+      "title": "Rental Policies During Car Rental",
+      "list_1": "It is forbidden to bring items or foods that produce a strong odor, such as durian/jackfruit, etc. The renter will be fined Rp 500,000 if this rule is violated.",
+      "list_2": "Smoking inside the car is prohibited.",
+      "list_3": "The renter will be fined if they carry passengers or luggage exceeding the capacity of the rented car.",
+      "list_4": "The car rental duration with a driver is valid for 12 hours per day, with a maximum usage until 22.00 PM WITA, if the rental starts after 10:00 AM WITA for domestic/international tourists.",
+      "list_5": "If the renter does not use the full 12-hour rental duration, the remaining time cannot be carried over to the next day or converted to cash.",
+      "list_6": "Free pickup, drop-off, and use of the car within the city for Zone 0 areas. Additional fees apply for Zone 1&2 areas (out of town)."
+    },
+    "pengembalian": {
+      "title": "After Rental Policy",
+      "list_1": "Renters must return the car with the same fuel volume when the car was received (bar to bar).",
+      "list_2": "The rental provider will check the entire car after the rental is complete. If a scratch is found caused by the renter while using the car, a fine of IDR 300,000/point will be imposed.",
+      "list_3": "If there is an electronic traffic ticket during the rental period, the rental provider will return the deposit by deducting the amount of the electronic ticket fine.",
+      "list_4": "Get & Ride is not responsible for accidents, losses, and treatment resulting from the accident.",
+      "list_5": "The provider has the right not to return the deposit if the car is damaged or if the renter violates the law during the rental period.",
+      "list_6": "The provider is not responsible for items left in the car after the renter returns the car to the rental provider."
+    },
+    "overtime": {
+      "title": "Overtime",
+      "list_1": "An overtime fee will be charged if the rental exceeds 24 hours per day.",
+      "list_2": "Renters will be charged a fine of 10% per hour of the rental price with a maximum limit of 3 (three) hours.",
+      "list_3": "Overtime exceeding 3 hours, will be charged for one day's rental fee."
+    },
+    "overtime_with_driver": {
+      "title": "Overtime",
+      "list_1": "Usage exceeding 12 hours per day will incur overtime charges.",
+      "list_2": "The renter will be fined 20% per hour of the rental fee, with a maximum limit of 3 hours.",
+      "list_3": "Overtime exceeding 3 hours will incur a charge equivalent to one day's rental fee."
+    },
+    "asuransi": {
+      "title": "Insurance",
+      "list_1": "In the event of an accident, the renter is required to submit to the provider all documents required by the insurance company, including but not limited to their KTP/passport and driver's license A.",
+      "list_2": "The renter is obliged to bear the costs at his own risk of IDR 350,000 for each accident (per panel),",
+      "list_3": "The renter must bear the Total Lost Risk Fee of IDR 500,000 if the car is lost.",
+      "list_4": "Disputes between the parties will be resolved via deliberation to reach a consensus. If within 30 days the parties have not reached a consensus, the problem will be resolved at the North Jakarta District Court."
+    },
+    "refund": {
+      "title": "Refund & Cancellation Policy",
+      "list_1": "Low Season Refund (50%): Get&Ride is willing to refund 50% of the down payment (DP) or rental fee paid if the cancellation is made during the low season.",
+      "list_2": "High Season No Cancel No Refund: Get&Ride cannot process refunds for payments made by guests if cancellations are made during the high season (July-August, December-January, School Holidays, and Special Celebrations/Festivals).",
+      "list_3": "Cancellations made shortly before the pickup time are non-refundable.",
+      "list_4": "Refunds will be processed within a maximum of 24 hours after the refund process is approved."
+    },
+    "reschedule": {
+      "title": "Schedule Changes",
+      "list_1": "Schedule changes must be made at least 24 hours before the rental time by contacting Get and Ride's WhatsApp service at 081262511511.",
+      "list_2": "Schedule changes cannot be made if the rental date falls within the high season dates/holidays."
+    },
+    "delay": {
+      "title": "Flight Delay Policy",
+      "list_1": "Get and Ride provides tolerance on the condition that the renter informs the delay info before boarding the plane.",
+      "list_2": "Delay without notification, the renter will be subject to an overtime fine of 10% per hour, from the car rental price, per day.",
+      "list_3": "Our operating hours: 07:00-21:00 WITA. Tolerance for flight delays until 21:00.",
+      "list_4": "Delivery/return outside operating hours is subject to a fixed fine of IDR 100,000."
+    },
+    "akomodasi_sopir": {
+      "title": "Driver Accommodation",
+      "list_1": "There will be an additional fee of IDR 150,000/night (including driver's accommodation) if the vehicle and driver are used after 23.59 local time, both in the city and outside the city."
+    }
+  },
+  "airportTransferRules": {
+    "before_and_terms_title": "Terms & Conditions",
+    "before_and_terms": {
+      "list1": "Price includes airport parking ticket, gasoline, and tolls",
+      "list2": "For routes from the airport (domestic flights), the car will wait up to max 60 minutes from the pick-up time and max 90 minutes for (international flights).",
+      "list3": "For routes to the airport, the car will wait max 30 minutes from the pick-up time.",
+      "list4": "For passengers who provide their valid flight number, Get&Ride tolerates an additional 60 minutes of waiting time if the flight is delayed.",
+      "list5": "An overtime fee will be charged at 10% per hour of the sea price if the passenger exceeds the specified maximum time limit.",
+      "list6": "If your flight is delayed, please immediately contact the Get&Ride Admin at WA number +62 812-6251-1511 before boarding the plane for further confirmation as before."
+    }
+  },
+  "global": {
+    "button": {
+      "back": "Back",
+      "login": "Login",
+      "payment": "Payment",
+      "signup": "Sign Up",
+      "findACar": "Find a Car",
+      "pick": "Select",
+      "next": "Next",
+      "nextPayment": "Continue Payment",
+      "orderNow": "Order Now",
+      "payNow": "Pay Now",
+      "choosePayment": "Choose Payment",
+      "verification": "Verification",
+      "save": "Save",
+      "cancel": "Cancel",
+      "cancelOrder": "Cancel Order",
+      "extendOrder": "Extend Order",
+      "yes": "Yes",
+      "yesNext": "Yes, Continue",
+      "orderDetail": "Order Detail",
+      "titlePaymentPicker": "Select Payment Details",
+      "fullPayment": "Payment in Full",
+      "fullPaymentDesc": "Payment in full includes car price, deposit, delivery fee and return fee.",
+      "downPayment": "Down Payment {{ value }}",
+      "downPaymentDesc": "Down Payment {{ value }} includes {{ scope }}.",
+      "done": "Done",
+      "send_otp": "Send OTP",
+      "download_update": "Download Update",
+      "send_email": "Send Email",
+      "confirm": "Confirm",
+      "form_deposito": "Deposit Form",
+      "change": "Change",
+      "edit": "Edit",
+      "form_account_bank": "Form Account Bank",
+      "view_account_bank": "View Account Bank",
+      "edit_account_bank": "Edit Account Bank",
+      "delete_account": "Delete Account",
+      "yes_understand": "Yes, I Understand",
+      "okay_understand": "Okay, I Understand",
+      "back_to_homepage": "Back to Homepage",
+      "confirm_order": "Confirmation Order",
+      "help": "Help"
+    },
+    "alert": {
+      "back_online": "Back online",
+      "no_network": "No connection",
+      "payment_confirm": "Are you sure to proceed with this Payment?",
+      "rental_zone_exit": "Are you sure you don't want to continue filling out this form?",
+      "success": "Success",
+      "duplicate_phone": "Phone Number already in use",
+      "failed": "Failed",
+      "password": "Failed to change password!",
+      "email_not_registered": "Email not registered",
+      "license": "You haven't uploaded your ID card or driving license",
+      "error": "Error",
+      "warning": "Warning",
+      "time_difference": "The difference in hours cannot be minus",
+      "option_overtime": "The rental time limit cannot exceed 12 hours, please select Overtime",
+      "success_change_profile_picture": "Successfully change profile picture",
+      "success_use_referral_code": "Successfully use referral code",
+      "success_change_profile_data": "Profile Data Changed Successfully",
+      "success_change_data": "Successfully change data",
+      "error_occurred": "Error occurred",
+      "invalid_email_format": "Error! Inappropriate Email Format",
+      "success_copy_text": "Successfully copy the text",
+      "success_change_password": "Successfully changed the password",
+      "success_change_notification": "Successfully changed the notification",
+      "success_change_password_login_again": "Successfully changed the password, please login again",
+      "success_upload_proof_payment": "Successfully upload proof of payment",
+      "cancellation_failed": "Please fill out all required fields",
+      "password_and_confirmation_password_do_not_match": "New password and new confirm password do not match!",
+      "old_password_is_not_match": "Old password is not match!",
+      "password_length": "The password must be at least 8 characters long and consist of both numbers and letters.",
+      "please_login_to_continue": "Please login first to continue!",
+      "payment_can_not_be_made": "Payment cannot be made",
+      "enter_password": "Enter Password",
+      "error_redirect_to_whatsapp": "Unable to redirect you to the WhatsApp app. Make sure your device has the application installed.",
+      "error_image_upload": "File Size Too Big!",
+      "warning_rent_start_date": "Please select your rental start date!",
+      "warning_sender_name": "Enter sender name",
+      "warning_bank": "Enter your bank",
+      "warning_proof_payment": "Please upload proof of payment first",
+      "warning_file_size": "Sorry, file size cannot be more than 1MB!",
+      "warning_need_upload_proof": "Please upload proof of payment first",
+      "error_download_e_ticket": "Failed to download invoice. Please try again later or contact customer support for assistance.",
+      "success_download_e_ticket": "E-Ticket successfully saved in ",
+      "copy_referral_code": "Successfully copied the referral code",
+      "login_failed": "The email or password you entered is incorrect!",
+      "code_incorrect": "The number code you entered is not correct",
+      "password_incorrect": "Invalid password, please try again!",
+      "cant_change_password": "Failed to change password!",
+      "authozation_failed": "Authorization failed"
+    },
+    "data_not_found": "Data Not Found",
+    "not_yet_available": "Not Yet Available",
+    "car_not_yet_available": "The car you are looking for is not yet available",
+    "select_options": "Select Options",
+    "camera": "Camera",
+    "gallery": "Gallery",
+    "credit_debit_card_no": "Credit/Debit Card No.",
+    "cardholder_name": "Cardholder Name",
+    "validity_period": "Validity Period",
+    "bank_name": "Bank Name",
+    "choose_your_bank": "Choose your Bank",
+    "upload_your_image_here": "Upload your image here, or",
+    "browse": "browse",
+    "search": "Search",
+    "loading": "Loading",
+    "penalties_warning_title": "Penalty Rate Notice!",
+    "penalties_warning_description": "Your order is out of operating hours and will incur additional charges",
+    "penalties_midnight_warning_title": "Midnight Surcharge Notice!",
+    "penalties_midnight_warning_desc": "Your booking is scheduled between (23:00 - 07:00) which is outside our regular operating hours and may incur a midnight surcharge."
+  },
+  "user_information": {
+    "account_name": "Account Name"
+  },
+  "detail_order": {
+    "title": "Order Detail",
+    "voucher_placeholder": "Enter Voucher Code",
+    "voucher": "Voucher",
+    "validasi_outside_loc": "Point is outside the selected Location",
+    "overtime": "Overtime",
+    "suitcase_notice_header": "Important Notice",
+    "pickup_location_map_placeholder": "For example : T1 (Terminal 1)",
+    "dropoff_location_map_placeholder": "For example: Mercure Hotel at Stevens Road",
+    "detail_trip": "Detail Trips",
+    "detail_payment": "Detail Payment",
+    "suitcase_notice_desc": "Please ensure the number of passengers and luggage follows our Terms & Conditions. If they exceed the vehicle’s capacity, your booking will be rejected, and you will need to book an additional vehicle to accommodate the extra passengers or luggage.",
+    "passenger_suitcase": {
+      "adult": "Adult",
+      "suitcase": "Suitcase",
+      "large_suitcase": "Large Suitcase",
+      "child": "Child (Below 17 years old)",
+      "passenger_suitcase_desc": "{{adult}} Adult, {{child}} Child, {{suitcase}} Suitcase"
+    },
+    "car_detail": {
+      "seat": "{{seats}} Seats",
+      "suitcases": "Suitcases",
+      "passengers": "Pax"
+    },
+    "area": "Area",
+    "baggage_title_info": "Number of Suitcases",
+    "baggage_desc_info": "Bringing more luggage than the specified vehicle capacity will incur an additional fee outside the platform of IDR 150,000",
+    "baggage_placeholder": "Enter the number of suitcases",
+    "error_point_usage": "Invalid input point",
+    "checkbox_text": "Same as delivery location",
+    "my_voucher": "My Voucher",
+    "min_phone": "Phone Number must consist of at least 8 digits.",
+    "max_phone": "Phone Number number must consist of a maximum of 15 digits.",
+    "message_tooltip_delivery": "Delivery Fee is Charged",
+    "message_tooltip_phone": "This phone number will be used to contact you if there are any issues with the order review process. Please ensure the phone number you provide is valid and reachable. If the phone number is connected to WhatsApp, we will contact you via WhatsApp.",
+    "overtime_confirmation_header": "Final check!",
+    "confirm_popup_desc": "Please confirm your booking details before proceeding to payment, as changes won’t be possible afterward. Continue?",
+    "message_error": "An error occurred while validating the request data.",
+    "overtime_confirmation_desc1": "Orders will be charged additional fees because they have overtime fees, check ",
+    "overtime_confirmation_desc2": "Terms and Conditions",
+    "overtime_confirmation_desc3": "for more details, will you continue the order?",
+    "warning_form": "all forms must be filled in",
+    "checkbox_deposito": "I agree to make the deposit payment",
+    "header_deposito": "Deposit Agreement",
+    "return_to_the_same_place": "Return it to the same place",
+    "search_by_address": "Search by Address",
+    "desc_deposito": "In order to proceed with the booking, You are required to make a deposit amounting to {{value}}% of the total rental fee, with a Min of IDR 300,000 and a Max of IDR 1,000,000. The deposit will be returned within 24 hours after the rental is completed.",
+    "tnc_airport_transfer": {
+      "title": "Terms and Conditions",
+      "booking_payment": {
+        "title": "Booking & Payment",
+        "booking_title": "Booking: ",
+        "booking_desc": "Airport transfer bookings must be made at least 2 days prior to the scheduled flight.",
+
+        "payment_title": "Payment: ",
+        "payment_desc": [
+          "Payments can be made in Indonesian Rupiah (IDR) via bank transfer to a BCA or UOB account.",
+          "Price includes: Driver, ERP/Toll, Parking, and Fuel.",
+          "Price is applicable to all areas within Singapore.",
+          "E-ticket: Passengers must provide an E-ticket for the flight."
+        ]
+      },
+      "pricing": {
+        "title": "Pricing & Surcharges",
+        "pricing_title1": "Public Holidays: ",
+        "pricing_desc1": "An additional fee of $10 applies on public holidays, including events like the F1 Grand Prix and the Airshow",
+
+        "pricing_title2": "Midnight Surcharge: ",
+        "pricing_desc2": " A midnight surcharge of $15 applies for pick-ups between (23:00- 07:00).",
+
+        "pricing_title3": "Extra Stops: ",
+        "pricing_desc3": "An additional charge of $15 applies for any extra stops or drop-off/pick-up locations within 5 km of the original route during transfer."
+      },
+      "pickup": {
+        "title": "Pick-up & Waiting Time",
+        "pickup_title1": "Airport Pick-up: ",
+        "pickup_desc1": "The driver will wait at the airport arrival area for a maximum of 15 minutes.",
+
+        "pickup_title2": "Late Arrival: ",
+        "pickup_desc2": "Any delay beyond 15 minutes will incur an additional charge of $15 for every 15 minutes.",
+
+        "pickup_title3": "Flight Delays: ",
+        "pickup_desc3": "Passengers must inform our customer service and driver via Whatsapp (+62 822 1151 1511) of any flight delays before boarding"
+      },
+      "cancellation": {
+        "title": "Cancellation & Refund",
+        "cancellation_title1": "Cancellation: ",
+        "cancellation_desc1": "Cancellations may incur a 50% cancellation fee.",
+
+        "cancellation_title2": "Last-minute cancellations, ",
+        "cancellation_desc2": "or cancellations made on the day of pickup, are non-refundable.",
+
+        "cancellation_title3": "Refund Process: ",
+        "cancellation_desc3": "Refunds will be processed via bank transfer from PT Cuan Muda Transportasi BCA's account within a maximum of 24 hours"
+      }
+    },
+    "formDetail": {
+      "title": "Order Details Form",
+      "fullName": "Full Name",
+      "phone": "Phone Number",
+      "meet_greet_name": "Meet & Greet Name",
+      "meet_greet_name_placeholder": "Meet & Greet Name",
+      "delivery_tooltip": "Delivery Fee is Charged",
+      "sameAsPhone": "Same as Phone Number",
+      "free": "Free",
+      "add_location_details": "Add Location Details",
+      "see_details": "See Details",
+      "select_special_request": "Select Special Requests",
+      "additional": "Additional",
+      "select_additional": "Select Additional",
+      "detail_location_placeholder": "Write your location details",
+      "detail_location_pickup_title": "Pick-up Location Details",
+      "detail_location_delivery_title": "Drop-off Location Details",
+      "detail_return_location_title": "Return Location Details",
+      "detail_return_location_title_placeholder": "Write the return location details, Example: jl, Sudirman no.10",
+      "detail_location_delivery_title_placeholder": "Write the details of the delivery location, Example: jl, Sudirman no.10",
+      "flight_no_title": "Flight Numbers",
+      "flight_no_placeholder": "Flight Number, ex: E-123456",
+      "desc_WITA": "Landing Hours in {{value}}",
+      "landing_time": "Landing Time",
+      "location_details": "Location Details",
+      "delivery_fee_is_charged": "Delivery fee is charged"
+    },
+    "withDriver": {
+      "rentalZone": "Rental Zone",
+      "addRentalZone": "Add Rental Zone"
+    },
+    "rentalZone": {
+      "title": "Rental Zone",
+      "rentalArea": "Rental Area",
+      "rentalAreaDesc": "You will select your rental area zone and enter where the pick-up and delivery location is according to the time of the rental day.",
+      "area_title": "{{value}} Area",
+      "myRentalZone": "Your rental area",
+      "empty_zone": "Zones are unavailable",
+      "empty_location": "Location are not available",
+      "addMyRentalZone": "Additional rental area",
+      "additionalRentalZone": "Additional Rental Area",
+      "myRentalZonePlaceholder": "Choose your Rental Area",
+      "additionalFee": "List of additional fees",
+      "titleCheckbox": "If you stay overnight there will be additional accommodation costs for the driver (optional)",
+      "descZoneOption": "Rental usage includes Zone 0 + Zone 1",
+      "descTotalPrice": "Total Price in Rentals",
+      "additional_fee_zone_desc": "{{ zone }} rental area includes additional car prices according to the price of the type of car, with prices as follows:",
+      "withinCity": "Zone 0 (Inner city)",
+      "zone1": "Zone 1 (Outer city)",
+      "zone2": "Zone 2 (Outer city)",
+      "standardCar": "Standard Car",
+      "rental_zone_0_description": "Free rental for Area Zone 0",
+      "rental_zone_1_description": "Rental use includes Zone 0 + Zone 1",
+      "rental_zone_2_description": "Rental use includes Zone 0 + Zone 1 + Zone 2",
+      "zone": "Zone {{value}}",
+      "day": "Day-{{value}}",
+      "pickup": "Pick-up",
+      "dropoff": "Drop-off",
+      "pickup_zone": "Pick-up Zone",
+      "rental_area": "Rental Area",
+      "dropoff_zone": "Drop-off Zone",
+      "choose_pickup_zone": "Choose Pick-up Area",
+      "choose_dropoff_zone": "Choose Drop-off Area",
+      "choose_rental_area": "Choose a Rental Area",
+      "driver_accomodation": "Driver Accommodation (Optional)",
+      "driverAccomodationDesc": "You will be charged an additional fee for driver accommodation (lodging) for rentals of more than a day. The additional fee is IDR 150.000 / Day",
+      "agreeState": "I agree to the additional fee",
+      "select_overtime": "Select Overtime"
+    },
+    "tripDetail": {
+      "title": "Trip Detail",
+      "pickAtGarage": "Pick-up and Return to the Rental Place",
+      "deliveryLocationTaking": "Choose a taking location",
+      "deliveryLocation": "Delivery location",
+      "pickupLocation": "Pick-up Location",
+      "pickupLocationPlaceholder": "Choose Pick-up Location",
+      "deliveryLocationTakingPlaceholder": "Choose a taking location",
+      "deliveryLocationPlaceholder": "Delivery location",
+      "returnLocation": "Return location",
+      "returnLocationPlaceHolder": "Choose a return location",
+      "location_details": "Location Details",
+      "totalPassenger": "Total Passenger",
+      "totalPassengerPlaceholder": "Choose Total Passenger",
+      "n_people": "{{n}} Person",
+      "infoDesc": "The maximum number of passengers is 6 people, if more than that an additional fee of IDR 150,000/person will be charged",
+      "infoTitle": "Requirements for Number of Passengers"
+    },
+    "specialReq": {
+      "title": "Special Request Form (Optional)",
+      "placeholder": "Write down what you need for your travel needs, e.g. Baby Chair, Wheel Chair, etc.",
+      "selected": "Selected"
+    },
+    "summary": {
+      "title": "Payment Details",
+      "passanger": "Passenger",
+      "search_zone": "Search",
+      "overtime": "OT",
+      "contact_detail": "Contact Details",
+      "total": "Total",
+      "deliveryLocation": "Drop-off Location",
+      "voucher_discount": "Voucher Discount",
+      "deliveryLocationPlaceholder": "Drop-off Location",
+      "pickLocation": "Taking Location",
+      "outside_price": "Midnight Surcharge (23.00-07.00)",
+      "pickLocationPlaceholder": "Taking Location",
+      "returnLocation": "Return Location",
+      "returnLocationPlaceHolder": "Return Location",
+      "startDate": "Start Date",
+      "startTime": "Start Time",
+      "endDate": "End Date",
+      "endTime": "End Time",
+      "rentalFee": "Rental Fee",
+      "price": "Price",
+      "day": "day",
+      "otherFee": "Other's Fee",
+      "serviceFee": "Service Fee",
+      "insuranceFee": "Insurance Fee",
+      "additionalPassengerFee": "Additional Passenger Fee",
+      "one_day_charge": "Additional Rent Charge",
+      "deposit_etoll": "E-Toll Deposit",
+      "totalPayment": "Total Payment",
+      "paymentDP": "Down Payment {{ value }}%",
+      "delivery_fee": "Delivery Fee",
+      "platform_fee": "Platform Fee",
+      "return_cost": "Return Fee",
+      "detail_cost": "Detail Cost",
+      "timezone": "Time Zone",
+      "flight_number": "Flight Number",
+      "t&c1": "I accept and agree to the",
+      "t&c2": "Terms and Conditions",
+      "t&c3": "that apply"
+    },
+    "extendOrder": {
+      "numberOfDays": "Number of Days",
+      "numberOfDaysPlaceholder": "Input Jumlah Hari",
+      "rentalHours": "Rental Hours",
+      "returnTime": "Return Time"
+    },
+    "return_deposit": {
+      "title": "Deposit Return Form",
+      "return_detail": "Return Details",
+      "name": "Name",
+      "name_placeholder": "Enter your Name",
+      "bank_name": "Bank Name",
+      "bank_name_placeholder": "Select Bank Name",
+      "account_number": "Account Number",
+      "account_number_placeholder": "Enter Account Number",
+      "error_name": "Name is required",
+      "error_bank_name": "Bank is required",
+      "error_account_number": "Account number is required",
+      "search_bank_name": "Search bank name",
+      "deposit_refund_in_process": "Deposit Refund in Process",
+      "deposit_refund_done_process": "Return of deposit will be done in 3 working days",
+      "deposit_status": "Deposit Status",
+      "in_process": "In Process",
+      "processed": "Processed"
+    },
+    "cancel_request_in_process": "Cancellation request in process",
+    "cancel_will_be_made_in_7_days": "Refunds will be made within 7 business days",
+
+    "refund_request_in_process": "Refund Request In Process",
+    "refunds_will_be_made_in_7_days": "Refunds will be made within 1x24 hours",
+
+    "cancel_order_notification_description": "Refunds will be processed to the registered account number. This process takes a few business days, if the funds have not been received after this period, please contact our support center for further assistance.",
+    "refund_is_in_process": "Refund is in Process",
+    "refund_process_alert_description": "Your refund request for the car rental with booking number {{orderNo}} is being processed. This process usually takes 3-7 business days until the funds are returned. Thank you for your understanding, and we look forward to serving you again in the future.",
+    "refund_success": "Successful Refund",
+    "refund_success_description": "Thank you for your understanding in waiting for our refund process and we look forward to serving you again in the future. Warmest Regards from us Get & Ride",
+    "refund_rejected": "Refund Request Rejected",
+    "refund_rejected_description": "Hello {{customerName}}, We would like to inform you that your refund request with transaction number {{orderNo}} has been rejected. Here are the reasons for the rejection.",
+    "created": "Created",
+    "processed": "Processed",
+    "transfered": "Transferred",
+    "rejected": "Rejected",
+    "refund_notification": "Refund Notification",
+    "reapply_for_refund": "Reapply for Refund",
+    "reapply_for_refund_description": "Are you sure you want to proceed with the refund?",
+    "successfuly_reaply_for_refund": "Successfully apply for refund",
+    "refund_request": "Refund Request",
+    "nominal": "Nominal",
+    "order_no": "Order Number",
+    "order_cancellation": "Cancel Order",
+    "reason_cancellation": "Cancelation Reason",
+    "write_reason_cancellation": "Write the reason for cancellation",
+    "refund_status": "Refund Status",
+    "proof_of_transfer": "Proof of Transfer",
+    "name": "Name",
+    "account_number": "Account Number",
+    "enter_account_number": "Enter Account Number",
+    "write_description": "Write a Description",
+    "seats": "Seats",
+    "suitcase": "Suitcase",
+    "transmission": "{{value}} Transmission",
+    "order_overtime_total_price": "Order Overtime Total Price",
+    "outside_operational_hour_charge": "Midnight Surcharge (23.00-07.00)",
+    "booking_price": "Booking Price",
+    "one_day_order_charge": "One Day Order Charge",
+    "overtime_price": "Overtime Price",
+    "deposit": "Deposit",
+    "exceed_maximum_passenger_price": "Exceed Maximum Passenger Price",
+    "order_zone_total_price": "Order Zone Total Price",
+    "rental_delivery_fee": "Rental Delivery Fee",
+    "rental_return_fee": "Rental Return Fee",
+    "add_item": {
+      "title": "Select Special Request",
+      "total": "total",
+      "choose_color": "Select Color",
+      "price": "Price",
+      "stock": "Stok",
+      "color": "Color",
+      "empty_msg": "Special requests are not available",
+      "detail": "Detail"
+    }
+  },
+  "payment_method": {
+    "header": "Select Payment Method",
+    "transfer_manual": "Manual Transfer",
+    "virtual_account": "Virtual Account",
+    "qris_payment": "QRIS Payment",
+    "ewallet_payment": "E-Wallet Payment",
+    "card_payment": "Card Payment",
+    "offline": "Offline",
+    "disable_dp_info": "We don’t support down payments (DP). Please choose full payment to proceed."
+  },
+  "settings": {
+    "tabBarLabel": "My Profile",
+    "profile": "Profile",
+    "loyalty": "Loyalty Program",
+    "country_code": "Country Code",
+    "push_notif": "Push Notification",
+    "sms": "SMS",
+    "email": "Email",
+    "aboutUs": "About Us",
+    "fullname_placeholder": "Enter Your Full Name",
+    "myVoucher": "My Voucher",
+    "changePassword": "Change Password",
+    "notification": "Notification",
+    "fullName": "Full Name",
+    "fullNamePlaceholder": "Full Name",
+    "oldPassword": "Old Password",
+    "oldPasswordPlaceholder": "Old Password",
+    "newPassword": "New Password",
+    "newPasswordPlaceholder": "New Password",
+    "confirmPassword": "Confirm New Password",
+    "confirmPasswordPlaceholder": "Confirm New Password",
+    "activity": "Activity",
+    "activityDesc": "Notifications for promotions from us, enjoy various discounts from us",
+    "reminder": "Reminder",
+    "reminderDesc": "Notifications for your order",
+    "error_name": "Enter Your Name",
+    "error_phone": "Enter Mobile No.",
+    "error_email": "Enter Email No.",
+    "error_ktp": "Ktp must be filled in",
+    "error_photo_license": "SIM required",
+    "delete_account": "Delete Account",
+    "delete_account_desc": "Deleting your account means you will lose access to all data associated with your account. Once you confirm deletion, your account and all data will be permanently deleted, and there will be no way to recover that data"
+  },
+  "delete_account": {
+    "title": "Account Deletion Confirmation",
+    "password_not_match": "password does not match",
+    "description_1": "You will delete your account. This action is irreversible, and all data associated with your account will be permanently deleted.",
+    "important_notes": "Important Notes:",
+    "note_1": "Once your account is deleted, you will not be able to recover any data or information associated with that account.",
+    "note_2": "Make sure you have backed up all important data before proceeding with the deletion process.",
+    "description_2": "Please confirm that you understand these consequences by checking the box below:",
+    "confirm_statement": "I understand that this account deletion is permanent and irreversible.",
+    "verification": "Verification",
+    "verification_desc": "We have sent an OTP code to your email. Please enter the code to confirm your account deletion",
+    "success_title": "Your account was successfully deleted",
+    "success_desc": "Account was successfully deleted and cannot be restored",
+    "failed_title": "Account Could Not Be Deleted",
+    "failed_desc": "Your account cannot be deleted at this time because there are transactions in progress. Please complete all transactions first before attempting to delete your account."
+  },
+  "myBooking": {
+    "tabBarLabel": "My Booking",
+    "noOrder": "No orders yet",
+    "driver_search": "DRIVER SEARCH",
+    "find_driver": "Find Driver",
+    "driver_info_chat": "The chat feature will be available as the delivery schedule, try accessing it again soon.",
+    "driver_info_belonging": "If you forgot your belongings, please contact our Help Center.",
+    "need_help": "Need Help",
+    "cancel_order_term": "To proceed cancel order, please read the",
+    "cancel_order_term_bold": "Terms and Conditions",
+    "find_driver_desc": "Your order will be process by the driver immediately. please wait patiently",
+    "overtime": "Overtime",
+    "cancel_reason": {
+      "waiting_too_long": "Waiting too long",
+      "cannot_be_contacted": "Can't contact the driver",
+      "change_destination": "Want to change destination",
+      "change_rental_type": "Change rental type",
+      "other": "Other",
+      "other_placeholder": "Type another reason"
+    },
+    "cancel_term": {
+      "title": "Cancel Policy",
+      "desc": "Cancellation is the process of terminating a reservation before the rental period begins, a refund is the return of funds based on the applicable terms after a cancellation is made.",
+
+      "cancel_desc_title1": "Cancellation: ",
+      "cancel_desc_desc1": "Cancellations will incur a 50% cancellation fee, which helps cover operational and administrative costs. The remaining 50% will be refunded if the cancellation is made in advance.",
+
+      "cancel_desc_title2": "Last-minute cancellations: ",
+      "cancel_desc_desc2": "Cancellations made on the same day as your scheduled pickup are non-refundable. These are considered last-minute cancellations, and no refund will be provided.",
+
+      "cancel_desc_title3": "Advance Notice: ",
+      "cancel_desc_desc3": "We recommend notifying us as early as possible if you need to cancel, ideally before the day of your service, to avoid cancellation fees."
+    },
+    "refund_rejected": {
+      "refund_notif": "Refund Notification",
+      "refund_req_rejected": "Refund Request Rejected",
+      "desc1": "Hello {{name}},\nWe would like to inform you that your refund request with transaction number {{order_key}} has been rejected. Below is the reason for the rejection:",
+      "desc2": "We recommend that you contact our customer service team if you need further assistance or would like to request a refund again. Our team is ready to assist you via:\n• Customer Service via Chat\n• Phone : +6282211511511\nThank you for using our services. We look forward to continuing to serve you better in the future.",
+      "best_regard": "Best Regards"
+    },
+
+    "refund_process": {
+      "refund_process": "Refund Process",
+      "info_process_title": "Refunds Are Being Processed",
+      "info_process_desc": "We are currently processing your refund request for car rental with booking number {{order_key}}. This process usually takes 3–7 business days for the funds to be returned. Thank you for your understanding, and we look forward to serving you again in the future.",
+
+      "info_rejected_title": "Refund request has been rejected.",
+      "info_rejected_desc": "Hello Ferry, We would like to inform you that your refund request with transaction number {{order_key}} has been rejected. Below is the reason for the rejection",
+
+      "info_success_title": "Refund Successful",
+      "info_success_desc": "Thank you for your understanding in waiting for our refund process and we look forward to serving you again in the future. Warm Greetings from us, Get & Ride",
+
+      "req_sub": "Request Refund Submission",
+      "name": "Name",
+      "status": "Status",
+      "account_bank": "Account Bank",
+      "amount": "Amount",
+      "bank_name": "Bank Name",
+      "proof_of_payment": "Proof Of Payment",
+      "refund_status": "Refund Status",
+      "Created": "Created",
+      "Processed": "Processed",
+      "Transfered": "Transferred",
+      "Rejected": "Rejected",
+      "fill_data": "Fill Data",
+      "full_name": "Full Name",
+      "full_name_placeholder": "Input Full Name",
+      "account_bank_placeholder": "Input Account Bank",
+      "save": "Save",
+      "view": "View",
+
+      "title": "Refund Process:",
+      "refund_process_title1": "Refund Eligibility: ",
+      "refund_process_desc1": "Refunds are available only for cancellations that meet the refund criteria (excluding last-minute cancellations).",
+
+      "refund_process_title2": "Bank Transfer: ",
+      "refund_process_desc2": "Refunds that qualify will be issued through a bank transfer from PT Cuan Muda Transportasi BCA's account to the bank account you have provided.",
+
+      "refund_process_title3": "Processing Time: ",
+      "refund_process_desc3": "Refunds will be completed within a maximum of 24 hours after your cancellation request has been approved.",
+
+      "refund_process_title4": "Bank Details: ",
+      "refund_process_desc4": "Please ensure your bank account information is accurate and up to date to avoid delays in processing."
+    },
+
+    "baggage": "Suitcase",
+    "err_duplicate_order": "We’ve identified a duplicate order placed by another customer for the same items you selected. Please change your selected car",
+    "refund_status": "Refund Status",
+    "err_duplicate_order_title": "Duplicate Order Notice !",
+    "download-e-ticket": "Download E-Ticket",
+    "reupload": "Reupload",
+    "back_to_order": "To Order Page",
+    "credit_card": "Credit/Debit Card",
+    "add_item": {
+      "title": "Special Requests",
+      "goods": "Name of goods",
+      "total_price": "Total price",
+      "rent_amount": "Rent Amount",
+      "color_variant": "Color Variations"
+    },
+    "check_order": "Check Payment Status",
+    "open_proof": "View Proof of Payment",
+    "success_payment": "Payment Successful",
+    "cancel_order_desc": "Are you sure you are canceling your order?",
+    "noRental": "No rental history yet",
+    "flight_number": "Flight Number",
+    "pessenger_desc": "{{adult}} Adult, {{child}} Child, {{suitcase}} Suitcase",
+    "day": "Day",
+    "deliver_to_airport": "Airport Transfer",
+    "message_success_payment": "Congratulations, the payment was successful",
+    "message_failed_payment": "You canceled the payment. The transaction was unsuccessful.",
+    "pickup": "Pick-up Location",
+    "dropoff": "Drop-off Location",
+    "zone": "Rental Zone",
+    "paymentMethod": "Payment Method",
+    "paymentMethodNotSelected": "Payment Method Not Selected",
+    "totalPrice": "Total Price",
+    "delivery_date": "Delivery Date",
+    "pickup_date": "Pick-up Date",
+    "pickup_time": "Pick-up Time",
+    "pessengers_suitcase": "Passengers and Suitcase",
+    "delivery_time": "Delivery Time",
+    "paymentStatus": "Payment Status",
+    "startTime2": "Rental Start Time",
+    "endTime2": "End Time",
+    "rentStatus": "Rent Status",
+    "downloadEticket": "Download E-Tickets",
+    "pickupLocation": "Pick-up Location",
+    "ZoneArea": "Rental Area",
+    "deliveryLocation": "Drop-off Location",
+    "point_desc": "Your points can be used for payment",
+    "returnLocation": "Return Location",
+    "car": "Car",
+    "startTime": "Rental Start Time",
+    "endTime": "Rental End Time",
+    "useButton": "use",
+    "input_point_placeholder": "Enter the Points you want to use",
+    "orderDetail": "Order Detail",
+    "startDate": "Rental Start Date",
+    "endDate": "Rental End Date",
+    "totalPassenger": "Total Passenger",
+    "are_you_sure_want_to_continue": "Are you sure want to continue",
+    "this_payment": "this payment",
+    "cancel_this_order": "cancel this order",
+    "rental_date": "Rental Date",
+    "travel_detail": "Travel Details",
+    "rental_and_return_hours": "Rental & Return Hours",
+    "your_order": "Your Order",
+    "your_order_data": "Your Order Data",
+    "booking_departure": "Booking Confirmation Departure",
+    "order_date": "Order Date",
+    "booking_date": "Booking Date",
+    "date_completed": "Rental End Date",
+    "order_notification": "Order Notification",
+    "refund_dana": "Return Funds",
+    "your_location": "Location Data",
+    "deposit_status": "Deposit Status",
+    "pickup_location": "Pick-up Location",
+    "delivery_location": "Drop-off Location",
+    "no_overtime": "No Overtime",
+    "cancellation_detail": "Cancellation Details",
+    "recalculation_process": "Recalculation Process"
+  },
+  "history_point": {
+    "title": "Point History",
+    "share_referral": "Share Referral Code",
+    "my_point": "My Points",
+    "use_point": "Using Point",
+    "use_point_desc": "Successfully used points for car rental transactions",
+    "do_transaction": "Doing Transaction",
+    "do_transaction_desc": "Successfully received points for car rental transaction",
+    "invite_referral": "Invite Referral Code",
+    "invite_referral_desc": "Successfully received points for inviting others"
+  },
+  "myInbox": {
+    "tabBarLabel": "My Inbox",
+    "read_more": "Read More...",
+    "notification": "Notification",
+    "order_help": "Order Help",
+    "header": "Help Center",
+    "type_message": "Type a message",
+    "active": "Active",
+    "end_chat": "End Conversation",
+    "end_chat_desc": "This conversation cannot be continued once it has been ended. If you are still having trouble, please visit the Help Center page.",
+    "btn_continue_chat": "Continue Conversation",
+    "btn_end_chat": "End Conversation",
+    "end": "End Session",
+    "call_center": "Help Center",
+    "your_chat": "Your Chat",
+    "chat_close": "This report is closed.\n If there is a problems, you can ",
+    "open_chat": "Start a Conversation",
+    "archive_chat": "The message has ended, you can still read this conversation for archiving",
+    "no_message": "No Messages Yet",
+    "help_order": "Help Order",
+    "alert_no_connection": "Connection Lost.\nPlease refresh to get the latest message."
+  },
+  "virtual_account": {
+    "payment_Instruction": "Payment Instruction",
+    "open_app": "Proceed to Application",
+    "virtual_account": "Virtual Account",
+    "status": "Status",
+    "copy": "Copy",
+    "cimb niaga_length": 3,
+    "cimb niaga": [
+      {
+        "title": "Transfer Via ATM",
+        "step_length": 7,
+        "steps": [
+          "Insert your CIMB ATM Card and PIN.",
+          "Select the Payment menu.",
+          "Select Virtual Account and Continue.",
+          "Enter the Virtual Account number {{value}} and click Correct.",
+          "Select a debit account.",
+          "On the confirmation page, make sure the transaction data is correct then select \"OK\".",
+          "Transaction Complete."
+        ]
+      },
+      {
+        "title": "Transfer Via Mobile Banking",
+        "step_length": 6,
+        "steps": [
+          "Log in to the OCTO Mobile application.",
+          "Select the Transfer menu.",
+          "Select \"Transfer to Other CIMB Accounts\".",
+          "Enter the Virtual Account number {{value}}",
+          "Enter the payment amount according to the bill and click Continue",
+          "Select Confirm.",
+          "Enter your PIN.",
+          "Transaction successful."
+        ]
+      },
+      {
+        "title": "Transfer Through CIMB Clicks",
+        "step_length": 8,
+        "steps": [
+          "Login to CIMB clicks.",
+          "Select the Pay Bills menu.",
+          "Select Source Account and Payment Type.",
+          "Select Virtual Account.",
+          "Enter the Virtual Account number {{value}} and click correct.",
+          "On the confirmation page, make sure the transaction data is correct then select \"OK\".",
+          "Enter your PIN.",
+          "Transaction successful."
+        ]
+      }
+    ],
+    "bca_length": 3,
+    "bca": [
+      {
+        "title": "Transfer via ATM",
+        "step_length": 8,
+        "steps": [
+          "Insert the ATM card and enter ATM BCA PIN",
+          "Select Cash Withdrawal/Other Transactions",
+          "Select Other Transactions",
+          "Select Transfer",
+          "Select To BCA Virtual Account",
+          "Enter the BCA Virtual Account number,  {{value}} and click Correct",
+          "Check the transaction details and select Yes",
+          "Transaction is successful"
+        ]
+      },
+      {
+        "title": "Transfer via Mobile Banking",
+        "step_length": 6,
+        "steps": [
+          "Open BCA mobile, select m-Transfer",
+          "Select BCA Virtual Account",
+          "Enter the BCA Virtual Account number, {{value}} and click Send",
+          "Check the amount that shows",
+          "Enter m-BCA PIN",
+          "Transaction is successful"
+        ]
+      },
+      {
+        "title": "Transfer via Klik BCA",
+        "step_length": 5,
+        "steps": [
+          "Login to KlikBCA and select Fund Transfer",
+          "Select Transfer to BCA Virtual Account",
+          "Enter the BCA Virtual Account number, {{value}} and click Continue",
+          "Enter the KeyBCA Appli 1 response and click Send",
+          "Transaction is successful"
+        ]
+      }
+    ],
+    "mandiri_length": 2,
+    "mandiri": [
+      {
+        "title": "Transfer via ATM",
+        "step_length": 6,
+        "steps": [
+          "Enter your ATM PIN.",
+          "On the main menu, select “Pay / Buy”.",
+          "Select \"Other\" until you find the \"Multipayment\" menu.",
+          "Enter the company code with the number: “70012” (without quotes) a / n Midtrans. After that, select \"Correct\".",
+          "Enter your payment code, then select \"Correct\".",
+          "Re-check your transaction after that complete the payment process."
+        ]
+      },
+      {
+        "title": "Transfer via Mobile Banking",
+        "step_length": 7,
+        "steps": [
+          "Log in to Mandiri Livin' or Mandiri Internet Banking.",
+          "On the main menu, select “Pay”.",
+          "Select “Make New Payment”.",
+          "After that, select the “Multipayment” menu.",
+          "Enter the company code with the number: “70012” (without quotes) a / n Midtrans. After that select \"True\".",
+          "Enter your payment code, then select \"Correct\".",
+          "Re-check your transaction after that complete the payment process."
+        ]
+      }
+    ],
+    "permata_length": 2,
+    "permata": [
+      {
+        "title": "Transfer via ATM",
+        "step_length": 7,
+        "steps": [
+          "Enter your ATM PIN.",
+          "On the main menu, select Other Transactions.",
+          "Select the Payment menu.",
+          "Choose Other Payment.",
+          "Select Virtual Account.",
+          "Enter the Virtual Account number: {{value}}.",
+          "The amount to be paid and the account number will appear on the payment confirmation page. If the information is correct, select True."
+        ]
+      },
+      {
+        "title": "Transfer via Mobile Banking",
+        "step_length": 9,
+        "steps": [
+          "Open the Permata Mobile app.",
+          "Enter User ID & Password.",
+          "Choose Pay Bill.",
+          "Select Virtual Account.",
+          "Enter the Virtual Account Number: {{value}}.",
+          "Enter the payment amount.",
+          "Payment confirmation appears.",
+          "Enter Mobile PIN.",
+          "Transaction complete."
+        ]
+      }
+    ],
+    "bni_length": 2,
+    "bni": [
+      {
+        "title": "Transfer via ATM",
+        "step_length": 8,
+        "steps": [
+          "Enter your ATM and BNI PIN.",
+          "On the main menu, select “Other Menu”.",
+          "Select \"Transfer\"",
+          "After that, select \"Savings Account\".",
+          "Select \"BNI Account\".",
+          "Enter the Virtual Account number {{value}}",
+          "Enter the payment amount according to the invoice.",
+          "Check your transaction again, then select \"Yes\"."
+        ]
+      },
+      {
+        "title": "Transfer via Mobile Banking",
+        "step_length": 8,
+        "steps": [
+          "Enter the BNI Mobile Banking application.",
+          "Enter User ID and Password.",
+          "Select the \"Transfer\" menu.",
+          "After that, select “Between BNI Accounts”.",
+          "Select \"Input New Account\".",
+          "Enter the Virtual Account number {{value}}",
+          "Check your transaction again, then select \"Yes\".",
+          "Enter the password to confirm payment."
+        ]
+      }
+    ],
+    "bri_length": 2,
+    "bri": [
+      {
+        "title": "Transfer via ATM",
+        "step_length": 8,
+        "steps": [
+          "Enter your ATM Card and BRI PIN.",
+          "On the main menu, select the menu \"Other Transactions\"",
+          "Select the \"Payment\" menu",
+          "Select the \"More\" menu",
+          "Select the “BRIVA” menu",
+          "Enter the BRIVA (Virtual Account) number “{{value}}” and click Correct",
+          "On the confirmation page, make sure the transaction data is correct then select \"Yes\"",
+          "Transaction completed"
+        ]
+      },
+      {
+        "title": "Transfer via Mobile Banking",
+        "step_length": 8,
+        "steps": [
+          "Enter the BRI Mobile Banking application",
+          "Select “BRI Mobile Banking”",
+          "Select the \"Info\" menu",
+          "Select the “BRIVA” menu",
+          "Enter BRIVA number {{value}} and click correct",
+          "Enter the payment amount according to the invoice",
+          "Enter your PIN",
+          "The transaction is successful"
+        ]
+      }
+    ]
+  },
+  "card_payment": {
+    "tabBarLabel": "Card Payment",
+    "insert_card_info": "Insert Card Info",
+    "your_data_will_be_protected": "Your data will be protected",
+    "payment_Instruction": "Payment Instruction",
+    "card_payment_length": 3,
+    "steps": [
+      "Enter the card holder name, card number, validity period and also your CVV code in the form provided, make sure the number entered is valid and not written incorrectly.",
+      "Then verify your Debit Card by pressing the \"Process Payment\" button. After the Debit Card is verified, you can continue the payment.",
+      "After payment is successful and verified, your order status will be successful and your transaction will be comfortable and safe."
+    ]
+  },
+  "instant_payment": {
+    "payment_instruction": "Payment Instructions",
+    "gopay_length": 2,
+    "gopay": [
+      {
+        "title": "Payment instructions via QR Code",
+        "step_length": 7,
+        "steps": [
+          "Click pay using GoPay.",
+          "Select Continue Payment. Then a QR code will appear.",
+          "Or open an application that can use QRIS, installed on your cellphone, such as Gojek",
+          "Click Pay and Scan the QR code.",
+          "Check Payment detail then click Pay",
+          "Enter you Gopay PIN",
+          "Transaction Completed"
+        ]
+      },
+      {
+        "title": "Instruksi pembayaran Aplikasi Gojek",
+        "step_length": 7,
+        "steps": [
+          "Make sure you have a Gojek account on your cellphone",
+          "Choose payment using GoPay",
+          "Click Continue Payment, then choose Continue",
+          "Click Continue to the Gojek Application, you will be directed to the Gojek application",
+          "Check payment details then click Pay",
+          "Enter Gopay PIN",
+          "Transaction completed"
+        ]
+      }
+    ],
+    "qris_length": 1,
+    "qris": [
+      {
+        "title": "Payment Method",
+        "step_length": 4,
+        "steps": [
+          "Open the QRIS payment application that supports this payment.",
+          "Download or scan QRIS on your screen.",
+          "Confirm payment in the app.",
+          "Transaction complete"
+        ]
+      }
+    ]
+  },
+  "manual_transfer": {
+    "payment_instruction": "Payment Instructions",
+    "bca_length": 2,
+    "bca": [
+      {
+        "title": "Transfer via ATM",
+        "step_length": 11,
+        "steps": [
+          "Insert ATM Card and ATM PIN",
+          "Select the Cash Withdrawal/Other Transactions menu",
+          "Select the Other Transactions menu",
+          "Select the Transfer menu",
+          "Enter the BCA account number, {{no_rek}}/BCA a/n. {{bank_name}} and click Correct.",
+          "Enter the Enter the amount of money that must be transferred through BCA ATMs",
+          "If all processes are complete and correct, select \"Yes\" (Don't forget to screenshot proof of transfer)",
+          "After the transfer is successful, open Payment Confirmation on the website / application",
+          "Enter the Sender's name and upload Proof of Transfer",
+          "Click Confirm Transfer",
+          "Payment will be checked"
+        ]
+      },
+      {
+        "title": "Transfer via Mobile Banking",
+        "step_length": 11,
+        "steps": [
+          "Open the Mobile Banking Application, select the m-Transfer menu",
+          "Click the Transfer List menu",
+          "Select the menu Between Accounts (for BCA users) and Interbank (for users other than BCA)",
+          "Enter the BCA Get and Ride account number, {{no_rek}}/BCA a/n. {{bank_name}} and click Correct",
+          "Enter the amount of money that must be transferred via ATM BCA",
+          "Enter your PIN",
+          "If all processes have been completed and are correct, select \"Yes\" (Don't forget to screenshot proof of transfer)",
+          "After the transfer is successful, open Payment Confirmation on the website / application",
+          "Enter the Sender's name and upload Proof of Transfer",
+          "Click Confirm Transfer",
+          "Payment will be checked"
+        ]
+      }
+    ],
+    "mandiri_length": 2,
+    "mandiri": [
+      {
+        "title": "Transfer via ATM",
+        "step_length": 11,
+        "steps": [
+          "Insert ATM Card and ATM PIN",
+          "Select the Cash Withdrawal/Other Transactions menu",
+          "Select the Other Transactions menu",
+          "Select the Transfer menu",
+          "Enter the Mandiri account number, 8650710089/BCA a/n. KREATIF TRANSPORTASI GEMILANG PT and click Correct.",
+          "Enter the Enter the amount of money that must be transferred through MANDIRI ATMs",
+          "If all processes are complete and correct, select \"Yes\" (Don't forget to screenshot proof of transfer)",
+          "After the transfer is successful, open Payment Confirmation on the website / application",
+          "Enter the Sender's name and upload Proof of Transfer",
+          "Click Confirm Transfer",
+          "Payment will be checked"
+        ]
+      },
+      {
+        "title": "Transfer via Mobile Banking",
+        "step_length": 11,
+        "steps": [
+          "Open the Mobile Banking Application, select the m-Transfer menu",
+          "Click the Transfer List menu",
+          "Select the menu Between Accounts (for MANDIRI users) and Interbank (for users other than MANDIRI)",
+          "Enter the MANDIRI Get and Ride account number, 5205979988 a/n. PT Indo Teknologi Cemerlang and click Correct",
+          "Enter the amount of money that must be transferred via ATM MANDIRI",
+          "Enter your PIN",
+          "If all processes have been completed and are correct, select \"Yes\" (Don't forget to screenshot proof of transfer)",
+          "After the transfer is successful, open Payment Confirmation on the website / application",
+          "Enter the Sender's name and upload Proof of Transfer",
+          "Click Confirm Transfer",
+          "Payment will be checked"
+        ]
+      }
+    ],
+    "uob_length": 2,
+    "uob": [
+      {
+        "title": "Transfer via ATM",
+        "step_length": 9,
+        "steps": [
+          "Insert ATM Card and ATM PIN.",
+          "Select the Transfer menu.",
+          "Enter the UOB account number, 3273089878 a/n. Kreatif Transportasi PT.",
+          "Enter the amount of money that must be transferred",
+          "If all processes are complete and correct, select “Yes” (Don't forget to screenshot proof of transfer).",
+          "After the transfer is successful, open Payment Confirmation on the website / application.",
+          "Enter the Sender's name and upload Proof of Transfer.",
+          "Click Confirm Transfer.",
+          "Payment will be checked."
+        ]
+      },
+      {
+        "title": "Transfer via Mobile Banking",
+        "step_length": 10,
+        "steps": [
+          "Open the Mobile Banking Application, tap the Transfer menu.",
+          "Choose from existing account numbers, or search for your destination bank",
+          "Enter the UOB Get and Ride account number, 3273089878 a/n. Kreatif Transportasi PT.",
+          "Enter the amount of money that must be transferred.",
+          "Enter your PIN.",
+          "If all processes have been completed and are correct, select “Yes” (Don't forget to screenshot proof of transfer).",
+          "After the transfer is successful, open Payment Confirmation on the website / application.",
+          "Enter the Sender's name and upload Proof of Transfer.",
+          "Click Confirm Transfer.",
+          "Payment will be checked."
+        ]
+      }
+    ]
+  },
+  "auth": {
+    "try_now": "Try Now",
+    "sign_up": "Sign Up",
+    "sign_in": "Login",
+    "enter_email_to_login": "Enter Your Email to Login into Get and Ride",
+    "or_login_using": "Or login using",
+    "do_not_have_an_account": "Don't have an account",
+    "have_an_account": "Already have an account",
+    "sign_up_now": "Sign Up Now",
+    "enter_email": "Email Address",
+    "enter_your_password": "Password",
+    "confirm_your_password": "Confirm Password",
+    "password_confirmation": "Confirm Password",
+    "error": "{{value}} is required"
+  },
+  "bank_transfer": {
+    "bank_transfer": "Bank Transfer",
+    "payment_method": "Payment Method",
+    "make_payment": "Make Payment",
+    "total_price": "Total Price",
+    "service_fee": "Service Fee",
+    "mandiri_transfer": "Mandiri Transfer",
+    "bca_transfer": "BCA Transfer",
+    "bank_x_transfer": "{{x}} Transfer",
+    "uob_transfer": "UOB Transfer",
+    "total_payment": "Total Payment",
+    "transfer_via": "Transfer via",
+    "upload_proof_payment": "Upload Proof of Payment",
+    "finish_before": "Finish Before",
+    "account_bank": "Account Bank",
+    "account_bank_description": "Bank account info is required for deposit refund, Deposit is required when you rent a car, Deposit will be refunded approximately 1x24 hours (working hours). We guarantee the confidentiality of your personal details.",
+    "account_bank_form": {
+      "error_account_name_empty": "Account name is required!",
+      "error_account_bank_empty": "Bank name is required!",
+      "error_account_number_empty": "Account number is required!",
+      "error_password_empty": "Password is required!"
+    },
+    "account_name": "Account Name"
+  },
+  "register": {
+    "have_not_received_otp": "Haven't received your OTP yet?",
+    "resend": "Resend",
+    "phone_number": "Phone Number",
+    "send_otp_code_to": "Send OTP Code to",
+    "create_password": "Create a Password",
+    "create_account": "Fill out the form to register to getandride.com",
+    "same_as_phone_number": "Same as Phone Number",
+    "verification": "Verification",
+    "choose_verification_method": "Choose your verification method for security and proceed with the payment of your order.",
+    "enter_phone_number": "Enter your Phone Number",
+    "enter_whatsapp_number": "Enter Whatsapp Number",
+    "error_confirmation_password": "Confirmation Password doesn't match",
+    "error_validate_password": "Password must be at least 8 characters and include both letters and numbers",
+    "wrong-otp-code": "The numeric code you entered is incorrect!",
+    "success_register": "Successful Registration",
+    "cannot_empty": "can not be empty",
+    "length_phone": "min length 10 characters"
+  },
+  "upload_bank_transfer": {
+    "sender_name": "Sender Name",
+    "proof_of_payment_image": "Proof of Payment.jpg",
+    "upload_photo": "Upload Photo"
+  },
+  "codepush": {
+    "updates_available": "Updates Available"
+  },
+  "forgot_password": {
+    "forgot_password": "Forgot Password",
+    "enter_email_to_reset_password": "Enter your email to reset your password",
+    "enter_email": "Enter Email",
+    "enter_your_email": "Enter Your Email",
+    "enter_old_password": "Enter old password",
+    "enter_new_password": "Enter a new password",
+    "enter_confirm_password": "Enter a new confirmation password"
+  },
+  "reset_password": {
+    "reset_password": "Reset Password",
+    "reset_your_password": "Reset your Password",
+    "enter_your_password": "Enter your Password",
+    "error_password": "Password is required",
+    "error_password_confirmation": "Password confirmation is required"
+  },
+  "referral_code": {
+    "referral_code": "Referral Code (Optional)",
+    "enter_referral_code": "Enter Referral Code",
+    "referral_message": "Want to get extra points? Book a car at Get&Ride now via this referral link {{url}}. You will get a bonus point of 0.5% from your first transaction! Download the Get&Ride App Now! Available on the App Store & Play Store",
+    "share": "Other Apps",
+    "confirmation_title": "Are you sure\nyou will use the Code?",
+    "confirmation_description": "You can only enter once\nfor the referral code for each\nGet&Ride user.",
+    "referral_is_already_in_use": "Referral is already in use",
+    "referral_is_already_in_use_desc": "The referral link you opened is already in use",
+    "referral_code_received_successfully": "Referral code received successfully",
+    "referral_code_received_successfully_desc": "The referral code has been successfully received, please use the code to get the discount.",
+    "incorrect_referral_code": "Incorrect referral code",
+    "incorrect_referral_code_desc": "The referral link you opened is incorrect or the link is not found",
+    "referral_is_not_found": "Referral code is not found",
+    "referral_invalid": "Invalid Referral Code",
+    "own_referral_code_error": "You cannot use your own referral code.",
+    "referral_is_already_exist": "Referral Already Applied",
+    "referral_is_already_exist_desc": "You have used a referral code from another user."
+  },
+  "notification": {
+    "not_found_title": "No notification yet",
+    "not_found_description": "No notification at this time"
+  },
+  "voucher": {
+    "title": "My Voucher",
+    "empty_unclaimed_voucher": "There are no vouchers that can be claimed at the moment",
+    "empty_claimed_voucher": "We noticed you haven't claimed your voucher yet! Don't miss out on your special offer. Claim it now and enjoy the benefits!",
+    "not_found_title": "Vouchers Not Yet Available",
+    "not_found_description": "No voucher at this time",
+    "btn_claim": "Claim Voucher",
+    "alert_voucher": "Vouchers cannot be used",
+    "btn_use_voucher": "Use Voucher",
+    "msg_error": "Failed to Claim Voucher",
+    "msg_success": "Successfully Claim Voucher",
+    "btn_claimed": "Already claimed",
+    "btn_unclaimed": "Unclaimed",
+    "created_by": "Created by Get & Ride",
+    "desc": "Description",
+    "benefit": "Benefits of Using Vouchers",
+    "date_limit": "Voucher Valid Date",
+    "term": "Terms and Conditions",
+    "how_to_use": "How to Use the Voucher",
+    "error_eligible": "voucher is not eligible",
+    "error_day_not_met": "minimum rental days not met",
+    "error_date_range": "not in valid date range",
+    "error_not_meet_condition": "not in valid date range",
+    "error_quota": "quota is full",
+    "error_type": "order type not fulfilled",
+    "error_combine": "Voucher is not eligible because vouchers and promo can't be combined.",
+    "limit": "Usage Limit",
+    "attached_voucher": "Voucher has been attached, let's make an order"
+  },
+  "faq": [
+    {
+      "title": "Why should rent a car with Get and Ride?",
+      "content": "By renting a car with Get and Ride, you don't have to worry. Everything is easy, fast, and definitely reliable. You can save your time and costs. Apart from that, you can also choose a car for a vacation around the city of Bali according to your needs at the best price."
+    },
+    {
+      "title": "How to rent a car with Get and Ride?",
+      "content": "You can rent a car through Get and Ride website or apps. Here are the steps you can follow:\n\n● Register and Login to the platform\n\n● Choose “With Driver” or “Without Driver” service\n\n● Fill location, time, and duration\n\n● Choose your car type. Make sure you read and agree with the Rental Terms & Conditions also the Policy Conditions\n\n● Select car pick-up details.You can take it directly to the rental place or choose to have it delivered to your place\n\n● Make sure you have filled in and uploaded your personal data such as a photo of your ID Card (KTP/Passport/Driver License)\n\n● Double check your order\n\n● Make your payment"
+    },
+    {
+      "title": "Do I have to have a driver's license to rent a car at Get and Ride?",
+      "content": "For car rental at Get and Ride, renter “without driver” is required to have and show an ID card/SIM A for domestic tourists and an International SIM/Passport for non-domestic tourists. Also make sure all documents are original, not on behalf of another person, and are still active."
+    },
+    {
+      "title": "Is there an age limit for renting a car at Get and Ride?",
+      "content": "Renters must be over 17 years old and must show an Identification Card (KTP)/SIM A or an active International Driver License / Passport."
+    },
+    {
+      "title": "Are there additional fees to be paid when picking up or returning the car?",
+      "content": "There is no charge for Off Key / Self-Drive service if the pick-up or return is made in the rental garage or in the Kuta or Legian area (free). A cost will be added outside of these areas, ranging from IDR 50,000 to IDR 100,000 depending on the distance. The all-in package (with driver), pick-up, and use of the Zone 0 car (inside the city) are all free (free). There is an additional price for using the Zone 1&2 region (outside the city), with additional fees starting at IDR 75,000 depending on the indicated distance."
+    },
+    {
+      "title": "How do I reschedule / cancel a rental car booking?",
+      "content": "For reschedule and cancellation requests, you can contact our WhatsApp at +62 81262511511. Make sure you understand the refund and rescheduling provisions that have been informed. If you want to know the rescheduling status of your Car Rental ticket, you can contact our WhatsApp for more detailed information."
+    },
+    {
+      "title": "Is the driver's charge included in the Get and Ride car rental?",
+      "content": "The rate for renting a car with a driver includes the driver's services as well as the driver's meals."
+    },
+    {
+      "title": "Can I choose my own pickup time while renting a car through Get and Ride?",
+      "content": "You can schedule the pickup time based on your availability. It is not feasible to set a pickup time earlier than 7 a.m."
+    },
+    {
+      "title": "Why can't get a car rental in some places?",
+      "content": "If you do not locate the desired location while requesting a car rental, it is possible that the location has not been registered within the range of the Get and Ride service or that the car at that location is not available or has been ordered by other customers at the time of order."
+    },
+    {
+      "title": "Is the driver familiar with Bali's highways and tourist areas?",
+      "content": "There is no need to be concerned. Get and Ride has a competent and experienced driver."
+    },
+    {
+      "title": "Will the car rental company provide an invoice?",
+      "content": "We will create an invoice for each car rental order that has received a Down Payment and send it to you through email or WhatsApp in PDF format"
+    },
+    {
+      "title": "What sorts of cars are available for lease through Get and Ride?",
+      "content": "We have Toyota Alphard, Toyota Hiace, Ertiga, Veloz, Innova, Avanza, and many other models available. Further information is available on our website get & ride or through WhatsApp at +62 81262511511."
+    },
+    {
+      "title": "Can I modify the type of car I rent once I book it?",
+      "content": "If you have previously made a reservation and would like to change the type of car, you must cancel the existing reservation and make a new one for the new car type. For more information, please contact our customer service at +62 81262511511."
+    },
+    {
+      "title": "What exactly is the renting area?",
+      "content": "The rental area is the maximum distance a car rental can travel. While ordering, there are many rental locations that can be verified in the coverage area. Check to see whether locations are included in the chosen plan and do not incur additional fees, because additional fees will apply if you use a car outside of the area covered by the package."
+    },
+    {
+      "title": "What if I can't reach the driver?",
+      "content": "If you are unable to contact the driver, please contact our customer service at +62 81262511511."
+    }
+  ],
+  "privacy_policy": [
+    {
+      "title": "Privacy Rules",
+      "sub": [
+        {
+          "title": "The Get and Ride Privacy Policy governs and/or describes all services that we have made available to you (the \"User\"). To keep your trust, we will always keep all of the confidential information contained in your personal data because your privacy is very important to us",
+          "description": [
+            "We explain how we collect, use, disclose, process, and secure your personal information and data that we identify ('Personal Data') in this privacy policy.",
+            "We will record and retain your personal information and data when you place an order and/or create a personal account on the Get and Ride Site. In general, any data that you supply from time to time will be stored and used for the purpose of providing our products and services to you, including tokenization, accounting, billing, auditing, credit or payment verification, administration and law, bonus points or similar forms, testing, system maintenance and development, customer relations, promotions, and supporting us in providing services to you.",
+            "We may also reveal your information to the Get and Ride group of companies. Due of the importance of these privacy rules and other provisions in the use of our site, please read all of the contents of this privacy policy and other provisions on our site carefully in order to protect the security of your personal data."
+          ]
+        },
+        {
+          "title": "When you use the Site or any of our online services, we will collect all of your personal information and data under the following conditions:",
+          "description": [
+            "We will require you to enter your personal information correctly, clearly, completely, accurately, and not misleadingly, such as your name, email address, phone number, full address, ID card (KTP), SIM, passport, order details (such as car type, length of order, date of purchase, pick-up and pick-up location), and other information that can identify Users. As well as any information that we require to conduct transactions on the Site and other online services that we offer so that you can take use of the services you require. We are not liable for any losses caused by incorrect, unclear, complete, accurate, or misleading information or data that you give.",
+            "We will collect information about your computer or other media you use, such as your IP address, operating system, browser used, URLs, pages, geographic areas, access times, and other computer usage data ('IP Details').",
+            "We may use your personal data and other information gathered for Social Media marketing purposes utilizing direct and open graphic approaches, as well as for traditional digital marketing objectives, such as automatically sending you newsletters or push notifications, including but not limited to via email, WhatsApp, and social media (such as YouTube, Instagram, Facebook, Twitter, Tiktok, and others) to notify you of new product information, special offers, promotions, and so on.",
+            "We can use and provide the information you provide while using our services to third parties who collaborate with us as long as it is for the benefit of transactions and the usage of our services.",
+            "We can use all of the information that we collect to defend ourselves against all claims and relevant law linked to the use of services and violations that you commit on our site for all of the provisions as indicated in the Get and Ride terms of service and recommendations for using our products and services, including and not limited to if required by Court order in the legal process.",
+            "You are solely responsible for the confidentiality of your information and personal data, including any access and usage of websites that use your passwords and accounts and tokens, whether with or without your consent. Any unlawful usage that occurs without your knowledge or consent is entirely your responsibility, and we are not liable for any losses that occur as a result of your negligence.",
+            "You must promptly alert us of any unauthorized use of your password or account, as well as any breach or threat of breach of security on this website.",
+            "You have the option to change or delete the address data that you provided and that we have saved in our system by contacting our Customer Service."
+          ]
+        },
+        {
+          "title": "By agreeing to the Conditions of Use of this Site, you have been granted the freedom and/or access authority, which is constrained and revocable, non-transferable, and a non-exclusive license to access and use the Site by displaying on your browser display for the purpose of purchasing and selling our items. When you use the Site, you will be given a unique password and account that will allow you to access certain portions of the Site.",
+          "sub_title": "We will assume that you have permission to access and use this site in accordance with the terms and conditions of these Terms of Use each time you use the password or account, and we are under no duty to look into the legitimacy or origin of such access or use of the site. As a result, you undertake to always pay attention to the restriction provisions that apply to the use of this site, which are as follows:",
+          "description": [
+            "You are not permitted to duplicate, distribute, display, sell, rent, transmit, create derivative works from, translate, alter, reverse engineer, disassemble, decompile, or exploit this Site or any part of it, and will not assist others in doing so.",
+            "You are not permitted to sell or transfer your account, profile, or Service-related items unless expressly authorized in writing by us.",
+            "Unless expressly approved in writing by us, you are not permitted to use any information given on the website or to use the website for commercial or other business purposes.",
+            "When you give us your data and information to use our website and services, you may not imitate or associate yourself with other individuals or organizations.",
+            "You are not permitted to send ads, promotional materials, spam emails, or harm service operations by uploading viruses, worms, or other destructive programming.",
+            "Modifications to privacy regulations",
+            {
+              "title": "You are not permitted to associate, image, link, connect, or affiliate with a Site that contains the following content and will not assist others in doing so:",
+              "description": [
+                "Material that infringes on intellectual property and other proprietary rights.",
+                "Content including pornography, obscenity, or decency, gambling, insults, slander, or defamation, extortion, or threats, fraud, or forgery.",
+                "Material that spreads hate, animosity, threats, incitement, harassment, or creates conflict between people, parties, or groups on the basis of physical characteristics, religious views, race, gender, or sexual orientation, as well as origin, ethnicity, nationality, or other factors.",
+                "Additional forbidden content based on current laws and regulations.",
+                "Any violation leads in the instant revocation of the access permission provided in these sections without prior notice to you, and we reserve the right to deny service, terminate accounts, and/or cancel purchases if, in our sole judgment, we believe that any of your actions as a customer violate any relevant laws or regulations, the Conditions of Use, or is harmful to our interests."
+              ]
+            },
+            "We reserve the right to make modifications, additions, and/or reductions to all or part of the provisions of this privacy policy at any time and without prior notice, and we will communicate all changes made via the getandride.com website. We hope you would review the policy on a regular basis. This. We automatically assume that you are familiar with and in agreement with all of the privacy policies mentioned on our site pages at the time you access or use our services.",
+            "If you use this website from outside Indonesia, your use of the website and the services we provide will be subject to, controlled by, and interpreted in accordance with Indonesian law, without regard to any conflict of law rules that may apply."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Data Access, Modification, and Removal",
+      "sub_title1": "You have the right to access, update, alter, or delete the Personal Data that you have submitted and stored in our system by contacting our customer service and/or using the capabilities in our application.",
+      "sub_title2": "In line with applicable law, we reserve the right to refuse your request to access, amend, or delete some or all of your Personal Data. This includes cases in which your Personal Data contains references to other people, or where requests to access, modify, or delete Personal Data are made for reasons that we believe may necessitate unsolicited technological efforts or pose operational hazards."
+    },
+    {
+      "title": "Agreement",
+      "sub_title1": "You are considered to have known, understood, agreed to, and proclaimed that you are subject to these Privacy Rules and the changes that we may make from time to time by reading all of these terms and regulations governing accessing and using our site and services. If you cannot agree to our privacy rules in whole or in part, you may not visit this site or use the services we offer.",
+      "sub_title2": "If you have any problems or need more information regarding your order, please contact us at +62 81262511511 or admin@getandride.com."
+    }
+  ],
+  "s&k": [
+    {
+      "title": "General",
+      "length": 4,
+      "description": [
+        "You confirm that you have read, comprehend, agree to, and are bound by the terms and conditions for using Get and Ride by using and accessing the Get and Ride website and its application. You are not permitted to access the website or use our services if you do not agree to abide by and be bound by these terms. Please note that in order to use this site, you must be at least eighteen (18) years old.",
+        "The following are the terms and conditions for using Get and Ride:\n(i) General terms and conditions that apply to any access to and use of the site's services.\n(ii) Particular terms and conditions that further define how certain products and services may be used.",
+        "The terms and conditions for using Get and Ride may be modified, added to, removed, or otherwise changed (a \"change\") at any time as determined by the needs of the site's development and applicable laws and regulations. It is recommended that you frequently check our website to learn about these changes.",
+        "You must turn on your mobile device's geolocation capability in order to use some Services in the Application. This geolocation activation is required for the use of services connected to directions, routes, and locations by using maps available in the app, including detecting your location and allowing us to provide service features at your present location (\"Current Location\"). We reserve the right to accept, postpone, or reject your request for the Service in our sole and absolute discretion."
+      ]
+    },
+    {
+      "title": "Utilize",
+      "length": 5,
+      "description": [
+        "You may use the products and services accessible on this Site for personal and non-commercial purposes, subject to the Terms and Conditions of Use in effect at Get and Ride at the time.",
+        "When you register with the Application, we gather and process your personal information, including your name, address, email address, and phone number. In order for us to continue offering you the full range of services, you must give correct, current, and updated information. Moreover, you must consent to give us any identity proof that we may lawfully request.",
+        "We own the items, technology, and processes contained or contained on the site or application. Except for the uses permitted by the Get and Ride terms and conditions. You do not own or receive anything from us, and we do not grant you any additional rights to this site or application or any of its data, information, or content.",
+        "You have committed to refraining from downloading, displaying, transmitting, or otherwise making public any content that does not follow the guidelines set forth in Get and Ride's terms and conditions of use.",
+        "Without Get and Ride's previous written approval, you are not permitted to link, screen capture, or crawl data to the site or application. These actions are regarded as a breach of the intellectual property rights of Get and Ride."
+      ]
+    },
+    {
+      "title": "Service",
+      "length": 6,
+      "description": [
+        "Get and Ride delivers and arranges an integrated online ordering system and facilities ('Services'), which can service the auto transportation rental you desire, as well as make bookings and purchases and pay online and securely through various accessible payment systems and facilities.",
+        "Except for repairs, upgrades, or maintenance on our site, our Services are normally available online twenty-four hours a day, seven days a week.",
+        "Without our express permission, you are not permitted to resell our goods, utilize, copy, monitor, display, download, or duplicate any material or information, software, or services available on our applications or sites for any commercial activities or purposes.",
+        "You can place valid orders and purchases using the programs, websites, and services that are offered. Orders and purchases cannot be made for speculative, fraudulent, or illegal purposes. We retain the right to cancel your order or purchase if it turns out to be invalid, as we may find out or have reason to suspect.",
+        "You also ensure that the data and information you supply to us, whether while ordering/ordering or registering at Get and Ride, are accurate, current, and complete. Please refer to the Data Use Policy for the conditions of use of the data and information you give.",
+        "The Confirmation Letter contains just information for the name specified on the Confirmation Letter. You are solely accountable for any information that is disseminated as a result of your negligence and/or intent to cause harm to yourself or others."
+      ]
+    },
+    {
+      "title": "Booking",
+      "length": 3,
+      "description": [
+        "Product orders/purchases are regarded successful or finished after you have made payment and Get and Ride issues and sends you an order/purchase confirmation letter. If there is a disagreement or a difficulty, the data provided in Get and Ride will be the primary reference and will be considered valid.",
+        "By completing an order/purchase, you consent to receive an email from us immediately after placing an order/purchase with information about the products you ordered.",
+        "According to the terms and regulations, some Goods require a reservation in advance. You alone are accountable for upholding such agreements."
+      ]
+    },
+    {
+      "title": "Cost",
+      "length": 4,
+      "description": [
+        "Get and Ride constantly aims to deliver services at the best possible price that you can buy, therefore you should double-check and understand the particular terms and circumstances that apply to a price before placing an order. You should also review and understand the cancellation and refund policies that apply to certain Goods and/or Prices.",
+        "Taxes, levies, fees, and other things that we shall mention on our website are included in the prices listed.",
+        "On occasion, we might provide discounts and/or promotions. Please be advised that specific terms and conditions could be necessary, such as those relating to order and refund policies.",
+        "Get and Ride reserves the right to adjust a product's pricing at any time without prior notice, but products you have purchased and for which you have received a Confirmation Letter will not change."
+      ]
+    },
+    {
+      "title": "Payment",
+      "length": 6,
+      "description": [
+        "Payment of the buying price is a requirement for making a purchase. We accept credit card payments (VISA, Master Card, and BCA Card), Virtual Account transfers, transfers between accounts and between banks to Get and Ride bank accounts, and other payment methods as specified on the Site.",
+        "We use 'Secure Socket Layer (SSL)' technology to protect and encrypt your payment card information. For you to obtain further treatment in accordance with applicable procedures and laws, you must report any instances of credit card fraud or misuse of the payment system to us and your credit card issuing company / bank right away.",
+        "You must carefully follow the payment instructions we provide. Here's what happened with your payment:",
+        "(i)  by including both our account number and the Virtual Account number on every order you place; and/or",
+        "(ii) a mistake in processing the nominal payment for your order results in the transfer of your money to a virtual account or account that does not follow the payment instructions we provide, or it results in the debiting of a nominal amount from your bank account that does not follow the payment instructions we provide, which results in You understand and accept that if your order is not verified, we are under no obligation to issue a refund to you due to any errors or carelessness on your part that resulted from failing to adhere to the payment instructions we have provided, making the loss entirely your responsibility. Also, the payment error indicated above cannot be accepted as a valid payment for your order; therefore, in order to receive confirmation of your order, you must make a payment in accordance with the payment instructions we have supplied.",
+        "For each order that we can validate, we will send you a confirmation letter through email with a description of the goods, the order you placed, and payment confirmation. The details in the confirmation letter we provide you must be printed out and kept on file by you. This confirmation letter is a crucial document, so make sure you have a printout on hand whenever you use or pick-up the item you ordered. We refuse to deliver items or services if you cannot demonstrate that you have lawfully placed an order and paid for it, and that you have released Get and Ride from all duties and losses in any form."
+      ]
+    },
+    {
+      "title": "Changes and Cancellations",
+      "length": 6,
+      "description": [
+        "Get and Ride will consider that you have read, understood, and agreed to the cancellation policies and conditions if you place an order. Every confirmation letter we provide to you includes information about our cancellation procedures and terms. Please keep in mind that certain tariffs or offers are not refundable or changeable. You are responsible for reviewing and understanding the cancellation policies and conditions ahead of time.",
+        "If you want to review, amend, or cancel your order, please contact our customer service by email or phone. Please keep in mind that additional fees for cancellation may apply depending on the cancellation policies and conditions.",
+        "The procedures for submitting changes and canceling orders are outlined in the Confirmation Letter or other media that we may update from time to time.",
+        "If you cancel your order, we will provide a refund under the following conditions:",
+        " • Refunds are given in the amount and time specified by the policies and cancellation requirements that are in effect.\n • According to the applicable policies, the amount of monies returned to you cannot be more than the nominal amount you paid to us. \n • Refunds are sent to the car renter's account that has been registered on your order for transactions that were paid for using Klikpay BCA using a BCA Card.",
+        "You acknowledge and agree that We may only process cancellation requests in accordance with the applicable cancellation terms and conditions, Grab & Ride Terms and Conditions of Use, e-Refund Terms and Conditions, and other terms and conditions that apply to Our Site. For this reason, you agree to hold us harmless from any losses you might incur as a result of your cancellation request or your failure to adhere to the relevant cancellation terms and conditions, Get and Ride terms and conditions, e-Refund terms and conditions, and other rules that apply to our website."
+      ]
+    },
+    {
+      "title": "Security",
+      "length": 3,
+      "description": [
+        "When you access your data information and place orders on our site, we use Secure Server Layer (SSL) access, which encrypts the data information that you submit through this site.",
+        "We will do our best to assure its safety. We cannot guarantee the encryption's strength. You are required to make sure that the device(s) used to access Get and Ride are fully under your control and that we won't be held liable for any issues that arise as a result of unauthorized access to the information you give. As a result, by utilizing the equipment or devices you are using to access Get and Ride, you release us from any losses that occur or may occur as a result of your carelessness.",
+        "Because your account is entirely your responsibility, you should always change the confidentiality of your password on a regular basis."
+      ]
+    },
+    {
+      "title": "Data Usage",
+      "length": 3,
+      "description": [
+        "We value your privacy and take it seriously.",
+        "We will record and retain your personal information and data when you make a booking with Get and Ride. We store your personal information and data in order to provide you with products and services. We will save any data that you give from time to time for accounting, auditing, credit card verification, security, points or all types of forms, promotion, development, and to enable us deliver services to you in the future.",
+        "We reserve the right to disclose your personal information and data to group companies and their affiliates (groups of companies), partner partners, government authorities, and competent legal practitioners in any country."
+      ]
+    },
+    {
+      "title": "Overtime",
+      "length": 3,
+      "description": [
+        "An additional overtime fee will be charged if the rental duration exceeds 12 hours of use or after 23.59 local time per day of rental",
+        "Renters will be fined 10% per hour of the rental price, with a maximum limit of 4 (four) hours",
+        "Overtime that exceeds 4 hours, will be charged one-day rental fee"
+      ]
+    },
+    {
+      "title": "Driver Accommodation",
+      "length": 1,
+      "description": [
+        "An additional fee of IDR 150,000/night (including driver's lodging) will be charged if the use of the vehicle and driver exceeds 23.59 local time, both within and outside the city."
+      ]
+    }
+  ],
+  "help_center": {
+    "header": "Help Center",
+    "menu_length": 3,
+    "menu": [
+      {
+        "title": "FAQ"
+      },
+      {
+        "title": "Privacy & Policy"
+      },
+      {
+        "title": "Term & Conditions"
+      }
+    ]
+  },
+  "tab_help_center": [
+    {
+      "id": "faq",
+      "title": "FAQ"
+    },
+    {
+      "id": "privacy-policy",
+      "title": "Privacy Policy"
+    },
+    {
+      "id": "s&k",
+      "title": "Term & Conditions"
+    },
+    {
+      "id": "call-center",
+      "title": "Contact Us"
+    }
+  ],
+  "contact-us": {
+    "title": {
+      "name": "Name",
+      "email": "Email",
+      "topic": "Topic",
+      "critic": "Criticism and suggestions"
+    },
+    "placeholder": {
+      "name": "Enter your Name",
+      "email": "Enter Your Email",
+      "topic": "Enter your Topic",
+      "critic": ""
+    },
+    "error": {
+      "name": "name cannot be empty",
+      "email": "email cannot be empty",
+      "topic": "topic cannot be empty",
+      "critic": "criticism and suggestions cannot be empty",
+      "required": "required"
+    },
+    "toast": {
+      "message_success": "Successfully Sent Help Message",
+      "message_error": "Failed to Send Help Message",
+      "title_success": "Success",
+      "title_error": "Error"
+    },
+    "btn": {
+      "send": "Send"
+    }
+  },
+  "company_profile": {
+    "company_profile": "Company Profile",
+    "about_company": "About Company",
+    "about_company_description": "Get & Ride is an online transportation which can be access through website and application (App Store & Playstore) that provides experienced car rental services in Bali. We also offer the best transportation solutions for tourists and businesses with a selection of high-quality cars at affordable prices. To enhance the comfort of our users, we are also planning to expand our services to other major cities besides Bali. Trust your holiday vacation, business trip or private event to us.",
+    "vision": "Vission",
+    "and": "and",
+    "mission": "Mission",
+    "vision_description": "To became a leading car rental company in Bali that provides the best service, offering easy access, and affordable transportation solutions for traveller.",
+    "mission_description": {
+      "first": "Providing car rental services in other major cities with the same level of service and quality as in Bali.",
+      "second": "Implementing innovative and user-friendly technology, booking, and payment systems.",
+      "third": "Collaborating with business partners and related industries to expand reach and meet customer needs."
+    },
+    "easy_access": "Easy Access",
+    "easy_access_description": "Get&Ride provides easy access order through website and application, so you can book anytime & anywhere. Choose your preferred schedule and car type effortessly and reliably with us.",
+    "high_quality": "High Quality",
+    "high_quality_description": "Get&Ride offers cars with the highest quality and maintained cleanliness. All cars are regulary serviced for your comfort.",
+    "best_service": "Best Service",
+    "best_service_description": "Providing professional drivers, implementation of health protocols, and vehicle protection. All cars are guaranteed with insurance coverage.",
+    "our_services": "Our Services",
+    "car_rental_with_driver": "Car Rental With Driver",
+    "car_rental_with_driver_description": "Get&Ride provides easy access order through website and application, so you can book anytime & anywhere. Choose your preferred schedule and car type effortessly and reliably with us.",
+    "car_rental_airport_transfer": "Airport Transfer",
+    "car_rental_airport_transfer_description": "Enjoy the convenience of traveling to/from the airport at the best prices only with Get&Ride! Going to/from the hotel to the airport becomes easier with Get&Ride’s Airport Transfer feature.",
+    "self_drive": "Self-Drive",
+    "self_drive_description": "Get&Ride offers cars with the highest quality and maintained cleanliness. All cars are regulary serviced for your comfort.",
+    "type_of": "Type of",
+    "cars": "Cars",
+    "start_from": "Start From",
+    "how_to": "How to",
+    "rent_a_car": "Rent a car?",
+    "mobile_app": "Mobile App",
+    "website": "Website",
+    "how_to_rent_a_car": "How to Rent a Car?",
+    "get_and_ride_is_already_on": "Get & Ride is already on",
+    "mobile_apps": "Mobile Apps",
+    "available_on": "Available On :"
+  },
+  "influencer_testimoni": [
+    "Yesterday, I rented a car with @getride.id, it was really good to get a Zenix that was only 1000 km so I could try the car too. I think all of their cars are brand new. For those who want to try car rental in Bali, you can go to them!",
+    "Rent a car with @getride.id when I went to Bali. Got a Zenix Hybrid car that was only 1000 km and it was really good. The car is really worth it, it's crazy! The car is still new. If you go to Bali, you must rent here.",
+    "We rented a hybrid innova zenix car at @getride.id. Taking turns driving was good and no problem. Because there is a sunroof so if a selfie is super good. I didn't expect it to feel so good and feel more efficient and super recommended!",
+    "After renting zenyx hybrid at @getride.id Super luxurious. The trunk is very spacious and there are 2 rear monitors. So it feels like I really want to have this. Thank you Get&Ride!",
+    "Yesterday in Bali, we used Zenix Hybrid car which was much more economical and more relaxing. We rented it from @getride.id, the car is very complete, super clean and comfortable. Thank you very much! Super nice service delivered to the airport. Next time rent a car here again anyway."
+  ],
+  "profile": {
+    "data_received": "Data Received",
+    "reupload": "Reupload",
+    "select_file": "Select File",
+    "identity_alert": "Every time you rent, your E-KTP and Driver's License data will be verified as a condition for renting a car. We guarantee your data privacy according to our privacy policy.",
+    "reupload_your_document": "Re-upload your document",
+    "view_message": "View Message",
+    "identity_verification": "Identity Verification",
+    "warning": "Warning!",
+    "warning_description": "The deleted data will be reviewed again and will take time to confirm."
+  },
+  "one_way": {
+    "title": "One Way",
+    "choose_your_route": "Choose Your Route",
+    "search_route_destination": "Search Your Destination",
+    "search_route_destination_placeholder": "Select Destination",
+    "select_region": "Select Region",
+    "available_region": "Available Locations",
+    "select_travel_destination": "Select Travel Destination",
+    "detail_pickup": "Pickup Location Details",
+    "dropoff_placeholder": "Select Dropoff Location",
+    "detail_dropoff": "Dropoff Location Details",
+    "current_location": "Current Location",
+    "no_trip": "No Trips Available",
+    "unknwon_location": "Unknown Location",
+    "no_trip_description": "Choose your destination and experience the journey with Get & Ride",
+    "pickup_placeholder": "Pickup Details",
+    "pickup_location": "Pickup Location",
+    "dropoff_location": "Dropoff Location",
+    "pickup_placeholder_description": "Pickup details (e.g., near the gate)",
+    "dropoff_placeholder_description": "Dropoff details",
+    "cost_detail": "Cost Details",
+    "cost_travel": "Travel Cost",
+    "service_fee": "Application Service Fee",
+    "total_payment": "Total Payment",
+    "active_location": "Activate Your Location",
+    "active_location_description": "We need access to your location for optimal service. Please enable location on your device.",
+    "btn_active_location": "Activate Location",
+    "select_package": "Select Package",
+    "schedule_order": "Schedule Order",
+    "schedule_order_desc": "Plan your trip without waiting because it’s already scheduled",
+    "accept_tnc": "By proceeding with this order, you agree to the Terms and Conditions",
+    "schedule": "Schedule",
+    "cancel": "Cancel",
+    "search_driver": "Searching for Driver",
+    "search_driver_desc": "Your order will soon be picked up by a driver. Please wait patiently.",
+    "got_driver": "Driver Found",
+    "got_driver_desc": "The driver will depart near the scheduled time.",
+    "SCHEDULED": {
+      "title": "Scheduled Order",
+      "desc": "If you haven’t got a driver, the order will be automatically canceled and your money will be refunded."
+    },
+    "FINISH": {
+      "title": "Trip Completed",
+      "desc": "Thank you for using our service. We hope you had a pleasant trip!"
+    },
+    "CHECKOUT": {
+      "title": "Waiting for Confirmation",
+      "desc": "Your order is being processed. A driver will assigned shortly. Please wait patienly."
+    },
+    "OPEN": {
+      "title": "No Driver Yet",
+      "desc": "We are still looking for an available driver for you. Please be patient."
+    },
+    "FAILED": {
+      "title": "Transaction Failed",
+      "desc": "Your order was unsuccessful. Please try again."
+    },
+    "PENDING": {
+      "title": "Awaiting Payment",
+      "desc": "Your order is awaiting payment.\nPlease make payment soon."
+    },
+    "CANCELLED": {
+      "title": "Order Canceled",
+      "desc": "Your order has been canceled."
+    },
+    "BOOKED": {
+      "title": "Driver Found",
+      "desc": "Your driver has been assigned and will depart at the scheduled time."
+    },
+    "SEARCHING_FOR_DRIVER": {
+      "title": "Looking for a driver",
+      "desc": "Your order is being processed. A driver will assigned shortly. Please wait patienly."
+    },
+    "PAID": {
+      "title": "Looking for a driver",
+      "desc": "Your order is being processed. A driver will assigned shortly. Please wait patienly."
+    },
+    "order_schedule": "Scheduled Order",
+    "order_schedule_desc": "If you haven’t got a driver, the order will be automatically canceled and your money will be refunded.",
+    "cancel_order": "Cancel Order",
+    "left_items": "If you left something behind, you can still contact the driver or us.",
+    "location_data": "Location Data",
+    "your_order_detail": "Your Order Details"
+  }
+}

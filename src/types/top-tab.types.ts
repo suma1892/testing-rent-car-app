@@ -1,0 +1,1 @@
+export type ITopTabs = 'Daily' | 'Airport Transfer' | 'Tour';
