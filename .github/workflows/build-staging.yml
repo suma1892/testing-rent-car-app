@@ -12,7 +12,7 @@ on:
 
 jobs:
   build:
-    if: github.event.pull_request.merged == true
+    # if: github.event.pull_request.merged == true
     environment: STAGING_ENV
     runs-on: macos-latest
     steps:
