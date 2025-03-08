@@ -75,16 +75,16 @@ jobs:
       - name: Verify .env.staging File
         run: cat .env.staging
 
-      - name: Get Version Name
-        id: version
-        run: echo "VERSION_NAME=$(grep 'versionName' android/app/build.gradle | awk '{print $2}' | tr -d '\"')" >> $GITHUB_ENV
+      # - name: Get Version Name
+      #   id: version
+      #   run: echo "VERSION_NAME=$(grep 'versionName' android/app/build.gradle | awk '{print $2}' | tr -d '\"')" >> $GITHUB_ENV
 
-      - name: Create Tag
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-          git tag $VERSION_NAME-staging
-          git push origin $VERSION_NAME-staging
+      # - name: Create Tag
+      #   run: |
+      #     git config --global user.name "github-actions"
+      #     git config --global user.email "github-actions@github.com"
+      #     git tag $VERSION_NAME-staging
+      #     git push origin $VERSION_NAME-staging
 
   deploy:
     needs: build
