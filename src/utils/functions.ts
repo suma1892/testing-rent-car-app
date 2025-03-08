@@ -8,7 +8,7 @@ import {Platform, PermissionsAndroid} from 'react-native';
 import {request, PERMISSIONS, RESULTS} from 'react-native-permissions';
 import RNFS from 'react-native-fs';
 import momentTz from 'moment-timezone';
-import {CameraRoll} from '@react-native-camera-roll/camera-roll';
+// import {CameraRoll} from '@react-native-camera-roll/camera-roll';
 
 export const slugify = (str: string, slugType: string = '-') => {
   if (str) {
@@ -392,12 +392,13 @@ export const getImagesFromDCIMAndDownload = async () => {
   } else {
     // iOS: Ambil gambar dari Photo Library
     try {
-      const photos = await CameraRoll.getPhotos({
-        first: 50, // Ambil 50 foto terbaru
-        assetType: 'Photos',
-      });
+      return ;
+      // const photos = await CameraRoll.getPhotos({
+      //   first: 50, // Ambil 50 foto terbaru
+      //   assetType: 'Photos',
+      // });
 
-      return photos.edges.map(edge => edge.node.image.uri);
+      // return photos.edges.map(edge => edge.node.image.uri);
     } catch (error) {
       console.error('Error accessing photo library:', error);
     }
