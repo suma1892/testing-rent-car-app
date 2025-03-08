@@ -44,6 +44,13 @@ jobs:
 
       - name: Validate Gradle wrapper
         uses: gradle/wrapper-validation-action@v1
+        with:
+          allowed-wrapper-directories: |
+            android/gradle/wrapper
+            node_modules/@react-native-camera-roll/camera-roll/android/gradle/wrapper
+            node_modules/@react-native-clipboard/clipboard/android/gradle/wrapper
+            node_modules/@react-native-community/netinfo/android/gradle/wrapper
+
 
       - name: Debug Check Files
         run: ls -la node_modules/@react-native-community/cli-platform-android/
