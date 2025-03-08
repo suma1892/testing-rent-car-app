@@ -105,6 +105,12 @@ jobs:
       - name: Setup Fastlane
         run: gem install fastlane -NV
 
+      - name: Grant execute permission to Gradle
+        run: |
+          cd android
+          chmod +x ./gradlew
+          cd ..
+
       - name: Clean Gradle
         run: |
           cd android
