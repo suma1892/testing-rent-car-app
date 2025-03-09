@@ -45,8 +45,8 @@ jobs:
           echo "APP_ID=${{ vars.APP_ID }}" >> .env.staging
           echo "API_MESSENGER=${{ vars.API_MESSENGER }}" >> .env.staging
 
-      - name: Verify .env.production File
-        run: cat .env.production
+      - name: Verify .env.staging File
+        run: cat .env.staging
 
       # - name: Build AAB application
       #   run: |
