@@ -3,11 +3,11 @@ name: Build and Deploy Android app
 on:
   push:
     branches:
-      - main__
+      - main
 
 jobs:
   build:
-    environment: PRODUCTION_ENV
+    environment: STAGING_ENV
     runs-on: macos-latest
     steps:
       - name: Checkout repository
@@ -36,44 +36,45 @@ jobs:
 
       - name: Create .env File
         run: |
-          echo "ENV=${{ vars.ENV }}" > .env.production
-          echo "APP_URL=${{ vars.APP_URL }}" >> .env.production
-          echo "URL_API=${{ vars.URL_API }}" >> .env.production
-          echo "URL_IMAGE=${{ vars.URL_IMAGE }}" >> .env.production
-          echo "MIDTRANS_CLIENT_KEY=${{ vars.MIDTRANS_CLIENT_KEY }}" >> .env.production
-          echo "API_MIDTRANS=${{ vars.API_MIDTRANS }}" >> .env.production
-          echo "APP_ID=${{ vars.APP_ID }}" >> .env.production
+          echo "ENV=${{ vars.ENV }}" > .env.staging
+          echo "APP_URL=${{ vars.APP_URL }}" >> .env.staging
+          echo "URL_API=${{ vars.URL_API }}" >> .env.staging
+          echo "URL_IMAGE=${{ vars.URL_IMAGE }}" >> .env.staging
+          echo "MIDTRANS_CLIENT_KEY=${{ vars.MIDTRANS_CLIENT_KEY }}" >> .env.staging
+          echo "API_MIDTRANS=${{ vars.API_MIDTRANS }}" >> .env.staging
+          echo "APP_ID=${{ vars.APP_ID }}" >> .env.staging
+          echo "API_MESSENGER=${{ vars.API_MESSENGER }}" >> .env.staging
 
       - name: Verify .env.production File
         run: cat .env.production
 
-      - name: Build AAB application
-        run: |
-          cd android
-          ./gradlew bundleProductionRelease
+      # - name: Build AAB application
+      #   run: |
+      #     cd android
+      #     ./gradlew bundleProductionRelease
 
       - name: Build APK application
         run: |
           cd android
-          ./gradlew assembleProductionRelease
+          ./gradlew assembleStagingRelease
 
-      - name: Install Fastlane
-        run: |
-          gem install fastlane -NV
+      # - name: Install Fastlane
+      #   run: |
+      #     gem install fastlane -NV
 
-      - name: Create JSON Key File
-        run: echo "${{ secrets.GOOGLE_PLAY_JSON_KEY }}" > ./get-and-ride-service-acount-production.json
+      # - name: Create JSON Key File
+      #   run: echo "${{ secrets.GOOGLE_PLAY_JSON_KEY }}" > ./get-and-ride-service-acount-production.json
 
-      - name: Upload to Google Play Console
-        env:
-          GOOGLE_PLAY_JSON_KEY: ${{ secrets.GOOGLE_PLAY_JSON_KEY }}
-        run: |
-          cd android
-          fastlane deploy_internal
+      # - name: Upload to Google Play Console
+      #   env:
+      #     GOOGLE_PLAY_JSON_KEY: ${{ secrets.GOOGLE_PLAY_JSON_KEY }}
+      #   run: |
+      #     cd android
+      #     fastlane deploy_internal
 
-      - name: Upload APK as artifact
-        uses: actions/upload-artifact@v2
-        with:
-          name: app
-          path: android/app/build/outputs/apk/production/app-production-release.apk
-          retention-days: 3
+      # - name: Upload APK as artifact
+      #   uses: actions/upload-artifact@v2
+      #   with:
+      #     name: app
+      #     path: android/app/build/outputs/apk/production/app-production-release.apk
+      #     retention-days: 3
