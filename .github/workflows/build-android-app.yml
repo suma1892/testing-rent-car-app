@@ -28,10 +28,7 @@ jobs:
           cache: 'yarn'
 
       - name: Install Dependencies
-        run: |
-          rm -rf node_modules yarn.lock package-lock.json
-          yarn cache clean
-          yarn install --frozen-lockfile
+        run: yarn install --frozen-lockfile
 
       - name: Remove Hermes tarball
         run: rm -rf node_modules/react-native/sdks/download/hermes.tar.gz
@@ -47,32 +44,47 @@ jobs:
           echo "APP_ID=${{ vars.APP_ID }}" >> .env.staging
           echo "API_MESSENGER=${{ vars.API_MESSENGER }}" >> .env.staging
 
-      - name: Apply Patch
-        run: npx patch-package
+      # - name: Apply Patch
+      #   run: npx patch-package
 
-      - name: Clean Gradle
-        run: cd android && ./gradlew clean
+      # - name: Clean Gradle
+      #   run: cd android && ./gradlew clean
 
       - name: Build APK application
         run: |
           cd android
           ./gradlew assembleStagingRelease --parallel --daemon
 
-      - name: Setup Ruby & Bundler
-        run: |
-          sudo apt-get update -y
-          sudo apt-get install ruby-full -y
-          gem install bundler --user-install
-          export GEM_HOME="$HOME/.gem"
-          export PATH="$GEM_HOME/bin:$PATH"
+      # - name: Setup Ruby & Bundler
+      #   run: |
+      #     sudo apt-get update -y
+      #     sudo apt-get install ruby-full -y
+      #     gem install bundler --user-install
+      #     export GEM_HOME="$HOME/.gem"
+      #     export PATH="$GEM_HOME/bin:$PATH"
 
-      - name: Setup Fastlane & Install Plugin
+      # - name: Setup Fastlane & Install Plugin
+      #   run: |
+      #     export GEM_HOME="$HOME/.gem"
+      #     export PATH="$GEM_HOME/bin:$PATH"
+      #     gem install fastlane -NV --user-install
+      #     bundle config set --local path 'vendor/bundle'
+      #     bundle install
+      - name: Cache Ruby Gems & Fastlane
+        uses: actions/cache@v3
+        with:
+          path: ~/.gem
+          key: ruby-gems-${{ runner.os }}-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: ruby-gems-${{ runner.os }}-
+
+      - name: Setup Ruby & Fastlane
         run: |
+          sudo apt-get update -y && sudo apt-get install ruby-full -y
           export GEM_HOME="$HOME/.gem"
           export PATH="$GEM_HOME/bin:$PATH"
-          gem install fastlane -NV --user-install
-          bundle config set --local path 'vendor/bundle'
+          gem install bundler fastlane -NV
           bundle install
+          fastlane install_plugins
 
       - name: Prepare Firebase Credentials
         run: |
@@ -81,7 +93,7 @@ jobs:
       - name: Upload APK to Firebase App Distribution
         env:
           FIREBASE_APP_ID: ${{ secrets.FIREBASE_APP_ID }}
-          GOOGLE_APPLICATION_CREDENTIALS: android/app/firebase-credentials.json
+          FIREBASE_CREDENTIALS: ${{ secrets.FIREBASE_CREDENTIALS }}
         run: |
           cd android
           bundle exec fastlane distribute_staging
