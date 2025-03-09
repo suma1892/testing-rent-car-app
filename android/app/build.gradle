@@ -147,13 +147,6 @@ def versionPropsFile = file("${rootProject.projectDir}/version.properties")
 def versionProps = new Properties()
 versionProps.load(new FileInputStream(versionPropsFile))
 
-def versionCode = versionProps['versionCode'].toInteger() + 1
-def versionName = versionProps['versionName'].replaceAll(/(\d+)$/, { m -> (m[0].toInteger() + 1).toString() })
-
-versionProps['versionCode'] = versionCode.toString()
-versionProps['versionName'] = versionName
-
-versionProps.store(versionPropsFile.newWriter(), null)
 
 android {
     ndkVersion rootProject.ext.ndkVersion
@@ -207,8 +200,8 @@ android {
         targetSdkVersion rootProject.ext.targetSdkVersion
         // versionCode 38
         // versionName "1.38.0"
-        versionCode versionCode
-        versionName versionName
+        versionCode versionProps['versionCode'].toInteger() // Pastikan ini dikonversi ke Integer
+        versionName versionProps['versionName']
         buildConfigField "boolean", "IS_NEW_ARCHITECTURE_ENABLED", isNewArchitectureEnabled().toString()
         multiDexEnabled true
         if (isNewArchitectureEnabled()) {
