@@ -1,12 +1,18 @@
 name: Build and Deploy Staging App
 
 on:
+  # pull_request:
+  #   types:
+  #     - closed
+  #   branches:
+  #     - staging
   push:
     branches:
       - main
 
 jobs:
   build:
+    # if: github.event.pull_request.merged == true
     environment: STAGING_ENV
     runs-on: macos-latest
     steps:
@@ -31,22 +37,26 @@ jobs:
           rm -rf node_modules
           rm -f yarn.lock
           yarn cache clean
-          yarn install --frozen-lockfile --network-timeout 1000000
-
-      - name: Verify New Native Modules
-        run: |
-          ls -la node_modules/@react-native/gradle-plugin/
-          cat node_modules/@react-native/gradle-plugin/native_modules.gradle
-      # - name: Fix Missing Native Modules
-      #   run: yarn add @react-native-community/cli-platform-android
-
-      # - name: Verify Native Modules
-      #   run: |
-      #     ls -la node_modules/@react-native-community/cli-platform-android/
-      #     cat node_modules/@react-native-community/cli-platform-android/native_modules.gradle
+          yarn install --frozen-lockfile
 
       - name: Run React Native Postinstall
         run: yarn run postinstall
+
+      - name: Validate Gradle wrapper
+        uses: gradle/wrapper-validation-action@v1
+      #   with:
+      #     allowed-wrapper-directories: |
+      #       android/gradle/wrapper
+      #       node_modules/@react-native-camera-roll/camera-roll/android/gradle/wrapper
+      #       node_modules/@react-native-clipboard/clipboard/android/gradle/wrapper
+      #       node_modules/@react-native-community/netinfo/android/gradle/wrapper
+
+
+      - name: Debug Check Files
+        run: ls -la node_modules/@react-native-community/cli-platform-android/
+
+      - name: Fix Missing Native Modules
+        run: yarn add @react-native-community/cli-platform-android
 
       - name: Start Metro Bundler
         run: yarn run start --reset-cache &
@@ -64,6 +74,17 @@ jobs:
 
       - name: Verify .env.staging File
         run: cat .env.staging
+
+      # - name: Get Version Name
+      #   id: version
+      #   run: echo "VERSION_NAME=$(grep 'versionName' android/app/build.gradle | awk '{print $2}' | tr -d '\"')" >> $GITHUB_ENV
+
+      # - name: Create Tag
+      #   run: |
+      #     git config --global user.name "github-actions"
+      #     git config --global user.email "github-actions@github.com"
+      #     git tag $VERSION_NAME-staging
+      #     git push origin $VERSION_NAME-staging
 
   deploy:
     needs: build
