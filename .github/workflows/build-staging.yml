@@ -33,13 +33,17 @@ jobs:
           yarn cache clean
           yarn install --frozen-lockfile --network-timeout 1000000
 
-      - name: Fix Missing Native Modules
-        run: yarn add @react-native-community/cli-platform-android
-
-      - name: Verify Native Modules
+      - name: Verify New Native Modules
         run: |
-          ls -la node_modules/@react-native-community/cli-platform-android/
-          cat node_modules/@react-native-community/cli-platform-android/native_modules.gradle
+          ls -la node_modules/@react-native/gradle-plugin/
+          cat node_modules/@react-native/gradle-plugin/native_modules.gradle
+      # - name: Fix Missing Native Modules
+      #   run: yarn add @react-native-community/cli-platform-android
+
+      # - name: Verify Native Modules
+      #   run: |
+      #     ls -la node_modules/@react-native-community/cli-platform-android/
+      #     cat node_modules/@react-native-community/cli-platform-android/native_modules.gradle
 
       - name: Run React Native Postinstall
         run: yarn run postinstall

@@ -1609,11 +1609,6 @@
   dependencies:
     merge-options "^3.0.4"
 
-"@react-native-camera-roll/camera-roll@^7.9.0":
-  version "7.10.0"
-  resolved "https://registry.yarnpkg.com/@react-native-camera-roll/camera-roll/-/camera-roll-7.10.0.tgz#5e9518d78a9cd87ddc8e68d03e31a608df5033ab"
-  integrity sha512-Zm1yHxxTQS2APsnnxUFoLnK+DMMTPqmIQ2z2pGtNyHRXAG40Nt4MLVB3tDJTWnuJLAG87BpTCEvpz49+u0YkUw==
-
 "@react-native-clipboard/clipboard@^1.15.0":
   version "1.16.2"
   resolved "https://registry.yarnpkg.com/@react-native-clipboard/clipboard/-/clipboard-1.16.2.tgz#d8517eea937d336b8fe1ca44e955e691d27f5ba4"
@@ -1874,6 +1869,11 @@
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@react-native/assets/-/assets-1.0.0.tgz#c6f9bf63d274bafc8e970628de24986b30a55c8e"
   integrity sha512-KrwSpS1tKI70wuKl68DwJZYEvXktDHdZMG0k2AXD/rJVSlB23/X2CB2cutVR0HwNMJIal9HOUOBB2rVfa6UGtQ==
+
+"@react-native/gradle-plugin@^0.78.0":
+  version "0.78.0"
+  resolved "https://registry.yarnpkg.com/@react-native/gradle-plugin/-/gradle-plugin-0.78.0.tgz#858d22b5ec456e12837b85c7721fde87268c4810"
+  integrity sha512-WvwgfmVs1QfFl1FOL514kz2Fs5Nkg2BGgpE8V0ild8b/UT6jCD8qh2dTI5kL0xdT0d2Xd2BxfuFN0xCLkMC+SA==
 
 "@react-native/normalize-color@*":
   version "2.1.0"

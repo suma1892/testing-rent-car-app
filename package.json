@@ -126,6 +126,7 @@
     "@babel/core": "^7.12.9",
     "@babel/runtime": "^7.12.5",
     "@react-native-community/eslint-config": "^2.0.0",
+    "@react-native/gradle-plugin": "^0.78.0",
     "@tsconfig/react-native": "^2.0.2",
     "@types/he": "^1.2.2",
     "@types/jest": "^26.0.23",
