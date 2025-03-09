@@ -14,64 +14,35 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Setup Ruby 2.7.5
-        uses: ruby/setup-ruby@v1
+      - name: Install Java
+        uses: actions/setup-java@v3
         with:
-          ruby-version: 2.7.5
-          bundler-cache: true
-      
-      - name: Setup Ruby & Install Dependencies
+          java-version: 17
+          distribution: temurin
+          cache: gradle
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          cache: 'yarn'
+
+      - name: Install Dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Remove Hermes tarball
+        run: rm -rf node_modules/react-native/sdks/download/hermes.tar.gz
+
+      - name: Create .env File
         run: |
-          sudo gem install public_suffix -v 5.1.1
-          sudo gem install fastlane -NV
-          fastlane install_plugins
-
-      # - name: Install Fastlane
-      #   run: |
-      #     gem install fastlane -NV
-      #     fastlane install_plugins
-
-      - name: Prepare Firebase Credentials
-        run: |
-          echo "${{ secrets.FIREBASE_CREDENTIALS }}" > android/app/firebase-credentials.json
-
-      - name: Upload APK to Firebase App Distribution
-        env:
-          FIREBASE_APP_ID: ${{ secrets.FIREBASE_APP_ID }}
-          FIREBASE_CREDENTIALS: ${{ secrets.FIREBASE_CREDENTIALS }}
-        run: |
-          cd android
-          bundle exec fastlane distribute_staging
-
-      # - name: Install Java
-      #   uses: actions/setup-java@v3
-      #   with:
-      #     java-version: 17
-      #     distribution: temurin
-      #     cache: gradle
-
-      # - name: Setup Node.js
-      #   uses: actions/setup-node@v3
-      #   with:
-      #     node-version: '18'
-      #     cache: 'yarn'
-
-      # - name: Install Dependencies
-      #   run: yarn install --frozen-lockfile
-
-      # - name: Remove Hermes tarball
-      #   run: rm -rf node_modules/react-native/sdks/download/hermes.tar.gz
-
-      # - name: Create .env File
-      #   run: |
-      #     echo "ENV=${{ vars.ENV }}" > .env.staging
-      #     echo "APP_URL=${{ vars.APP_URL }}" >> .env.staging
-      #     echo "URL_API=${{ vars.URL_API }}" >> .env.staging
-      #     echo "URL_IMAGE=${{ vars.URL_IMAGE }}" >> .env.staging
-      #     echo "MIDTRANS_CLIENT_KEY=${{ vars.MIDTRANS_CLIENT_KEY }}" >> .env.staging
-      #     echo "API_MIDTRANS=${{ vars.API_MIDTRANS }}" >> .env.staging
-      #     echo "APP_ID=${{ vars.APP_ID }}" >> .env.staging
-      #     echo "API_MESSENGER=${{ vars.API_MESSENGER }}" >> .env.staging
+          echo "ENV=${{ vars.ENV }}" > .env.staging
+          echo "APP_URL=${{ vars.APP_URL }}" >> .env.staging
+          echo "URL_API=${{ vars.URL_API }}" >> .env.staging
+          echo "URL_IMAGE=${{ vars.URL_IMAGE }}" >> .env.staging
+          echo "MIDTRANS_CLIENT_KEY=${{ vars.MIDTRANS_CLIENT_KEY }}" >> .env.staging
+          echo "API_MIDTRANS=${{ vars.API_MIDTRANS }}" >> .env.staging
+          echo "APP_ID=${{ vars.APP_ID }}" >> .env.staging
+          echo "API_MESSENGER=${{ vars.API_MESSENGER }}" >> .env.staging
 
       # - name: Apply Patch
       #   run: npx patch-package
@@ -79,10 +50,10 @@ jobs:
       # - name: Clean Gradle
       #   run: cd android && ./gradlew clean
 
-      # - name: Build APK application
-      #   run: |
-      #     cd android
-      #     ./gradlew assembleStagingRelease --parallel --daemon
+      - name: Build APK application
+        run: |
+          cd android
+          ./gradlew assembleStagingRelease --parallel --daemon
 
       # - name: Setup Ruby & Bundler
       #   run: |
@@ -124,6 +95,14 @@ jobs:
       #   run: |
       #     gem install fastlane -NV
       #     fastlane install_plugins
+
+      - name: upload artifact to Firebase App Distribution
+        uses: wzieba/Firebase-Distribution-Github-Action@v1
+        with:
+          appId: ${{secrets.FIREBASE_APP_ID}}
+          serviceCredentialsFileContent: ${{ secrets.FIREBASE_CREDENTIALS }}
+          groups: TESTERS
+          file: /app/build/outputs/apk/staging/release/app-staging-release.apk
 
       # - name: Prepare Firebase Credentials
       #   run: |
