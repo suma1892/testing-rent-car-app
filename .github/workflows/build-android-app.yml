@@ -19,11 +19,17 @@ jobs:
         with:
           ruby-version: 2.7.5
           bundler-cache: true
-
-      - name: Install Fastlane
+      
+      - name: Setup Ruby & Install Dependencies
         run: |
-          gem install fastlane -NV
+          sudo gem install public_suffix -v 5.1.1
+          sudo gem install fastlane -NV
           fastlane install_plugins
+
+      # - name: Install Fastlane
+      #   run: |
+      #     gem install fastlane -NV
+      #     fastlane install_plugins
 
       - name: Prepare Firebase Credentials
         run: |
