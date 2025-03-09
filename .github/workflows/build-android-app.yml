@@ -102,7 +102,7 @@ jobs:
           appId: ${{secrets.FIREBASE_APP_ID}}
           serviceCredentialsFileContent: ${{ secrets.FIREBASE_CREDENTIALS }}
           groups: TESTERS
-          file: /app/build/outputs/apk/staging/release/app-staging-release.apk
+          file: android/app/build/outputs/apk/staging/release/app-staging-release.apk
 
       # - name: Prepare Firebase Credentials
       #   run: |
