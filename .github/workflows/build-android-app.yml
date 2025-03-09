@@ -8,7 +8,8 @@ on:
 jobs:
   build:
     environment: STAGING_ENV
-    runs-on: ubuntu-latest  # Ganti dari macOS ke Ubuntu
+    runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -17,18 +18,18 @@ jobs:
         uses: actions/setup-java@v3
         with:
           java-version: 17
-          distribution: temurin  # 'temurin' lebih cepat dibandingkan 'adopt'
+          distribution: temurin
           cache: gradle
 
-      - name: Setup Node
+      - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '18'
           cache: 'yarn'
 
-      - name: Clear Cache & Reinstall Dependencies
+      - name: Install Dependencies
         run: |
-          rm -rf node_modules package-lock.json yarn.lock
+          rm -rf node_modules yarn.lock package-lock.json
           yarn cache clean
           yarn install --frozen-lockfile
 
@@ -57,18 +58,30 @@ jobs:
           cd android
           ./gradlew assembleStagingRelease --parallel --daemon
 
-      # - name: Setup Fastlane
-      #   run: |
-      #     sudo apt-get update -y
-      #     sudo apt-get install ruby-full -y
-      #     gem install fastlane -NV
-      - name: Setup Fastlane
-        run: sudo gem install fastlane -NV
+      - name: Setup Ruby & Bundler
+        run: |
+          sudo apt-get update -y
+          sudo apt-get install ruby-full -y
+          gem install bundler --user-install
+          export GEM_HOME="$HOME/.gem"
+          export PATH="$GEM_HOME/bin:$PATH"
+
+      - name: Setup Fastlane & Install Plugin
+        run: |
+          export GEM_HOME="$HOME/.gem"
+          export PATH="$GEM_HOME/bin:$PATH"
+          gem install fastlane -NV --user-install
+          bundle config set --local path 'vendor/bundle'
+          bundle install
+
+      - name: Prepare Firebase Credentials
+        run: |
+          echo "${{ secrets.FIREBASE_CREDENTIALS }}" > android/app/firebase-credentials.json
 
       - name: Upload APK to Firebase App Distribution
         env:
           FIREBASE_APP_ID: ${{ secrets.FIREBASE_APP_ID }}
-          FIREBASE_CREDENTIALS: ${{ secrets.FIREBASE_CREDENTIALS }}
+          GOOGLE_APPLICATION_CREDENTIALS: android/app/firebase-credentials.json
         run: |
           cd android
-          fastlane distribute_staging
+          bundle exec fastlane distribute_staging
