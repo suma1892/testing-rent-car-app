@@ -29,9 +29,14 @@ jobs:
           node-version: '18'
           cache: 'yarn'
 
-      - name: Run Yarn Install
+      # - name: Run Yarn Install
+      #   run: |
+      #     npm i -g corepack
+      #     yarn install
+      - name: Clear Cache & Reinstall Dependencies
         run: |
-          npm i -g corepack
+          rm -rf node_modules package-lock.json yarn.lock
+          yarn cache clean
           yarn install
 
       - name: Create .env File
@@ -52,7 +57,12 @@ jobs:
       #   run: |
       #     cd android
       #     ./gradlew bundleProductionRelease
-
+      
+      - name: Clean Gradle
+        run: |
+          cd android
+          ./gradlew clean
+          
       - name: Build APK application
         run: |
           cd android
