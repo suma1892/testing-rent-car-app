@@ -55,8 +55,8 @@ jobs:
       - name: Debug Check Files
         run: ls -la node_modules/@react-native-community/cli-platform-android/
 
-      - name: Fix Missing Native Modules
-        run: yarn add @react-native-community/cli-platform-android
+      # - name: Fix Missing Native Modules
+      #   run: yarn add @react-native-community/cli-platform-android
 
       - name: Start Metro Bundler
         run: yarn run start --reset-cache &
@@ -88,7 +88,7 @@ jobs:
 
   deploy:
     needs: build
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
