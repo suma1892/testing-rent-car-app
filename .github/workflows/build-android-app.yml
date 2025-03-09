@@ -3,7 +3,7 @@ name: Build and Deploy Android app
 on:
   push:
     branches:
-      - main
+      - dev
 
 jobs:
   build:
@@ -29,15 +29,15 @@ jobs:
           node-version: '18'
           cache: 'yarn'
 
-      - name: Run Yarn Install
-        run: |
-          npm i -g corepack
-          yarn install
-      # - name: Clear Cache & Reinstall Dependencies
+      # - name: Run Yarn Install
       #   run: |
-      #     rm -rf node_modules package-lock.json yarn.lock
-      #     yarn cache clean
+      #     npm i -g corepack
       #     yarn install
+      - name: Clear Cache & Reinstall Dependencies
+        run: |
+          rm -rf node_modules package-lock.json yarn.lock
+          yarn cache clean
+          yarn install
       - name: Remove Hermes tarball
         run: rm -rf node_modules/react-native/sdks/download/hermes.tar.gz
 
