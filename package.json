@@ -6,6 +6,7 @@
     "ios": "react-native run-ios --simulator='iPhone 13'",
     "android": "react-native run-android",
     "start": "react-native start",
+    "preinstall": "rm -rf node_modules package-lock.json", 
     "postinstall": "patch-package",
     "check-config": "npx --quiet react-native config",
     "patch-package": "yarn add patch-package postinstall-postinstall",

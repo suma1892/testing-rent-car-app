@@ -29,15 +29,15 @@ jobs:
           node-version: '18'
           cache: 'yarn'
 
-      # - name: Run Yarn Install
-      #   run: |
-      #     npm i -g corepack
-      #     yarn install
-      - name: Clear Cache & Reinstall Dependencies
+      - name: Run Yarn Install
         run: |
-          rm -rf node_modules package-lock.json yarn.lock
-          yarn cache clean
+          npm i -g corepack
           yarn install
+      # - name: Clear Cache & Reinstall Dependencies
+      #   run: |
+      #     rm -rf node_modules package-lock.json yarn.lock
+      #     yarn cache clean
+      #     yarn install
 
       - name: Create .env File
         run: |
@@ -57,6 +57,26 @@ jobs:
       #   run: |
       #     cd android
       #     ./gradlew bundleProductionRelease
+      - name: Apply Patch
+        run: npx patch-package
+
+      - name: Ensure Hermes is Downloaded Properly
+        run: |
+          HERMES_DIR="node_modules/react-native/sdks/download"
+          HERMES_FILE="$HERMES_DIR/hermes.tar.gz"
+          
+          if [ -f "$HERMES_FILE" ]; then
+            echo "Hermes archive exists, verifying..."
+            if ! tar -tzf "$HERMES_FILE" > /dev/null 2>&1; then
+              echo "Hermes archive is corrupted, redownloading..."
+              rm -rf "$HERMES_DIR"
+              npm install
+            else
+              echo "Hermes archive is valid."
+            fi
+          else
+            echo "Hermes archive is missing, skipping."
+          fi
       
       - name: Clean Gradle
         run: |
