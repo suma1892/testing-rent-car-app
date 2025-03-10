@@ -29,9 +29,12 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_PAT }}
         run: |
-          PR_NUMBER=${{ github.event.pull_request.number }}
-          PR_BODY=$(gh pr view $PR_NUMBER --json body -q '.body')
-          echo "PR_BODY=$PR_BODY" >> $GITHUB_ENV
+          PR_NUMBER="${{ github.event.pull_request.number }}"
+          PR_BODY=$(gh pr view "$PR_NUMBER" --json body -q '.body' | tr -d '\r')
+          echo "PR_BODY<<EOF" >> $GITHUB_ENV
+          echo "$PR_BODY" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+
 
       - name: Check if Build & Tagging Required
         id: check_tag
