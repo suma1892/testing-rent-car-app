@@ -52,6 +52,19 @@ jobs:
           echo "APP_ID=${{ vars.APP_ID }}" >> .env.staging
           echo "API_MESSENGER=${{ vars.API_MESSENGER }}" >> .env.staging
 
+      - name: Cache Android SDK & NDK
+        uses: actions/cache@v3
+        with:
+          path: ~/.android
+          key: android-sdk-${{ runner.os }}-${{ hashFiles('**/gradle-wrapper.properties') }}
+          restore-keys: |
+            android-sdk-${{ runner.os }}-
+
+      - name: Install Android SDK & NDK (Jika Cache Tidak Ada)
+        run: |
+          yes | sudo $ANDROID_SDK_ROOT/cmdline-tools/latest/bin/sdkmanager --licenses
+          sudo $ANDROID_SDK_ROOT/cmdline-tools/latest/bin/sdkmanager "ndk;21.4.7075529"
+
       - name: Auto Increment Version
         run: |
           VERSION_FILE="android/version.properties"
@@ -72,6 +85,13 @@ jobs:
           # Simpan variabel agar bisa digunakan di step berikutnya
           echo "NEW_VERSION_NAME=$NEW_VERSION_NAME" >> $GITHUB_ENV
 
+      - name: Build APK application
+        run: |
+          cd android
+          ./gradlew assembleStagingRelease --max-workers=2 --parallel --no-daemon
+
+      
+
       - name: Commit Updated Version
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
@@ -79,8 +99,6 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git remote set-url origin https://x-access-token:${GH_PAT}@github.com/suma1892/testing-rent-car-app.git
-
-          git pull origin dev --rebase
 
           # Cek apakah ada tag sebelumnya
           LAST_TAG=$(git tag --sort=-creatordate | head -n 1)
@@ -103,26 +121,8 @@ jobs:
 
       - name: Create Git Tag
         run: |
-          git tag -f v${NEW_VERSION_NAME}-staging
-          git push origin v${NEW_VERSION_NAME}-staging --force
-
-      - name: Cache Android SDK & NDK
-        uses: actions/cache@v3
-        with:
-          path: ~/.android
-          key: android-sdk-${{ runner.os }}-${{ hashFiles('**/gradle-wrapper.properties') }}
-          restore-keys: |
-            android-sdk-${{ runner.os }}-
-
-      - name: Install Android SDK & NDK (Jika Cache Tidak Ada)
-        run: |
-          yes | sudo $ANDROID_SDK_ROOT/cmdline-tools/latest/bin/sdkmanager --licenses
-          sudo $ANDROID_SDK_ROOT/cmdline-tools/latest/bin/sdkmanager "ndk;21.4.7075529"
-
-      - name: Build APK application
-        run: |
-          cd android
-          ./gradlew assembleStagingRelease --max-workers=2 --parallel --no-daemon
+          git tag v${NEW_VERSION_NAME}-staging
+          git push origin v${NEW_VERSION_NAME}-staging
 
       - name: Upload artifact to Firebase App Distribution
         uses: wzieba/Firebase-Distribution-Github-Action@v1
