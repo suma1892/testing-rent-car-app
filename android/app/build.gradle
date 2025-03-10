@@ -198,10 +198,10 @@ android {
         applicationId "com.getrideapp"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        // versionCode 38
-        // versionName "1.38.0"
-        versionCode versionProps['versionCode'].toInteger() // Pastikan ini dikonversi ke Integer
-        versionName versionProps['versionName']
+        versionCode 50
+        versionName "1.50.0"
+        // versionCode versionProps['versionCode'].toInteger() // Pastikan ini dikonversi ke Integer
+        // versionName versionProps['versionName']
         buildConfigField "boolean", "IS_NEW_ARCHITECTURE_ENABLED", isNewArchitectureEnabled().toString()
         multiDexEnabled true
         if (isNewArchitectureEnabled()) {
