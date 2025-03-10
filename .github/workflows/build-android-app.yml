@@ -22,12 +22,12 @@ jobs:
           sudo apt update
           sudo apt install gh -y
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_PAT }}
 
       - name: Get PR Description
         id: pr_desc
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_PAT }}
         run: |
           PR_NUMBER=${{ github.event.pull_request.number }}
           PR_BODY=$(gh pr view $PR_NUMBER --json body -q '.body')
