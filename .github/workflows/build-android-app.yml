@@ -108,9 +108,10 @@ jobs:
             # Ambil commit sejak tag terakhir
             COMMIT_MESSAGES=$(git log ${LAST_TAG}..HEAD --pretty=format:"- %s" --no-merges)
           fi
+          SHORT_COMMIT_MSG=$(echo "$COMMIT_MESSAGES" | cut -c1-100)
 
           # Buat pesan release notes
-          RELEASE_NOTES="chore(release): bump version to $NEW_VERSION_NAME\n\n$COMMIT_MESSAGES"
+          RELEASE_NOTES="chore(release): bump version to $NEW_VERSION_NAME\n\n$SHORT_COMMIT_MSG"
 
           git add android/version.properties
           git commit -m "$RELEASE_NOTES"
