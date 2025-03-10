@@ -97,9 +97,18 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git remote set-url origin https://x-access-token:${GH_PAT}@github.com/suma1892/testing-rent-car-app.git
+
+          # Ambil commit messages sejak tag terakhir
+          LAST_TAG=$(git describe --tags --abbrev=0 || echo "v0.0.0")
+          COMMIT_MESSAGES=$(git log ${LAST_TAG}..HEAD --pretty=format:"- %s" --no-merges)
+
+          # Tambahkan commit messages ke release note
+          RELEASE_NOTES="chore(release): bump version to $NEW_VERSION_NAME\n\n$COMMIT_MESSAGES"
+
           git add android/version.properties
-          git commit -m "chore(release): bump version to $NEW_VERSION_NAME"
+          git commit -m "$RELEASE_NOTES"
           git push origin dev
+
 
       - name: Create Git Tag
         run: |
