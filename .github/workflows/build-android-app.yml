@@ -1,12 +1,15 @@
 name: Build and Deploy Android app
 
 on:
-  push:
+  pull_request:
+    types:
+      - closed
     branches:
       - dev
 
 jobs:
   build:
+    if: github.event.pull_request.merged == true
     environment: STAGING_ENV
     runs-on: ubuntu-latest
 
@@ -14,7 +17,29 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
+      - name: Install GitHub CLI
+        run: |
+          sudo apt update
+          sudo apt install gh -y
+
+      - name: Get PR Description
+        id: pr_desc
+        run: |
+          PR_NUMBER=${{ github.event.pull_request.number }}
+          PR_BODY=$(gh pr view $PR_NUMBER --json body -q '.body')
+          echo "PR_BODY=$PR_BODY" >> $GITHUB_ENV
+
+      - name: Check if Build & Tagging Required
+        id: check_tag
+        run: |
+          if echo "$PR_BODY" | grep -q "is_create_tag=true"; then
+            echo "BUILD_AND_TAG=true" >> $GITHUB_ENV
+          else
+            echo "BUILD_AND_TAG=false" >> $GITHUB_ENV
+          fi
+
       - name: Install Java
+        if: env.BUILD_AND_TAG == 'true'
         uses: actions/setup-java@v3
         with:
           java-version: 17
@@ -22,12 +47,14 @@ jobs:
           cache: gradle
 
       - name: Setup Node.js
+        if: env.BUILD_AND_TAG == 'true'
         uses: actions/setup-node@v3
         with:
           node-version: '18'
           cache: 'yarn'
 
       - name: Cache node_modules
+        if: env.BUILD_AND_TAG == 'true'
         uses: actions/cache@v3
         with:
           path: node_modules
@@ -36,12 +63,15 @@ jobs:
             node-modules-${{ runner.os }}-
 
       - name: Install Dependencies
+        if: env.BUILD_AND_TAG == 'true'
         run: yarn install --frozen-lockfile
 
       - name: Remove Hermes tarball
+        if: env.BUILD_AND_TAG == 'true'
         run: rm -rf node_modules/react-native/sdks/download/hermes.tar.gz
 
       - name: Create .env File
+        if: env.BUILD_AND_TAG == 'true'
         run: |
           echo "ENV=${{ vars.ENV }}" > .env.staging
           echo "APP_URL=${{ vars.APP_URL }}" >> .env.staging
@@ -52,47 +82,30 @@ jobs:
           echo "APP_ID=${{ vars.APP_ID }}" >> .env.staging
           echo "API_MESSENGER=${{ vars.API_MESSENGER }}" >> .env.staging
 
-      - name: Cache Android SDK & NDK
-        uses: actions/cache@v3
-        with:
-          path: ~/.android
-          key: android-sdk-${{ runner.os }}-${{ hashFiles('**/gradle-wrapper.properties') }}
-          restore-keys: |
-            android-sdk-${{ runner.os }}-
-
-      - name: Install Android SDK & NDK (Jika Cache Tidak Ada)
-        run: |
-          yes | sudo $ANDROID_SDK_ROOT/cmdline-tools/latest/bin/sdkmanager --licenses
-          sudo $ANDROID_SDK_ROOT/cmdline-tools/latest/bin/sdkmanager "ndk;21.4.7075529"
-
       - name: Auto Increment Version
+        if: env.BUILD_AND_TAG == 'true'
         run: |
           VERSION_FILE="android/version.properties"
           VERSION_NAME=$(grep 'versionName' $VERSION_FILE | cut -d '=' -f2 | tr -d ' ')
           VERSION_CODE=$(grep 'versionCode' $VERSION_FILE | cut -d '=' -f2 | tr -d ' ')
 
-          # Increment minor version (1.38.0 → 1.38.1)
           IFS='.' read -r -a version_parts <<< "$VERSION_NAME"
           version_parts[2]=$((version_parts[2] + 1))
           NEW_VERSION_NAME="${version_parts[0]}.${version_parts[1]}.${version_parts[2]}"
           NEW_VERSION_CODE=$((VERSION_CODE + 1))
 
-          # Update version file
           sed -i "s/versionName=.*/versionName=$NEW_VERSION_NAME/" $VERSION_FILE
           sed -i "s/versionCode=.*/versionCode=$NEW_VERSION_CODE/" $VERSION_FILE
-          echo "Updated to versionName=$NEW_VERSION_NAME & versionCode=$NEW_VERSION_CODE"
-
-          # Simpan variabel agar bisa digunakan di step berikutnya
           echo "NEW_VERSION_NAME=$NEW_VERSION_NAME" >> $GITHUB_ENV
 
       - name: Build APK application
+        if: env.BUILD_AND_TAG == 'true'
         run: |
           cd android
           ./gradlew assembleStagingRelease --max-workers=2 --parallel --no-daemon
 
-      
-
       - name: Commit Updated Version
+        if: env.BUILD_AND_TAG == 'true'
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
@@ -100,19 +113,15 @@ jobs:
           git config --global user.email "github-actions@github.com"
           git remote set-url origin https://x-access-token:${GH_PAT}@github.com/suma1892/testing-rent-car-app.git
 
-          # Cek apakah ada tag sebelumnya
           LAST_TAG=$(git tag --sort=-creatordate | head -n 1)
           
           if [ -z "$LAST_TAG" ]; then
-            # Jika tidak ada tag, ambil semua commit
             COMMIT_MESSAGES=$(git log --pretty=format:"- %s" --no-merges)
           else
-            # Ambil commit sejak tag terakhir
             COMMIT_MESSAGES=$(git log ${LAST_TAG}..HEAD --pretty=format:"- %s" --no-merges)
           fi
           SHORT_COMMIT_MSG=$(echo "$COMMIT_MESSAGES" | cut -c1-100)
 
-          # Buat pesan release notes
           RELEASE_NOTES="chore(release): bump version to $NEW_VERSION_NAME\n\n$SHORT_COMMIT_MSG"
 
           git add android/version.properties
@@ -120,11 +129,13 @@ jobs:
           git push origin dev
 
       - name: Create Git Tag
+        if: env.BUILD_AND_TAG == 'true'
         run: |
           git tag v${NEW_VERSION_NAME}-staging
           git push origin v${NEW_VERSION_NAME}-staging
 
       - name: Upload artifact to Firebase App Distribution
+        if: env.BUILD_AND_TAG == 'true'
         uses: wzieba/Firebase-Distribution-Github-Action@v1
         with:
           appId: ${{ secrets.FIREBASE_APP_ID }}
