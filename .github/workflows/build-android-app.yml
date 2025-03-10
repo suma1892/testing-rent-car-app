@@ -48,7 +48,7 @@ jobs:
         run: |
           git tag v$NEW_VERSION_NAME-staging
           git push origin v$NEW_VERSION_NAME-staging
-
+      # test
       # - name: Install Java
       #   uses: actions/setup-java@v3
       #   with:
