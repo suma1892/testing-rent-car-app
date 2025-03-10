@@ -92,17 +92,19 @@ jobs:
       - name: Auto Increment Version
         if: env.BUILD_AND_TAG == 'true'
         run: |
-          VERSION_FILE="android/version.properties"
-          VERSION_NAME=$(grep 'versionName' $VERSION_FILE | cut -d '=' -f2 | tr -d ' ')
-          VERSION_CODE=$(grep 'versionCode' $VERSION_FILE | cut -d '=' -f2 | tr -d ' ')
+          BUILD_FILE="android/app/build.gradle"
+
+          VERSION_NAME=$(grep -oP 'versionName\s+"\K[^"]+' $BUILD_FILE)
+          VERSION_CODE=$(grep -oP 'versionCode\s+\K\d+' $BUILD_FILE)
 
           IFS='.' read -r -a version_parts <<< "$VERSION_NAME"
           version_parts[2]=$((version_parts[2] + 1))
           NEW_VERSION_NAME="${version_parts[0]}.${version_parts[1]}.${version_parts[2]}"
           NEW_VERSION_CODE=$((VERSION_CODE + 1))
 
-          sed -i "s/versionName=.*/versionName=$NEW_VERSION_NAME/" $VERSION_FILE
-          sed -i "s/versionCode=.*/versionCode=$NEW_VERSION_CODE/" $VERSION_FILE
+          sed -i "s/versionName \".*\"/versionName \"$NEW_VERSION_NAME\"/" $BUILD_FILE
+          sed -i "s/versionCode .*/versionCode $NEW_VERSION_CODE/" $BUILD_FILE
+
           echo "NEW_VERSION_NAME=$NEW_VERSION_NAME" >> $GITHUB_ENV
 
       - name: Build APK application
