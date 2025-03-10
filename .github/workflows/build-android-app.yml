@@ -15,39 +15,41 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Auto Increment Version
-        run: |
-          VERSION_FILE="android/version.properties"
-          VERSION_NAME=$(grep 'versionName' $VERSION_FILE | cut -d '=' -f2 | tr -d ' ')
-          VERSION_CODE=$(grep 'versionCode' $VERSION_FILE | cut -d '=' -f2 | tr -d ' ')
-          
-          # Increment minor version (1.38.0 → 1.38.1)
-          IFS='.' read -r -a version_parts <<< "$VERSION_NAME"
-          version_parts[2]=$((version_parts[2] + 1))
-          NEW_VERSION_NAME="${version_parts[0]}.${version_parts[1]}.${version_parts[2]}"
-          NEW_VERSION_CODE=$((VERSION_CODE + 1))
+      run: |
+        VERSION_FILE="android/version.properties"
+        VERSION_NAME=$(grep 'versionName' $VERSION_FILE | cut -d '=' -f2 | tr -d ' ')
+        VERSION_CODE=$(grep 'versionCode' $VERSION_FILE | cut -d '=' -f2 | tr -d ' ')
+    
+        # Increment minor version (1.38.0 → 1.38.1)
+        IFS='.' read -r -a version_parts <<< "$VERSION_NAME"
+        version_parts[2]=$((version_parts[2] + 1))
+        NEW_VERSION_NAME="${version_parts[0]}.${version_parts[1]}.${version_parts[2]}"
+        NEW_VERSION_CODE=$((VERSION_CODE + 1))
+    
+        # Update version file
+        sed -i "s/versionName=.*/versionName=$NEW_VERSION_NAME/" $VERSION_FILE
+        sed -i "s/versionCode=.*/versionCode=$NEW_VERSION_CODE/" $VERSION_FILE
+        echo "Updated to versionName=$NEW_VERSION_NAME & versionCode=$NEW_VERSION_CODE"
+    
+        # Simpan variabel agar bisa digunakan di step berikutnya
+        echo "NEW_VERSION_NAME=$NEW_VERSION_NAME" >> $GITHUB_ENV
+    
+    - name: Commit Updated Version
+      env:
+        GH_PAT: ${{ secrets.GH_PAT }}
+      run: |
+        git config --global user.name "github-actions"
+        git config --global user.email "github-actions@github.com"
+        git remote set-url origin https://x-access-token:${GH_PAT}@github.com/suma1892/testing-rent-car-app.git
+        git add android/version.properties
+        git commit -m "chore(release): bump version to $NEW_VERSION_NAME"
+        git push origin dev
+    
+    - name: Create Git Tag
+      run: |
+        git tag v${NEW_VERSION_NAME}-staging
+        git push origin v${NEW_VERSION_NAME}-staging
 
-          # Update version file
-          sed -i "s/versionName=.*/versionName=$NEW_VERSION_NAME/" $VERSION_FILE
-          sed -i "s/versionCode=.*/versionCode=$NEW_VERSION_CODE/" $VERSION_FILE
-
-          echo "Updated to versionName=$NEW_VERSION_NAME & versionCode=$NEW_VERSION_CODE"
-      
-      - name: Commit Updated Version
-        env:
-          GH_PAT: ${{ secrets.GH_PAT }}
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-          git remote set-url origin https://x-access-token:${GH_PAT}@github.com/suma1892/testing-rent-car-app.git
-          git add android/version.properties
-          git commit -m "chore(release): bump version to $NEW_VERSION_NAME"
-          git push origin dev
-
-
-      - name: Create Git Tag
-        run: |
-          git tag v$NEW_VERSION_NAME-staging
-          git push origin v$NEW_VERSION_NAME-staging
       # test
       # - name: Install Java
       #   uses: actions/setup-java@v3
