@@ -1,8 +1,8 @@
 ## 📌 Ringkasan Perubahan
-<!-- Jelaskan secara singkat perubahan yang dilakukan pada PR ini -->
+
 
 ## 🔥 Perubahan yang Dilakukan
-<!-- 1. Perbaikan di bagian order detail -->
+1. Perbaikan di bagian order detail
 
 ## ✅ Checklist
 - [ ] Sudah diuji secara lokal
@@ -12,7 +12,5 @@
 
 ## 🚀 Apakah ingin build & tagging otomatis?
 Tambahkan flag di bawah ini:
-<!-- Pilih salah satu -->
 
-<!-- is_create_tag=true -->
-<!-- is_create_tag=false -->
+is_create_tag=false
