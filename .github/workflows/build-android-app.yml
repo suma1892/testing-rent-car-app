@@ -33,15 +33,15 @@ jobs:
           echo "Updated to versionName=$NEW_VERSION_NAME & versionCode=$NEW_VERSION_CODE"
       
       - name: Commit Updated Version
-          env:
-            GH_PAT: ${{ secrets.GH_PAT }}
-          run: |
-            git config --global user.name "github-actions"
-            git config --global user.email "github-actions@github.com"
-            git remote set-url origin https://x-access-token:${GH_PAT}@github.com/suma1892/testing-rent-car-app.git
-            git add android/version.properties
-            git commit -m "chore(release): bump version to $NEW_VERSION_NAME"
-            git push origin dev
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git remote set-url origin https://x-access-token:${GH_PAT}@github.com/suma1892/testing-rent-car-app.git
+          git add android/version.properties
+          git commit -m "chore(release): bump version to $NEW_VERSION_NAME"
+          git push origin dev
 
 
       - name: Create Git Tag
