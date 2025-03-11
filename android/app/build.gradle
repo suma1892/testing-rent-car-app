@@ -143,9 +143,9 @@ def reactNativeArchitectures() {
     return value ? value.split(",") : ["armeabi-v7a", "x86", "x86_64", "arm64-v8a"]
 }
 
-def versionPropsFile = file("${rootProject.projectDir}/version.properties")
-def versionProps = new Properties()
-versionProps.load(new FileInputStream(versionPropsFile))
+// def versionPropsFile = file("${rootProject.projectDir}/version.properties")
+// def versionProps = new Properties()
+// versionProps.load(new FileInputStream(versionPropsFile))
 
 
 android {
@@ -198,10 +198,10 @@ android {
         applicationId "com.getrideapp"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        // versionCode 50
-        // versionName "1.50.0"
-        versionCode versionProps['versionCode'].toInteger() // Pastikan ini dikonversi ke Integer
-        versionName versionProps['versionName']
+        versionCode 50
+        versionName "1.50.0"
+        // versionCode versionProps['versionCode'].toInteger() // Pastikan ini dikonversi ke Integer
+        // versionName versionProps['versionName']
         buildConfigField "boolean", "IS_NEW_ARCHITECTURE_ENABLED", isNewArchitectureEnabled().toString()
         multiDexEnabled true
         if (isNewArchitectureEnabled()) {
