@@ -159,6 +159,6 @@ jobs:
           version: 'latest'
           accessKey: ${{ secrets.GH_REVOPUSH_ACCESS_KEY }}
       - name: Install dependencies
-        run: npm ci
+        run: yarn install --frozen-lockfile
       - name: Release Android bundle
         run: revopush release-react get_ride_customer android -d Development -m --disable-duplicate-release-error
