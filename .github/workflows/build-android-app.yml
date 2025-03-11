@@ -161,4 +161,5 @@ jobs:
       - name: Install dependencies
         run: yarn install --frozen-lockfile
       - name: Release Android bundle
-        run: revopush release-react get_ride_customer android -d Development -m --disable-duplicate-release-error
+        run: revopush release-react get_ride_customer android -d Development -m --disable-duplicate-release-error --target-binary-version $NEW_VERSION_NAME
+
