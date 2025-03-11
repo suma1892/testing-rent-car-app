@@ -118,4 +118,5 @@ jobs:
           accessKey: ${{ secrets.GH_REVOPUSH_ACCESS_KEY }}
 
       - name: Release Android bundle
-        run: revopush release-react get_ride_customer android -d Development -m --disable-duplicate-release-error --target-binary-version $VERSION_NAME
+        if: env.BUILD_AND_TAG == 'false'
+        run: revopush release-react get_ride_customer android -d Development -m --disable-duplicate-release-error
