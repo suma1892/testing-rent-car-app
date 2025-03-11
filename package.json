@@ -48,7 +48,8 @@
     "appcenter:android-stg": "appcenter codepush release-react -a antoni_luthfi3/Get-Ride-User-Android -d Staging -m --disable-duplicate-release-error",
     "appcenter:ios-dev": "appcenter codepush release-react -a antoni_luthfi3/Get-Ride-User-iOS -d Development -m --disable-duplicate-release-error",
     "appcenter:ios-prod": "appcenter codepush release-react -a antoni_luthfi3/Get-Ride-User-iOS -d Production -m --disable-duplicate-release-error",
-    "appcenter:ios-stg": "appcenter codepush release-react -a antoni_luthfi3/Get-Ride-User-iOS -d Staging -m --disable-duplicate-release-error"
+    "appcenter:ios-stg": "appcenter codepush release-react -a antoni_luthfi3/Get-Ride-User-iOS -d Staging -m --disable-duplicate-release-error",
+    "revopush:android-dev": "revopush release-react get_ride_customer android -d Development -m --disable-duplicate-release-error"
   },
   "dependencies": {
     "@gorhom/bottom-sheet": "^4",

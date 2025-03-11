@@ -151,3 +151,16 @@ jobs:
           serviceCredentialsFileContent: ${{ secrets.FIREBASE_CREDENTIALS }}
           groups: TESTERS
           file: android/app/build/outputs/apk/staging/release/app-staging-release.apk
+      
+      - name: Push to Revopush
+        run: |
+          VERSION_TO_USE=$CURRENT_VERSION_NAME
+          if [ "$BUILD_AND_TAG" = "true" ]; then
+            VERSION_TO_USE=$NEW_VERSION_NAME
+          fi
+
+          npx revopush-cli release \
+            --app-id=${{ secrets.REVOPUSH_APP_ID }} \
+            --version=$VERSION_TO_USE \
+            --platform=android \
+            --bundle=android/app/build/outputs/apk/staging/release/app-staging-release.apk
