@@ -423,7 +423,7 @@ const AccountScreen: React.FC = () => {
           </View>
           {Config.ENV !== 'production' && (
             <Text style={[h4, {textAlign: 'center', marginVertical: 20}]}>
-            vsv{DeviceInfo.getVersion()}-{Config.ENV}
+            test{DeviceInfo.getVersion()}-{Config.ENV}
             </Text>
           )}
           <Button
