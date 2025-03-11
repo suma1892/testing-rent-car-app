@@ -94,6 +94,13 @@ jobs:
           cd android
           ./gradlew assembleStagingRelease --max-workers=2 --parallel --no-daemon
 
+      - name: Create Git Tag
+        if: env.BUILD_AND_TAG == 'true'
+        run: |
+          VERSION_NAME=$(grep -oP 'versionName\s+"\K[^"]+' android/app/build.gradle)
+          git tag v${VERSION_NAME}-staging
+          git push origin v${VERSION_NAME}-staging
+
       - name: Upload artifact to Firebase App Distribution
         if: env.BUILD_AND_TAG == 'true'
         uses: wzieba/Firebase-Distribution-Github-Action@v1
@@ -110,8 +117,5 @@ jobs:
           version: 'latest'
           accessKey: ${{ secrets.GH_REVOPUSH_ACCESS_KEY }}
 
-      - name: Install dependencies
-        run: yarn install --frozen-lockfile
-
       - name: Release Android bundle
-        run: revopush release-react get_ride_customer android -d Development -m --disable-duplicate-release-error
+        run: revopush release-react get_ride_customer android -d Development -m --disable-duplicate-release-error --target-binary-version $VERSION_NAME
